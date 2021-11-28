@@ -1,0 +1,1572 @@
+{
+  "$schema": "https://vega.github.io/schema/vega/v5.json",
+  "background": "white",
+  "padding": 5,
+  "height": 200,
+  "style": "cell",
+  "data": [
+    {
+      "name": "selector001_store",
+      "values": [
+        {
+          "unit": "layer_0",
+          "fields": [{"type": "E", "field": "season"}],
+          "values": ["2015/2016"]
+        }
+      ]
+    },
+    {
+      "name": "selector002_store",
+      "values": [
+        {
+          "unit": "layer_0",
+          "fields": [{"type": "E", "field": "Team"}],
+          "values": ["FC Barcelona"]
+        }
+      ]
+    },
+    {
+      "name": "selector003_store",
+      "values": [
+        {
+          "unit": "layer_0",
+          "fields": [{"type": "E", "field": "Team"}],
+          "values": ["Real Madrid CF"]
+        }
+      ]
+    },
+    {
+      "name": "data-1bcb63dbc23ed73f15e9266575b1d168",
+      "values": [
+        {
+          "Unnamed: 0": 0,
+          "season": "2008/2009",
+          "Points": 62,
+          "Team": "Valencia CF",
+          "team_api_id": 10267
+        },
+        {
+          "Unnamed: 0": 1,
+          "season": "2009/2010",
+          "Points": 71,
+          "Team": "Valencia CF",
+          "team_api_id": 10267
+        },
+        {
+          "Unnamed: 0": 2,
+          "season": "2010/2011",
+          "Points": 71,
+          "Team": "Valencia CF",
+          "team_api_id": 10267
+        },
+        {
+          "Unnamed: 0": 3,
+          "season": "2011/2012",
+          "Points": 61,
+          "Team": "Valencia CF",
+          "team_api_id": 10267
+        },
+        {
+          "Unnamed: 0": 4,
+          "season": "2012/2013",
+          "Points": 65,
+          "Team": "Valencia CF",
+          "team_api_id": 10267
+        },
+        {
+          "Unnamed: 0": 5,
+          "season": "2013/2014",
+          "Points": 49,
+          "Team": "Valencia CF",
+          "team_api_id": 10267
+        },
+        {
+          "Unnamed: 0": 6,
+          "season": "2014/2015",
+          "Points": 77,
+          "Team": "Valencia CF",
+          "team_api_id": 10267
+        },
+        {
+          "Unnamed: 0": 7,
+          "season": "2015/2016",
+          "Points": 44,
+          "Team": "Valencia CF",
+          "team_api_id": 10267
+        },
+        {
+          "Unnamed: 0": 0,
+          "season": "2008/2009",
+          "Points": 51,
+          "Team": "RCD Mallorca",
+          "team_api_id": 8661
+        },
+        {
+          "Unnamed: 0": 1,
+          "season": "2009/2010",
+          "Points": 62,
+          "Team": "RCD Mallorca",
+          "team_api_id": 8661
+        },
+        {
+          "Unnamed: 0": 2,
+          "season": "2010/2011",
+          "Points": 44,
+          "Team": "RCD Mallorca",
+          "team_api_id": 8661
+        },
+        {
+          "Unnamed: 0": 3,
+          "season": "2011/2012",
+          "Points": 52,
+          "Team": "RCD Mallorca",
+          "team_api_id": 8661
+        },
+        {
+          "Unnamed: 0": 4,
+          "season": "2012/2013",
+          "Points": 36,
+          "Team": "RCD Mallorca",
+          "team_api_id": 8661
+        },
+        {
+          "Unnamed: 0": 0,
+          "season": "2008/2009",
+          "Points": 43,
+          "Team": "CA Osasuna",
+          "team_api_id": 8371
+        },
+        {
+          "Unnamed: 0": 1,
+          "season": "2009/2010",
+          "Points": 43,
+          "Team": "CA Osasuna",
+          "team_api_id": 8371
+        },
+        {
+          "Unnamed: 0": 2,
+          "season": "2010/2011",
+          "Points": 47,
+          "Team": "CA Osasuna",
+          "team_api_id": 8371
+        },
+        {
+          "Unnamed: 0": 3,
+          "season": "2011/2012",
+          "Points": 54,
+          "Team": "CA Osasuna",
+          "team_api_id": 8371
+        },
+        {
+          "Unnamed: 0": 4,
+          "season": "2012/2013",
+          "Points": 39,
+          "Team": "CA Osasuna",
+          "team_api_id": 8371
+        },
+        {
+          "Unnamed: 0": 5,
+          "season": "2013/2014",
+          "Points": 39,
+          "Team": "CA Osasuna",
+          "team_api_id": 8371
+        },
+        {
+          "Unnamed: 0": 0,
+          "season": "2008/2009",
+          "Points": 65,
+          "Team": "Villarreal CF",
+          "team_api_id": 10205
+        },
+        {
+          "Unnamed: 0": 1,
+          "season": "2009/2010",
+          "Points": 56,
+          "Team": "Villarreal CF",
+          "team_api_id": 10205
+        },
+        {
+          "Unnamed: 0": 2,
+          "season": "2010/2011",
+          "Points": 62,
+          "Team": "Villarreal CF",
+          "team_api_id": 10205
+        },
+        {
+          "Unnamed: 0": 3,
+          "season": "2011/2012",
+          "Points": 41,
+          "Team": "Villarreal CF",
+          "team_api_id": 10205
+        },
+        {
+          "Unnamed: 0": 4,
+          "season": "2013/2014",
+          "Points": 59,
+          "Team": "Villarreal CF",
+          "team_api_id": 10205
+        },
+        {
+          "Unnamed: 0": 5,
+          "season": "2014/2015",
+          "Points": 60,
+          "Team": "Villarreal CF",
+          "team_api_id": 10205
+        },
+        {
+          "Unnamed: 0": 6,
+          "season": "2015/2016",
+          "Points": 64,
+          "Team": "Villarreal CF",
+          "team_api_id": 10205
+        },
+        {
+          "Unnamed: 0": 0,
+          "season": "2008/2009",
+          "Points": 58,
+          "Team": "RC Deportivo de La Coruña",
+          "team_api_id": 9783
+        },
+        {
+          "Unnamed: 0": 1,
+          "season": "2009/2010",
+          "Points": 47,
+          "Team": "RC Deportivo de La Coruña",
+          "team_api_id": 9783
+        },
+        {
+          "Unnamed: 0": 2,
+          "season": "2010/2011",
+          "Points": 43,
+          "Team": "RC Deportivo de La Coruña",
+          "team_api_id": 9783
+        },
+        {
+          "Unnamed: 0": 3,
+          "season": "2012/2013",
+          "Points": 35,
+          "Team": "RC Deportivo de La Coruña",
+          "team_api_id": 9783
+        },
+        {
+          "Unnamed: 0": 4,
+          "season": "2014/2015",
+          "Points": 35,
+          "Team": "RC Deportivo de La Coruña",
+          "team_api_id": 9783
+        },
+        {
+          "Unnamed: 0": 5,
+          "season": "2015/2016",
+          "Points": 42,
+          "Team": "RC Deportivo de La Coruña",
+          "team_api_id": 9783
+        },
+        {
+          "Unnamed: 0": 0,
+          "season": "2008/2009",
+          "Points": 78,
+          "Team": "Real Madrid CF",
+          "team_api_id": 8633
+        },
+        {
+          "Unnamed: 0": 1,
+          "season": "2009/2010",
+          "Points": 96,
+          "Team": "Real Madrid CF",
+          "team_api_id": 8633
+        },
+        {
+          "Unnamed: 0": 2,
+          "season": "2010/2011",
+          "Points": 92,
+          "Team": "Real Madrid CF",
+          "team_api_id": 8633
+        },
+        {
+          "Unnamed: 0": 3,
+          "season": "2011/2012",
+          "Points": 100,
+          "Team": "Real Madrid CF",
+          "team_api_id": 8633
+        },
+        {
+          "Unnamed: 0": 4,
+          "season": "2012/2013",
+          "Points": 85,
+          "Team": "Real Madrid CF",
+          "team_api_id": 8633
+        },
+        {
+          "Unnamed: 0": 5,
+          "season": "2013/2014",
+          "Points": 87,
+          "Team": "Real Madrid CF",
+          "team_api_id": 8633
+        },
+        {
+          "Unnamed: 0": 6,
+          "season": "2014/2015",
+          "Points": 92,
+          "Team": "Real Madrid CF",
+          "team_api_id": 8633
+        },
+        {
+          "Unnamed: 0": 7,
+          "season": "2015/2016",
+          "Points": 90,
+          "Team": "Real Madrid CF",
+          "team_api_id": 8633
+        },
+        {
+          "Unnamed: 0": 0,
+          "season": "2008/2009",
+          "Points": 35,
+          "Team": "CD Numancia",
+          "team_api_id": 8388
+        },
+        {
+          "Unnamed: 0": 0,
+          "season": "2008/2009",
+          "Points": 87,
+          "Team": "FC Barcelona",
+          "team_api_id": 8634
+        },
+        {
+          "Unnamed: 0": 1,
+          "season": "2009/2010",
+          "Points": 99,
+          "Team": "FC Barcelona",
+          "team_api_id": 8634
+        },
+        {
+          "Unnamed: 0": 2,
+          "season": "2010/2011",
+          "Points": 96,
+          "Team": "FC Barcelona",
+          "team_api_id": 8634
+        },
+        {
+          "Unnamed: 0": 3,
+          "season": "2011/2012",
+          "Points": 91,
+          "Team": "FC Barcelona",
+          "team_api_id": 8634
+        },
+        {
+          "Unnamed: 0": 4,
+          "season": "2012/2013",
+          "Points": 100,
+          "Team": "FC Barcelona",
+          "team_api_id": 8634
+        },
+        {
+          "Unnamed: 0": 5,
+          "season": "2013/2014",
+          "Points": 87,
+          "Team": "FC Barcelona",
+          "team_api_id": 8634
+        },
+        {
+          "Unnamed: 0": 6,
+          "season": "2014/2015",
+          "Points": 94,
+          "Team": "FC Barcelona",
+          "team_api_id": 8634
+        },
+        {
+          "Unnamed: 0": 7,
+          "season": "2015/2016",
+          "Points": 91,
+          "Team": "FC Barcelona",
+          "team_api_id": 8634
+        },
+        {
+          "Unnamed: 0": 0,
+          "season": "2008/2009",
+          "Points": 46,
+          "Team": "Racing Santander",
+          "team_api_id": 8696
+        },
+        {
+          "Unnamed: 0": 1,
+          "season": "2009/2010",
+          "Points": 39,
+          "Team": "Racing Santander",
+          "team_api_id": 8696
+        },
+        {
+          "Unnamed: 0": 2,
+          "season": "2010/2011",
+          "Points": 46,
+          "Team": "Racing Santander",
+          "team_api_id": 8696
+        },
+        {
+          "Unnamed: 0": 3,
+          "season": "2011/2012",
+          "Points": 27,
+          "Team": "Racing Santander",
+          "team_api_id": 8696
+        },
+        {
+          "Unnamed: 0": 0,
+          "season": "2008/2009",
+          "Points": 70,
+          "Team": "Sevilla FC",
+          "team_api_id": 8302
+        },
+        {
+          "Unnamed: 0": 1,
+          "season": "2009/2010",
+          "Points": 63,
+          "Team": "Sevilla FC",
+          "team_api_id": 8302
+        },
+        {
+          "Unnamed: 0": 2,
+          "season": "2010/2011",
+          "Points": 58,
+          "Team": "Sevilla FC",
+          "team_api_id": 8302
+        },
+        {
+          "Unnamed: 0": 3,
+          "season": "2011/2012",
+          "Points": 50,
+          "Team": "Sevilla FC",
+          "team_api_id": 8302
+        },
+        {
+          "Unnamed: 0": 4,
+          "season": "2012/2013",
+          "Points": 50,
+          "Team": "Sevilla FC",
+          "team_api_id": 8302
+        },
+        {
+          "Unnamed: 0": 5,
+          "season": "2013/2014",
+          "Points": 63,
+          "Team": "Sevilla FC",
+          "team_api_id": 8302
+        },
+        {
+          "Unnamed: 0": 6,
+          "season": "2014/2015",
+          "Points": 76,
+          "Team": "Sevilla FC",
+          "team_api_id": 8302
+        },
+        {
+          "Unnamed: 0": 7,
+          "season": "2015/2016",
+          "Points": 52,
+          "Team": "Sevilla FC",
+          "team_api_id": 8302
+        },
+        {
+          "Unnamed: 0": 0,
+          "season": "2008/2009",
+          "Points": 43,
+          "Team": "Real Sporting de Gijón",
+          "team_api_id": 9869
+        },
+        {
+          "Unnamed: 0": 1,
+          "season": "2009/2010",
+          "Points": 40,
+          "Team": "Real Sporting de Gijón",
+          "team_api_id": 9869
+        },
+        {
+          "Unnamed: 0": 2,
+          "season": "2010/2011",
+          "Points": 47,
+          "Team": "Real Sporting de Gijón",
+          "team_api_id": 9869
+        },
+        {
+          "Unnamed: 0": 3,
+          "season": "2011/2012",
+          "Points": 37,
+          "Team": "Real Sporting de Gijón",
+          "team_api_id": 9869
+        },
+        {
+          "Unnamed: 0": 4,
+          "season": "2015/2016",
+          "Points": 39,
+          "Team": "Real Sporting de Gijón",
+          "team_api_id": 9869
+        },
+        {
+          "Unnamed: 0": 0,
+          "season": "2008/2009",
+          "Points": 42,
+          "Team": "Getafe CF",
+          "team_api_id": 8305
+        },
+        {
+          "Unnamed: 0": 1,
+          "season": "2009/2010",
+          "Points": 58,
+          "Team": "Getafe CF",
+          "team_api_id": 8305
+        },
+        {
+          "Unnamed: 0": 2,
+          "season": "2010/2011",
+          "Points": 44,
+          "Team": "Getafe CF",
+          "team_api_id": 8305
+        },
+        {
+          "Unnamed: 0": 3,
+          "season": "2011/2012",
+          "Points": 47,
+          "Team": "Getafe CF",
+          "team_api_id": 8305
+        },
+        {
+          "Unnamed: 0": 4,
+          "season": "2012/2013",
+          "Points": 47,
+          "Team": "Getafe CF",
+          "team_api_id": 8305
+        },
+        {
+          "Unnamed: 0": 5,
+          "season": "2013/2014",
+          "Points": 42,
+          "Team": "Getafe CF",
+          "team_api_id": 8305
+        },
+        {
+          "Unnamed: 0": 6,
+          "season": "2014/2015",
+          "Points": 37,
+          "Team": "Getafe CF",
+          "team_api_id": 8305
+        },
+        {
+          "Unnamed: 0": 7,
+          "season": "2015/2016",
+          "Points": 36,
+          "Team": "Getafe CF",
+          "team_api_id": 8305
+        },
+        {
+          "Unnamed: 0": 0,
+          "season": "2008/2009",
+          "Points": 42,
+          "Team": "Real Betis Balompié",
+          "team_api_id": 8603
+        },
+        {
+          "Unnamed: 0": 1,
+          "season": "2011/2012",
+          "Points": 47,
+          "Team": "Real Betis Balompié",
+          "team_api_id": 8603
+        },
+        {
+          "Unnamed: 0": 2,
+          "season": "2012/2013",
+          "Points": 56,
+          "Team": "Real Betis Balompié",
+          "team_api_id": 8603
+        },
+        {
+          "Unnamed: 0": 3,
+          "season": "2013/2014",
+          "Points": 25,
+          "Team": "Real Betis Balompié",
+          "team_api_id": 8603
+        },
+        {
+          "Unnamed: 0": 4,
+          "season": "2015/2016",
+          "Points": 45,
+          "Team": "Real Betis Balompié",
+          "team_api_id": 8603
+        },
+        {
+          "Unnamed: 0": 0,
+          "season": "2008/2009",
+          "Points": 33,
+          "Team": "RC Recreativo",
+          "team_api_id": 8479
+        },
+        {
+          "Unnamed: 0": 0,
+          "season": "2008/2009",
+          "Points": 47,
+          "Team": "RCD Espanyol",
+          "team_api_id": 8558
+        },
+        {
+          "Unnamed: 0": 1,
+          "season": "2009/2010",
+          "Points": 44,
+          "Team": "RCD Espanyol",
+          "team_api_id": 8558
+        },
+        {
+          "Unnamed: 0": 2,
+          "season": "2010/2011",
+          "Points": 49,
+          "Team": "RCD Espanyol",
+          "team_api_id": 8558
+        },
+        {
+          "Unnamed: 0": 3,
+          "season": "2011/2012",
+          "Points": 46,
+          "Team": "RCD Espanyol",
+          "team_api_id": 8558
+        },
+        {
+          "Unnamed: 0": 4,
+          "season": "2012/2013",
+          "Points": 44,
+          "Team": "RCD Espanyol",
+          "team_api_id": 8558
+        },
+        {
+          "Unnamed: 0": 5,
+          "season": "2013/2014",
+          "Points": 42,
+          "Team": "RCD Espanyol",
+          "team_api_id": 8558
+        },
+        {
+          "Unnamed: 0": 6,
+          "season": "2014/2015",
+          "Points": 49,
+          "Team": "RCD Espanyol",
+          "team_api_id": 8558
+        },
+        {
+          "Unnamed: 0": 7,
+          "season": "2015/2016",
+          "Points": 43,
+          "Team": "RCD Espanyol",
+          "team_api_id": 8558
+        },
+        {
+          "Unnamed: 0": 0,
+          "season": "2008/2009",
+          "Points": 43,
+          "Team": "Real Valladolid",
+          "team_api_id": 10281
+        },
+        {
+          "Unnamed: 0": 1,
+          "season": "2009/2010",
+          "Points": 36,
+          "Team": "Real Valladolid",
+          "team_api_id": 10281
+        },
+        {
+          "Unnamed: 0": 2,
+          "season": "2012/2013",
+          "Points": 43,
+          "Team": "Real Valladolid",
+          "team_api_id": 10281
+        },
+        {
+          "Unnamed: 0": 3,
+          "season": "2013/2014",
+          "Points": 36,
+          "Team": "Real Valladolid",
+          "team_api_id": 10281
+        },
+        {
+          "Unnamed: 0": 0,
+          "season": "2008/2009",
+          "Points": 44,
+          "Team": "Athletic Club de Bilbao",
+          "team_api_id": 8315
+        },
+        {
+          "Unnamed: 0": 1,
+          "season": "2009/2010",
+          "Points": 54,
+          "Team": "Athletic Club de Bilbao",
+          "team_api_id": 8315
+        },
+        {
+          "Unnamed: 0": 2,
+          "season": "2010/2011",
+          "Points": 58,
+          "Team": "Athletic Club de Bilbao",
+          "team_api_id": 8315
+        },
+        {
+          "Unnamed: 0": 3,
+          "season": "2011/2012",
+          "Points": 49,
+          "Team": "Athletic Club de Bilbao",
+          "team_api_id": 8315
+        },
+        {
+          "Unnamed: 0": 4,
+          "season": "2012/2013",
+          "Points": 45,
+          "Team": "Athletic Club de Bilbao",
+          "team_api_id": 8315
+        },
+        {
+          "Unnamed: 0": 5,
+          "season": "2013/2014",
+          "Points": 70,
+          "Team": "Athletic Club de Bilbao",
+          "team_api_id": 8315
+        },
+        {
+          "Unnamed: 0": 6,
+          "season": "2014/2015",
+          "Points": 55,
+          "Team": "Athletic Club de Bilbao",
+          "team_api_id": 8315
+        },
+        {
+          "Unnamed: 0": 7,
+          "season": "2015/2016",
+          "Points": 62,
+          "Team": "Athletic Club de Bilbao",
+          "team_api_id": 8315
+        },
+        {
+          "Unnamed: 0": 0,
+          "season": "2008/2009",
+          "Points": 46,
+          "Team": "UD Almería",
+          "team_api_id": 9865
+        },
+        {
+          "Unnamed: 0": 1,
+          "season": "2009/2010",
+          "Points": 42,
+          "Team": "UD Almería",
+          "team_api_id": 9865
+        },
+        {
+          "Unnamed: 0": 2,
+          "season": "2010/2011",
+          "Points": 30,
+          "Team": "UD Almería",
+          "team_api_id": 9865
+        },
+        {
+          "Unnamed: 0": 3,
+          "season": "2013/2014",
+          "Points": 40,
+          "Team": "UD Almería",
+          "team_api_id": 9865
+        },
+        {
+          "Unnamed: 0": 4,
+          "season": "2014/2015",
+          "Points": 32,
+          "Team": "UD Almería",
+          "team_api_id": 9865
+        },
+        {
+          "Unnamed: 0": 0,
+          "season": "2008/2009",
+          "Points": 67,
+          "Team": "Atlético Madrid",
+          "team_api_id": 9906
+        },
+        {
+          "Unnamed: 0": 1,
+          "season": "2009/2010",
+          "Points": 47,
+          "Team": "Atlético Madrid",
+          "team_api_id": 9906
+        },
+        {
+          "Unnamed: 0": 2,
+          "season": "2010/2011",
+          "Points": 58,
+          "Team": "Atlético Madrid",
+          "team_api_id": 9906
+        },
+        {
+          "Unnamed: 0": 3,
+          "season": "2011/2012",
+          "Points": 56,
+          "Team": "Atlético Madrid",
+          "team_api_id": 9906
+        },
+        {
+          "Unnamed: 0": 4,
+          "season": "2012/2013",
+          "Points": 76,
+          "Team": "Atlético Madrid",
+          "team_api_id": 9906
+        },
+        {
+          "Unnamed: 0": 5,
+          "season": "2013/2014",
+          "Points": 90,
+          "Team": "Atlético Madrid",
+          "team_api_id": 9906
+        },
+        {
+          "Unnamed: 0": 6,
+          "season": "2014/2015",
+          "Points": 78,
+          "Team": "Atlético Madrid",
+          "team_api_id": 9906
+        },
+        {
+          "Unnamed: 0": 7,
+          "season": "2015/2016",
+          "Points": 88,
+          "Team": "Atlético Madrid",
+          "team_api_id": 9906
+        },
+        {
+          "Unnamed: 0": 0,
+          "season": "2008/2009",
+          "Points": 55,
+          "Team": "Málaga CF",
+          "team_api_id": 9864
+        },
+        {
+          "Unnamed: 0": 1,
+          "season": "2009/2010",
+          "Points": 37,
+          "Team": "Málaga CF",
+          "team_api_id": 9864
+        },
+        {
+          "Unnamed: 0": 2,
+          "season": "2010/2011",
+          "Points": 46,
+          "Team": "Málaga CF",
+          "team_api_id": 9864
+        },
+        {
+          "Unnamed: 0": 3,
+          "season": "2011/2012",
+          "Points": 58,
+          "Team": "Málaga CF",
+          "team_api_id": 9864
+        },
+        {
+          "Unnamed: 0": 4,
+          "season": "2012/2013",
+          "Points": 57,
+          "Team": "Málaga CF",
+          "team_api_id": 9864
+        },
+        {
+          "Unnamed: 0": 5,
+          "season": "2013/2014",
+          "Points": 45,
+          "Team": "Málaga CF",
+          "team_api_id": 9864
+        },
+        {
+          "Unnamed: 0": 6,
+          "season": "2014/2015",
+          "Points": 50,
+          "Team": "Málaga CF",
+          "team_api_id": 9864
+        },
+        {
+          "Unnamed: 0": 7,
+          "season": "2015/2016",
+          "Points": 48,
+          "Team": "Málaga CF",
+          "team_api_id": 9864
+        },
+        {
+          "Unnamed: 0": 0,
+          "season": "2009/2010",
+          "Points": 34,
+          "Team": "Xerez Club Deportivo",
+          "team_api_id": 9868
+        },
+        {
+          "Unnamed: 0": 0,
+          "season": "2009/2010",
+          "Points": 41,
+          "Team": "Real Zaragoza",
+          "team_api_id": 8394
+        },
+        {
+          "Unnamed: 0": 1,
+          "season": "2010/2011",
+          "Points": 45,
+          "Team": "Real Zaragoza",
+          "team_api_id": 8394
+        },
+        {
+          "Unnamed: 0": 2,
+          "season": "2011/2012",
+          "Points": 43,
+          "Team": "Real Zaragoza",
+          "team_api_id": 8394
+        },
+        {
+          "Unnamed: 0": 3,
+          "season": "2012/2013",
+          "Points": 34,
+          "Team": "Real Zaragoza",
+          "team_api_id": 8394
+        },
+        {
+          "Unnamed: 0": 0,
+          "season": "2009/2010",
+          "Points": 36,
+          "Team": "CD Tenerife",
+          "team_api_id": 9867
+        },
+        {
+          "Unnamed: 0": 0,
+          "season": "2010/2011",
+          "Points": 35,
+          "Team": "Hércules Club de Fútbol",
+          "team_api_id": 10278
+        },
+        {
+          "Unnamed: 0": 0,
+          "season": "2010/2011",
+          "Points": 45,
+          "Team": "Levante UD",
+          "team_api_id": 8581
+        },
+        {
+          "Unnamed: 0": 1,
+          "season": "2011/2012",
+          "Points": 55,
+          "Team": "Levante UD",
+          "team_api_id": 8581
+        },
+        {
+          "Unnamed: 0": 2,
+          "season": "2012/2013",
+          "Points": 46,
+          "Team": "Levante UD",
+          "team_api_id": 8581
+        },
+        {
+          "Unnamed: 0": 3,
+          "season": "2013/2014",
+          "Points": 48,
+          "Team": "Levante UD",
+          "team_api_id": 8581
+        },
+        {
+          "Unnamed: 0": 4,
+          "season": "2014/2015",
+          "Points": 37,
+          "Team": "Levante UD",
+          "team_api_id": 8581
+        },
+        {
+          "Unnamed: 0": 5,
+          "season": "2015/2016",
+          "Points": 32,
+          "Team": "Levante UD",
+          "team_api_id": 8581
+        },
+        {
+          "Unnamed: 0": 0,
+          "season": "2010/2011",
+          "Points": 45,
+          "Team": "Real Sociedad",
+          "team_api_id": 8560
+        },
+        {
+          "Unnamed: 0": 1,
+          "season": "2011/2012",
+          "Points": 47,
+          "Team": "Real Sociedad",
+          "team_api_id": 8560
+        },
+        {
+          "Unnamed: 0": 2,
+          "season": "2012/2013",
+          "Points": 66,
+          "Team": "Real Sociedad",
+          "team_api_id": 8560
+        },
+        {
+          "Unnamed: 0": 3,
+          "season": "2013/2014",
+          "Points": 59,
+          "Team": "Real Sociedad",
+          "team_api_id": 8560
+        },
+        {
+          "Unnamed: 0": 4,
+          "season": "2014/2015",
+          "Points": 46,
+          "Team": "Real Sociedad",
+          "team_api_id": 8560
+        },
+        {
+          "Unnamed: 0": 5,
+          "season": "2015/2016",
+          "Points": 48,
+          "Team": "Real Sociedad",
+          "team_api_id": 8560
+        },
+        {
+          "Unnamed: 0": 0,
+          "season": "2011/2012",
+          "Points": 42,
+          "Team": "Granada CF",
+          "team_api_id": 7878
+        },
+        {
+          "Unnamed: 0": 1,
+          "season": "2012/2013",
+          "Points": 42,
+          "Team": "Granada CF",
+          "team_api_id": 7878
+        },
+        {
+          "Unnamed: 0": 2,
+          "season": "2013/2014",
+          "Points": 41,
+          "Team": "Granada CF",
+          "team_api_id": 7878
+        },
+        {
+          "Unnamed: 0": 3,
+          "season": "2014/2015",
+          "Points": 35,
+          "Team": "Granada CF",
+          "team_api_id": 7878
+        },
+        {
+          "Unnamed: 0": 4,
+          "season": "2015/2016",
+          "Points": 39,
+          "Team": "Granada CF",
+          "team_api_id": 7878
+        },
+        {
+          "Unnamed: 0": 0,
+          "season": "2011/2012",
+          "Points": 43,
+          "Team": "Rayo Vallecano",
+          "team_api_id": 8370
+        },
+        {
+          "Unnamed: 0": 1,
+          "season": "2012/2013",
+          "Points": 53,
+          "Team": "Rayo Vallecano",
+          "team_api_id": 8370
+        },
+        {
+          "Unnamed: 0": 2,
+          "season": "2013/2014",
+          "Points": 43,
+          "Team": "Rayo Vallecano",
+          "team_api_id": 8370
+        },
+        {
+          "Unnamed: 0": 3,
+          "season": "2014/2015",
+          "Points": 49,
+          "Team": "Rayo Vallecano",
+          "team_api_id": 8370
+        },
+        {
+          "Unnamed: 0": 4,
+          "season": "2015/2016",
+          "Points": 38,
+          "Team": "Rayo Vallecano",
+          "team_api_id": 8370
+        },
+        {
+          "Unnamed: 0": 0,
+          "season": "2012/2013",
+          "Points": 37,
+          "Team": "RC Celta de Vigo",
+          "team_api_id": 9910
+        },
+        {
+          "Unnamed: 0": 1,
+          "season": "2013/2014",
+          "Points": 49,
+          "Team": "RC Celta de Vigo",
+          "team_api_id": 9910
+        },
+        {
+          "Unnamed: 0": 2,
+          "season": "2014/2015",
+          "Points": 51,
+          "Team": "RC Celta de Vigo",
+          "team_api_id": 9910
+        },
+        {
+          "Unnamed: 0": 3,
+          "season": "2015/2016",
+          "Points": 60,
+          "Team": "RC Celta de Vigo",
+          "team_api_id": 9910
+        },
+        {
+          "Unnamed: 0": 0,
+          "season": "2013/2014",
+          "Points": 40,
+          "Team": "Elche CF",
+          "team_api_id": 10268
+        },
+        {
+          "Unnamed: 0": 1,
+          "season": "2014/2015",
+          "Points": 41,
+          "Team": "Elche CF",
+          "team_api_id": 10268
+        },
+        {
+          "Unnamed: 0": 0,
+          "season": "2014/2015",
+          "Points": 35,
+          "Team": "SD Eibar",
+          "team_api_id": 8372
+        },
+        {
+          "Unnamed: 0": 1,
+          "season": "2015/2016",
+          "Points": 43,
+          "Team": "SD Eibar",
+          "team_api_id": 8372
+        },
+        {
+          "Unnamed: 0": 0,
+          "season": "2014/2015",
+          "Points": 20,
+          "Team": "Córdoba CF",
+          "team_api_id": 7869
+        },
+        {
+          "Unnamed: 0": 0,
+          "season": "2015/2016",
+          "Points": 44,
+          "Team": "UD Las Palmas",
+          "team_api_id": 8306
+        }
+      ]
+    },
+    {
+      "name": "data_0",
+      "source": "data-1bcb63dbc23ed73f15e9266575b1d168",
+      "transform": [
+        {
+          "type": "formula",
+          "expr": "datum.Team == selector002.Team ? datum.Team : (datum.Team == selector003.Team ? datum.Team : 'Other')",
+          "as": "color"
+        },
+        {
+          "type": "formula",
+          "expr": "datum.color == 'Other' ? 0 : 1",
+          "as": "opacity"
+        },
+        {
+          "type": "formula",
+          "expr": "indexof([selector002.Team, selector003.Team, 'Other'], datum.color)",
+          "as": "order"
+        }
+      ]
+    },
+    {
+      "name": "data_1",
+      "source": "data_0",
+      "transform": [
+        {
+          "type": "formula",
+          "expr": "datum[\"color\"]===\"selector002.Team\" ? 0 : datum[\"color\"]===\"selector003.Team\" ? 1 : datum[\"color\"]===\"Other\" ? 2 : 3",
+          "as": "color_color_sort_index"
+        }
+      ]
+    },
+    {
+      "name": "data_2",
+      "source": "data_0",
+      "transform": [
+        {
+          "type": "formula",
+          "expr": "datum.color == 'Other' ? 0 : 1",
+          "as": "size"
+        },
+        {
+          "type": "formula",
+          "expr": "datum[\"color\"]===\"selector002.Team\" ? 0 : datum[\"color\"]===\"selector003.Team\" ? 1 : datum[\"color\"]===\"Other\" ? 2 : 3",
+          "as": "color_color_sort_index"
+        }
+      ]
+    },
+    {
+      "name": "data_3",
+      "source": "data_2",
+      "transform": [
+        {
+          "type": "filter",
+          "expr": "isValid(datum[\"opacity\"]) && isFinite(+datum[\"opacity\"]) && isValid(datum[\"size\"]) && isFinite(+datum[\"size\"]) && isValid(datum[\"Points\"]) && isFinite(+datum[\"Points\"])"
+        }
+      ]
+    }
+  ],
+  "signals": [
+    {
+      "name": "width",
+      "init": "isFinite(containerSize()[0]) ? containerSize()[0] : 400",
+      "on": [
+        {
+          "update": "isFinite(containerSize()[0]) ? containerSize()[0] : 400",
+          "events": "window:resize"
+        }
+      ]
+    },
+    {
+      "name": "unit",
+      "value": {},
+      "on": [
+        {"events": "mousemove", "update": "isTuple(group()) ? group() : unit"}
+      ]
+    },
+    {
+      "name": "selector003_Team",
+      "init": "\"Real Madrid CF\"",
+      "bind": {
+        "input": "select",
+        "options": [
+          "Valencia CF",
+          "RCD Mallorca",
+          "CA Osasuna",
+          "Villarreal CF",
+          "RC Deportivo de La Coruña",
+          "Real Madrid CF",
+          "CD Numancia",
+          "FC Barcelona",
+          "Racing Santander",
+          "Sevilla FC",
+          "Real Sporting de Gijón",
+          "Getafe CF",
+          "Real Betis Balompié",
+          "RC Recreativo",
+          "RCD Espanyol",
+          "Real Valladolid",
+          "Athletic Club de Bilbao",
+          "UD Almería",
+          "Atlético Madrid",
+          "Málaga CF",
+          "Xerez Club Deportivo",
+          "Real Zaragoza",
+          "CD Tenerife",
+          "Hércules Club de Fútbol",
+          "Levante UD",
+          "Real Sociedad",
+          "Granada CF",
+          "Rayo Vallecano",
+          "RC Celta de Vigo",
+          "Elche CF",
+          "SD Eibar",
+          "Córdoba CF",
+          "UD Las Palmas"
+        ],
+        "name": "Team B"
+      }
+    },
+    {
+      "name": "selector002_Team",
+      "init": "\"FC Barcelona\"",
+      "bind": {
+        "input": "select",
+        "options": [
+          "Valencia CF",
+          "RCD Mallorca",
+          "CA Osasuna",
+          "Villarreal CF",
+          "RC Deportivo de La Coruña",
+          "Real Madrid CF",
+          "CD Numancia",
+          "FC Barcelona",
+          "Racing Santander",
+          "Sevilla FC",
+          "Real Sporting de Gijón",
+          "Getafe CF",
+          "Real Betis Balompié",
+          "RC Recreativo",
+          "RCD Espanyol",
+          "Real Valladolid",
+          "Athletic Club de Bilbao",
+          "UD Almería",
+          "Atlético Madrid",
+          "Málaga CF",
+          "Xerez Club Deportivo",
+          "Real Zaragoza",
+          "CD Tenerife",
+          "Hércules Club de Fútbol",
+          "Levante UD",
+          "Real Sociedad",
+          "Granada CF",
+          "Rayo Vallecano",
+          "RC Celta de Vigo",
+          "Elche CF",
+          "SD Eibar",
+          "Córdoba CF",
+          "UD Las Palmas"
+        ],
+        "name": "Team A"
+      }
+    },
+    {
+      "name": "selector001_season",
+      "init": "\"2015/2016\"",
+      "bind": {
+        "input": "select",
+        "options": [
+          "2008/2009",
+          "2009/2010",
+          "2010/2011",
+          "2011/2012",
+          "2012/2013",
+          "2013/2014",
+          "2014/2015",
+          "2015/2016"
+        ],
+        "name": "Season"
+      }
+    },
+    {
+      "name": "selector001",
+      "update": "vlSelectionResolve(\"selector001_store\", \"union\")"
+    },
+    {
+      "name": "selector002",
+      "update": "vlSelectionResolve(\"selector002_store\", \"union\")"
+    },
+    {
+      "name": "selector003",
+      "update": "vlSelectionResolve(\"selector003_store\", \"union\")"
+    },
+    {
+      "name": "selector001_tuple",
+      "update": "selector001_season !== null ? {fields: selector001_tuple_fields, values: [selector001_season]} : null"
+    },
+    {
+      "name": "selector001_tuple_fields",
+      "value": [{"type": "E", "field": "season"}]
+    },
+    {
+      "name": "selector001_modify",
+      "on": [
+        {
+          "events": {"signal": "selector001_tuple"},
+          "update": "modify(\"selector001_store\", selector001_tuple, true)"
+        }
+      ]
+    },
+    {
+      "name": "selector002_tuple",
+      "update": "selector002_Team !== null ? {fields: selector002_tuple_fields, values: [selector002_Team]} : null"
+    },
+    {
+      "name": "selector002_tuple_fields",
+      "value": [{"type": "E", "field": "Team"}]
+    },
+    {
+      "name": "selector002_modify",
+      "on": [
+        {
+          "events": {"signal": "selector002_tuple"},
+          "update": "modify(\"selector002_store\", selector002_tuple, true)"
+        }
+      ]
+    },
+    {
+      "name": "selector003_tuple",
+      "update": "selector003_Team !== null ? {fields: selector003_tuple_fields, values: [selector003_Team]} : null"
+    },
+    {
+      "name": "selector003_tuple_fields",
+      "value": [{"type": "E", "field": "Team"}]
+    },
+    {
+      "name": "selector003_modify",
+      "on": [
+        {
+          "events": {"signal": "selector003_tuple"},
+          "update": "modify(\"selector003_store\", selector003_tuple, true)"
+        }
+      ]
+    }
+  ],
+  "marks": [
+    {
+      "name": "layer_0_pathgroup",
+      "type": "group",
+      "from": {
+        "facet": {
+          "name": "faceted_path_layer_0_main",
+          "data": "data_1",
+          "groupby": ["color", "Team", "opacity"]
+        }
+      },
+      "encode": {
+        "update": {
+          "width": {"field": {"group": "width"}},
+          "height": {"field": {"group": "height"}}
+        }
+      },
+      "marks": [
+        {
+          "name": "layer_0_marks",
+          "type": "line",
+          "style": ["line"],
+          "sort": {"field": ["datum[\"order\"]"], "order": ["ascending"]},
+          "interactive": true,
+          "from": {"data": "faceted_path_layer_0_main"},
+          "encode": {
+            "update": {
+              "stroke": {"scale": "color", "field": "color"},
+              "opacity": {"scale": "opacity", "field": "opacity"},
+              "tooltip": {
+                "signal": "{\"Team\": ''+datum[\"Team\"], \"Points\": format(datum[\"Points\"], \"\")}"
+              },
+              "x": {"scale": "x", "field": "season"},
+              "y": {"scale": "y", "field": "Points"},
+              "defined": {
+                "signal": "isValid(datum[\"Points\"]) && isFinite(+datum[\"Points\"])"
+              }
+            }
+          }
+        }
+      ]
+    },
+    {
+      "name": "layer_1_marks",
+      "type": "symbol",
+      "style": ["circle"],
+      "sort": {"field": ["datum[\"order\"]"], "order": ["ascending"]},
+      "interactive": false,
+      "from": {"data": "data_3"},
+      "encode": {
+        "update": {
+          "opacity": {"scale": "opacity", "field": "opacity"},
+          "fill": {"scale": "color", "field": "color"},
+          "tooltip": {
+            "signal": "{\"Team\": ''+datum[\"Team\"], \"Points\": format(datum[\"Points\"], \"\")}"
+          },
+          "x": {"scale": "x", "field": "season"},
+          "y": {"scale": "y", "field": "Points"},
+          "size": [
+            {
+              "test": "!(length(data(\"selector001_store\"))) || (vlSelectionTest(\"selector001_store\", datum))",
+              "scale": "size",
+              "field": "size"
+            },
+            {"value": 10}
+          ],
+          "shape": {"value": "circle"}
+        }
+      }
+    }
+  ],
+  "scales": [
+    {
+      "name": "x",
+      "type": "point",
+      "domain": {
+        "fields": [
+          {"data": "data_1", "field": "season"},
+          {"data": "data_3", "field": "season"}
+        ],
+        "sort": true
+      },
+      "range": [0, {"signal": "width"}],
+      "padding": 0.5
+    },
+    {
+      "name": "y",
+      "type": "linear",
+      "domain": {
+        "fields": [
+          {"data": "data_1", "field": "Points"},
+          {"data": "data_3", "field": "Points"}
+        ]
+      },
+      "range": [{"signal": "height"}, 0],
+      "nice": true,
+      "zero": true
+    },
+    {
+      "name": "color",
+      "type": "ordinal",
+      "domain": {
+        "fields": [
+          {"data": "data_1", "field": "color"},
+          {"data": "data_2", "field": "color"}
+        ],
+        "sort": {"op": "min", "field": "color_color_sort_index"}
+      },
+      "range": ["#b3b3b3", "#66c2a5", "#fc8d62", "#b3b3b3"]
+    },
+    {
+      "name": "opacity",
+      "type": "linear",
+      "domain": {
+        "fields": [
+          {"data": "data_1", "field": "opacity"},
+          {"data": "data_3", "field": "opacity"}
+        ]
+      },
+      "range": [0.3, 0.8],
+      "zero": false
+    },
+    {
+      "name": "size",
+      "type": "linear",
+      "domain": {"data": "data_3", "field": "size"},
+      "range": [10, 75],
+      "zero": true
+    }
+  ],
+  "axes": [
+    {
+      "scale": "y",
+      "orient": "left",
+      "gridScale": "x",
+      "grid": true,
+      "tickCount": {"signal": "ceil(height/40)"},
+      "domain": false,
+      "labels": false,
+      "maxExtent": 0,
+      "minExtent": 0,
+      "ticks": false,
+      "zindex": 0
+    },
+    {
+      "scale": "x",
+      "orient": "bottom",
+      "grid": false,
+      "labelAlign": "right",
+      "labelAngle": 270,
+      "labelBaseline": "middle",
+      "labelOverlap": true,
+      "zindex": 0
+    },
+    {
+      "scale": "y",
+      "orient": "left",
+      "grid": false,
+      "title": "Total points",
+      "labelOverlap": true,
+      "tickCount": {"signal": "ceil(height/40)"},
+      "zindex": 0
+    }
+  ]
+}

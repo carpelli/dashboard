@@ -1,0 +1,120 @@
+doctype html
+html(lang='en')
+  include include/head
+  body#page-top
+    include include/modal
+    // Page Wrapper
+    #wrapper
+      // Sidebar
+      .bg-secondary.sidebar.sidebar-dark.accordion
+        img.img-fluid.brand.px-5(src="img/laliga.png")
+        form
+          .sidebar-card
+            label
+              select#select-season
+                option(value='2009/2010') 2009/2010
+                option(value='2008/2009') 2008/2009
+                option(value='2010/2011') 2010/2011
+                option(value='2011/2012') 2011/2012
+                option(value='2012/2013') 2012/2013
+                option(value='2013/2014') 2013/2014
+                option(value='2014/2015') 2014/2015
+                option(value='2015/2016') 2015/2016
+          button.card-button(type="button" data-toggle="modal" data-target="#team-modal" data-team="team-a")
+            .sidebar-card.team-a
+              .sidebar-card-header Team A
+              .sidebar-card-body
+                .team-label-header
+                  //- span Team A:
+                  .team-image
+                    img#image-team-a
+                  span.team-name#name-team-a
+                select#select-team-a
+                  include include/teams
+          button.card-button(type="button" data-toggle="modal" data-target="#team-modal" data-team="team-b")
+            .sidebar-card.team-b
+              .sidebar-card-header Team B
+              .sidebar-card-body
+                .team-label-header
+                  //- span Team B:
+                  .team-image
+                    img#image-team-b
+                span.team-name#name-team-b
+                select#select-team-b
+                  include include/teams
+          .sidebar-card
+            a(href="#") Second layer
+            a(href="#second") Second layer
+      // Content Wrapper
+      #content-wrapper.d-flex.flex-column
+        //- nav.navbar.navbar-expand.navbar-light.bg-white.topbar.mb-4.static-top.shadow
+        // Main Content
+        #content
+          // Begin Page Content
+          .container-fluid.page#main
+            // Page Heading
+            //- .d-sm-flex.align-items-center.justify-content-between.mb-4
+            //-   h1.h3.mb-0.text-gray-800 Dashboard
+            // Content Row
+            .row
+              .col-xl-12.col-lg-7
+                .card.shadow.mb-4
+                  // Card Body
+                  .card-body.d-flex.flex-row
+                    div(style='width: calc(50% - 45px)')
+                      #chart-seasons1(style='width: calc(100% - 60px)')
+                    #chart-seasons2(style='width: calc(50% + 45px)')
+            // Content Row
+            .row
+              .col-xl-9.col-lg-7
+                .row
+                  .col-md-12
+                    .card.shadow.mb-4
+                      // Card Body
+                      .card-body
+                        div(style='width: calc(50% + 60px)').d-inline-block
+                          #chart-attributes1(style='width: calc(100% - 125px)')
+                        div(style='width: calc(50% - 60px)').d-inline-block
+                          #chart-attributes2(style='width: 98%')
+                .row
+                  .col-md-12
+                    .card.shadow.mb-4 
+                      .card-body blablablabal plot
+              .col-xl-3.mb-4
+                .card.shadow.h-100
+                  .card-body
+                    #chart-wins.w-100.h-100
+            // Content Row
+          .container-fluid.page#second.d-none
+            .d-sm-flex.align-items-center.justify-content-between.mb-4
+              h1.h3.mb-0.text-gray-800 Second layer
+        // End of Main Content
+        // Footer
+        //- footer.sticky-footer.bg-white
+        //-   .container.my-auto
+        //-     .copyright.text-center.my-auto
+        //-       span Copyright &copy; Your Website 2021
+        // End of Footer
+      // End of Content Wrapper
+    // End of Page Wrapper
+    // Scroll to Top Button
+    a.scroll-to-top.rounded(href='#page-top')
+      i.fas.fa-angle-up
+    script.
+      var opt = {"renderer": "canvas", "actions": false};
+      fetch('./charts/seasons1.json')
+        .then(response => response.json())
+        .then(data => vegaEmbed("#chart-seasons1", data, opt));
+      fetch('./charts/seasons2.json')
+        .then(response => response.json())
+        .then(data => vegaEmbed("#chart-seasons2", data, opt));
+      fetch('./charts/attributes1.json')
+        .then(response => response.json())
+        .then(data => vegaEmbed("#chart-attributes1", data, opt));
+      fetch('./charts/attributes2.json')
+        .then(response => response.json())
+        .then(data => vegaEmbed("#chart-attributes2", data, opt));
+      //- fetch('./js/charts/wins.json')
+      //-   .then(response => response.json())
+      //-   .then(data => vegaEmbed("#chart-wins", data, opt));
+    include include/bottom
