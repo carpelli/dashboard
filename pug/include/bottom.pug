@@ -15,7 +15,8 @@ script.
   window.addEventListener('hashchange', router);
   let changeTeam = (team) => {
     name = $('#select-' + team).find(':selected').text();
-    name && $('#image-' + team).attr('src', 'img/teams/' + name + '.png');
+    name && $('#image-' + team).attr('src', 'img/teams/' + name.normalize("NFD").replace(/[\u0300-\u036f]/g, "") + '.png');
+    console.log(name.normalize("NFD").replace(/[\u0300-\u036f]/g, ""));
     $('#team-modal .button-team').removeClass(team)
       .filter('[data-name="' + name + '"]').addClass(team)
     $('#name-' + team).text(name);
@@ -42,3 +43,21 @@ script.
     }, 100);
     return false
   });
+
+  //- // Import the functions you need from the SDKs you need
+  //- import { initializeApp } from "https://www.gstatic.com/firebasejs/9.5.0/firebase-app.js";
+  //- // TODO: Add SDKs for Firebase products that you want to use
+  //- // https://firebase.google.com/docs/web/setup#available-libraries
+
+  //- // Your web app's Firebase configuration
+  //- const firebaseConfig = {
+  //-   apiKey: "AIzaSyDYuDoYnkypmWLnqdII1ttrihdUe0ISuys",
+  //-   authDomain: "viz-liga.firebaseapp.com",
+  //-   projectId: "viz-liga",
+  //-   storageBucket: "viz-liga.appspot.com",
+  //-   messagingSenderId: "940623868549",
+  //-   appId: "1:940623868549:web:be30d86e90b2cbe1c86fec"
+  //- };
+
+  //- // Initialize Firebase
+  //- const app = initializeApp(firebaseConfig);

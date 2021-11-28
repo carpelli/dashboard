@@ -58,8 +58,8 @@ function modules() {
   var bootstrapSCSS = gulp.src('./node_modules/bootstrap/scss/**/*')
     .pipe(gulp.dest('./vendor/bootstrap/scss'));
   // Font Awesome
-  var fontAwesome = gulp.src('./node_modules/@fortawesome/**/*')
-    .pipe(gulp.dest('./public/vendor'));
+  // var fontAwesome = gulp.src('./node_modules/@fortawesome/**/*')
+  //   .pipe(gulp.dest('./public/vendor'));
   // jQuery Easing
   var jqueryEasing = gulp.src('./node_modules/jquery.easing/*.js')
     .pipe(gulp.dest('./public/vendor/jquery-easing'));
@@ -69,7 +69,7 @@ function modules() {
       '!./node_modules/jquery/dist/core.js'
     ])
     .pipe(gulp.dest('./public/vendor/jquery'));
-  return merge(bootstrapJS, bootstrapSCSS, fontAwesome, jquery, jqueryEasing);
+  return merge(bootstrapJS, bootstrapSCSS, jquery, jqueryEasing);
 }
 
 // CSS task
