@@ -4,7 +4,7 @@
   "background": "white",
   "padding": 5,
   "height": 150,
-  "title": {"text": "card", "frame": "group"},
+  "title": {"text": "goals", "frame": "group"},
   "style": "cell",
   "data": [
     {
@@ -18,1813 +18,1813 @@
       ]
     },
     {
-      "name": "data-b56e530d082aa065f5141235d9475233",
+      "name": "data-3b44ec73b90870c17535d689a991726a",
       "values": [
         {
-          "Unnamed: 0": 1000,
+          "Unnamed: 0": 600,
           "Team": "Málaga CF",
           "Oponent": "Rayo Vallecano",
           "match_api_id": 2030497,
           "team_name": "Málaga CF",
-          "variable": "card",
+          "variable": "goals",
           "value": "1.0"
         },
         {
-          "Unnamed: 0": 1001,
+          "Unnamed: 0": 601,
           "Team": "Málaga CF",
           "Oponent": "Rayo Vallecano",
           "match_api_id": 2030497,
           "team_name": "Rayo Vallecano",
-          "variable": "card",
-          "value": "3.0"
+          "variable": "goals",
+          "value": "1.0"
         },
         {
-          "Unnamed: 0": 1002,
+          "Unnamed: 0": 602,
           "Team": "Málaga CF",
           "Oponent": "Atlético Madrid",
           "match_api_id": 2030507,
           "team_name": "Atlético Madrid",
-          "variable": "card",
-          "value": "3.0"
+          "variable": "goals",
+          "value": "1.0"
         },
         {
-          "Unnamed: 0": 1003,
+          "Unnamed: 0": 603,
           "Team": "Málaga CF",
           "Oponent": "Atlético Madrid",
           "match_api_id": 2030507,
           "team_name": "Málaga CF",
-          "variable": "card",
-          "value": "3.0"
+          "variable": "goals",
+          "value": "0.0"
         },
         {
-          "Unnamed: 0": 1004,
+          "Unnamed: 0": 604,
           "Team": "Málaga CF",
           "Oponent": "Levante UD",
           "match_api_id": 2030516,
           "team_name": "Málaga CF",
-          "variable": "card",
-          "value": "2.0"
+          "variable": "goals",
+          "value": "3.0"
         },
         {
-          "Unnamed: 0": 1005,
+          "Unnamed: 0": 605,
           "Team": "Málaga CF",
           "Oponent": "Levante UD",
           "match_api_id": 2030516,
           "team_name": "Levante UD",
-          "variable": "card",
-          "value": "4.0"
+          "variable": "goals",
+          "value": "1.0"
         },
         {
-          "Unnamed: 0": 1006,
+          "Unnamed: 0": 606,
           "Team": "Málaga CF",
           "Oponent": "RC Celta de Vigo",
           "match_api_id": 2030526,
           "team_name": "RC Celta de Vigo",
-          "variable": "card",
-          "value": "0.0"
+          "variable": "goals",
+          "value": "1.0"
         },
         {
-          "Unnamed: 0": 1007,
+          "Unnamed: 0": 607,
           "Team": "Málaga CF",
           "Oponent": "RC Celta de Vigo",
           "match_api_id": 2030526,
           "team_name": "Málaga CF",
-          "variable": "card",
-          "value": "2.0"
+          "variable": "goals",
+          "value": "0.0"
         },
         {
-          "Unnamed: 0": 1008,
+          "Unnamed: 0": 608,
           "Team": "Málaga CF",
           "Oponent": "UD Las Palmas",
           "match_api_id": 2030535,
           "team_name": "Málaga CF",
-          "variable": "card",
-          "value": "1.0"
+          "variable": "goals",
+          "value": "4.0"
         },
         {
-          "Unnamed: 0": 1009,
+          "Unnamed: 0": 609,
           "Team": "Málaga CF",
           "Oponent": "UD Las Palmas",
           "match_api_id": 2030535,
           "team_name": "UD Las Palmas",
-          "variable": "card",
+          "variable": "goals",
           "value": "1.0"
         },
         {
-          "Unnamed: 0": 1010,
+          "Unnamed: 0": 610,
           "Team": "Atlético Madrid",
           "Oponent": "Athletic Club de Bilbao",
           "match_api_id": 2030496,
           "team_name": "Athletic Club de Bilbao",
-          "variable": "card",
+          "variable": "goals",
           "value": "0.0"
         },
         {
-          "Unnamed: 0": 1011,
+          "Unnamed: 0": 611,
           "Team": "Atlético Madrid",
           "Oponent": "Athletic Club de Bilbao",
           "match_api_id": 2030496,
           "team_name": "Atlético Madrid",
-          "variable": "card",
-          "value": "0.0"
+          "variable": "goals",
+          "value": "1.0"
         },
         {
-          "Unnamed: 0": 1012,
+          "Unnamed: 0": 612,
           "Team": "Atlético Madrid",
           "Oponent": "Málaga CF",
           "match_api_id": 2030507,
           "team_name": "Atlético Madrid",
-          "variable": "card",
-          "value": "3.0"
+          "variable": "goals",
+          "value": "1.0"
         },
         {
-          "Unnamed: 0": 1013,
+          "Unnamed: 0": 613,
           "Team": "Atlético Madrid",
           "Oponent": "Málaga CF",
           "match_api_id": 2030507,
           "team_name": "Málaga CF",
-          "variable": "card",
-          "value": "3.0"
+          "variable": "goals",
+          "value": "0.0"
         },
         {
-          "Unnamed: 0": 1014,
+          "Unnamed: 0": 614,
           "Team": "Atlético Madrid",
           "Oponent": "Rayo Vallecano",
           "match_api_id": 2030517,
           "team_name": "Atlético Madrid",
-          "variable": "card",
+          "variable": "goals",
           "value": "1.0"
         },
         {
-          "Unnamed: 0": 1015,
+          "Unnamed: 0": 615,
           "Team": "Atlético Madrid",
           "Oponent": "Rayo Vallecano",
           "match_api_id": 2030517,
           "team_name": "Rayo Vallecano",
-          "variable": "card",
-          "value": "1.0"
+          "variable": "goals",
+          "value": "0.0"
         },
         {
-          "Unnamed: 0": 1016,
+          "Unnamed: 0": 616,
           "Team": "Atlético Madrid",
           "Oponent": "Levante UD",
           "match_api_id": 2030527,
           "team_name": "Levante UD",
-          "variable": "card",
-          "value": "1.0"
+          "variable": "goals",
+          "value": "2.0"
         },
         {
-          "Unnamed: 0": 1017,
+          "Unnamed: 0": 617,
           "Team": "Atlético Madrid",
           "Oponent": "Levante UD",
           "match_api_id": 2030527,
           "team_name": "Atlético Madrid",
-          "variable": "card",
+          "variable": "goals",
           "value": "1.0"
         },
         {
-          "Unnamed: 0": 1018,
+          "Unnamed: 0": 618,
           "Team": "Atlético Madrid",
           "Oponent": "RC Celta de Vigo",
           "match_api_id": 2030536,
           "team_name": "Atlético Madrid",
-          "variable": "card",
-          "value": "4.0"
+          "variable": "goals",
+          "value": "2.0"
         },
         {
-          "Unnamed: 0": 1019,
+          "Unnamed: 0": 619,
           "Team": "Atlético Madrid",
           "Oponent": "RC Celta de Vigo",
           "match_api_id": 2030536,
           "team_name": "RC Celta de Vigo",
-          "variable": "card",
-          "value": "5.0"
+          "variable": "goals",
+          "value": "0.0"
         },
         {
-          "Unnamed: 0": 1020,
+          "Unnamed: 0": 620,
           "Team": "RCD Espanyol",
           "Oponent": "RC Celta de Vigo",
           "match_api_id": 2030494,
           "team_name": "RCD Espanyol",
-          "variable": "card",
+          "variable": "goals",
           "value": "1.0"
         },
         {
-          "Unnamed: 0": 1021,
+          "Unnamed: 0": 621,
           "Team": "RCD Espanyol",
           "Oponent": "RC Celta de Vigo",
           "match_api_id": 2030494,
           "team_name": "RC Celta de Vigo",
-          "variable": "card",
+          "variable": "goals",
           "value": "1.0"
         },
         {
-          "Unnamed: 0": 1022,
+          "Unnamed: 0": 622,
           "Team": "RCD Espanyol",
           "Oponent": "UD Las Palmas",
           "match_api_id": 2030504,
           "team_name": "UD Las Palmas",
-          "variable": "card",
+          "variable": "goals",
           "value": "4.0"
         },
         {
-          "Unnamed: 0": 1023,
+          "Unnamed: 0": 623,
           "Team": "RCD Espanyol",
           "Oponent": "UD Las Palmas",
           "match_api_id": 2030504,
           "team_name": "RCD Espanyol",
-          "variable": "card",
-          "value": "4.0"
+          "variable": "goals",
+          "value": "0.0"
         },
         {
-          "Unnamed: 0": 1024,
+          "Unnamed: 0": 624,
           "Team": "RCD Espanyol",
           "Oponent": "Sevilla FC",
           "match_api_id": 2030513,
           "team_name": "RCD Espanyol",
-          "variable": "card",
-          "value": "3.0"
+          "variable": "goals",
+          "value": "1.0"
         },
         {
-          "Unnamed: 0": 1025,
+          "Unnamed: 0": 625,
           "Team": "RCD Espanyol",
           "Oponent": "Sevilla FC",
           "match_api_id": 2030513,
           "team_name": "Sevilla FC",
-          "variable": "card",
-          "value": "3.0"
+          "variable": "goals",
+          "value": "0.0"
         },
         {
-          "Unnamed: 0": 1026,
+          "Unnamed: 0": 626,
           "Team": "RCD Espanyol",
           "Oponent": "FC Barcelona",
           "match_api_id": 2030523,
           "team_name": "FC Barcelona",
-          "variable": "card",
-          "value": "2.0"
+          "variable": "goals",
+          "value": "5.0"
         },
         {
-          "Unnamed: 0": 1027,
+          "Unnamed: 0": 627,
           "Team": "RCD Espanyol",
           "Oponent": "FC Barcelona",
           "match_api_id": 2030523,
           "team_name": "RCD Espanyol",
-          "variable": "card",
-          "value": "7.0"
+          "variable": "goals",
+          "value": "0.0"
         },
         {
-          "Unnamed: 0": 1028,
+          "Unnamed: 0": 628,
           "Team": "RCD Espanyol",
           "Oponent": "SD Eibar",
           "match_api_id": 2030532,
           "team_name": "RCD Espanyol",
-          "variable": "card",
+          "variable": "goals",
           "value": "4.0"
         },
         {
-          "Unnamed: 0": 1029,
+          "Unnamed: 0": 629,
           "Team": "RCD Espanyol",
           "Oponent": "SD Eibar",
           "match_api_id": 2030532,
           "team_name": "SD Eibar",
-          "variable": "card",
-          "value": "3.0"
+          "variable": "goals",
+          "value": "2.0"
         },
         {
-          "Unnamed: 0": 1030,
+          "Unnamed: 0": 630,
           "Team": "RC Deportivo de La Coruña",
           "Oponent": "FC Barcelona",
           "match_api_id": 2030491,
           "team_name": "RC Deportivo de La Coruña",
-          "variable": "card",
-          "value": "1.0"
+          "variable": "goals",
+          "value": "0.0"
         },
         {
-          "Unnamed: 0": 1031,
+          "Unnamed: 0": 631,
           "Team": "RC Deportivo de La Coruña",
           "Oponent": "FC Barcelona",
           "match_api_id": 2030491,
           "team_name": "FC Barcelona",
-          "variable": "card",
-          "value": "0.0"
+          "variable": "goals",
+          "value": "8.0"
         },
         {
-          "Unnamed: 0": 1032,
+          "Unnamed: 0": 632,
           "Team": "RC Deportivo de La Coruña",
           "Oponent": "SD Eibar",
           "match_api_id": 2030501,
           "team_name": "SD Eibar",
-          "variable": "card",
-          "value": "0.0"
+          "variable": "goals",
+          "value": "1.0"
         },
         {
-          "Unnamed: 0": 1033,
+          "Unnamed: 0": 633,
           "Team": "RC Deportivo de La Coruña",
           "Oponent": "SD Eibar",
           "match_api_id": 2030501,
           "team_name": "RC Deportivo de La Coruña",
-          "variable": "card",
+          "variable": "goals",
           "value": "1.0"
         },
         {
-          "Unnamed: 0": 1034,
+          "Unnamed: 0": 634,
           "Team": "RC Deportivo de La Coruña",
           "Oponent": "Getafe CF",
           "match_api_id": 2030510,
           "team_name": "RC Deportivo de La Coruña",
-          "variable": "card",
-          "value": "3.0"
+          "variable": "goals",
+          "value": "0.0"
         },
         {
-          "Unnamed: 0": 1035,
+          "Unnamed: 0": 635,
           "Team": "RC Deportivo de La Coruña",
           "Oponent": "Getafe CF",
           "match_api_id": 2030510,
           "team_name": "Getafe CF",
-          "variable": "card",
-          "value": "6.0"
+          "variable": "goals",
+          "value": "2.0"
         },
         {
-          "Unnamed: 0": 1036,
+          "Unnamed: 0": 636,
           "Team": "RC Deportivo de La Coruña",
           "Oponent": "Villarreal CF",
           "match_api_id": 2030520,
           "team_name": "Villarreal CF",
-          "variable": "card",
-          "value": "3.0"
+          "variable": "goals",
+          "value": "0.0"
         },
         {
-          "Unnamed: 0": 1037,
+          "Unnamed: 0": 637,
           "Team": "RC Deportivo de La Coruña",
           "Oponent": "Villarreal CF",
           "match_api_id": 2030520,
           "team_name": "RC Deportivo de La Coruña",
-          "variable": "card",
-          "value": "1.0"
+          "variable": "goals",
+          "value": "2.0"
         },
         {
-          "Unnamed: 0": 1038,
+          "Unnamed: 0": 638,
           "Team": "RC Deportivo de La Coruña",
           "Oponent": "Real Madrid CF",
           "match_api_id": 2030529,
           "team_name": "RC Deportivo de La Coruña",
-          "variable": "card",
-          "value": "1.0"
+          "variable": "goals",
+          "value": "0.0"
         },
         {
-          "Unnamed: 0": 1039,
+          "Unnamed: 0": 639,
           "Team": "RC Deportivo de La Coruña",
           "Oponent": "Real Madrid CF",
           "match_api_id": 2030529,
           "team_name": "Real Madrid CF",
-          "variable": "card",
-          "value": "3.0"
+          "variable": "goals",
+          "value": "2.0"
         },
         {
-          "Unnamed: 0": 1040,
+          "Unnamed: 0": 640,
           "Team": "Rayo Vallecano",
           "Oponent": "Málaga CF",
           "match_api_id": 2030497,
           "team_name": "Málaga CF",
-          "variable": "card",
+          "variable": "goals",
           "value": "1.0"
         },
         {
-          "Unnamed: 0": 1041,
+          "Unnamed: 0": 641,
           "Team": "Rayo Vallecano",
           "Oponent": "Málaga CF",
           "match_api_id": 2030497,
           "team_name": "Rayo Vallecano",
-          "variable": "card",
-          "value": "3.0"
+          "variable": "goals",
+          "value": "1.0"
         },
         {
-          "Unnamed: 0": 1042,
+          "Unnamed: 0": 642,
           "Team": "Rayo Vallecano",
           "Oponent": "Real Madrid CF",
           "match_api_id": 2030498,
           "team_name": "Rayo Vallecano",
-          "variable": "card",
-          "value": "6.0"
+          "variable": "goals",
+          "value": "2.0"
         },
         {
-          "Unnamed: 0": 1043,
+          "Unnamed: 0": 643,
           "Team": "Rayo Vallecano",
           "Oponent": "Real Madrid CF",
           "match_api_id": 2030498,
           "team_name": "Real Madrid CF",
-          "variable": "card",
-          "value": "1.0"
+          "variable": "goals",
+          "value": "3.0"
         },
         {
-          "Unnamed: 0": 1044,
+          "Unnamed: 0": 644,
           "Team": "Rayo Vallecano",
           "Oponent": "Atlético Madrid",
           "match_api_id": 2030517,
           "team_name": "Atlético Madrid",
-          "variable": "card",
+          "variable": "goals",
           "value": "1.0"
         },
         {
-          "Unnamed: 0": 1045,
+          "Unnamed: 0": 645,
           "Team": "Rayo Vallecano",
           "Oponent": "Atlético Madrid",
           "match_api_id": 2030517,
           "team_name": "Rayo Vallecano",
-          "variable": "card",
-          "value": "1.0"
+          "variable": "goals",
+          "value": "0.0"
         },
         {
-          "Unnamed: 0": 1046,
+          "Unnamed: 0": 646,
           "Team": "Rayo Vallecano",
           "Oponent": "Real Sociedad",
           "match_api_id": 2030518,
           "team_name": "Real Sociedad",
-          "variable": "card",
-          "value": "3.0"
+          "variable": "goals",
+          "value": "2.0"
         },
         {
-          "Unnamed: 0": 1047,
+          "Unnamed: 0": 647,
           "Team": "Rayo Vallecano",
           "Oponent": "Real Sociedad",
           "match_api_id": 2030518,
           "team_name": "Rayo Vallecano",
-          "variable": "card",
+          "variable": "goals",
           "value": "1.0"
         },
         {
-          "Unnamed: 0": 1048,
+          "Unnamed: 0": 648,
           "Team": "Rayo Vallecano",
           "Oponent": "Levante UD",
           "match_api_id": 2030537,
           "team_name": "Rayo Vallecano",
-          "variable": "card",
-          "value": "1.0"
+          "variable": "goals",
+          "value": "3.0"
         },
         {
-          "Unnamed: 0": 1049,
+          "Unnamed: 0": 649,
           "Team": "Rayo Vallecano",
           "Oponent": "Levante UD",
           "match_api_id": 2030537,
           "team_name": "Levante UD",
-          "variable": "card",
-          "value": "3.0"
+          "variable": "goals",
+          "value": "1.0"
         },
         {
-          "Unnamed: 0": 1050,
+          "Unnamed: 0": 650,
           "Team": "Levante UD",
           "Oponent": "Granada CF",
           "match_api_id": 2030495,
           "team_name": "Granada CF",
-          "variable": "card",
-          "value": "6.0"
+          "variable": "goals",
+          "value": "5.0"
         },
         {
-          "Unnamed: 0": 1051,
+          "Unnamed: 0": 651,
           "Team": "Levante UD",
           "Oponent": "Granada CF",
           "match_api_id": 2030495,
           "team_name": "Levante UD",
-          "variable": "card",
-          "value": "7.0"
+          "variable": "goals",
+          "value": "1.0"
         },
         {
-          "Unnamed: 0": 1052,
+          "Unnamed: 0": 652,
           "Team": "Levante UD",
           "Oponent": "Athletic Club de Bilbao",
           "match_api_id": 2030506,
           "team_name": "Levante UD",
-          "variable": "card",
+          "variable": "goals",
           "value": "2.0"
         },
         {
-          "Unnamed: 0": 1053,
+          "Unnamed: 0": 653,
           "Team": "Levante UD",
           "Oponent": "Athletic Club de Bilbao",
           "match_api_id": 2030506,
           "team_name": "Athletic Club de Bilbao",
-          "variable": "card",
-          "value": "1.0"
+          "variable": "goals",
+          "value": "2.0"
         },
         {
-          "Unnamed: 0": 1054,
+          "Unnamed: 0": 654,
           "Team": "Levante UD",
           "Oponent": "Málaga CF",
           "match_api_id": 2030516,
           "team_name": "Málaga CF",
-          "variable": "card",
-          "value": "2.0"
+          "variable": "goals",
+          "value": "3.0"
         },
         {
-          "Unnamed: 0": 1055,
+          "Unnamed: 0": 655,
           "Team": "Levante UD",
           "Oponent": "Málaga CF",
           "match_api_id": 2030516,
           "team_name": "Levante UD",
-          "variable": "card",
-          "value": "4.0"
+          "variable": "goals",
+          "value": "1.0"
         },
         {
-          "Unnamed: 0": 1056,
+          "Unnamed: 0": 656,
           "Team": "Levante UD",
           "Oponent": "Atlético Madrid",
           "match_api_id": 2030527,
           "team_name": "Levante UD",
-          "variable": "card",
-          "value": "1.0"
+          "variable": "goals",
+          "value": "2.0"
         },
         {
-          "Unnamed: 0": 1057,
+          "Unnamed: 0": 657,
           "Team": "Levante UD",
           "Oponent": "Atlético Madrid",
           "match_api_id": 2030527,
           "team_name": "Atlético Madrid",
-          "variable": "card",
+          "variable": "goals",
           "value": "1.0"
         },
         {
-          "Unnamed: 0": 1058,
+          "Unnamed: 0": 658,
           "Team": "Levante UD",
           "Oponent": "Rayo Vallecano",
           "match_api_id": 2030537,
           "team_name": "Rayo Vallecano",
-          "variable": "card",
-          "value": "1.0"
+          "variable": "goals",
+          "value": "3.0"
         },
         {
-          "Unnamed: 0": 1059,
+          "Unnamed: 0": 659,
           "Team": "Levante UD",
           "Oponent": "Rayo Vallecano",
           "match_api_id": 2030537,
           "team_name": "Levante UD",
-          "variable": "card",
-          "value": "3.0"
+          "variable": "goals",
+          "value": "1.0"
         },
         {
-          "Unnamed: 0": 1060,
+          "Unnamed: 0": 660,
           "Team": "Athletic Club de Bilbao",
           "Oponent": "Atlético Madrid",
           "match_api_id": 2030496,
           "team_name": "Athletic Club de Bilbao",
-          "variable": "card",
+          "variable": "goals",
           "value": "0.0"
         },
         {
-          "Unnamed: 0": 1061,
+          "Unnamed: 0": 661,
           "Team": "Athletic Club de Bilbao",
           "Oponent": "Atlético Madrid",
           "match_api_id": 2030496,
           "team_name": "Atlético Madrid",
-          "variable": "card",
-          "value": "0.0"
+          "variable": "goals",
+          "value": "1.0"
         },
         {
-          "Unnamed: 0": 1062,
+          "Unnamed: 0": 662,
           "Team": "Athletic Club de Bilbao",
           "Oponent": "Levante UD",
           "match_api_id": 2030506,
           "team_name": "Levante UD",
-          "variable": "card",
+          "variable": "goals",
           "value": "2.0"
         },
         {
-          "Unnamed: 0": 1063,
+          "Unnamed: 0": 663,
           "Team": "Athletic Club de Bilbao",
           "Oponent": "Levante UD",
           "match_api_id": 2030506,
           "team_name": "Athletic Club de Bilbao",
-          "variable": "card",
-          "value": "1.0"
+          "variable": "goals",
+          "value": "2.0"
         },
         {
-          "Unnamed: 0": 1064,
+          "Unnamed: 0": 664,
           "Team": "Athletic Club de Bilbao",
           "Oponent": "RC Celta de Vigo",
           "match_api_id": 2030515,
           "team_name": "Athletic Club de Bilbao",
-          "variable": "card",
-          "value": "1.0"
+          "variable": "goals",
+          "value": "2.0"
         },
         {
-          "Unnamed: 0": 1065,
+          "Unnamed: 0": 665,
           "Team": "Athletic Club de Bilbao",
           "Oponent": "RC Celta de Vigo",
           "match_api_id": 2030515,
           "team_name": "RC Celta de Vigo",
-          "variable": "card",
-          "value": "6.0"
+          "variable": "goals",
+          "value": "1.0"
         },
         {
-          "Unnamed: 0": 1066,
+          "Unnamed: 0": 666,
           "Team": "Athletic Club de Bilbao",
           "Oponent": "UD Las Palmas",
           "match_api_id": 2030525,
           "team_name": "UD Las Palmas",
-          "variable": "card",
-          "value": "1.0"
-        },
-        {
-          "Unnamed: 0": 1067,
-          "Team": "Athletic Club de Bilbao",
-          "Oponent": "UD Las Palmas",
-          "match_api_id": 2030525,
-          "team_name": "Athletic Club de Bilbao",
-          "variable": "card",
-          "value": "1.0"
-        },
-        {
-          "Unnamed: 0": 1068,
-          "Team": "Athletic Club de Bilbao",
-          "Oponent": "Sevilla FC",
-          "match_api_id": 2030534,
-          "team_name": "Athletic Club de Bilbao",
-          "variable": "card",
-          "value": "2.0"
-        },
-        {
-          "Unnamed: 0": 1069,
-          "Team": "Athletic Club de Bilbao",
-          "Oponent": "Sevilla FC",
-          "match_api_id": 2030534,
-          "team_name": "Sevilla FC",
-          "variable": "card",
-          "value": "5.0"
-        },
-        {
-          "Unnamed: 0": 1070,
-          "Team": "Real Betis Balompié",
-          "Oponent": "UD Las Palmas",
-          "match_api_id": 2030493,
-          "team_name": "Real Betis Balompié",
-          "variable": "card",
-          "value": "2.0"
-        },
-        {
-          "Unnamed: 0": 1071,
-          "Team": "Real Betis Balompié",
-          "Oponent": "UD Las Palmas",
-          "match_api_id": 2030493,
-          "team_name": "UD Las Palmas",
-          "variable": "card",
-          "value": "3.0"
-        },
-        {
-          "Unnamed: 0": 1072,
-          "Team": "Real Betis Balompié",
-          "Oponent": "Sevilla FC",
-          "match_api_id": 2030503,
-          "team_name": "Sevilla FC",
-          "variable": "card",
-          "value": "5.0"
-        },
-        {
-          "Unnamed: 0": 1073,
-          "Team": "Real Betis Balompié",
-          "Oponent": "Sevilla FC",
-          "match_api_id": 2030503,
-          "team_name": "Real Betis Balompié",
-          "variable": "card",
-          "value": "4.0"
-        },
-        {
-          "Unnamed: 0": 1074,
-          "Team": "Real Betis Balompié",
-          "Oponent": "FC Barcelona",
-          "match_api_id": 2030512,
-          "team_name": "Real Betis Balompié",
-          "variable": "card",
-          "value": "5.0"
-        },
-        {
-          "Unnamed: 0": 1075,
-          "Team": "Real Betis Balompié",
-          "Oponent": "FC Barcelona",
-          "match_api_id": 2030512,
-          "team_name": "FC Barcelona",
-          "variable": "card",
-          "value": "3.0"
-        },
-        {
-          "Unnamed: 0": 1076,
-          "Team": "Real Betis Balompié",
-          "Oponent": "SD Eibar",
-          "match_api_id": 2030522,
-          "team_name": "SD Eibar",
-          "variable": "card",
-          "value": "1.0"
-        },
-        {
-          "Unnamed: 0": 1077,
-          "Team": "Real Betis Balompié",
-          "Oponent": "SD Eibar",
-          "match_api_id": 2030522,
-          "team_name": "Real Betis Balompié",
-          "variable": "card",
-          "value": "3.0"
-        },
-        {
-          "Unnamed: 0": 1078,
-          "Team": "Real Betis Balompié",
-          "Oponent": "Getafe CF",
-          "match_api_id": 2030531,
-          "team_name": "Real Betis Balompié",
-          "variable": "card",
-          "value": "1.0"
-        },
-        {
-          "Unnamed: 0": 1079,
-          "Team": "Real Betis Balompié",
-          "Oponent": "Getafe CF",
-          "match_api_id": 2030531,
-          "team_name": "Getafe CF",
-          "variable": "card",
-          "value": "9.0"
-        },
-        {
-          "Unnamed: 0": 1080,
-          "Team": "Real Sporting de Gijón",
-          "Oponent": "Sevilla FC",
-          "match_api_id": 2030492,
-          "team_name": "Real Sporting de Gijón",
-          "variable": "card",
-          "value": "2.0"
-        },
-        {
-          "Unnamed: 0": 1081,
-          "Team": "Real Sporting de Gijón",
-          "Oponent": "Sevilla FC",
-          "match_api_id": 2030492,
-          "team_name": "Sevilla FC",
-          "variable": "card",
-          "value": "1.0"
-        },
-        {
-          "Unnamed: 0": 1082,
-          "Team": "Real Sporting de Gijón",
-          "Oponent": "FC Barcelona",
-          "match_api_id": 2030502,
-          "team_name": "FC Barcelona",
-          "variable": "card",
+          "variable": "goals",
           "value": "0.0"
         },
         {
-          "Unnamed: 0": 1083,
+          "Unnamed: 0": 667,
+          "Team": "Athletic Club de Bilbao",
+          "Oponent": "UD Las Palmas",
+          "match_api_id": 2030525,
+          "team_name": "Athletic Club de Bilbao",
+          "variable": "goals",
+          "value": "0.0"
+        },
+        {
+          "Unnamed: 0": 668,
+          "Team": "Athletic Club de Bilbao",
+          "Oponent": "Sevilla FC",
+          "match_api_id": 2030534,
+          "team_name": "Athletic Club de Bilbao",
+          "variable": "goals",
+          "value": "3.0"
+        },
+        {
+          "Unnamed: 0": 669,
+          "Team": "Athletic Club de Bilbao",
+          "Oponent": "Sevilla FC",
+          "match_api_id": 2030534,
+          "team_name": "Sevilla FC",
+          "variable": "goals",
+          "value": "1.0"
+        },
+        {
+          "Unnamed: 0": 670,
+          "Team": "Real Betis Balompié",
+          "Oponent": "UD Las Palmas",
+          "match_api_id": 2030493,
+          "team_name": "Real Betis Balompié",
+          "variable": "goals",
+          "value": "1.0"
+        },
+        {
+          "Unnamed: 0": 671,
+          "Team": "Real Betis Balompié",
+          "Oponent": "UD Las Palmas",
+          "match_api_id": 2030493,
+          "team_name": "UD Las Palmas",
+          "variable": "goals",
+          "value": "0.0"
+        },
+        {
+          "Unnamed: 0": 672,
+          "Team": "Real Betis Balompié",
+          "Oponent": "Sevilla FC",
+          "match_api_id": 2030503,
+          "team_name": "Sevilla FC",
+          "variable": "goals",
+          "value": "2.0"
+        },
+        {
+          "Unnamed: 0": 673,
+          "Team": "Real Betis Balompié",
+          "Oponent": "Sevilla FC",
+          "match_api_id": 2030503,
+          "team_name": "Real Betis Balompié",
+          "variable": "goals",
+          "value": "0.0"
+        },
+        {
+          "Unnamed: 0": 674,
+          "Team": "Real Betis Balompié",
+          "Oponent": "FC Barcelona",
+          "match_api_id": 2030512,
+          "team_name": "Real Betis Balompié",
+          "variable": "goals",
+          "value": "0.0"
+        },
+        {
+          "Unnamed: 0": 675,
+          "Team": "Real Betis Balompié",
+          "Oponent": "FC Barcelona",
+          "match_api_id": 2030512,
+          "team_name": "FC Barcelona",
+          "variable": "goals",
+          "value": "2.0"
+        },
+        {
+          "Unnamed: 0": 676,
+          "Team": "Real Betis Balompié",
+          "Oponent": "SD Eibar",
+          "match_api_id": 2030522,
+          "team_name": "SD Eibar",
+          "variable": "goals",
+          "value": "1.0"
+        },
+        {
+          "Unnamed: 0": 677,
+          "Team": "Real Betis Balompié",
+          "Oponent": "SD Eibar",
+          "match_api_id": 2030522,
+          "team_name": "Real Betis Balompié",
+          "variable": "goals",
+          "value": "1.0"
+        },
+        {
+          "Unnamed: 0": 678,
+          "Team": "Real Betis Balompié",
+          "Oponent": "Getafe CF",
+          "match_api_id": 2030531,
+          "team_name": "Real Betis Balompié",
+          "variable": "goals",
+          "value": "2.0"
+        },
+        {
+          "Unnamed: 0": 679,
+          "Team": "Real Betis Balompié",
+          "Oponent": "Getafe CF",
+          "match_api_id": 2030531,
+          "team_name": "Getafe CF",
+          "variable": "goals",
+          "value": "1.0"
+        },
+        {
+          "Unnamed: 0": 680,
+          "Team": "Real Sporting de Gijón",
+          "Oponent": "Sevilla FC",
+          "match_api_id": 2030492,
+          "team_name": "Real Sporting de Gijón",
+          "variable": "goals",
+          "value": "2.0"
+        },
+        {
+          "Unnamed: 0": 681,
+          "Team": "Real Sporting de Gijón",
+          "Oponent": "Sevilla FC",
+          "match_api_id": 2030492,
+          "team_name": "Sevilla FC",
+          "variable": "goals",
+          "value": "1.0"
+        },
+        {
+          "Unnamed: 0": 682,
+          "Team": "Real Sporting de Gijón",
+          "Oponent": "FC Barcelona",
+          "match_api_id": 2030502,
+          "team_name": "FC Barcelona",
+          "variable": "goals",
+          "value": "6.0"
+        },
+        {
+          "Unnamed: 0": 683,
           "Team": "Real Sporting de Gijón",
           "Oponent": "FC Barcelona",
           "match_api_id": 2030502,
           "team_name": "Real Sporting de Gijón",
-          "variable": "card",
-          "value": "4.0"
+          "variable": "goals",
+          "value": "0.0"
         },
         {
-          "Unnamed: 0": 1084,
+          "Unnamed: 0": 684,
           "Team": "Real Sporting de Gijón",
           "Oponent": "SD Eibar",
           "match_api_id": 2030511,
           "team_name": "Real Sporting de Gijón",
-          "variable": "card",
+          "variable": "goals",
           "value": "2.0"
         },
         {
-          "Unnamed: 0": 1085,
+          "Unnamed: 0": 685,
           "Team": "Real Sporting de Gijón",
           "Oponent": "SD Eibar",
           "match_api_id": 2030511,
           "team_name": "SD Eibar",
-          "variable": "card",
-          "value": "2.0"
+          "variable": "goals",
+          "value": "0.0"
         },
         {
-          "Unnamed: 0": 1086,
+          "Unnamed: 0": 686,
           "Team": "Real Sporting de Gijón",
           "Oponent": "Getafe CF",
           "match_api_id": 2030521,
           "team_name": "Getafe CF",
-          "variable": "card",
-          "value": "3.0"
+          "variable": "goals",
+          "value": "1.0"
         },
         {
-          "Unnamed: 0": 1087,
+          "Unnamed: 0": 687,
           "Team": "Real Sporting de Gijón",
           "Oponent": "Getafe CF",
           "match_api_id": 2030521,
           "team_name": "Real Sporting de Gijón",
-          "variable": "card",
-          "value": "3.0"
+          "variable": "goals",
+          "value": "1.0"
         },
         {
-          "Unnamed: 0": 1088,
+          "Unnamed: 0": 688,
           "Team": "Real Sporting de Gijón",
           "Oponent": "Villarreal CF",
           "match_api_id": 2030530,
           "team_name": "Real Sporting de Gijón",
-          "variable": "card",
-          "value": "1.0"
+          "variable": "goals",
+          "value": "2.0"
         },
         {
-          "Unnamed: 0": 1089,
+          "Unnamed: 0": 689,
           "Team": "Real Sporting de Gijón",
           "Oponent": "Villarreal CF",
           "match_api_id": 2030530,
           "team_name": "Villarreal CF",
-          "variable": "card",
-          "value": "2.0"
+          "variable": "goals",
+          "value": "0.0"
         },
         {
-          "Unnamed: 0": 1090,
+          "Unnamed: 0": 690,
           "Team": "Granada CF",
           "Oponent": "Levante UD",
           "match_api_id": 2030495,
           "team_name": "Granada CF",
-          "variable": "card",
-          "value": "6.0"
+          "variable": "goals",
+          "value": "5.0"
         },
         {
-          "Unnamed: 0": 1091,
+          "Unnamed: 0": 691,
           "Team": "Granada CF",
           "Oponent": "Levante UD",
           "match_api_id": 2030495,
           "team_name": "Levante UD",
-          "variable": "card",
-          "value": "7.0"
+          "variable": "goals",
+          "value": "1.0"
         },
         {
-          "Unnamed: 0": 1092,
+          "Unnamed: 0": 692,
           "Team": "Granada CF",
           "Oponent": "RC Celta de Vigo",
           "match_api_id": 2030505,
           "team_name": "RC Celta de Vigo",
-          "variable": "card",
+          "variable": "goals",
           "value": "2.0"
         },
         {
-          "Unnamed: 0": 1093,
+          "Unnamed: 0": 693,
           "Team": "Granada CF",
           "Oponent": "RC Celta de Vigo",
           "match_api_id": 2030505,
           "team_name": "Granada CF",
-          "variable": "card",
-          "value": "3.0"
+          "variable": "goals",
+          "value": "1.0"
         },
         {
-          "Unnamed: 0": 1094,
+          "Unnamed: 0": 694,
           "Team": "Granada CF",
           "Oponent": "UD Las Palmas",
           "match_api_id": 2030514,
           "team_name": "Granada CF",
-          "variable": "card",
+          "variable": "goals",
           "value": "3.0"
         },
         {
-          "Unnamed: 0": 1095,
+          "Unnamed: 0": 695,
           "Team": "Granada CF",
           "Oponent": "UD Las Palmas",
           "match_api_id": 2030514,
           "team_name": "UD Las Palmas",
-          "variable": "card",
+          "variable": "goals",
           "value": "2.0"
         },
         {
-          "Unnamed: 0": 1096,
+          "Unnamed: 0": 696,
           "Team": "Granada CF",
           "Oponent": "Sevilla FC",
           "match_api_id": 2030524,
           "team_name": "Sevilla FC",
-          "variable": "card",
-          "value": "4.0"
+          "variable": "goals",
+          "value": "1.0"
         },
         {
-          "Unnamed: 0": 1097,
+          "Unnamed: 0": 697,
           "Team": "Granada CF",
           "Oponent": "Sevilla FC",
           "match_api_id": 2030524,
           "team_name": "Granada CF",
-          "variable": "card",
-          "value": "1.0"
+          "variable": "goals",
+          "value": "4.0"
         },
         {
-          "Unnamed: 0": 1098,
+          "Unnamed: 0": 698,
           "Team": "Granada CF",
           "Oponent": "FC Barcelona",
           "match_api_id": 2030533,
           "team_name": "Granada CF",
-          "variable": "card",
-          "value": "5.0"
+          "variable": "goals",
+          "value": "0.0"
         },
         {
-          "Unnamed: 0": 1099,
+          "Unnamed: 0": 699,
           "Team": "Granada CF",
           "Oponent": "FC Barcelona",
           "match_api_id": 2030533,
           "team_name": "FC Barcelona",
-          "variable": "card",
-          "value": "2.0"
+          "variable": "goals",
+          "value": "3.0"
         },
         {
-          "Unnamed: 0": 1100,
+          "Unnamed: 0": 700,
           "Team": "Villarreal CF",
           "Oponent": "Real Madrid CF",
           "match_api_id": 2030488,
           "team_name": "Real Madrid CF",
-          "variable": "card",
-          "value": "2.0"
+          "variable": "goals",
+          "value": "3.0"
         },
         {
-          "Unnamed: 0": 1101,
+          "Unnamed: 0": 701,
           "Team": "Villarreal CF",
           "Oponent": "Real Madrid CF",
           "match_api_id": 2030488,
           "team_name": "Villarreal CF",
-          "variable": "card",
-          "value": "1.0"
+          "variable": "goals",
+          "value": "0.0"
         },
         {
-          "Unnamed: 0": 1102,
+          "Unnamed: 0": 702,
           "Team": "Villarreal CF",
           "Oponent": "Real Sociedad",
           "match_api_id": 2030499,
           "team_name": "Villarreal CF",
-          "variable": "card",
-          "value": "4.0"
+          "variable": "goals",
+          "value": "0.0"
         },
         {
-          "Unnamed: 0": 1103,
+          "Unnamed: 0": 703,
           "Team": "Villarreal CF",
           "Oponent": "Real Sociedad",
           "match_api_id": 2030499,
           "team_name": "Real Sociedad",
-          "variable": "card",
-          "value": "1.0"
+          "variable": "goals",
+          "value": "0.0"
         },
         {
-          "Unnamed: 0": 1104,
+          "Unnamed: 0": 704,
           "Team": "Villarreal CF",
           "Oponent": "Valencia CF",
           "match_api_id": 2030509,
           "team_name": "Valencia CF",
-          "variable": "card",
-          "value": "1.0"
+          "variable": "goals",
+          "value": "0.0"
         },
         {
-          "Unnamed: 0": 1105,
+          "Unnamed: 0": 705,
           "Team": "Villarreal CF",
           "Oponent": "Valencia CF",
           "match_api_id": 2030509,
           "team_name": "Villarreal CF",
-          "variable": "card",
+          "variable": "goals",
           "value": "2.0"
         },
         {
-          "Unnamed: 0": 1106,
+          "Unnamed: 0": 706,
           "Team": "Villarreal CF",
           "Oponent": "RC Deportivo de La Coruña",
           "match_api_id": 2030520,
           "team_name": "Villarreal CF",
-          "variable": "card",
-          "value": "3.0"
+          "variable": "goals",
+          "value": "0.0"
         },
         {
-          "Unnamed: 0": 1107,
+          "Unnamed: 0": 707,
           "Team": "Villarreal CF",
           "Oponent": "RC Deportivo de La Coruña",
           "match_api_id": 2030520,
           "team_name": "RC Deportivo de La Coruña",
-          "variable": "card",
-          "value": "1.0"
+          "variable": "goals",
+          "value": "2.0"
         },
         {
-          "Unnamed: 0": 1108,
+          "Unnamed: 0": 708,
           "Team": "Villarreal CF",
           "Oponent": "Real Sporting de Gijón",
           "match_api_id": 2030530,
           "team_name": "Real Sporting de Gijón",
-          "variable": "card",
-          "value": "1.0"
+          "variable": "goals",
+          "value": "2.0"
         },
         {
-          "Unnamed: 0": 1109,
+          "Unnamed: 0": 709,
           "Team": "Villarreal CF",
           "Oponent": "Real Sporting de Gijón",
           "match_api_id": 2030530,
           "team_name": "Villarreal CF",
-          "variable": "card",
-          "value": "2.0"
+          "variable": "goals",
+          "value": "0.0"
         },
         {
-          "Unnamed: 0": 1110,
+          "Unnamed: 0": 710,
           "Team": "FC Barcelona",
           "Oponent": "RC Deportivo de La Coruña",
           "match_api_id": 2030491,
           "team_name": "RC Deportivo de La Coruña",
-          "variable": "card",
-          "value": "1.0"
+          "variable": "goals",
+          "value": "0.0"
         },
         {
-          "Unnamed: 0": 1111,
+          "Unnamed: 0": 711,
           "Team": "FC Barcelona",
           "Oponent": "RC Deportivo de La Coruña",
           "match_api_id": 2030491,
           "team_name": "FC Barcelona",
-          "variable": "card",
-          "value": "0.0"
+          "variable": "goals",
+          "value": "8.0"
         },
         {
-          "Unnamed: 0": 1112,
+          "Unnamed: 0": 712,
           "Team": "FC Barcelona",
           "Oponent": "Real Sporting de Gijón",
           "match_api_id": 2030502,
           "team_name": "FC Barcelona",
-          "variable": "card",
-          "value": "0.0"
+          "variable": "goals",
+          "value": "6.0"
         },
         {
-          "Unnamed: 0": 1113,
+          "Unnamed: 0": 713,
           "Team": "FC Barcelona",
           "Oponent": "Real Sporting de Gijón",
           "match_api_id": 2030502,
           "team_name": "Real Sporting de Gijón",
-          "variable": "card",
-          "value": "4.0"
+          "variable": "goals",
+          "value": "0.0"
         },
         {
-          "Unnamed: 0": 1114,
+          "Unnamed: 0": 714,
           "Team": "FC Barcelona",
           "Oponent": "Real Betis Balompié",
           "match_api_id": 2030512,
           "team_name": "Real Betis Balompié",
-          "variable": "card",
-          "value": "5.0"
+          "variable": "goals",
+          "value": "0.0"
         },
         {
-          "Unnamed: 0": 1115,
+          "Unnamed: 0": 715,
           "Team": "FC Barcelona",
           "Oponent": "Real Betis Balompié",
           "match_api_id": 2030512,
           "team_name": "FC Barcelona",
-          "variable": "card",
-          "value": "3.0"
+          "variable": "goals",
+          "value": "2.0"
         },
         {
-          "Unnamed: 0": 1116,
+          "Unnamed: 0": 716,
           "Team": "FC Barcelona",
           "Oponent": "RCD Espanyol",
           "match_api_id": 2030523,
           "team_name": "FC Barcelona",
-          "variable": "card",
-          "value": "2.0"
+          "variable": "goals",
+          "value": "5.0"
         },
         {
-          "Unnamed: 0": 1117,
+          "Unnamed: 0": 717,
           "Team": "FC Barcelona",
           "Oponent": "RCD Espanyol",
           "match_api_id": 2030523,
           "team_name": "RCD Espanyol",
-          "variable": "card",
-          "value": "7.0"
+          "variable": "goals",
+          "value": "0.0"
         },
         {
-          "Unnamed: 0": 1118,
+          "Unnamed: 0": 718,
           "Team": "FC Barcelona",
           "Oponent": "Granada CF",
           "match_api_id": 2030533,
           "team_name": "Granada CF",
-          "variable": "card",
-          "value": "5.0"
+          "variable": "goals",
+          "value": "0.0"
         },
         {
-          "Unnamed: 0": 1119,
+          "Unnamed: 0": 719,
           "Team": "FC Barcelona",
           "Oponent": "Granada CF",
           "match_api_id": 2030533,
           "team_name": "FC Barcelona",
-          "variable": "card",
-          "value": "2.0"
+          "variable": "goals",
+          "value": "3.0"
         },
         {
-          "Unnamed: 0": 1120,
+          "Unnamed: 0": 720,
           "Team": "Real Madrid CF",
           "Oponent": "Villarreal CF",
           "match_api_id": 2030488,
           "team_name": "Real Madrid CF",
-          "variable": "card",
-          "value": "2.0"
+          "variable": "goals",
+          "value": "3.0"
         },
         {
-          "Unnamed: 0": 1121,
+          "Unnamed: 0": 721,
           "Team": "Real Madrid CF",
           "Oponent": "Villarreal CF",
           "match_api_id": 2030488,
           "team_name": "Villarreal CF",
-          "variable": "card",
-          "value": "1.0"
+          "variable": "goals",
+          "value": "0.0"
         },
         {
-          "Unnamed: 0": 1122,
+          "Unnamed: 0": 722,
           "Team": "Real Madrid CF",
           "Oponent": "Rayo Vallecano",
           "match_api_id": 2030498,
           "team_name": "Rayo Vallecano",
-          "variable": "card",
-          "value": "6.0"
+          "variable": "goals",
+          "value": "2.0"
         },
         {
-          "Unnamed: 0": 1123,
+          "Unnamed: 0": 723,
           "Team": "Real Madrid CF",
           "Oponent": "Rayo Vallecano",
           "match_api_id": 2030498,
           "team_name": "Real Madrid CF",
-          "variable": "card",
-          "value": "1.0"
+          "variable": "goals",
+          "value": "3.0"
         },
         {
-          "Unnamed: 0": 1124,
+          "Unnamed: 0": 724,
           "Team": "Real Madrid CF",
           "Oponent": "Real Sociedad",
           "match_api_id": 2030508,
           "team_name": "Real Sociedad",
-          "variable": "card",
-          "value": "4.0"
+          "variable": "goals",
+          "value": "0.0"
         },
         {
-          "Unnamed: 0": 1125,
+          "Unnamed: 0": 725,
           "Team": "Real Madrid CF",
           "Oponent": "Real Sociedad",
           "match_api_id": 2030508,
           "team_name": "Real Madrid CF",
-          "variable": "card",
-          "value": "4.0"
+          "variable": "goals",
+          "value": "1.0"
         },
         {
-          "Unnamed: 0": 1126,
+          "Unnamed: 0": 726,
           "Team": "Real Madrid CF",
           "Oponent": "Valencia CF",
           "match_api_id": 2030519,
           "team_name": "Real Madrid CF",
-          "variable": "card",
-          "value": "1.0"
+          "variable": "goals",
+          "value": "3.0"
         },
         {
-          "Unnamed: 0": 1127,
+          "Unnamed: 0": 727,
           "Team": "Real Madrid CF",
           "Oponent": "Valencia CF",
           "match_api_id": 2030519,
           "team_name": "Valencia CF",
-          "variable": "card",
-          "value": "5.0"
+          "variable": "goals",
+          "value": "2.0"
         },
         {
-          "Unnamed: 0": 1128,
+          "Unnamed: 0": 728,
           "Team": "Real Madrid CF",
           "Oponent": "RC Deportivo de La Coruña",
           "match_api_id": 2030529,
           "team_name": "RC Deportivo de La Coruña",
-          "variable": "card",
-          "value": "1.0"
+          "variable": "goals",
+          "value": "0.0"
         },
         {
-          "Unnamed: 0": 1129,
+          "Unnamed: 0": 729,
           "Team": "Real Madrid CF",
           "Oponent": "RC Deportivo de La Coruña",
           "match_api_id": 2030529,
           "team_name": "Real Madrid CF",
-          "variable": "card",
-          "value": "3.0"
+          "variable": "goals",
+          "value": "2.0"
         },
         {
-          "Unnamed: 0": 1130,
+          "Unnamed: 0": 730,
           "Team": "Real Sociedad",
           "Oponent": "Getafe CF",
           "match_api_id": 2030489,
           "team_name": "Real Sociedad",
-          "variable": "card",
-          "value": "2.0"
+          "variable": "goals",
+          "value": "1.0"
         },
         {
-          "Unnamed: 0": 1131,
+          "Unnamed: 0": 731,
           "Team": "Real Sociedad",
           "Oponent": "Getafe CF",
           "match_api_id": 2030489,
           "team_name": "Getafe CF",
-          "variable": "card",
-          "value": "4.0"
+          "variable": "goals",
+          "value": "2.0"
         },
         {
-          "Unnamed: 0": 1132,
+          "Unnamed: 0": 732,
           "Team": "Real Sociedad",
           "Oponent": "Villarreal CF",
           "match_api_id": 2030499,
           "team_name": "Villarreal CF",
-          "variable": "card",
-          "value": "4.0"
+          "variable": "goals",
+          "value": "0.0"
         },
         {
-          "Unnamed: 0": 1133,
+          "Unnamed: 0": 733,
           "Team": "Real Sociedad",
           "Oponent": "Villarreal CF",
           "match_api_id": 2030499,
           "team_name": "Real Sociedad",
-          "variable": "card",
-          "value": "1.0"
+          "variable": "goals",
+          "value": "0.0"
         },
         {
-          "Unnamed: 0": 1134,
+          "Unnamed: 0": 734,
           "Team": "Real Sociedad",
           "Oponent": "Real Madrid CF",
           "match_api_id": 2030508,
           "team_name": "Real Sociedad",
-          "variable": "card",
-          "value": "4.0"
+          "variable": "goals",
+          "value": "0.0"
         },
         {
-          "Unnamed: 0": 1135,
+          "Unnamed: 0": 735,
           "Team": "Real Sociedad",
           "Oponent": "Real Madrid CF",
           "match_api_id": 2030508,
           "team_name": "Real Madrid CF",
-          "variable": "card",
-          "value": "4.0"
+          "variable": "goals",
+          "value": "1.0"
         },
         {
-          "Unnamed: 0": 1136,
+          "Unnamed: 0": 736,
           "Team": "Real Sociedad",
           "Oponent": "Rayo Vallecano",
           "match_api_id": 2030518,
           "team_name": "Real Sociedad",
-          "variable": "card",
-          "value": "3.0"
+          "variable": "goals",
+          "value": "2.0"
         },
         {
-          "Unnamed: 0": 1137,
+          "Unnamed: 0": 737,
           "Team": "Real Sociedad",
           "Oponent": "Rayo Vallecano",
           "match_api_id": 2030518,
           "team_name": "Rayo Vallecano",
-          "variable": "card",
+          "variable": "goals",
           "value": "1.0"
         },
         {
-          "Unnamed: 0": 1138,
+          "Unnamed: 0": 738,
           "Team": "Real Sociedad",
           "Oponent": "Valencia CF",
           "match_api_id": 2030528,
           "team_name": "Valencia CF",
-          "variable": "card",
-          "value": "2.0"
+          "variable": "goals",
+          "value": "0.0"
         },
         {
-          "Unnamed: 0": 1139,
+          "Unnamed: 0": 739,
           "Team": "Real Sociedad",
           "Oponent": "Valencia CF",
           "match_api_id": 2030528,
           "team_name": "Real Sociedad",
-          "variable": "card",
-          "value": "2.0"
+          "variable": "goals",
+          "value": "1.0"
         },
         {
-          "Unnamed: 0": 1140,
+          "Unnamed: 0": 740,
           "Team": "RC Celta de Vigo",
           "Oponent": "RCD Espanyol",
           "match_api_id": 2030494,
           "team_name": "RCD Espanyol",
-          "variable": "card",
+          "variable": "goals",
           "value": "1.0"
         },
         {
-          "Unnamed: 0": 1141,
+          "Unnamed: 0": 741,
           "Team": "RC Celta de Vigo",
           "Oponent": "RCD Espanyol",
           "match_api_id": 2030494,
           "team_name": "RC Celta de Vigo",
-          "variable": "card",
+          "variable": "goals",
           "value": "1.0"
         },
         {
-          "Unnamed: 0": 1142,
+          "Unnamed: 0": 742,
           "Team": "RC Celta de Vigo",
           "Oponent": "Granada CF",
           "match_api_id": 2030505,
           "team_name": "RC Celta de Vigo",
-          "variable": "card",
+          "variable": "goals",
           "value": "2.0"
         },
         {
-          "Unnamed: 0": 1143,
+          "Unnamed: 0": 743,
           "Team": "RC Celta de Vigo",
           "Oponent": "Granada CF",
           "match_api_id": 2030505,
           "team_name": "Granada CF",
-          "variable": "card",
-          "value": "3.0"
+          "variable": "goals",
+          "value": "1.0"
         },
         {
-          "Unnamed: 0": 1144,
+          "Unnamed: 0": 744,
           "Team": "RC Celta de Vigo",
           "Oponent": "Athletic Club de Bilbao",
           "match_api_id": 2030515,
           "team_name": "Athletic Club de Bilbao",
-          "variable": "card",
-          "value": "1.0"
+          "variable": "goals",
+          "value": "2.0"
         },
         {
-          "Unnamed: 0": 1145,
+          "Unnamed: 0": 745,
           "Team": "RC Celta de Vigo",
           "Oponent": "Athletic Club de Bilbao",
           "match_api_id": 2030515,
           "team_name": "RC Celta de Vigo",
-          "variable": "card",
-          "value": "6.0"
+          "variable": "goals",
+          "value": "1.0"
         },
         {
-          "Unnamed: 0": 1146,
+          "Unnamed: 0": 746,
           "Team": "RC Celta de Vigo",
           "Oponent": "Málaga CF",
           "match_api_id": 2030526,
           "team_name": "RC Celta de Vigo",
-          "variable": "card",
-          "value": "0.0"
+          "variable": "goals",
+          "value": "1.0"
         },
         {
-          "Unnamed: 0": 1147,
+          "Unnamed: 0": 747,
           "Team": "RC Celta de Vigo",
           "Oponent": "Málaga CF",
           "match_api_id": 2030526,
           "team_name": "Málaga CF",
-          "variable": "card",
-          "value": "2.0"
+          "variable": "goals",
+          "value": "0.0"
         },
         {
-          "Unnamed: 0": 1148,
+          "Unnamed: 0": 748,
           "Team": "RC Celta de Vigo",
           "Oponent": "Atlético Madrid",
           "match_api_id": 2030536,
           "team_name": "Atlético Madrid",
-          "variable": "card",
-          "value": "4.0"
+          "variable": "goals",
+          "value": "2.0"
         },
         {
-          "Unnamed: 0": 1149,
+          "Unnamed: 0": 749,
           "Team": "RC Celta de Vigo",
           "Oponent": "Atlético Madrid",
           "match_api_id": 2030536,
           "team_name": "RC Celta de Vigo",
-          "variable": "card",
-          "value": "5.0"
+          "variable": "goals",
+          "value": "0.0"
         },
         {
-          "Unnamed: 0": 1150,
+          "Unnamed: 0": 750,
           "Team": "Sevilla FC",
           "Oponent": "Real Sporting de Gijón",
           "match_api_id": 2030492,
           "team_name": "Real Sporting de Gijón",
-          "variable": "card",
+          "variable": "goals",
           "value": "2.0"
         },
         {
-          "Unnamed: 0": 1151,
+          "Unnamed: 0": 751,
           "Team": "Sevilla FC",
           "Oponent": "Real Sporting de Gijón",
           "match_api_id": 2030492,
           "team_name": "Sevilla FC",
-          "variable": "card",
+          "variable": "goals",
           "value": "1.0"
         },
         {
-          "Unnamed: 0": 1152,
+          "Unnamed: 0": 752,
           "Team": "Sevilla FC",
           "Oponent": "Real Betis Balompié",
           "match_api_id": 2030503,
           "team_name": "Sevilla FC",
-          "variable": "card",
-          "value": "5.0"
+          "variable": "goals",
+          "value": "2.0"
         },
         {
-          "Unnamed: 0": 1153,
+          "Unnamed: 0": 753,
           "Team": "Sevilla FC",
           "Oponent": "Real Betis Balompié",
           "match_api_id": 2030503,
           "team_name": "Real Betis Balompié",
-          "variable": "card",
-          "value": "4.0"
+          "variable": "goals",
+          "value": "0.0"
         },
         {
-          "Unnamed: 0": 1154,
+          "Unnamed: 0": 754,
           "Team": "Sevilla FC",
           "Oponent": "RCD Espanyol",
           "match_api_id": 2030513,
           "team_name": "RCD Espanyol",
-          "variable": "card",
-          "value": "3.0"
+          "variable": "goals",
+          "value": "1.0"
         },
         {
-          "Unnamed: 0": 1155,
+          "Unnamed: 0": 755,
           "Team": "Sevilla FC",
           "Oponent": "RCD Espanyol",
           "match_api_id": 2030513,
           "team_name": "Sevilla FC",
-          "variable": "card",
-          "value": "3.0"
+          "variable": "goals",
+          "value": "0.0"
         },
         {
-          "Unnamed: 0": 1156,
+          "Unnamed: 0": 756,
           "Team": "Sevilla FC",
           "Oponent": "Granada CF",
           "match_api_id": 2030524,
           "team_name": "Sevilla FC",
-          "variable": "card",
-          "value": "4.0"
+          "variable": "goals",
+          "value": "1.0"
         },
         {
-          "Unnamed: 0": 1157,
+          "Unnamed: 0": 757,
           "Team": "Sevilla FC",
           "Oponent": "Granada CF",
           "match_api_id": 2030524,
           "team_name": "Granada CF",
-          "variable": "card",
-          "value": "1.0"
+          "variable": "goals",
+          "value": "4.0"
         },
         {
-          "Unnamed: 0": 1158,
+          "Unnamed: 0": 758,
           "Team": "Sevilla FC",
           "Oponent": "Athletic Club de Bilbao",
           "match_api_id": 2030534,
           "team_name": "Athletic Club de Bilbao",
-          "variable": "card",
-          "value": "2.0"
+          "variable": "goals",
+          "value": "3.0"
         },
         {
-          "Unnamed: 0": 1159,
+          "Unnamed: 0": 759,
           "Team": "Sevilla FC",
           "Oponent": "Athletic Club de Bilbao",
           "match_api_id": 2030534,
           "team_name": "Sevilla FC",
-          "variable": "card",
-          "value": "5.0"
+          "variable": "goals",
+          "value": "1.0"
         },
         {
-          "Unnamed: 0": 1160,
+          "Unnamed: 0": 760,
           "Team": "SD Eibar",
           "Oponent": "Valencia CF",
           "match_api_id": 2030490,
           "team_name": "Valencia CF",
-          "variable": "card",
-          "value": "1.0"
+          "variable": "goals",
+          "value": "4.0"
         },
         {
-          "Unnamed: 0": 1161,
+          "Unnamed: 0": 761,
           "Team": "SD Eibar",
           "Oponent": "Valencia CF",
           "match_api_id": 2030490,
           "team_name": "SD Eibar",
-          "variable": "card",
-          "value": "2.0"
+          "variable": "goals",
+          "value": "0.0"
         },
         {
-          "Unnamed: 0": 1162,
+          "Unnamed: 0": 762,
           "Team": "SD Eibar",
           "Oponent": "RC Deportivo de La Coruña",
           "match_api_id": 2030501,
           "team_name": "SD Eibar",
-          "variable": "card",
-          "value": "0.0"
+          "variable": "goals",
+          "value": "1.0"
         },
         {
-          "Unnamed: 0": 1163,
+          "Unnamed: 0": 763,
           "Team": "SD Eibar",
           "Oponent": "RC Deportivo de La Coruña",
           "match_api_id": 2030501,
           "team_name": "RC Deportivo de La Coruña",
-          "variable": "card",
+          "variable": "goals",
           "value": "1.0"
         },
         {
-          "Unnamed: 0": 1164,
+          "Unnamed: 0": 764,
           "Team": "SD Eibar",
           "Oponent": "Real Sporting de Gijón",
           "match_api_id": 2030511,
           "team_name": "Real Sporting de Gijón",
-          "variable": "card",
+          "variable": "goals",
           "value": "2.0"
         },
         {
-          "Unnamed: 0": 1165,
+          "Unnamed: 0": 765,
           "Team": "SD Eibar",
           "Oponent": "Real Sporting de Gijón",
           "match_api_id": 2030511,
           "team_name": "SD Eibar",
-          "variable": "card",
-          "value": "2.0"
+          "variable": "goals",
+          "value": "0.0"
         },
         {
-          "Unnamed: 0": 1166,
+          "Unnamed: 0": 766,
           "Team": "SD Eibar",
           "Oponent": "Real Betis Balompié",
           "match_api_id": 2030522,
           "team_name": "SD Eibar",
-          "variable": "card",
+          "variable": "goals",
           "value": "1.0"
         },
         {
-          "Unnamed: 0": 1167,
+          "Unnamed: 0": 767,
           "Team": "SD Eibar",
           "Oponent": "Real Betis Balompié",
           "match_api_id": 2030522,
           "team_name": "Real Betis Balompié",
-          "variable": "card",
-          "value": "3.0"
+          "variable": "goals",
+          "value": "1.0"
         },
         {
-          "Unnamed: 0": 1168,
+          "Unnamed: 0": 768,
           "Team": "SD Eibar",
           "Oponent": "RCD Espanyol",
           "match_api_id": 2030532,
           "team_name": "RCD Espanyol",
-          "variable": "card",
+          "variable": "goals",
           "value": "4.0"
         },
         {
-          "Unnamed: 0": 1169,
+          "Unnamed: 0": 769,
           "Team": "SD Eibar",
           "Oponent": "RCD Espanyol",
           "match_api_id": 2030532,
           "team_name": "SD Eibar",
-          "variable": "card",
-          "value": "3.0"
+          "variable": "goals",
+          "value": "2.0"
         },
         {
-          "Unnamed: 0": 1170,
+          "Unnamed: 0": 770,
           "Team": "Getafe CF",
           "Oponent": "Real Sociedad",
           "match_api_id": 2030489,
           "team_name": "Real Sociedad",
-          "variable": "card",
-          "value": "2.0"
+          "variable": "goals",
+          "value": "1.0"
         },
         {
-          "Unnamed: 0": 1171,
+          "Unnamed: 0": 771,
           "Team": "Getafe CF",
           "Oponent": "Real Sociedad",
           "match_api_id": 2030489,
           "team_name": "Getafe CF",
-          "variable": "card",
-          "value": "4.0"
+          "variable": "goals",
+          "value": "2.0"
         },
         {
-          "Unnamed: 0": 1172,
+          "Unnamed: 0": 772,
           "Team": "Getafe CF",
           "Oponent": "Valencia CF",
           "match_api_id": 2030500,
           "team_name": "Getafe CF",
-          "variable": "card",
-          "value": "4.0"
+          "variable": "goals",
+          "value": "2.0"
         },
         {
-          "Unnamed: 0": 1173,
+          "Unnamed: 0": 773,
           "Team": "Getafe CF",
           "Oponent": "Valencia CF",
           "match_api_id": 2030500,
           "team_name": "Valencia CF",
-          "variable": "card",
-          "value": "1.0"
+          "variable": "goals",
+          "value": "2.0"
         },
         {
-          "Unnamed: 0": 1174,
+          "Unnamed: 0": 774,
           "Team": "Getafe CF",
           "Oponent": "RC Deportivo de La Coruña",
           "match_api_id": 2030510,
           "team_name": "RC Deportivo de La Coruña",
-          "variable": "card",
-          "value": "3.0"
+          "variable": "goals",
+          "value": "0.0"
         },
         {
-          "Unnamed: 0": 1175,
+          "Unnamed: 0": 775,
           "Team": "Getafe CF",
           "Oponent": "RC Deportivo de La Coruña",
           "match_api_id": 2030510,
           "team_name": "Getafe CF",
-          "variable": "card",
-          "value": "6.0"
+          "variable": "goals",
+          "value": "2.0"
         },
         {
-          "Unnamed: 0": 1176,
+          "Unnamed: 0": 776,
           "Team": "Getafe CF",
           "Oponent": "Real Sporting de Gijón",
           "match_api_id": 2030521,
           "team_name": "Getafe CF",
-          "variable": "card",
-          "value": "3.0"
+          "variable": "goals",
+          "value": "1.0"
         },
         {
-          "Unnamed: 0": 1177,
+          "Unnamed: 0": 777,
           "Team": "Getafe CF",
           "Oponent": "Real Sporting de Gijón",
           "match_api_id": 2030521,
           "team_name": "Real Sporting de Gijón",
-          "variable": "card",
-          "value": "3.0"
+          "variable": "goals",
+          "value": "1.0"
         },
         {
-          "Unnamed: 0": 1178,
+          "Unnamed: 0": 778,
           "Team": "Getafe CF",
           "Oponent": "Real Betis Balompié",
           "match_api_id": 2030531,
           "team_name": "Real Betis Balompié",
-          "variable": "card",
-          "value": "1.0"
+          "variable": "goals",
+          "value": "2.0"
         },
         {
-          "Unnamed: 0": 1179,
+          "Unnamed: 0": 779,
           "Team": "Getafe CF",
           "Oponent": "Real Betis Balompié",
           "match_api_id": 2030531,
           "team_name": "Getafe CF",
-          "variable": "card",
-          "value": "9.0"
+          "variable": "goals",
+          "value": "1.0"
         },
         {
-          "Unnamed: 0": 1180,
+          "Unnamed: 0": 780,
           "Team": "Valencia CF",
           "Oponent": "SD Eibar",
           "match_api_id": 2030490,
           "team_name": "Valencia CF",
-          "variable": "card",
-          "value": "1.0"
+          "variable": "goals",
+          "value": "4.0"
         },
         {
-          "Unnamed: 0": 1181,
+          "Unnamed: 0": 781,
           "Team": "Valencia CF",
           "Oponent": "SD Eibar",
           "match_api_id": 2030490,
           "team_name": "SD Eibar",
-          "variable": "card",
-          "value": "2.0"
+          "variable": "goals",
+          "value": "0.0"
         },
         {
-          "Unnamed: 0": 1182,
+          "Unnamed: 0": 782,
           "Team": "Valencia CF",
           "Oponent": "Getafe CF",
           "match_api_id": 2030500,
           "team_name": "Getafe CF",
-          "variable": "card",
-          "value": "4.0"
+          "variable": "goals",
+          "value": "2.0"
         },
         {
-          "Unnamed: 0": 1183,
+          "Unnamed: 0": 783,
           "Team": "Valencia CF",
           "Oponent": "Getafe CF",
           "match_api_id": 2030500,
           "team_name": "Valencia CF",
-          "variable": "card",
-          "value": "1.0"
+          "variable": "goals",
+          "value": "2.0"
         },
         {
-          "Unnamed: 0": 1184,
+          "Unnamed: 0": 784,
           "Team": "Valencia CF",
           "Oponent": "Villarreal CF",
           "match_api_id": 2030509,
           "team_name": "Valencia CF",
-          "variable": "card",
-          "value": "1.0"
+          "variable": "goals",
+          "value": "0.0"
         },
         {
-          "Unnamed: 0": 1185,
+          "Unnamed: 0": 785,
           "Team": "Valencia CF",
           "Oponent": "Villarreal CF",
           "match_api_id": 2030509,
           "team_name": "Villarreal CF",
-          "variable": "card",
+          "variable": "goals",
           "value": "2.0"
         },
         {
-          "Unnamed: 0": 1186,
+          "Unnamed: 0": 786,
           "Team": "Valencia CF",
           "Oponent": "Real Madrid CF",
           "match_api_id": 2030519,
           "team_name": "Real Madrid CF",
-          "variable": "card",
-          "value": "1.0"
+          "variable": "goals",
+          "value": "3.0"
         },
         {
-          "Unnamed: 0": 1187,
+          "Unnamed: 0": 787,
           "Team": "Valencia CF",
           "Oponent": "Real Madrid CF",
           "match_api_id": 2030519,
           "team_name": "Valencia CF",
-          "variable": "card",
-          "value": "5.0"
+          "variable": "goals",
+          "value": "2.0"
         },
         {
-          "Unnamed: 0": 1188,
+          "Unnamed: 0": 788,
           "Team": "Valencia CF",
           "Oponent": "Real Sociedad",
           "match_api_id": 2030528,
           "team_name": "Valencia CF",
-          "variable": "card",
-          "value": "2.0"
+          "variable": "goals",
+          "value": "0.0"
         },
         {
-          "Unnamed: 0": 1189,
+          "Unnamed: 0": 789,
           "Team": "Valencia CF",
           "Oponent": "Real Sociedad",
           "match_api_id": 2030528,
           "team_name": "Real Sociedad",
-          "variable": "card",
-          "value": "2.0"
+          "variable": "goals",
+          "value": "1.0"
         },
         {
-          "Unnamed: 0": 1190,
+          "Unnamed: 0": 790,
           "Team": "UD Las Palmas",
           "Oponent": "Real Betis Balompié",
           "match_api_id": 2030493,
           "team_name": "Real Betis Balompié",
-          "variable": "card",
-          "value": "2.0"
+          "variable": "goals",
+          "value": "1.0"
         },
         {
-          "Unnamed: 0": 1191,
+          "Unnamed: 0": 791,
           "Team": "UD Las Palmas",
           "Oponent": "Real Betis Balompié",
           "match_api_id": 2030493,
           "team_name": "UD Las Palmas",
-          "variable": "card",
-          "value": "3.0"
+          "variable": "goals",
+          "value": "0.0"
         },
         {
-          "Unnamed: 0": 1192,
+          "Unnamed: 0": 792,
           "Team": "UD Las Palmas",
           "Oponent": "RCD Espanyol",
           "match_api_id": 2030504,
           "team_name": "UD Las Palmas",
-          "variable": "card",
+          "variable": "goals",
           "value": "4.0"
         },
         {
-          "Unnamed: 0": 1193,
+          "Unnamed: 0": 793,
           "Team": "UD Las Palmas",
           "Oponent": "RCD Espanyol",
           "match_api_id": 2030504,
           "team_name": "RCD Espanyol",
-          "variable": "card",
-          "value": "4.0"
+          "variable": "goals",
+          "value": "0.0"
         },
         {
-          "Unnamed: 0": 1194,
+          "Unnamed: 0": 794,
           "Team": "UD Las Palmas",
           "Oponent": "Granada CF",
           "match_api_id": 2030514,
           "team_name": "Granada CF",
-          "variable": "card",
+          "variable": "goals",
           "value": "3.0"
         },
         {
-          "Unnamed: 0": 1195,
+          "Unnamed: 0": 795,
           "Team": "UD Las Palmas",
           "Oponent": "Granada CF",
           "match_api_id": 2030514,
           "team_name": "UD Las Palmas",
-          "variable": "card",
+          "variable": "goals",
           "value": "2.0"
         },
         {
-          "Unnamed: 0": 1196,
+          "Unnamed: 0": 796,
           "Team": "UD Las Palmas",
           "Oponent": "Athletic Club de Bilbao",
           "match_api_id": 2030525,
           "team_name": "UD Las Palmas",
-          "variable": "card",
-          "value": "1.0"
+          "variable": "goals",
+          "value": "0.0"
         },
         {
-          "Unnamed: 0": 1197,
+          "Unnamed: 0": 797,
           "Team": "UD Las Palmas",
           "Oponent": "Athletic Club de Bilbao",
           "match_api_id": 2030525,
           "team_name": "Athletic Club de Bilbao",
-          "variable": "card",
-          "value": "1.0"
+          "variable": "goals",
+          "value": "0.0"
         },
         {
-          "Unnamed: 0": 1198,
+          "Unnamed: 0": 798,
           "Team": "UD Las Palmas",
           "Oponent": "Málaga CF",
           "match_api_id": 2030535,
           "team_name": "Málaga CF",
-          "variable": "card",
-          "value": "1.0"
+          "variable": "goals",
+          "value": "4.0"
         },
         {
-          "Unnamed: 0": 1199,
+          "Unnamed: 0": 799,
           "Team": "UD Las Palmas",
           "Oponent": "Málaga CF",
           "match_api_id": 2030535,
           "team_name": "UD Las Palmas",
-          "variable": "card",
+          "variable": "goals",
           "value": "1.0"
         }
       ]
     },
     {
       "name": "data_0",
-      "source": "data-b56e530d082aa065f5141235d9475233",
+      "source": "data-3b44ec73b90870c17535d689a991726a",
       "transform": [
         {
           "type": "filter",
@@ -1836,8 +1836,13 @@
           "as": "team"
         },
         {
+          "type": "formula",
+          "expr": "datum.team_name == selector008.Team ? 1 : 0.8",
+          "as": "opacity"
+        },
+        {
           "type": "filter",
-          "expr": "isValid(datum[\"value\"]) && isFinite(+datum[\"value\"])"
+          "expr": "isValid(datum[\"opacity\"]) && isFinite(+datum[\"opacity\"]) && isValid(datum[\"value\"]) && isFinite(+datum[\"value\"])"
         }
       ]
     }
@@ -1934,7 +1939,7 @@
       "from": {"data": "data_0"},
       "encode": {
         "update": {
-          "opacity": {"value": 0.7},
+          "opacity": {"scale": "opacity", "field": "opacity"},
           "size": {"value": 60},
           "fill": {"value": "transparent"},
           "stroke": {"scale": "color", "field": "team"},
@@ -1968,6 +1973,13 @@
       "type": "ordinal",
       "domain": {"data": "data_0", "field": "team", "sort": true},
       "range": ["#1D2778", "#858796"]
+    },
+    {
+      "name": "opacity",
+      "type": "linear",
+      "domain": {"data": "data_0", "field": "opacity"},
+      "range": [0.3, 0.8],
+      "zero": false
     }
   ],
   "axes": [

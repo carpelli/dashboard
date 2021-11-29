@@ -8,7 +8,7 @@
   "style": "cell",
   "data": [
     {
-      "name": "selector008_store",
+      "name": "selector002_store",
       "values": [
         {
           "unit": "",
@@ -2134,7 +2134,7 @@
         },
         {
           "type": "filter",
-          "expr": "!(length(data(\"selector008_store\"))) || (vlSelectionTest(\"selector008_store\", datum))"
+          "expr": "!(length(data(\"selector002_store\"))) || (vlSelectionTest(\"selector002_store\", datum))"
         },
         {
           "type": "stack",
@@ -2160,7 +2160,7 @@
       ]
     },
     {
-      "name": "selector008_Team",
+      "name": "selector002_Team",
       "init": "\"FC Barcelona\"",
       "bind": {
         "input": "select",
@@ -2203,23 +2203,23 @@
       }
     },
     {
-      "name": "selector008",
-      "update": "vlSelectionResolve(\"selector008_store\", \"union\")"
+      "name": "selector002",
+      "update": "vlSelectionResolve(\"selector002_store\", \"union\")"
     },
     {
-      "name": "selector008_tuple",
-      "update": "selector008_Team !== null ? {fields: selector008_tuple_fields, values: [selector008_Team]} : null"
+      "name": "selector002_tuple",
+      "update": "selector002_Team !== null ? {fields: selector002_tuple_fields, values: [selector002_Team]} : null"
     },
     {
-      "name": "selector008_tuple_fields",
+      "name": "selector002_tuple_fields",
       "value": [{"type": "E", "field": "Team"}]
     },
     {
-      "name": "selector008_modify",
+      "name": "selector002_modify",
       "on": [
         {
-          "events": {"signal": "selector008_tuple"},
-          "update": "modify(\"selector008_store\", selector008_tuple, true)"
+          "events": {"signal": "selector002_tuple"},
+          "update": "modify(\"selector002_store\", selector002_tuple, true)"
         }
       ]
     }
@@ -2233,6 +2233,7 @@
       "from": {"data": "data_0"},
       "encode": {
         "update": {
+          "opacity": {"value": 0.8},
           "fill": {"scale": "color", "field": "variable"},
           "tooltip": {
             "signal": "{\"Team\": ''+datum[\"Team\"], \"Oponent\": ''+datum[\"Oponent\"], \"variable\": ''+datum[\"variable\"], \"odds\": format(datum[\"odds\"], \"\")}"
