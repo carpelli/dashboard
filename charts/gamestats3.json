@@ -1,0 +1,2009 @@
+{
+  "$schema": "https://vega.github.io/schema/vega/v5.json",
+  "autosize": {"type": "fit-x", "contains": "padding"},
+  "background": "white",
+  "padding": 5,
+  "height": 150,
+  "title": {"text": "foulcommit", "frame": "group"},
+  "style": "cell",
+  "data": [
+    {
+      "name": "selector008_store",
+      "values": [
+        {
+          "unit": "",
+          "fields": [{"type": "E", "field": "Team"}],
+          "values": ["FC Barcelona"]
+        }
+      ]
+    },
+    {
+      "name": "data-f74538efcc924c4b3ef73f0a153e7d1b",
+      "values": [
+        {
+          "Unnamed: 0": 1200,
+          "Team": "Málaga CF",
+          "Oponent": "Rayo Vallecano",
+          "match_api_id": 2030497,
+          "team_name": "Málaga CF",
+          "variable": "foulcommit",
+          "value": "19.0"
+        },
+        {
+          "Unnamed: 0": 1201,
+          "Team": "Málaga CF",
+          "Oponent": "Rayo Vallecano",
+          "match_api_id": 2030497,
+          "team_name": "Rayo Vallecano",
+          "variable": "foulcommit",
+          "value": "13.0"
+        },
+        {
+          "Unnamed: 0": 1202,
+          "Team": "Málaga CF",
+          "Oponent": "Atlético Madrid",
+          "match_api_id": 2030507,
+          "team_name": "Atlético Madrid",
+          "variable": "foulcommit",
+          "value": "5.0"
+        },
+        {
+          "Unnamed: 0": 1203,
+          "Team": "Málaga CF",
+          "Oponent": "Atlético Madrid",
+          "match_api_id": 2030507,
+          "team_name": "Málaga CF",
+          "variable": "foulcommit",
+          "value": "14.0"
+        },
+        {
+          "Unnamed: 0": 1204,
+          "Team": "Málaga CF",
+          "Oponent": "Levante UD",
+          "match_api_id": 2030516,
+          "team_name": "Málaga CF",
+          "variable": "foulcommit",
+          "value": "18.0"
+        },
+        {
+          "Unnamed: 0": 1205,
+          "Team": "Málaga CF",
+          "Oponent": "Levante UD",
+          "match_api_id": 2030516,
+          "team_name": "Levante UD",
+          "variable": "foulcommit",
+          "value": "10.0"
+        },
+        {
+          "Unnamed: 0": 1206,
+          "Team": "Málaga CF",
+          "Oponent": "RC Celta de Vigo",
+          "match_api_id": 2030526,
+          "team_name": "RC Celta de Vigo",
+          "variable": "foulcommit",
+          "value": "10.0"
+        },
+        {
+          "Unnamed: 0": 1207,
+          "Team": "Málaga CF",
+          "Oponent": "RC Celta de Vigo",
+          "match_api_id": 2030526,
+          "team_name": "Málaga CF",
+          "variable": "foulcommit",
+          "value": "10.0"
+        },
+        {
+          "Unnamed: 0": 1208,
+          "Team": "Málaga CF",
+          "Oponent": "UD Las Palmas",
+          "match_api_id": 2030535,
+          "team_name": "Málaga CF",
+          "variable": "foulcommit",
+          "value": "16.0"
+        },
+        {
+          "Unnamed: 0": 1209,
+          "Team": "Málaga CF",
+          "Oponent": "UD Las Palmas",
+          "match_api_id": 2030535,
+          "team_name": "UD Las Palmas",
+          "variable": "foulcommit",
+          "value": "10.0"
+        },
+        {
+          "Unnamed: 0": 1210,
+          "Team": "Atlético Madrid",
+          "Oponent": "Athletic Club de Bilbao",
+          "match_api_id": 2030496,
+          "team_name": "Athletic Club de Bilbao",
+          "variable": "foulcommit",
+          "value": "9.0"
+        },
+        {
+          "Unnamed: 0": 1211,
+          "Team": "Atlético Madrid",
+          "Oponent": "Athletic Club de Bilbao",
+          "match_api_id": 2030496,
+          "team_name": "Atlético Madrid",
+          "variable": "foulcommit",
+          "value": "6.0"
+        },
+        {
+          "Unnamed: 0": 1212,
+          "Team": "Atlético Madrid",
+          "Oponent": "Málaga CF",
+          "match_api_id": 2030507,
+          "team_name": "Atlético Madrid",
+          "variable": "foulcommit",
+          "value": "5.0"
+        },
+        {
+          "Unnamed: 0": 1213,
+          "Team": "Atlético Madrid",
+          "Oponent": "Málaga CF",
+          "match_api_id": 2030507,
+          "team_name": "Málaga CF",
+          "variable": "foulcommit",
+          "value": "14.0"
+        },
+        {
+          "Unnamed: 0": 1214,
+          "Team": "Atlético Madrid",
+          "Oponent": "Rayo Vallecano",
+          "match_api_id": 2030517,
+          "team_name": "Atlético Madrid",
+          "variable": "foulcommit",
+          "value": "14.0"
+        },
+        {
+          "Unnamed: 0": 1215,
+          "Team": "Atlético Madrid",
+          "Oponent": "Rayo Vallecano",
+          "match_api_id": 2030517,
+          "team_name": "Rayo Vallecano",
+          "variable": "foulcommit",
+          "value": "12.0"
+        },
+        {
+          "Unnamed: 0": 1216,
+          "Team": "Atlético Madrid",
+          "Oponent": "Levante UD",
+          "match_api_id": 2030527,
+          "team_name": "Levante UD",
+          "variable": "foulcommit",
+          "value": "8.0"
+        },
+        {
+          "Unnamed: 0": 1217,
+          "Team": "Atlético Madrid",
+          "Oponent": "Levante UD",
+          "match_api_id": 2030527,
+          "team_name": "Atlético Madrid",
+          "variable": "foulcommit",
+          "value": "11.0"
+        },
+        {
+          "Unnamed: 0": 1218,
+          "Team": "Atlético Madrid",
+          "Oponent": "RC Celta de Vigo",
+          "match_api_id": 2030536,
+          "team_name": "Atlético Madrid",
+          "variable": "foulcommit",
+          "value": "16.0"
+        },
+        {
+          "Unnamed: 0": 1219,
+          "Team": "Atlético Madrid",
+          "Oponent": "RC Celta de Vigo",
+          "match_api_id": 2030536,
+          "team_name": "RC Celta de Vigo",
+          "variable": "foulcommit",
+          "value": "16.0"
+        },
+        {
+          "Unnamed: 0": 1220,
+          "Team": "RCD Espanyol",
+          "Oponent": "RC Celta de Vigo",
+          "match_api_id": 2030494,
+          "team_name": "RCD Espanyol",
+          "variable": "foulcommit",
+          "value": "15.0"
+        },
+        {
+          "Unnamed: 0": 1221,
+          "Team": "RCD Espanyol",
+          "Oponent": "RC Celta de Vigo",
+          "match_api_id": 2030494,
+          "team_name": "RC Celta de Vigo",
+          "variable": "foulcommit",
+          "value": "13.0"
+        },
+        {
+          "Unnamed: 0": 1222,
+          "Team": "RCD Espanyol",
+          "Oponent": "UD Las Palmas",
+          "match_api_id": 2030504,
+          "team_name": "UD Las Palmas",
+          "variable": "foulcommit",
+          "value": "14.0"
+        },
+        {
+          "Unnamed: 0": 1223,
+          "Team": "RCD Espanyol",
+          "Oponent": "UD Las Palmas",
+          "match_api_id": 2030504,
+          "team_name": "RCD Espanyol",
+          "variable": "foulcommit",
+          "value": "10.0"
+        },
+        {
+          "Unnamed: 0": 1224,
+          "Team": "RCD Espanyol",
+          "Oponent": "Sevilla FC",
+          "match_api_id": 2030513,
+          "team_name": "RCD Espanyol",
+          "variable": "foulcommit",
+          "value": "19.0"
+        },
+        {
+          "Unnamed: 0": 1225,
+          "Team": "RCD Espanyol",
+          "Oponent": "Sevilla FC",
+          "match_api_id": 2030513,
+          "team_name": "Sevilla FC",
+          "variable": "foulcommit",
+          "value": "15.0"
+        },
+        {
+          "Unnamed: 0": 1226,
+          "Team": "RCD Espanyol",
+          "Oponent": "FC Barcelona",
+          "match_api_id": 2030523,
+          "team_name": "FC Barcelona",
+          "variable": "foulcommit",
+          "value": "13.0"
+        },
+        {
+          "Unnamed: 0": 1227,
+          "Team": "RCD Espanyol",
+          "Oponent": "FC Barcelona",
+          "match_api_id": 2030523,
+          "team_name": "RCD Espanyol",
+          "variable": "foulcommit",
+          "value": "26.0"
+        },
+        {
+          "Unnamed: 0": 1228,
+          "Team": "RCD Espanyol",
+          "Oponent": "SD Eibar",
+          "match_api_id": 2030532,
+          "team_name": "RCD Espanyol",
+          "variable": "foulcommit",
+          "value": "9.0"
+        },
+        {
+          "Unnamed: 0": 1229,
+          "Team": "RCD Espanyol",
+          "Oponent": "SD Eibar",
+          "match_api_id": 2030532,
+          "team_name": "SD Eibar",
+          "variable": "foulcommit",
+          "value": "13.0"
+        },
+        {
+          "Unnamed: 0": 1230,
+          "Team": "RC Deportivo de La Coruña",
+          "Oponent": "FC Barcelona",
+          "match_api_id": 2030491,
+          "team_name": "RC Deportivo de La Coruña",
+          "variable": "foulcommit",
+          "value": "11.0"
+        },
+        {
+          "Unnamed: 0": 1231,
+          "Team": "RC Deportivo de La Coruña",
+          "Oponent": "FC Barcelona",
+          "match_api_id": 2030491,
+          "team_name": "FC Barcelona",
+          "variable": "foulcommit",
+          "value": "8.0"
+        },
+        {
+          "Unnamed: 0": 1232,
+          "Team": "RC Deportivo de La Coruña",
+          "Oponent": "SD Eibar",
+          "match_api_id": 2030501,
+          "team_name": "SD Eibar",
+          "variable": "foulcommit",
+          "value": "14.0"
+        },
+        {
+          "Unnamed: 0": 1233,
+          "Team": "RC Deportivo de La Coruña",
+          "Oponent": "SD Eibar",
+          "match_api_id": 2030501,
+          "team_name": "RC Deportivo de La Coruña",
+          "variable": "foulcommit",
+          "value": "8.0"
+        },
+        {
+          "Unnamed: 0": 1234,
+          "Team": "RC Deportivo de La Coruña",
+          "Oponent": "Getafe CF",
+          "match_api_id": 2030510,
+          "team_name": "RC Deportivo de La Coruña",
+          "variable": "foulcommit",
+          "value": "7.0"
+        },
+        {
+          "Unnamed: 0": 1235,
+          "Team": "RC Deportivo de La Coruña",
+          "Oponent": "Getafe CF",
+          "match_api_id": 2030510,
+          "team_name": "Getafe CF",
+          "variable": "foulcommit",
+          "value": "19.0"
+        },
+        {
+          "Unnamed: 0": 1236,
+          "Team": "RC Deportivo de La Coruña",
+          "Oponent": "Villarreal CF",
+          "match_api_id": 2030520,
+          "team_name": "Villarreal CF",
+          "variable": "foulcommit",
+          "value": "13.0"
+        },
+        {
+          "Unnamed: 0": 1237,
+          "Team": "RC Deportivo de La Coruña",
+          "Oponent": "Villarreal CF",
+          "match_api_id": 2030520,
+          "team_name": "RC Deportivo de La Coruña",
+          "variable": "foulcommit",
+          "value": "4.0"
+        },
+        {
+          "Unnamed: 0": 1238,
+          "Team": "RC Deportivo de La Coruña",
+          "Oponent": "Real Madrid CF",
+          "match_api_id": 2030529,
+          "team_name": "RC Deportivo de La Coruña",
+          "variable": "foulcommit",
+          "value": "6.0"
+        },
+        {
+          "Unnamed: 0": 1239,
+          "Team": "RC Deportivo de La Coruña",
+          "Oponent": "Real Madrid CF",
+          "match_api_id": 2030529,
+          "team_name": "Real Madrid CF",
+          "variable": "foulcommit",
+          "value": "9.0"
+        },
+        {
+          "Unnamed: 0": 1240,
+          "Team": "Rayo Vallecano",
+          "Oponent": "Málaga CF",
+          "match_api_id": 2030497,
+          "team_name": "Málaga CF",
+          "variable": "foulcommit",
+          "value": "19.0"
+        },
+        {
+          "Unnamed: 0": 1241,
+          "Team": "Rayo Vallecano",
+          "Oponent": "Málaga CF",
+          "match_api_id": 2030497,
+          "team_name": "Rayo Vallecano",
+          "variable": "foulcommit",
+          "value": "13.0"
+        },
+        {
+          "Unnamed: 0": 1242,
+          "Team": "Rayo Vallecano",
+          "Oponent": "Real Madrid CF",
+          "match_api_id": 2030498,
+          "team_name": "Rayo Vallecano",
+          "variable": "foulcommit",
+          "value": "16.0"
+        },
+        {
+          "Unnamed: 0": 1243,
+          "Team": "Rayo Vallecano",
+          "Oponent": "Real Madrid CF",
+          "match_api_id": 2030498,
+          "team_name": "Real Madrid CF",
+          "variable": "foulcommit",
+          "value": "8.0"
+        },
+        {
+          "Unnamed: 0": 1244,
+          "Team": "Rayo Vallecano",
+          "Oponent": "Atlético Madrid",
+          "match_api_id": 2030517,
+          "team_name": "Atlético Madrid",
+          "variable": "foulcommit",
+          "value": "14.0"
+        },
+        {
+          "Unnamed: 0": 1245,
+          "Team": "Rayo Vallecano",
+          "Oponent": "Atlético Madrid",
+          "match_api_id": 2030517,
+          "team_name": "Rayo Vallecano",
+          "variable": "foulcommit",
+          "value": "12.0"
+        },
+        {
+          "Unnamed: 0": 1246,
+          "Team": "Rayo Vallecano",
+          "Oponent": "Real Sociedad",
+          "match_api_id": 2030518,
+          "team_name": "Real Sociedad",
+          "variable": "foulcommit",
+          "value": "7.0"
+        },
+        {
+          "Unnamed: 0": 1247,
+          "Team": "Rayo Vallecano",
+          "Oponent": "Real Sociedad",
+          "match_api_id": 2030518,
+          "team_name": "Rayo Vallecano",
+          "variable": "foulcommit",
+          "value": "12.0"
+        },
+        {
+          "Unnamed: 0": 1248,
+          "Team": "Rayo Vallecano",
+          "Oponent": "Levante UD",
+          "match_api_id": 2030537,
+          "team_name": "Rayo Vallecano",
+          "variable": "foulcommit",
+          "value": "12.0"
+        },
+        {
+          "Unnamed: 0": 1249,
+          "Team": "Rayo Vallecano",
+          "Oponent": "Levante UD",
+          "match_api_id": 2030537,
+          "team_name": "Levante UD",
+          "variable": "foulcommit",
+          "value": "9.0"
+        },
+        {
+          "Unnamed: 0": 1250,
+          "Team": "Levante UD",
+          "Oponent": "Granada CF",
+          "match_api_id": 2030495,
+          "team_name": "Granada CF",
+          "variable": "foulcommit",
+          "value": "15.0"
+        },
+        {
+          "Unnamed: 0": 1251,
+          "Team": "Levante UD",
+          "Oponent": "Granada CF",
+          "match_api_id": 2030495,
+          "team_name": "Levante UD",
+          "variable": "foulcommit",
+          "value": "11.0"
+        },
+        {
+          "Unnamed: 0": 1252,
+          "Team": "Levante UD",
+          "Oponent": "Athletic Club de Bilbao",
+          "match_api_id": 2030506,
+          "team_name": "Levante UD",
+          "variable": "foulcommit",
+          "value": "13.0"
+        },
+        {
+          "Unnamed: 0": 1253,
+          "Team": "Levante UD",
+          "Oponent": "Athletic Club de Bilbao",
+          "match_api_id": 2030506,
+          "team_name": "Athletic Club de Bilbao",
+          "variable": "foulcommit",
+          "value": "8.0"
+        },
+        {
+          "Unnamed: 0": 1254,
+          "Team": "Levante UD",
+          "Oponent": "Málaga CF",
+          "match_api_id": 2030516,
+          "team_name": "Málaga CF",
+          "variable": "foulcommit",
+          "value": "18.0"
+        },
+        {
+          "Unnamed: 0": 1255,
+          "Team": "Levante UD",
+          "Oponent": "Málaga CF",
+          "match_api_id": 2030516,
+          "team_name": "Levante UD",
+          "variable": "foulcommit",
+          "value": "10.0"
+        },
+        {
+          "Unnamed: 0": 1256,
+          "Team": "Levante UD",
+          "Oponent": "Atlético Madrid",
+          "match_api_id": 2030527,
+          "team_name": "Levante UD",
+          "variable": "foulcommit",
+          "value": "8.0"
+        },
+        {
+          "Unnamed: 0": 1257,
+          "Team": "Levante UD",
+          "Oponent": "Atlético Madrid",
+          "match_api_id": 2030527,
+          "team_name": "Atlético Madrid",
+          "variable": "foulcommit",
+          "value": "11.0"
+        },
+        {
+          "Unnamed: 0": 1258,
+          "Team": "Levante UD",
+          "Oponent": "Rayo Vallecano",
+          "match_api_id": 2030537,
+          "team_name": "Rayo Vallecano",
+          "variable": "foulcommit",
+          "value": "12.0"
+        },
+        {
+          "Unnamed: 0": 1259,
+          "Team": "Levante UD",
+          "Oponent": "Rayo Vallecano",
+          "match_api_id": 2030537,
+          "team_name": "Levante UD",
+          "variable": "foulcommit",
+          "value": "9.0"
+        },
+        {
+          "Unnamed: 0": 1260,
+          "Team": "Athletic Club de Bilbao",
+          "Oponent": "Atlético Madrid",
+          "match_api_id": 2030496,
+          "team_name": "Athletic Club de Bilbao",
+          "variable": "foulcommit",
+          "value": "9.0"
+        },
+        {
+          "Unnamed: 0": 1261,
+          "Team": "Athletic Club de Bilbao",
+          "Oponent": "Atlético Madrid",
+          "match_api_id": 2030496,
+          "team_name": "Atlético Madrid",
+          "variable": "foulcommit",
+          "value": "6.0"
+        },
+        {
+          "Unnamed: 0": 1262,
+          "Team": "Athletic Club de Bilbao",
+          "Oponent": "Levante UD",
+          "match_api_id": 2030506,
+          "team_name": "Levante UD",
+          "variable": "foulcommit",
+          "value": "13.0"
+        },
+        {
+          "Unnamed: 0": 1263,
+          "Team": "Athletic Club de Bilbao",
+          "Oponent": "Levante UD",
+          "match_api_id": 2030506,
+          "team_name": "Athletic Club de Bilbao",
+          "variable": "foulcommit",
+          "value": "8.0"
+        },
+        {
+          "Unnamed: 0": 1264,
+          "Team": "Athletic Club de Bilbao",
+          "Oponent": "RC Celta de Vigo",
+          "match_api_id": 2030515,
+          "team_name": "Athletic Club de Bilbao",
+          "variable": "foulcommit",
+          "value": "12.0"
+        },
+        {
+          "Unnamed: 0": 1265,
+          "Team": "Athletic Club de Bilbao",
+          "Oponent": "RC Celta de Vigo",
+          "match_api_id": 2030515,
+          "team_name": "RC Celta de Vigo",
+          "variable": "foulcommit",
+          "value": "18.0"
+        },
+        {
+          "Unnamed: 0": 1266,
+          "Team": "Athletic Club de Bilbao",
+          "Oponent": "UD Las Palmas",
+          "match_api_id": 2030525,
+          "team_name": "UD Las Palmas",
+          "variable": "foulcommit",
+          "value": "8.0"
+        },
+        {
+          "Unnamed: 0": 1267,
+          "Team": "Athletic Club de Bilbao",
+          "Oponent": "UD Las Palmas",
+          "match_api_id": 2030525,
+          "team_name": "Athletic Club de Bilbao",
+          "variable": "foulcommit",
+          "value": "18.0"
+        },
+        {
+          "Unnamed: 0": 1268,
+          "Team": "Athletic Club de Bilbao",
+          "Oponent": "Sevilla FC",
+          "match_api_id": 2030534,
+          "team_name": "Athletic Club de Bilbao",
+          "variable": "foulcommit",
+          "value": "13.0"
+        },
+        {
+          "Unnamed: 0": 1269,
+          "Team": "Athletic Club de Bilbao",
+          "Oponent": "Sevilla FC",
+          "match_api_id": 2030534,
+          "team_name": "Sevilla FC",
+          "variable": "foulcommit",
+          "value": "11.0"
+        },
+        {
+          "Unnamed: 0": 1270,
+          "Team": "Real Betis Balompié",
+          "Oponent": "UD Las Palmas",
+          "match_api_id": 2030493,
+          "team_name": "Real Betis Balompié",
+          "variable": "foulcommit",
+          "value": "14.0"
+        },
+        {
+          "Unnamed: 0": 1271,
+          "Team": "Real Betis Balompié",
+          "Oponent": "UD Las Palmas",
+          "match_api_id": 2030493,
+          "team_name": "UD Las Palmas",
+          "variable": "foulcommit",
+          "value": "12.0"
+        },
+        {
+          "Unnamed: 0": 1272,
+          "Team": "Real Betis Balompié",
+          "Oponent": "Sevilla FC",
+          "match_api_id": 2030503,
+          "team_name": "Sevilla FC",
+          "variable": "foulcommit",
+          "value": "24.0"
+        },
+        {
+          "Unnamed: 0": 1273,
+          "Team": "Real Betis Balompié",
+          "Oponent": "Sevilla FC",
+          "match_api_id": 2030503,
+          "team_name": "Real Betis Balompié",
+          "variable": "foulcommit",
+          "value": "13.0"
+        },
+        {
+          "Unnamed: 0": 1274,
+          "Team": "Real Betis Balompié",
+          "Oponent": "FC Barcelona",
+          "match_api_id": 2030512,
+          "team_name": "Real Betis Balompié",
+          "variable": "foulcommit",
+          "value": "9.0"
+        },
+        {
+          "Unnamed: 0": 1275,
+          "Team": "Real Betis Balompié",
+          "Oponent": "FC Barcelona",
+          "match_api_id": 2030512,
+          "team_name": "FC Barcelona",
+          "variable": "foulcommit",
+          "value": "11.0"
+        },
+        {
+          "Unnamed: 0": 1276,
+          "Team": "Real Betis Balompié",
+          "Oponent": "SD Eibar",
+          "match_api_id": 2030522,
+          "team_name": "SD Eibar",
+          "variable": "foulcommit",
+          "value": "15.0"
+        },
+        {
+          "Unnamed: 0": 1277,
+          "Team": "Real Betis Balompié",
+          "Oponent": "SD Eibar",
+          "match_api_id": 2030522,
+          "team_name": "Real Betis Balompié",
+          "variable": "foulcommit",
+          "value": "9.0"
+        },
+        {
+          "Unnamed: 0": 1278,
+          "Team": "Real Betis Balompié",
+          "Oponent": "Getafe CF",
+          "match_api_id": 2030531,
+          "team_name": "Real Betis Balompié",
+          "variable": "foulcommit",
+          "value": "8.0"
+        },
+        {
+          "Unnamed: 0": 1279,
+          "Team": "Real Betis Balompié",
+          "Oponent": "Getafe CF",
+          "match_api_id": 2030531,
+          "team_name": "Getafe CF",
+          "variable": "foulcommit",
+          "value": "26.0"
+        },
+        {
+          "Unnamed: 0": 1280,
+          "Team": "Real Sporting de Gijón",
+          "Oponent": "Sevilla FC",
+          "match_api_id": 2030492,
+          "team_name": "Real Sporting de Gijón",
+          "variable": "foulcommit",
+          "value": "8.0"
+        },
+        {
+          "Unnamed: 0": 1281,
+          "Team": "Real Sporting de Gijón",
+          "Oponent": "Sevilla FC",
+          "match_api_id": 2030492,
+          "team_name": "Sevilla FC",
+          "variable": "foulcommit",
+          "value": "16.0"
+        },
+        {
+          "Unnamed: 0": 1282,
+          "Team": "Real Sporting de Gijón",
+          "Oponent": "FC Barcelona",
+          "match_api_id": 2030502,
+          "team_name": "FC Barcelona",
+          "variable": "foulcommit",
+          "value": "11.0"
+        },
+        {
+          "Unnamed: 0": 1283,
+          "Team": "Real Sporting de Gijón",
+          "Oponent": "FC Barcelona",
+          "match_api_id": 2030502,
+          "team_name": "Real Sporting de Gijón",
+          "variable": "foulcommit",
+          "value": "11.0"
+        },
+        {
+          "Unnamed: 0": 1284,
+          "Team": "Real Sporting de Gijón",
+          "Oponent": "SD Eibar",
+          "match_api_id": 2030511,
+          "team_name": "Real Sporting de Gijón",
+          "variable": "foulcommit",
+          "value": "16.0"
+        },
+        {
+          "Unnamed: 0": 1285,
+          "Team": "Real Sporting de Gijón",
+          "Oponent": "SD Eibar",
+          "match_api_id": 2030511,
+          "team_name": "SD Eibar",
+          "variable": "foulcommit",
+          "value": "17.0"
+        },
+        {
+          "Unnamed: 0": 1286,
+          "Team": "Real Sporting de Gijón",
+          "Oponent": "Getafe CF",
+          "match_api_id": 2030521,
+          "team_name": "Getafe CF",
+          "variable": "foulcommit",
+          "value": "16.0"
+        },
+        {
+          "Unnamed: 0": 1287,
+          "Team": "Real Sporting de Gijón",
+          "Oponent": "Getafe CF",
+          "match_api_id": 2030521,
+          "team_name": "Real Sporting de Gijón",
+          "variable": "foulcommit",
+          "value": "12.0"
+        },
+        {
+          "Unnamed: 0": 1288,
+          "Team": "Real Sporting de Gijón",
+          "Oponent": "Villarreal CF",
+          "match_api_id": 2030530,
+          "team_name": "Real Sporting de Gijón",
+          "variable": "foulcommit",
+          "value": "9.0"
+        },
+        {
+          "Unnamed: 0": 1289,
+          "Team": "Real Sporting de Gijón",
+          "Oponent": "Villarreal CF",
+          "match_api_id": 2030530,
+          "team_name": "Villarreal CF",
+          "variable": "foulcommit",
+          "value": "6.0"
+        },
+        {
+          "Unnamed: 0": 1290,
+          "Team": "Granada CF",
+          "Oponent": "Levante UD",
+          "match_api_id": 2030495,
+          "team_name": "Granada CF",
+          "variable": "foulcommit",
+          "value": "15.0"
+        },
+        {
+          "Unnamed: 0": 1291,
+          "Team": "Granada CF",
+          "Oponent": "Levante UD",
+          "match_api_id": 2030495,
+          "team_name": "Levante UD",
+          "variable": "foulcommit",
+          "value": "11.0"
+        },
+        {
+          "Unnamed: 0": 1292,
+          "Team": "Granada CF",
+          "Oponent": "RC Celta de Vigo",
+          "match_api_id": 2030505,
+          "team_name": "RC Celta de Vigo",
+          "variable": "foulcommit",
+          "value": "13.0"
+        },
+        {
+          "Unnamed: 0": 1293,
+          "Team": "Granada CF",
+          "Oponent": "RC Celta de Vigo",
+          "match_api_id": 2030505,
+          "team_name": "Granada CF",
+          "variable": "foulcommit",
+          "value": "15.0"
+        },
+        {
+          "Unnamed: 0": 1294,
+          "Team": "Granada CF",
+          "Oponent": "UD Las Palmas",
+          "match_api_id": 2030514,
+          "team_name": "Granada CF",
+          "variable": "foulcommit",
+          "value": "7.0"
+        },
+        {
+          "Unnamed: 0": 1295,
+          "Team": "Granada CF",
+          "Oponent": "UD Las Palmas",
+          "match_api_id": 2030514,
+          "team_name": "UD Las Palmas",
+          "variable": "foulcommit",
+          "value": "9.0"
+        },
+        {
+          "Unnamed: 0": 1296,
+          "Team": "Granada CF",
+          "Oponent": "Sevilla FC",
+          "match_api_id": 2030524,
+          "team_name": "Sevilla FC",
+          "variable": "foulcommit",
+          "value": "18.0"
+        },
+        {
+          "Unnamed: 0": 1297,
+          "Team": "Granada CF",
+          "Oponent": "Sevilla FC",
+          "match_api_id": 2030524,
+          "team_name": "Granada CF",
+          "variable": "foulcommit",
+          "value": "11.0"
+        },
+        {
+          "Unnamed: 0": 1298,
+          "Team": "Granada CF",
+          "Oponent": "FC Barcelona",
+          "match_api_id": 2030533,
+          "team_name": "Granada CF",
+          "variable": "foulcommit",
+          "value": "12.0"
+        },
+        {
+          "Unnamed: 0": 1299,
+          "Team": "Granada CF",
+          "Oponent": "FC Barcelona",
+          "match_api_id": 2030533,
+          "team_name": "FC Barcelona",
+          "variable": "foulcommit",
+          "value": "10.0"
+        },
+        {
+          "Unnamed: 0": 1300,
+          "Team": "Villarreal CF",
+          "Oponent": "Real Madrid CF",
+          "match_api_id": 2030488,
+          "team_name": "Real Madrid CF",
+          "variable": "foulcommit",
+          "value": "9.0"
+        },
+        {
+          "Unnamed: 0": 1301,
+          "Team": "Villarreal CF",
+          "Oponent": "Real Madrid CF",
+          "match_api_id": 2030488,
+          "team_name": "Villarreal CF",
+          "variable": "foulcommit",
+          "value": "9.0"
+        },
+        {
+          "Unnamed: 0": 1302,
+          "Team": "Villarreal CF",
+          "Oponent": "Real Sociedad",
+          "match_api_id": 2030499,
+          "team_name": "Villarreal CF",
+          "variable": "foulcommit",
+          "value": "17.0"
+        },
+        {
+          "Unnamed: 0": 1303,
+          "Team": "Villarreal CF",
+          "Oponent": "Real Sociedad",
+          "match_api_id": 2030499,
+          "team_name": "Real Sociedad",
+          "variable": "foulcommit",
+          "value": "13.0"
+        },
+        {
+          "Unnamed: 0": 1304,
+          "Team": "Villarreal CF",
+          "Oponent": "Valencia CF",
+          "match_api_id": 2030509,
+          "team_name": "Valencia CF",
+          "variable": "foulcommit",
+          "value": "16.0"
+        },
+        {
+          "Unnamed: 0": 1305,
+          "Team": "Villarreal CF",
+          "Oponent": "Valencia CF",
+          "match_api_id": 2030509,
+          "team_name": "Villarreal CF",
+          "variable": "foulcommit",
+          "value": "11.0"
+        },
+        {
+          "Unnamed: 0": 1306,
+          "Team": "Villarreal CF",
+          "Oponent": "RC Deportivo de La Coruña",
+          "match_api_id": 2030520,
+          "team_name": "Villarreal CF",
+          "variable": "foulcommit",
+          "value": "13.0"
+        },
+        {
+          "Unnamed: 0": 1307,
+          "Team": "Villarreal CF",
+          "Oponent": "RC Deportivo de La Coruña",
+          "match_api_id": 2030520,
+          "team_name": "RC Deportivo de La Coruña",
+          "variable": "foulcommit",
+          "value": "4.0"
+        },
+        {
+          "Unnamed: 0": 1308,
+          "Team": "Villarreal CF",
+          "Oponent": "Real Sporting de Gijón",
+          "match_api_id": 2030530,
+          "team_name": "Real Sporting de Gijón",
+          "variable": "foulcommit",
+          "value": "9.0"
+        },
+        {
+          "Unnamed: 0": 1309,
+          "Team": "Villarreal CF",
+          "Oponent": "Real Sporting de Gijón",
+          "match_api_id": 2030530,
+          "team_name": "Villarreal CF",
+          "variable": "foulcommit",
+          "value": "6.0"
+        },
+        {
+          "Unnamed: 0": 1310,
+          "Team": "FC Barcelona",
+          "Oponent": "RC Deportivo de La Coruña",
+          "match_api_id": 2030491,
+          "team_name": "RC Deportivo de La Coruña",
+          "variable": "foulcommit",
+          "value": "11.0"
+        },
+        {
+          "Unnamed: 0": 1311,
+          "Team": "FC Barcelona",
+          "Oponent": "RC Deportivo de La Coruña",
+          "match_api_id": 2030491,
+          "team_name": "FC Barcelona",
+          "variable": "foulcommit",
+          "value": "8.0"
+        },
+        {
+          "Unnamed: 0": 1312,
+          "Team": "FC Barcelona",
+          "Oponent": "Real Sporting de Gijón",
+          "match_api_id": 2030502,
+          "team_name": "FC Barcelona",
+          "variable": "foulcommit",
+          "value": "11.0"
+        },
+        {
+          "Unnamed: 0": 1313,
+          "Team": "FC Barcelona",
+          "Oponent": "Real Sporting de Gijón",
+          "match_api_id": 2030502,
+          "team_name": "Real Sporting de Gijón",
+          "variable": "foulcommit",
+          "value": "11.0"
+        },
+        {
+          "Unnamed: 0": 1314,
+          "Team": "FC Barcelona",
+          "Oponent": "Real Betis Balompié",
+          "match_api_id": 2030512,
+          "team_name": "Real Betis Balompié",
+          "variable": "foulcommit",
+          "value": "9.0"
+        },
+        {
+          "Unnamed: 0": 1315,
+          "Team": "FC Barcelona",
+          "Oponent": "Real Betis Balompié",
+          "match_api_id": 2030512,
+          "team_name": "FC Barcelona",
+          "variable": "foulcommit",
+          "value": "11.0"
+        },
+        {
+          "Unnamed: 0": 1316,
+          "Team": "FC Barcelona",
+          "Oponent": "RCD Espanyol",
+          "match_api_id": 2030523,
+          "team_name": "FC Barcelona",
+          "variable": "foulcommit",
+          "value": "13.0"
+        },
+        {
+          "Unnamed: 0": 1317,
+          "Team": "FC Barcelona",
+          "Oponent": "RCD Espanyol",
+          "match_api_id": 2030523,
+          "team_name": "RCD Espanyol",
+          "variable": "foulcommit",
+          "value": "26.0"
+        },
+        {
+          "Unnamed: 0": 1318,
+          "Team": "FC Barcelona",
+          "Oponent": "Granada CF",
+          "match_api_id": 2030533,
+          "team_name": "Granada CF",
+          "variable": "foulcommit",
+          "value": "12.0"
+        },
+        {
+          "Unnamed: 0": 1319,
+          "Team": "FC Barcelona",
+          "Oponent": "Granada CF",
+          "match_api_id": 2030533,
+          "team_name": "FC Barcelona",
+          "variable": "foulcommit",
+          "value": "10.0"
+        },
+        {
+          "Unnamed: 0": 1320,
+          "Team": "Real Madrid CF",
+          "Oponent": "Villarreal CF",
+          "match_api_id": 2030488,
+          "team_name": "Real Madrid CF",
+          "variable": "foulcommit",
+          "value": "9.0"
+        },
+        {
+          "Unnamed: 0": 1321,
+          "Team": "Real Madrid CF",
+          "Oponent": "Villarreal CF",
+          "match_api_id": 2030488,
+          "team_name": "Villarreal CF",
+          "variable": "foulcommit",
+          "value": "9.0"
+        },
+        {
+          "Unnamed: 0": 1322,
+          "Team": "Real Madrid CF",
+          "Oponent": "Rayo Vallecano",
+          "match_api_id": 2030498,
+          "team_name": "Rayo Vallecano",
+          "variable": "foulcommit",
+          "value": "16.0"
+        },
+        {
+          "Unnamed: 0": 1323,
+          "Team": "Real Madrid CF",
+          "Oponent": "Rayo Vallecano",
+          "match_api_id": 2030498,
+          "team_name": "Real Madrid CF",
+          "variable": "foulcommit",
+          "value": "8.0"
+        },
+        {
+          "Unnamed: 0": 1324,
+          "Team": "Real Madrid CF",
+          "Oponent": "Real Sociedad",
+          "match_api_id": 2030508,
+          "team_name": "Real Sociedad",
+          "variable": "foulcommit",
+          "value": "15.0"
+        },
+        {
+          "Unnamed: 0": 1325,
+          "Team": "Real Madrid CF",
+          "Oponent": "Real Sociedad",
+          "match_api_id": 2030508,
+          "team_name": "Real Madrid CF",
+          "variable": "foulcommit",
+          "value": "17.0"
+        },
+        {
+          "Unnamed: 0": 1326,
+          "Team": "Real Madrid CF",
+          "Oponent": "Valencia CF",
+          "match_api_id": 2030519,
+          "team_name": "Real Madrid CF",
+          "variable": "foulcommit",
+          "value": "10.0"
+        },
+        {
+          "Unnamed: 0": 1327,
+          "Team": "Real Madrid CF",
+          "Oponent": "Valencia CF",
+          "match_api_id": 2030519,
+          "team_name": "Valencia CF",
+          "variable": "foulcommit",
+          "value": "10.0"
+        },
+        {
+          "Unnamed: 0": 1328,
+          "Team": "Real Madrid CF",
+          "Oponent": "RC Deportivo de La Coruña",
+          "match_api_id": 2030529,
+          "team_name": "RC Deportivo de La Coruña",
+          "variable": "foulcommit",
+          "value": "6.0"
+        },
+        {
+          "Unnamed: 0": 1329,
+          "Team": "Real Madrid CF",
+          "Oponent": "RC Deportivo de La Coruña",
+          "match_api_id": 2030529,
+          "team_name": "Real Madrid CF",
+          "variable": "foulcommit",
+          "value": "9.0"
+        },
+        {
+          "Unnamed: 0": 1330,
+          "Team": "Real Sociedad",
+          "Oponent": "Getafe CF",
+          "match_api_id": 2030489,
+          "team_name": "Real Sociedad",
+          "variable": "foulcommit",
+          "value": "10.0"
+        },
+        {
+          "Unnamed: 0": 1331,
+          "Team": "Real Sociedad",
+          "Oponent": "Getafe CF",
+          "match_api_id": 2030489,
+          "team_name": "Getafe CF",
+          "variable": "foulcommit",
+          "value": "17.0"
+        },
+        {
+          "Unnamed: 0": 1332,
+          "Team": "Real Sociedad",
+          "Oponent": "Villarreal CF",
+          "match_api_id": 2030499,
+          "team_name": "Villarreal CF",
+          "variable": "foulcommit",
+          "value": "17.0"
+        },
+        {
+          "Unnamed: 0": 1333,
+          "Team": "Real Sociedad",
+          "Oponent": "Villarreal CF",
+          "match_api_id": 2030499,
+          "team_name": "Real Sociedad",
+          "variable": "foulcommit",
+          "value": "13.0"
+        },
+        {
+          "Unnamed: 0": 1334,
+          "Team": "Real Sociedad",
+          "Oponent": "Real Madrid CF",
+          "match_api_id": 2030508,
+          "team_name": "Real Sociedad",
+          "variable": "foulcommit",
+          "value": "15.0"
+        },
+        {
+          "Unnamed: 0": 1335,
+          "Team": "Real Sociedad",
+          "Oponent": "Real Madrid CF",
+          "match_api_id": 2030508,
+          "team_name": "Real Madrid CF",
+          "variable": "foulcommit",
+          "value": "17.0"
+        },
+        {
+          "Unnamed: 0": 1336,
+          "Team": "Real Sociedad",
+          "Oponent": "Rayo Vallecano",
+          "match_api_id": 2030518,
+          "team_name": "Real Sociedad",
+          "variable": "foulcommit",
+          "value": "7.0"
+        },
+        {
+          "Unnamed: 0": 1337,
+          "Team": "Real Sociedad",
+          "Oponent": "Rayo Vallecano",
+          "match_api_id": 2030518,
+          "team_name": "Rayo Vallecano",
+          "variable": "foulcommit",
+          "value": "12.0"
+        },
+        {
+          "Unnamed: 0": 1338,
+          "Team": "Real Sociedad",
+          "Oponent": "Valencia CF",
+          "match_api_id": 2030528,
+          "team_name": "Valencia CF",
+          "variable": "foulcommit",
+          "value": "17.0"
+        },
+        {
+          "Unnamed: 0": 1339,
+          "Team": "Real Sociedad",
+          "Oponent": "Valencia CF",
+          "match_api_id": 2030528,
+          "team_name": "Real Sociedad",
+          "variable": "foulcommit",
+          "value": "13.0"
+        },
+        {
+          "Unnamed: 0": 1340,
+          "Team": "RC Celta de Vigo",
+          "Oponent": "RCD Espanyol",
+          "match_api_id": 2030494,
+          "team_name": "RCD Espanyol",
+          "variable": "foulcommit",
+          "value": "15.0"
+        },
+        {
+          "Unnamed: 0": 1341,
+          "Team": "RC Celta de Vigo",
+          "Oponent": "RCD Espanyol",
+          "match_api_id": 2030494,
+          "team_name": "RC Celta de Vigo",
+          "variable": "foulcommit",
+          "value": "13.0"
+        },
+        {
+          "Unnamed: 0": 1342,
+          "Team": "RC Celta de Vigo",
+          "Oponent": "Granada CF",
+          "match_api_id": 2030505,
+          "team_name": "RC Celta de Vigo",
+          "variable": "foulcommit",
+          "value": "13.0"
+        },
+        {
+          "Unnamed: 0": 1343,
+          "Team": "RC Celta de Vigo",
+          "Oponent": "Granada CF",
+          "match_api_id": 2030505,
+          "team_name": "Granada CF",
+          "variable": "foulcommit",
+          "value": "15.0"
+        },
+        {
+          "Unnamed: 0": 1344,
+          "Team": "RC Celta de Vigo",
+          "Oponent": "Athletic Club de Bilbao",
+          "match_api_id": 2030515,
+          "team_name": "Athletic Club de Bilbao",
+          "variable": "foulcommit",
+          "value": "12.0"
+        },
+        {
+          "Unnamed: 0": 1345,
+          "Team": "RC Celta de Vigo",
+          "Oponent": "Athletic Club de Bilbao",
+          "match_api_id": 2030515,
+          "team_name": "RC Celta de Vigo",
+          "variable": "foulcommit",
+          "value": "18.0"
+        },
+        {
+          "Unnamed: 0": 1346,
+          "Team": "RC Celta de Vigo",
+          "Oponent": "Málaga CF",
+          "match_api_id": 2030526,
+          "team_name": "RC Celta de Vigo",
+          "variable": "foulcommit",
+          "value": "10.0"
+        },
+        {
+          "Unnamed: 0": 1347,
+          "Team": "RC Celta de Vigo",
+          "Oponent": "Málaga CF",
+          "match_api_id": 2030526,
+          "team_name": "Málaga CF",
+          "variable": "foulcommit",
+          "value": "10.0"
+        },
+        {
+          "Unnamed: 0": 1348,
+          "Team": "RC Celta de Vigo",
+          "Oponent": "Atlético Madrid",
+          "match_api_id": 2030536,
+          "team_name": "Atlético Madrid",
+          "variable": "foulcommit",
+          "value": "16.0"
+        },
+        {
+          "Unnamed: 0": 1349,
+          "Team": "RC Celta de Vigo",
+          "Oponent": "Atlético Madrid",
+          "match_api_id": 2030536,
+          "team_name": "RC Celta de Vigo",
+          "variable": "foulcommit",
+          "value": "16.0"
+        },
+        {
+          "Unnamed: 0": 1350,
+          "Team": "Sevilla FC",
+          "Oponent": "Real Sporting de Gijón",
+          "match_api_id": 2030492,
+          "team_name": "Real Sporting de Gijón",
+          "variable": "foulcommit",
+          "value": "8.0"
+        },
+        {
+          "Unnamed: 0": 1351,
+          "Team": "Sevilla FC",
+          "Oponent": "Real Sporting de Gijón",
+          "match_api_id": 2030492,
+          "team_name": "Sevilla FC",
+          "variable": "foulcommit",
+          "value": "16.0"
+        },
+        {
+          "Unnamed: 0": 1352,
+          "Team": "Sevilla FC",
+          "Oponent": "Real Betis Balompié",
+          "match_api_id": 2030503,
+          "team_name": "Sevilla FC",
+          "variable": "foulcommit",
+          "value": "24.0"
+        },
+        {
+          "Unnamed: 0": 1353,
+          "Team": "Sevilla FC",
+          "Oponent": "Real Betis Balompié",
+          "match_api_id": 2030503,
+          "team_name": "Real Betis Balompié",
+          "variable": "foulcommit",
+          "value": "13.0"
+        },
+        {
+          "Unnamed: 0": 1354,
+          "Team": "Sevilla FC",
+          "Oponent": "RCD Espanyol",
+          "match_api_id": 2030513,
+          "team_name": "RCD Espanyol",
+          "variable": "foulcommit",
+          "value": "19.0"
+        },
+        {
+          "Unnamed: 0": 1355,
+          "Team": "Sevilla FC",
+          "Oponent": "RCD Espanyol",
+          "match_api_id": 2030513,
+          "team_name": "Sevilla FC",
+          "variable": "foulcommit",
+          "value": "15.0"
+        },
+        {
+          "Unnamed: 0": 1356,
+          "Team": "Sevilla FC",
+          "Oponent": "Granada CF",
+          "match_api_id": 2030524,
+          "team_name": "Sevilla FC",
+          "variable": "foulcommit",
+          "value": "18.0"
+        },
+        {
+          "Unnamed: 0": 1357,
+          "Team": "Sevilla FC",
+          "Oponent": "Granada CF",
+          "match_api_id": 2030524,
+          "team_name": "Granada CF",
+          "variable": "foulcommit",
+          "value": "11.0"
+        },
+        {
+          "Unnamed: 0": 1358,
+          "Team": "Sevilla FC",
+          "Oponent": "Athletic Club de Bilbao",
+          "match_api_id": 2030534,
+          "team_name": "Athletic Club de Bilbao",
+          "variable": "foulcommit",
+          "value": "13.0"
+        },
+        {
+          "Unnamed: 0": 1359,
+          "Team": "Sevilla FC",
+          "Oponent": "Athletic Club de Bilbao",
+          "match_api_id": 2030534,
+          "team_name": "Sevilla FC",
+          "variable": "foulcommit",
+          "value": "11.0"
+        },
+        {
+          "Unnamed: 0": 1360,
+          "Team": "SD Eibar",
+          "Oponent": "Valencia CF",
+          "match_api_id": 2030490,
+          "team_name": "Valencia CF",
+          "variable": "foulcommit",
+          "value": "11.0"
+        },
+        {
+          "Unnamed: 0": 1361,
+          "Team": "SD Eibar",
+          "Oponent": "Valencia CF",
+          "match_api_id": 2030490,
+          "team_name": "SD Eibar",
+          "variable": "foulcommit",
+          "value": "7.0"
+        },
+        {
+          "Unnamed: 0": 1362,
+          "Team": "SD Eibar",
+          "Oponent": "RC Deportivo de La Coruña",
+          "match_api_id": 2030501,
+          "team_name": "SD Eibar",
+          "variable": "foulcommit",
+          "value": "14.0"
+        },
+        {
+          "Unnamed: 0": 1363,
+          "Team": "SD Eibar",
+          "Oponent": "RC Deportivo de La Coruña",
+          "match_api_id": 2030501,
+          "team_name": "RC Deportivo de La Coruña",
+          "variable": "foulcommit",
+          "value": "8.0"
+        },
+        {
+          "Unnamed: 0": 1364,
+          "Team": "SD Eibar",
+          "Oponent": "Real Sporting de Gijón",
+          "match_api_id": 2030511,
+          "team_name": "Real Sporting de Gijón",
+          "variable": "foulcommit",
+          "value": "16.0"
+        },
+        {
+          "Unnamed: 0": 1365,
+          "Team": "SD Eibar",
+          "Oponent": "Real Sporting de Gijón",
+          "match_api_id": 2030511,
+          "team_name": "SD Eibar",
+          "variable": "foulcommit",
+          "value": "17.0"
+        },
+        {
+          "Unnamed: 0": 1366,
+          "Team": "SD Eibar",
+          "Oponent": "Real Betis Balompié",
+          "match_api_id": 2030522,
+          "team_name": "SD Eibar",
+          "variable": "foulcommit",
+          "value": "15.0"
+        },
+        {
+          "Unnamed: 0": 1367,
+          "Team": "SD Eibar",
+          "Oponent": "Real Betis Balompié",
+          "match_api_id": 2030522,
+          "team_name": "Real Betis Balompié",
+          "variable": "foulcommit",
+          "value": "9.0"
+        },
+        {
+          "Unnamed: 0": 1368,
+          "Team": "SD Eibar",
+          "Oponent": "RCD Espanyol",
+          "match_api_id": 2030532,
+          "team_name": "RCD Espanyol",
+          "variable": "foulcommit",
+          "value": "9.0"
+        },
+        {
+          "Unnamed: 0": 1369,
+          "Team": "SD Eibar",
+          "Oponent": "RCD Espanyol",
+          "match_api_id": 2030532,
+          "team_name": "SD Eibar",
+          "variable": "foulcommit",
+          "value": "13.0"
+        },
+        {
+          "Unnamed: 0": 1370,
+          "Team": "Getafe CF",
+          "Oponent": "Real Sociedad",
+          "match_api_id": 2030489,
+          "team_name": "Real Sociedad",
+          "variable": "foulcommit",
+          "value": "10.0"
+        },
+        {
+          "Unnamed: 0": 1371,
+          "Team": "Getafe CF",
+          "Oponent": "Real Sociedad",
+          "match_api_id": 2030489,
+          "team_name": "Getafe CF",
+          "variable": "foulcommit",
+          "value": "17.0"
+        },
+        {
+          "Unnamed: 0": 1372,
+          "Team": "Getafe CF",
+          "Oponent": "Valencia CF",
+          "match_api_id": 2030500,
+          "team_name": "Getafe CF",
+          "variable": "foulcommit",
+          "value": "14.0"
+        },
+        {
+          "Unnamed: 0": 1373,
+          "Team": "Getafe CF",
+          "Oponent": "Valencia CF",
+          "match_api_id": 2030500,
+          "team_name": "Valencia CF",
+          "variable": "foulcommit",
+          "value": "12.0"
+        },
+        {
+          "Unnamed: 0": 1374,
+          "Team": "Getafe CF",
+          "Oponent": "RC Deportivo de La Coruña",
+          "match_api_id": 2030510,
+          "team_name": "RC Deportivo de La Coruña",
+          "variable": "foulcommit",
+          "value": "7.0"
+        },
+        {
+          "Unnamed: 0": 1375,
+          "Team": "Getafe CF",
+          "Oponent": "RC Deportivo de La Coruña",
+          "match_api_id": 2030510,
+          "team_name": "Getafe CF",
+          "variable": "foulcommit",
+          "value": "19.0"
+        },
+        {
+          "Unnamed: 0": 1376,
+          "Team": "Getafe CF",
+          "Oponent": "Real Sporting de Gijón",
+          "match_api_id": 2030521,
+          "team_name": "Getafe CF",
+          "variable": "foulcommit",
+          "value": "16.0"
+        },
+        {
+          "Unnamed: 0": 1377,
+          "Team": "Getafe CF",
+          "Oponent": "Real Sporting de Gijón",
+          "match_api_id": 2030521,
+          "team_name": "Real Sporting de Gijón",
+          "variable": "foulcommit",
+          "value": "12.0"
+        },
+        {
+          "Unnamed: 0": 1378,
+          "Team": "Getafe CF",
+          "Oponent": "Real Betis Balompié",
+          "match_api_id": 2030531,
+          "team_name": "Real Betis Balompié",
+          "variable": "foulcommit",
+          "value": "8.0"
+        },
+        {
+          "Unnamed: 0": 1379,
+          "Team": "Getafe CF",
+          "Oponent": "Real Betis Balompié",
+          "match_api_id": 2030531,
+          "team_name": "Getafe CF",
+          "variable": "foulcommit",
+          "value": "26.0"
+        },
+        {
+          "Unnamed: 0": 1380,
+          "Team": "Valencia CF",
+          "Oponent": "SD Eibar",
+          "match_api_id": 2030490,
+          "team_name": "Valencia CF",
+          "variable": "foulcommit",
+          "value": "11.0"
+        },
+        {
+          "Unnamed: 0": 1381,
+          "Team": "Valencia CF",
+          "Oponent": "SD Eibar",
+          "match_api_id": 2030490,
+          "team_name": "SD Eibar",
+          "variable": "foulcommit",
+          "value": "7.0"
+        },
+        {
+          "Unnamed: 0": 1382,
+          "Team": "Valencia CF",
+          "Oponent": "Getafe CF",
+          "match_api_id": 2030500,
+          "team_name": "Getafe CF",
+          "variable": "foulcommit",
+          "value": "14.0"
+        },
+        {
+          "Unnamed: 0": 1383,
+          "Team": "Valencia CF",
+          "Oponent": "Getafe CF",
+          "match_api_id": 2030500,
+          "team_name": "Valencia CF",
+          "variable": "foulcommit",
+          "value": "12.0"
+        },
+        {
+          "Unnamed: 0": 1384,
+          "Team": "Valencia CF",
+          "Oponent": "Villarreal CF",
+          "match_api_id": 2030509,
+          "team_name": "Valencia CF",
+          "variable": "foulcommit",
+          "value": "16.0"
+        },
+        {
+          "Unnamed: 0": 1385,
+          "Team": "Valencia CF",
+          "Oponent": "Villarreal CF",
+          "match_api_id": 2030509,
+          "team_name": "Villarreal CF",
+          "variable": "foulcommit",
+          "value": "11.0"
+        },
+        {
+          "Unnamed: 0": 1386,
+          "Team": "Valencia CF",
+          "Oponent": "Real Madrid CF",
+          "match_api_id": 2030519,
+          "team_name": "Real Madrid CF",
+          "variable": "foulcommit",
+          "value": "10.0"
+        },
+        {
+          "Unnamed: 0": 1387,
+          "Team": "Valencia CF",
+          "Oponent": "Real Madrid CF",
+          "match_api_id": 2030519,
+          "team_name": "Valencia CF",
+          "variable": "foulcommit",
+          "value": "10.0"
+        },
+        {
+          "Unnamed: 0": 1388,
+          "Team": "Valencia CF",
+          "Oponent": "Real Sociedad",
+          "match_api_id": 2030528,
+          "team_name": "Valencia CF",
+          "variable": "foulcommit",
+          "value": "17.0"
+        },
+        {
+          "Unnamed: 0": 1389,
+          "Team": "Valencia CF",
+          "Oponent": "Real Sociedad",
+          "match_api_id": 2030528,
+          "team_name": "Real Sociedad",
+          "variable": "foulcommit",
+          "value": "13.0"
+        },
+        {
+          "Unnamed: 0": 1390,
+          "Team": "UD Las Palmas",
+          "Oponent": "Real Betis Balompié",
+          "match_api_id": 2030493,
+          "team_name": "Real Betis Balompié",
+          "variable": "foulcommit",
+          "value": "14.0"
+        },
+        {
+          "Unnamed: 0": 1391,
+          "Team": "UD Las Palmas",
+          "Oponent": "Real Betis Balompié",
+          "match_api_id": 2030493,
+          "team_name": "UD Las Palmas",
+          "variable": "foulcommit",
+          "value": "12.0"
+        },
+        {
+          "Unnamed: 0": 1392,
+          "Team": "UD Las Palmas",
+          "Oponent": "RCD Espanyol",
+          "match_api_id": 2030504,
+          "team_name": "UD Las Palmas",
+          "variable": "foulcommit",
+          "value": "14.0"
+        },
+        {
+          "Unnamed: 0": 1393,
+          "Team": "UD Las Palmas",
+          "Oponent": "RCD Espanyol",
+          "match_api_id": 2030504,
+          "team_name": "RCD Espanyol",
+          "variable": "foulcommit",
+          "value": "10.0"
+        },
+        {
+          "Unnamed: 0": 1394,
+          "Team": "UD Las Palmas",
+          "Oponent": "Granada CF",
+          "match_api_id": 2030514,
+          "team_name": "Granada CF",
+          "variable": "foulcommit",
+          "value": "7.0"
+        },
+        {
+          "Unnamed: 0": 1395,
+          "Team": "UD Las Palmas",
+          "Oponent": "Granada CF",
+          "match_api_id": 2030514,
+          "team_name": "UD Las Palmas",
+          "variable": "foulcommit",
+          "value": "9.0"
+        },
+        {
+          "Unnamed: 0": 1396,
+          "Team": "UD Las Palmas",
+          "Oponent": "Athletic Club de Bilbao",
+          "match_api_id": 2030525,
+          "team_name": "UD Las Palmas",
+          "variable": "foulcommit",
+          "value": "8.0"
+        },
+        {
+          "Unnamed: 0": 1397,
+          "Team": "UD Las Palmas",
+          "Oponent": "Athletic Club de Bilbao",
+          "match_api_id": 2030525,
+          "team_name": "Athletic Club de Bilbao",
+          "variable": "foulcommit",
+          "value": "18.0"
+        },
+        {
+          "Unnamed: 0": 1398,
+          "Team": "UD Las Palmas",
+          "Oponent": "Málaga CF",
+          "match_api_id": 2030535,
+          "team_name": "Málaga CF",
+          "variable": "foulcommit",
+          "value": "16.0"
+        },
+        {
+          "Unnamed: 0": 1399,
+          "Team": "UD Las Palmas",
+          "Oponent": "Málaga CF",
+          "match_api_id": 2030535,
+          "team_name": "UD Las Palmas",
+          "variable": "foulcommit",
+          "value": "10.0"
+        }
+      ]
+    },
+    {
+      "name": "data_0",
+      "source": "data-f74538efcc924c4b3ef73f0a153e7d1b",
+      "transform": [
+        {
+          "type": "filter",
+          "expr": "!(length(data(\"selector008_store\"))) || (vlSelectionTest(\"selector008_store\", datum))"
+        },
+        {
+          "type": "formula",
+          "expr": "datum.team_name == selector008.Team ? datum.team_name : '​Other'",
+          "as": "team"
+        },
+        {
+          "type": "formula",
+          "expr": "datum.team_name == selector008.Team ? 1 : 0.8",
+          "as": "opacity"
+        },
+        {
+          "type": "filter",
+          "expr": "isValid(datum[\"opacity\"]) && isFinite(+datum[\"opacity\"]) && isValid(datum[\"value\"]) && isFinite(+datum[\"value\"])"
+        }
+      ]
+    }
+  ],
+  "signals": [
+    {
+      "name": "width",
+      "init": "isFinite(containerSize()[0]) ? containerSize()[0] : 400",
+      "on": [
+        {
+          "update": "isFinite(containerSize()[0]) ? containerSize()[0] : 400",
+          "events": "window:resize"
+        }
+      ]
+    },
+    {
+      "name": "unit",
+      "value": {},
+      "on": [
+        {"events": "mousemove", "update": "isTuple(group()) ? group() : unit"}
+      ]
+    },
+    {
+      "name": "selector008_Team",
+      "init": "\"FC Barcelona\"",
+      "bind": {
+        "input": "select",
+        "options": [
+          "Valencia CF",
+          "RCD Mallorca",
+          "CA Osasuna",
+          "Villarreal CF",
+          "RC Deportivo de La Coruña",
+          "Real Madrid CF",
+          "CD Numancia",
+          "FC Barcelona",
+          "Racing Santander",
+          "Sevilla FC",
+          "Real Sporting de Gijón",
+          "Getafe CF",
+          "Real Betis Balompié",
+          "RC Recreativo",
+          "RCD Espanyol",
+          "Real Valladolid",
+          "Athletic Club de Bilbao",
+          "UD Almería",
+          "Atlético Madrid",
+          "Málaga CF",
+          "Xerez Club Deportivo",
+          "Real Zaragoza",
+          "CD Tenerife",
+          "Hércules Club de Fútbol",
+          "Levante UD",
+          "Real Sociedad",
+          "Granada CF",
+          "Rayo Vallecano",
+          "RC Celta de Vigo",
+          "Elche CF",
+          "SD Eibar",
+          "Córdoba CF",
+          "UD Las Palmas"
+        ],
+        "name": "Team A"
+      }
+    },
+    {
+      "name": "selector008",
+      "update": "vlSelectionResolve(\"selector008_store\", \"union\")"
+    },
+    {
+      "name": "selector008_tuple",
+      "update": "selector008_Team !== null ? {fields: selector008_tuple_fields, values: [selector008_Team]} : null"
+    },
+    {
+      "name": "selector008_tuple_fields",
+      "value": [{"type": "E", "field": "Team"}]
+    },
+    {
+      "name": "selector008_modify",
+      "on": [
+        {
+          "events": {"signal": "selector008_tuple"},
+          "update": "modify(\"selector008_store\", selector008_tuple, true)"
+        }
+      ]
+    }
+  ],
+  "marks": [
+    {
+      "name": "marks",
+      "type": "symbol",
+      "style": ["point"],
+      "interactive": true,
+      "from": {"data": "data_0"},
+      "encode": {
+        "update": {
+          "opacity": {"scale": "opacity", "field": "opacity"},
+          "size": {"value": 60},
+          "fill": {"value": "transparent"},
+          "stroke": {"scale": "color", "field": "team"},
+          "tooltip": {
+            "signal": "{\"team_name\": ''+datum[\"team_name\"], \"value\": format(datum[\"value\"], \"\")}"
+          },
+          "x": {"scale": "x", "field": "value"},
+          "y": {"scale": "y", "field": "Oponent"}
+        }
+      }
+    }
+  ],
+  "scales": [
+    {
+      "name": "x",
+      "type": "linear",
+      "domain": {"data": "data_0", "field": "value"},
+      "range": [0, {"signal": "width"}],
+      "zero": true,
+      "nice": true
+    },
+    {
+      "name": "y",
+      "type": "point",
+      "domain": {"data": "data_0", "field": "Oponent", "sort": true},
+      "range": [0, {"signal": "height"}],
+      "padding": 0.5
+    },
+    {
+      "name": "color",
+      "type": "ordinal",
+      "domain": {"data": "data_0", "field": "team", "sort": true},
+      "range": ["#1D2778", "#858796"]
+    },
+    {
+      "name": "opacity",
+      "type": "linear",
+      "domain": {"data": "data_0", "field": "opacity"},
+      "range": [0.3, 0.8],
+      "zero": false
+    }
+  ],
+  "axes": [
+    {
+      "scale": "x",
+      "orient": "bottom",
+      "grid": true,
+      "gridScale": "y",
+      "tickCount": {"signal": "ceil(width/40)"},
+      "domain": false,
+      "labels": false,
+      "maxExtent": 0,
+      "minExtent": 0,
+      "ticks": false,
+      "zindex": 0
+    },
+    {
+      "scale": "x",
+      "orient": "bottom",
+      "grid": false,
+      "labelFlush": true,
+      "labelOverlap": true,
+      "tickCount": {"signal": "ceil(width/40)"},
+      "zindex": 0
+    }
+  ]
+}

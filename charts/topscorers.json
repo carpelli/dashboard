@@ -1,0 +1,5142 @@
+{
+  "$schema": "https://vega.github.io/schema/vega/v5.json",
+  "autosize": {"type": "fit-x", "contains": "padding"},
+  "background": "white",
+  "padding": 5,
+  "style": "cell",
+  "data": [
+    {
+      "name": "selector002_store",
+      "values": [
+        {
+          "unit": "",
+          "fields": [{"type": "E", "field": "Team"}],
+          "values": ["FC Barcelona"]
+        }
+      ]
+    },
+    {
+      "name": "selector003_store",
+      "values": [
+        {
+          "unit": "",
+          "fields": [{"type": "E", "field": "Team"}],
+          "values": ["Real Madrid CF"]
+        }
+      ]
+    },
+    {
+      "name": "selector001_store",
+      "values": [
+        {
+          "unit": "",
+          "fields": [{"type": "E", "field": "season"}],
+          "values": ["2015/2016"]
+        }
+      ]
+    },
+    {
+      "name": "data-85591f7fc181164b58d5b48ff90520dd",
+      "values": [
+        {
+          "Unnamed: 0": 0,
+          "season": "2011/2012",
+          "team_api_id": 8634,
+          "player_api_id": 30981,
+          "Type": "goal",
+          "n": 52,
+          "player_name": "Lionel Messi",
+          "Team": "FC Barcelona"
+        },
+        {
+          "Unnamed: 0": 0,
+          "season": "2014/2015",
+          "team_api_id": 8633,
+          "player_api_id": 30893,
+          "Type": "goal",
+          "n": 51,
+          "player_name": "Cristiano Ronaldo",
+          "Team": "Real Madrid CF"
+        },
+        {
+          "Unnamed: 0": 0,
+          "season": "2011/2012",
+          "team_api_id": 8633,
+          "player_api_id": 30893,
+          "Type": "goal",
+          "n": 47,
+          "player_name": "Cristiano Ronaldo",
+          "Team": "Real Madrid CF"
+        },
+        {
+          "Unnamed: 0": 0,
+          "season": "2012/2013",
+          "team_api_id": 8634,
+          "player_api_id": 30981,
+          "Type": "goal",
+          "n": 46,
+          "player_name": "Lionel Messi",
+          "Team": "FC Barcelona"
+        },
+        {
+          "Unnamed: 0": 0,
+          "season": "2014/2015",
+          "team_api_id": 8634,
+          "player_api_id": 30981,
+          "Type": "goal",
+          "n": 46,
+          "player_name": "Lionel Messi",
+          "Team": "FC Barcelona"
+        },
+        {
+          "Unnamed: 0": 0,
+          "season": "2015/2016",
+          "team_api_id": 8634,
+          "player_api_id": 40636,
+          "Type": "goal",
+          "n": 42,
+          "player_name": "Luis Suarez",
+          "Team": "FC Barcelona"
+        },
+        {
+          "Unnamed: 0": 0,
+          "season": "2010/2011",
+          "team_api_id": 8633,
+          "player_api_id": 30893,
+          "Type": "goal",
+          "n": 40,
+          "player_name": "Cristiano Ronaldo",
+          "Team": "Real Madrid CF"
+        },
+        {
+          "Unnamed: 0": 0,
+          "season": "2015/2016",
+          "team_api_id": 8633,
+          "player_api_id": 30893,
+          "Type": "goal",
+          "n": 39,
+          "player_name": "Cristiano Ronaldo",
+          "Team": "Real Madrid CF"
+        },
+        {
+          "Unnamed: 0": 0,
+          "season": "2009/2010",
+          "team_api_id": 8634,
+          "player_api_id": 30981,
+          "Type": "goal",
+          "n": 35,
+          "player_name": "Lionel Messi",
+          "Team": "FC Barcelona"
+        },
+        {
+          "Unnamed: 0": 0,
+          "season": "2012/2013",
+          "team_api_id": 8633,
+          "player_api_id": 30893,
+          "Type": "goal",
+          "n": 35,
+          "player_name": "Cristiano Ronaldo",
+          "Team": "Real Madrid CF"
+        },
+        {
+          "Unnamed: 0": 0,
+          "season": "2008/2009",
+          "team_api_id": 8634,
+          "player_api_id": 33639,
+          "Type": "goal",
+          "n": 33,
+          "player_name": "Samuel Eto'o",
+          "Team": "FC Barcelona"
+        },
+        {
+          "Unnamed: 0": 0,
+          "season": "2008/2009",
+          "team_api_id": 9906,
+          "player_api_id": 38460,
+          "Type": "goal",
+          "n": 32,
+          "player_name": "Diego Forlan",
+          "Team": "Atlético Madrid"
+        },
+        {
+          "Unnamed: 0": 0,
+          "season": "2010/2011",
+          "team_api_id": 8634,
+          "player_api_id": 30981,
+          "Type": "goal",
+          "n": 32,
+          "player_name": "Lionel Messi",
+          "Team": "FC Barcelona"
+        },
+        {
+          "Unnamed: 0": 0,
+          "season": "2013/2014",
+          "team_api_id": 9906,
+          "player_api_id": 19243,
+          "Type": "goal",
+          "n": 31,
+          "player_name": "Diego Costa",
+          "Team": "Atlético Madrid"
+        },
+        {
+          "Unnamed: 0": 0,
+          "season": "2013/2014",
+          "team_api_id": 8633,
+          "player_api_id": 30893,
+          "Type": "goal",
+          "n": 31,
+          "player_name": "Cristiano Ronaldo",
+          "Team": "Real Madrid CF"
+        },
+        {
+          "Unnamed: 0": 0,
+          "season": "2015/2016",
+          "team_api_id": 8634,
+          "player_api_id": 30981,
+          "Type": "goal",
+          "n": 30,
+          "player_name": "Lionel Messi",
+          "Team": "FC Barcelona"
+        },
+        {
+          "Unnamed: 0": 0,
+          "season": "2008/2009",
+          "team_api_id": 10267,
+          "player_api_id": 30909,
+          "Type": "goal",
+          "n": 30,
+          "player_name": "David Villa",
+          "Team": "Valencia CF"
+        },
+        {
+          "Unnamed: 0": 0,
+          "season": "2013/2014",
+          "team_api_id": 8634,
+          "player_api_id": 30981,
+          "Type": "goal",
+          "n": 29,
+          "player_name": "Lionel Messi",
+          "Team": "FC Barcelona"
+        },
+        {
+          "Unnamed: 0": 0,
+          "season": "2012/2013",
+          "team_api_id": 9906,
+          "player_api_id": 22543,
+          "Type": "goal",
+          "n": 28,
+          "player_name": "Radamel Falcao",
+          "Team": "Atlético Madrid"
+        },
+        {
+          "Unnamed: 0": 0,
+          "season": "2009/2010",
+          "team_api_id": 8633,
+          "player_api_id": 25759,
+          "Type": "goal",
+          "n": 27,
+          "player_name": "Gonzalo Higuain",
+          "Team": "Real Madrid CF"
+        },
+        {
+          "Unnamed: 0": 0,
+          "season": "2009/2010",
+          "team_api_id": 8633,
+          "player_api_id": 30893,
+          "Type": "goal",
+          "n": 27,
+          "player_name": "Cristiano Ronaldo",
+          "Team": "Real Madrid CF"
+        },
+        {
+          "Unnamed: 0": 0,
+          "season": "2015/2016",
+          "team_api_id": 8634,
+          "player_api_id": 19533,
+          "Type": "goal",
+          "n": 26,
+          "player_name": "Neymar",
+          "Team": "FC Barcelona"
+        },
+        {
+          "Unnamed: 0": 0,
+          "season": "2011/2012",
+          "team_api_id": 9906,
+          "player_api_id": 22543,
+          "Type": "goal",
+          "n": 25,
+          "player_name": "Radamel Falcao",
+          "Team": "Atlético Madrid"
+        },
+        {
+          "Unnamed: 0": 0,
+          "season": "2008/2009",
+          "team_api_id": 8634,
+          "player_api_id": 30981,
+          "Type": "goal",
+          "n": 25,
+          "player_name": "Lionel Messi",
+          "Team": "FC Barcelona"
+        },
+        {
+          "Unnamed: 0": 0,
+          "season": "2012/2013",
+          "team_api_id": 8302,
+          "player_api_id": 75310,
+          "Type": "goal",
+          "n": 25,
+          "player_name": "Alvaro Negredo",
+          "Team": "Sevilla FC"
+        },
+        {
+          "Unnamed: 0": 0,
+          "season": "2015/2016",
+          "team_api_id": 8633,
+          "player_api_id": 26166,
+          "Type": "goal",
+          "n": 24,
+          "player_name": "Karim Benzema",
+          "Team": "Real Madrid CF"
+        },
+        {
+          "Unnamed: 0": 0,
+          "season": "2012/2013",
+          "team_api_id": 10267,
+          "player_api_id": 37506,
+          "Type": "goal",
+          "n": 24,
+          "player_name": "Roberto Soldado",
+          "Team": "Valencia CF"
+        },
+        {
+          "Unnamed: 0": 0,
+          "season": "2008/2009",
+          "team_api_id": 8633,
+          "player_api_id": 25759,
+          "Type": "goal",
+          "n": 24,
+          "player_name": "Gonzalo Higuain",
+          "Team": "Real Madrid CF"
+        },
+        {
+          "Unnamed: 0": 0,
+          "season": "2014/2015",
+          "team_api_id": 8634,
+          "player_api_id": 19533,
+          "Type": "goal",
+          "n": 23,
+          "player_name": "Neymar",
+          "Team": "FC Barcelona"
+        },
+        {
+          "Unnamed: 0": 0,
+          "season": "2011/2012",
+          "team_api_id": 8633,
+          "player_api_id": 25759,
+          "Type": "goal",
+          "n": 23,
+          "player_name": "Gonzalo Higuain",
+          "Team": "Real Madrid CF"
+        },
+        {
+          "Unnamed: 0": 0,
+          "season": "2015/2016",
+          "team_api_id": 8315,
+          "player_api_id": 33028,
+          "Type": "goal",
+          "n": 23,
+          "player_name": "Aritz Aduriz",
+          "Team": "Athletic Club de Bilbao"
+        },
+        {
+          "Unnamed: 0": 0,
+          "season": "2015/2016",
+          "team_api_id": 9906,
+          "player_api_id": 184138,
+          "Type": "goal",
+          "n": 23,
+          "player_name": "Antoine Griezmann",
+          "Team": "Atlético Madrid"
+        },
+        {
+          "Unnamed: 0": 0,
+          "season": "2014/2015",
+          "team_api_id": 9906,
+          "player_api_id": 184138,
+          "Type": "goal",
+          "n": 22,
+          "player_name": "Antoine Griezmann",
+          "Team": "Atlético Madrid"
+        },
+        {
+          "Unnamed: 0": 0,
+          "season": "2009/2010",
+          "team_api_id": 10267,
+          "player_api_id": 30909,
+          "Type": "goal",
+          "n": 22,
+          "player_name": "David Villa",
+          "Team": "Valencia CF"
+        },
+        {
+          "Unnamed: 0": 0,
+          "season": "2014/2015",
+          "team_api_id": 8302,
+          "player_api_id": 166648,
+          "Type": "goal",
+          "n": 22,
+          "player_name": "Carlos Bacca",
+          "Team": "Sevilla FC"
+        },
+        {
+          "Unnamed: 0": 0,
+          "season": "2011/2012",
+          "team_api_id": 8633,
+          "player_api_id": 26166,
+          "Type": "goal",
+          "n": 21,
+          "player_name": "Karim Benzema",
+          "Team": "Real Madrid CF"
+        },
+        {
+          "Unnamed: 0": 0,
+          "season": "2008/2009",
+          "team_api_id": 8634,
+          "player_api_id": 30626,
+          "Type": "goal",
+          "n": 21,
+          "player_name": "Thierry Henry",
+          "Team": "FC Barcelona"
+        },
+        {
+          "Unnamed: 0": 0,
+          "season": "2015/2016",
+          "team_api_id": 8603,
+          "player_api_id": 96652,
+          "Type": "goal",
+          "n": 21,
+          "player_name": "Ruben Castro",
+          "Team": "Real Betis Balompié"
+        },
+        {
+          "Unnamed: 0": 0,
+          "season": "2009/2010",
+          "team_api_id": 9906,
+          "player_api_id": 38460,
+          "Type": "goal",
+          "n": 20,
+          "player_name": "Diego Forlan",
+          "Team": "Atlético Madrid"
+        },
+        {
+          "Unnamed: 0": 0,
+          "season": "2010/2011",
+          "team_api_id": 8315,
+          "player_api_id": 33030,
+          "Type": "goal",
+          "n": 20,
+          "player_name": "Fernando Llorente",
+          "Team": "Athletic Club de Bilbao"
+        },
+        {
+          "Unnamed: 0": 0,
+          "season": "2008/2009",
+          "team_api_id": 8302,
+          "player_api_id": 33989,
+          "Type": "goal",
+          "n": 20,
+          "player_name": "Frederic Kanoute",
+          "Team": "Sevilla FC"
+        },
+        {
+          "Unnamed: 0": 0,
+          "season": "2010/2011",
+          "team_api_id": 9906,
+          "player_api_id": 37412,
+          "Type": "goal",
+          "n": 20,
+          "player_name": "Sergio Aguero",
+          "Team": "Atlético Madrid"
+        },
+        {
+          "Unnamed: 0": 0,
+          "season": "2010/2011",
+          "team_api_id": 8302,
+          "player_api_id": 75310,
+          "Type": "goal",
+          "n": 20,
+          "player_name": "Alvaro Negredo",
+          "Team": "Sevilla FC"
+        },
+        {
+          "Unnamed: 0": 0,
+          "season": "2013/2014",
+          "team_api_id": 8634,
+          "player_api_id": 50047,
+          "Type": "goal",
+          "n": 19,
+          "player_name": "Alexis Sanchez",
+          "Team": "FC Barcelona"
+        },
+        {
+          "Unnamed: 0": 0,
+          "season": "2009/2010",
+          "team_api_id": 8634,
+          "player_api_id": 35724,
+          "Type": "goal",
+          "n": 19,
+          "player_name": "Zlatan Ibrahimovic",
+          "Team": "FC Barcelona"
+        },
+        {
+          "Unnamed: 0": 0,
+          "season": "2008/2009",
+          "team_api_id": 9865,
+          "player_api_id": 75310,
+          "Type": "goal",
+          "n": 19,
+          "player_name": "Alvaro Negredo",
+          "Team": "UD Almería"
+        },
+        {
+          "Unnamed: 0": 0,
+          "season": "2015/2016",
+          "team_api_id": 8633,
+          "player_api_id": 31921,
+          "Type": "goal",
+          "n": 19,
+          "player_name": "Gareth Bale",
+          "Team": "Real Madrid CF"
+        },
+        {
+          "Unnamed: 0": 0,
+          "season": "2008/2009",
+          "team_api_id": 9906,
+          "player_api_id": 37412,
+          "Type": "goal",
+          "n": 19,
+          "player_name": "Sergio Aguero",
+          "Team": "Atlético Madrid"
+        },
+        {
+          "Unnamed: 0": 0,
+          "season": "2011/2012",
+          "team_api_id": 8315,
+          "player_api_id": 33030,
+          "Type": "goal",
+          "n": 18,
+          "player_name": "Fernando Llorente",
+          "Team": "Athletic Club de Bilbao"
+        },
+        {
+          "Unnamed: 0": 0,
+          "season": "2015/2016",
+          "team_api_id": 9783,
+          "player_api_id": 194660,
+          "Type": "goal",
+          "n": 18,
+          "player_name": "Lucas Perez",
+          "Team": "RC Deportivo de La Coruña"
+        },
+        {
+          "Unnamed: 0": 0,
+          "season": "2015/2016",
+          "team_api_id": 8372,
+          "player_api_id": 200917,
+          "Type": "goal",
+          "n": 18,
+          "player_name": "Borja Baston",
+          "Team": "SD Eibar"
+        },
+        {
+          "Unnamed: 0": 0,
+          "season": "2012/2013",
+          "team_api_id": 8370,
+          "player_api_id": 43372,
+          "Type": "goal",
+          "n": 18,
+          "player_name": "Piti",
+          "Team": "Rayo Vallecano"
+        },
+        {
+          "Unnamed: 0": 0,
+          "season": "2012/2013",
+          "team_api_id": 8603,
+          "player_api_id": 96652,
+          "Type": "goal",
+          "n": 18,
+          "player_name": "Ruben Castro",
+          "Team": "Real Betis Balompié"
+        },
+        {
+          "Unnamed: 0": 0,
+          "season": "2011/2012",
+          "team_api_id": 10267,
+          "player_api_id": 37506,
+          "Type": "goal",
+          "n": 18,
+          "player_name": "Roberto Soldado",
+          "Team": "Valencia CF"
+        },
+        {
+          "Unnamed: 0": 0,
+          "season": "2010/2011",
+          "team_api_id": 10267,
+          "player_api_id": 37506,
+          "Type": "goal",
+          "n": 18,
+          "player_name": "Roberto Soldado",
+          "Team": "Valencia CF"
+        },
+        {
+          "Unnamed: 0": 0,
+          "season": "2010/2011",
+          "team_api_id": 10205,
+          "player_api_id": 38699,
+          "Type": "goal",
+          "n": 18,
+          "player_name": "Giuseppe Rossi",
+          "Team": "Villarreal CF"
+        },
+        {
+          "Unnamed: 0": 0,
+          "season": "2014/2015",
+          "team_api_id": 8370,
+          "player_api_id": 41168,
+          "Type": "goal",
+          "n": 18,
+          "player_name": "Alberto Bueno",
+          "Team": "Rayo Vallecano"
+        },
+        {
+          "Unnamed: 0": 0,
+          "season": "2010/2011",
+          "team_api_id": 8634,
+          "player_api_id": 30909,
+          "Type": "goal",
+          "n": 18,
+          "player_name": "David Villa",
+          "Team": "FC Barcelona"
+        },
+        {
+          "Unnamed: 0": 0,
+          "season": "2008/2009",
+          "team_api_id": 8633,
+          "player_api_id": 30655,
+          "Type": "goal",
+          "n": 18,
+          "player_name": "Raul",
+          "Team": "Real Madrid CF"
+        },
+        {
+          "Unnamed: 0": 0,
+          "season": "2014/2015",
+          "team_api_id": 8315,
+          "player_api_id": 33028,
+          "Type": "goal",
+          "n": 18,
+          "player_name": "Aritz Aduriz",
+          "Team": "Athletic Club de Bilbao"
+        },
+        {
+          "Unnamed: 0": 0,
+          "season": "2013/2014",
+          "team_api_id": 8633,
+          "player_api_id": 26166,
+          "Type": "goal",
+          "n": 17,
+          "player_name": "Karim Benzema",
+          "Team": "Real Madrid CF"
+        },
+        {
+          "Unnamed: 0": 0,
+          "season": "2015/2016",
+          "team_api_id": 7878,
+          "player_api_id": 161291,
+          "Type": "goal",
+          "n": 17,
+          "player_name": "Youssef El Arabi",
+          "Team": "Granada CF"
+        },
+        {
+          "Unnamed: 0": 0,
+          "season": "2015/2016",
+          "team_api_id": 10267,
+          "player_api_id": 241825,
+          "Type": "goal",
+          "n": 17,
+          "player_name": "Francisco Alcacer",
+          "Team": "Valencia CF"
+        },
+        {
+          "Unnamed: 0": 0,
+          "season": "2013/2014",
+          "team_api_id": 8315,
+          "player_api_id": 33028,
+          "Type": "goal",
+          "n": 17,
+          "player_name": "Aritz Aduriz",
+          "Team": "Athletic Club de Bilbao"
+        },
+        {
+          "Unnamed: 0": 0,
+          "season": "2015/2016",
+          "team_api_id": 8302,
+          "player_api_id": 26392,
+          "Type": "goal",
+          "n": 17,
+          "player_name": "Kevin Gameiro",
+          "Team": "Sevilla FC"
+        },
+        {
+          "Unnamed: 0": 0,
+          "season": "2014/2015",
+          "team_api_id": 8634,
+          "player_api_id": 40636,
+          "Type": "goal",
+          "n": 17,
+          "player_name": "Luis Suarez",
+          "Team": "FC Barcelona"
+        },
+        {
+          "Unnamed: 0": 0,
+          "season": "2014/2015",
+          "team_api_id": 8633,
+          "player_api_id": 26166,
+          "Type": "goal",
+          "n": 16,
+          "player_name": "Karim Benzema",
+          "Team": "Real Madrid CF"
+        },
+        {
+          "Unnamed: 0": 0,
+          "season": "2012/2013",
+          "team_api_id": 8633,
+          "player_api_id": 25759,
+          "Type": "goal",
+          "n": 16,
+          "player_name": "Gonzalo Higuain",
+          "Team": "Real Madrid CF"
+        },
+        {
+          "Unnamed: 0": 0,
+          "season": "2013/2014",
+          "team_api_id": 8560,
+          "player_api_id": 184138,
+          "Type": "goal",
+          "n": 16,
+          "player_name": "Antoine Griezmann",
+          "Team": "Real Sociedad"
+        },
+        {
+          "Unnamed: 0": 0,
+          "season": "2011/2012",
+          "team_api_id": 8603,
+          "player_api_id": 96652,
+          "Type": "goal",
+          "n": 16,
+          "player_name": "Ruben Castro",
+          "Team": "Real Betis Balompié"
+        },
+        {
+          "Unnamed: 0": 0,
+          "season": "2013/2014",
+          "team_api_id": 8560,
+          "player_api_id": 75342,
+          "Type": "goal",
+          "n": 16,
+          "player_name": "Carlos Vela",
+          "Team": "Real Sociedad"
+        },
+        {
+          "Unnamed: 0": 0,
+          "season": "2009/2010",
+          "team_api_id": 8315,
+          "player_api_id": 33030,
+          "Type": "goal",
+          "n": 16,
+          "player_name": "Fernando Llorente",
+          "Team": "Athletic Club de Bilbao"
+        },
+        {
+          "Unnamed: 0": 0,
+          "season": "2009/2010",
+          "team_api_id": 9867,
+          "player_api_id": 37489,
+          "Type": "goal",
+          "n": 16,
+          "player_name": "Nino",
+          "Team": "CD Tenerife"
+        },
+        {
+          "Unnamed: 0": 0,
+          "season": "2009/2010",
+          "team_api_id": 8305,
+          "player_api_id": 37506,
+          "Type": "goal",
+          "n": 16,
+          "player_name": "Roberto Soldado",
+          "Team": "Getafe CF"
+        },
+        {
+          "Unnamed: 0": 0,
+          "season": "2011/2012",
+          "team_api_id": 8302,
+          "player_api_id": 75310,
+          "Type": "goal",
+          "n": 16,
+          "player_name": "Alvaro Negredo",
+          "Team": "Sevilla FC"
+        },
+        {
+          "Unnamed: 0": 0,
+          "season": "2014/2015",
+          "team_api_id": 10268,
+          "player_api_id": 128732,
+          "Type": "goal",
+          "n": 15,
+          "player_name": "Jonathas",
+          "Team": "Elche CF"
+        },
+        {
+          "Unnamed: 0": 0,
+          "season": "2015/2016",
+          "team_api_id": 9864,
+          "player_api_id": 213653,
+          "Type": "goal",
+          "n": 15,
+          "player_name": "Charles",
+          "Team": "Málaga CF"
+        },
+        {
+          "Unnamed: 0": 0,
+          "season": "2013/2014",
+          "team_api_id": 8302,
+          "player_api_id": 26392,
+          "Type": "goal",
+          "n": 15,
+          "player_name": "Kevin Gameiro",
+          "Team": "Sevilla FC"
+        },
+        {
+          "Unnamed: 0": 0,
+          "season": "2010/2011",
+          "team_api_id": 8633,
+          "player_api_id": 26166,
+          "Type": "goal",
+          "n": 15,
+          "player_name": "Karim Benzema",
+          "Team": "Real Madrid CF"
+        },
+        {
+          "Unnamed: 0": 0,
+          "season": "2013/2014",
+          "team_api_id": 8302,
+          "player_api_id": 25773,
+          "Type": "goal",
+          "n": 15,
+          "player_name": "Ivan Rakitic",
+          "Team": "Sevilla FC"
+        },
+        {
+          "Unnamed: 0": 0,
+          "season": "2013/2014",
+          "team_api_id": 10281,
+          "player_api_id": 46808,
+          "Type": "goal",
+          "n": 15,
+          "player_name": "Javi Guerra",
+          "Team": "Real Valladolid"
+        },
+        {
+          "Unnamed: 0": 0,
+          "season": "2008/2009",
+          "team_api_id": 10205,
+          "player_api_id": 38551,
+          "Type": "goal",
+          "n": 15,
+          "player_name": "Joseba Llorente",
+          "Team": "Villarreal CF"
+        },
+        {
+          "Unnamed: 0": 0,
+          "season": "2009/2010",
+          "team_api_id": 8302,
+          "player_api_id": 34106,
+          "Type": "goal",
+          "n": 15,
+          "player_name": "Luis Fabiano",
+          "Team": "Sevilla FC"
+        },
+        {
+          "Unnamed: 0": 0,
+          "season": "2013/2014",
+          "team_api_id": 8633,
+          "player_api_id": 31921,
+          "Type": "goal",
+          "n": 15,
+          "player_name": "Gareth Bale",
+          "Team": "Real Madrid CF"
+        },
+        {
+          "Unnamed: 0": 0,
+          "season": "2011/2012",
+          "team_api_id": 8370,
+          "player_api_id": 118528,
+          "Type": "goal",
+          "n": 15,
+          "player_name": "Michu",
+          "Team": "Rayo Vallecano"
+        },
+        {
+          "Unnamed: 0": 0,
+          "season": "2011/2012",
+          "team_api_id": 8581,
+          "player_api_id": 30922,
+          "Type": "goal",
+          "n": 15,
+          "player_name": "Arouna Kone",
+          "Team": "Levante UD"
+        },
+        {
+          "Unnamed: 0": 0,
+          "season": "2013/2014",
+          "team_api_id": 8634,
+          "player_api_id": 150250,
+          "Type": "goal",
+          "n": 15,
+          "player_name": "Pedro Rodriguez",
+          "Team": "FC Barcelona"
+        },
+        {
+          "Unnamed: 0": 0,
+          "season": "2014/2015",
+          "team_api_id": 8633,
+          "player_api_id": 31921,
+          "Type": "goal",
+          "n": 15,
+          "player_name": "Gareth Bale",
+          "Team": "Real Madrid CF"
+        },
+        {
+          "Unnamed: 0": 0,
+          "season": "2008/2009",
+          "team_api_id": 8315,
+          "player_api_id": 33030,
+          "Type": "goal",
+          "n": 14,
+          "player_name": "Fernando Llorente",
+          "Team": "Athletic Club de Bilbao"
+        },
+        {
+          "Unnamed: 0": 0,
+          "season": "2012/2013",
+          "team_api_id": 8560,
+          "player_api_id": 46289,
+          "Type": "goal",
+          "n": 14,
+          "player_name": "Imanol Agirretxe",
+          "Team": "Real Sociedad"
+        },
+        {
+          "Unnamed: 0": 0,
+          "season": "2014/2015",
+          "team_api_id": 9910,
+          "player_api_id": 213486,
+          "Type": "goal",
+          "n": 14,
+          "player_name": "Nolito",
+          "Team": "RC Celta de Vigo"
+        },
+        {
+          "Unnamed: 0": 0,
+          "season": "2013/2014",
+          "team_api_id": 10205,
+          "player_api_id": 38044,
+          "Type": "goal",
+          "n": 14,
+          "player_name": "Ikechukwu Uche",
+          "Team": "Villarreal CF"
+        },
+        {
+          "Unnamed: 0": 0,
+          "season": "2013/2014",
+          "team_api_id": 9906,
+          "player_api_id": 30909,
+          "Type": "goal",
+          "n": 14,
+          "player_name": "David Villa",
+          "Team": "Atlético Madrid"
+        },
+        {
+          "Unnamed: 0": 0,
+          "season": "2010/2011",
+          "team_api_id": 9864,
+          "player_api_id": 51545,
+          "Type": "goal",
+          "n": 14,
+          "player_name": "Jose Salomon Rondon",
+          "Team": "Málaga CF"
+        },
+        {
+          "Unnamed: 0": 0,
+          "season": "2014/2015",
+          "team_api_id": 8558,
+          "player_api_id": 38578,
+          "Type": "goal",
+          "n": 14,
+          "player_name": "Sergio Garcia",
+          "Team": "RCD Espanyol"
+        },
+        {
+          "Unnamed: 0": 0,
+          "season": "2015/2016",
+          "team_api_id": 9910,
+          "player_api_id": 174472,
+          "Type": "goal",
+          "n": 14,
+          "player_name": "Iago Aspas",
+          "Team": "RC Celta de Vigo"
+        },
+        {
+          "Unnamed: 0": 0,
+          "season": "2013/2014",
+          "team_api_id": 9910,
+          "player_api_id": 213486,
+          "Type": "goal",
+          "n": 14,
+          "player_name": "Nolito",
+          "Team": "RC Celta de Vigo"
+        },
+        {
+          "Unnamed: 0": 0,
+          "season": "2014/2015",
+          "team_api_id": 10267,
+          "player_api_id": 75307,
+          "Type": "goal",
+          "n": 14,
+          "player_name": "Daniel Parejo",
+          "Team": "Valencia CF"
+        },
+        {
+          "Unnamed: 0": 0,
+          "season": "2012/2013",
+          "team_api_id": 8394,
+          "player_api_id": 40958,
+          "Type": "goal",
+          "n": 14,
+          "player_name": "Helder Postiga",
+          "Team": "Real Zaragoza"
+        },
+        {
+          "Unnamed: 0": 0,
+          "season": "2012/2013",
+          "team_api_id": 8560,
+          "player_api_id": 75342,
+          "Type": "goal",
+          "n": 14,
+          "player_name": "Carlos Vela",
+          "Team": "Real Sociedad"
+        },
+        {
+          "Unnamed: 0": 0,
+          "season": "2015/2016",
+          "team_api_id": 8560,
+          "player_api_id": 46289,
+          "Type": "goal",
+          "n": 14,
+          "player_name": "Imanol Agirretxe",
+          "Team": "Real Sociedad"
+        },
+        {
+          "Unnamed: 0": 0,
+          "season": "2012/2013",
+          "team_api_id": 8315,
+          "player_api_id": 33028,
+          "Type": "goal",
+          "n": 14,
+          "player_name": "Aritz Aduriz",
+          "Team": "Athletic Club de Bilbao"
+        },
+        {
+          "Unnamed: 0": 0,
+          "season": "2013/2014",
+          "team_api_id": 8302,
+          "player_api_id": 166648,
+          "Type": "goal",
+          "n": 14,
+          "player_name": "Carlos Bacca",
+          "Team": "Sevilla FC"
+        },
+        {
+          "Unnamed: 0": 0,
+          "season": "2008/2009",
+          "team_api_id": 10267,
+          "player_api_id": 41468,
+          "Type": "goal",
+          "n": 14,
+          "player_name": "Juan Mata",
+          "Team": "Valencia CF"
+        },
+        {
+          "Unnamed: 0": 0,
+          "season": "2008/2009",
+          "team_api_id": 10205,
+          "player_api_id": 38699,
+          "Type": "goal",
+          "n": 13,
+          "player_name": "Giuseppe Rossi",
+          "Team": "Villarreal CF"
+        },
+        {
+          "Unnamed: 0": 0,
+          "season": "2015/2016",
+          "team_api_id": 8370,
+          "player_api_id": 46808,
+          "Type": "goal",
+          "n": 13,
+          "player_name": "Javi Guerra",
+          "Team": "Rayo Vallecano"
+        },
+        {
+          "Unnamed: 0": 0,
+          "season": "2010/2011",
+          "team_api_id": 10278,
+          "player_api_id": 30728,
+          "Type": "goal",
+          "n": 13,
+          "player_name": "David Trezeguet",
+          "Team": "Hércules Club de Fútbol"
+        },
+        {
+          "Unnamed: 0": 0,
+          "season": "2008/2009",
+          "team_api_id": 8388,
+          "player_api_id": 38550,
+          "Type": "goal",
+          "n": 13,
+          "player_name": "Jose Javier Barkero",
+          "Team": "CD Numancia"
+        },
+        {
+          "Unnamed: 0": 0,
+          "season": "2014/2015",
+          "team_api_id": 9906,
+          "player_api_id": 75447,
+          "Type": "goal",
+          "n": 13,
+          "player_name": "Mario Mandzukic",
+          "Team": "Atlético Madrid"
+        },
+        {
+          "Unnamed: 0": 0,
+          "season": "2014/2015",
+          "team_api_id": 8558,
+          "player_api_id": 58294,
+          "Type": "goal",
+          "n": 13,
+          "player_name": "Cristian Stuani",
+          "Team": "RCD Espanyol"
+        },
+        {
+          "Unnamed: 0": 0,
+          "season": "2010/2011",
+          "team_api_id": 8634,
+          "player_api_id": 150250,
+          "Type": "goal",
+          "n": 13,
+          "player_name": "Pedro Rodriguez",
+          "Team": "FC Barcelona"
+        },
+        {
+          "Unnamed: 0": 0,
+          "season": "2008/2009",
+          "team_api_id": 8696,
+          "player_api_id": 38567,
+          "Type": "goal",
+          "n": 13,
+          "player_name": "Nikola Zigic",
+          "Team": "Racing Santander"
+        },
+        {
+          "Unnamed: 0": 0,
+          "season": "2008/2009",
+          "team_api_id": 8305,
+          "player_api_id": 37506,
+          "Type": "goal",
+          "n": 13,
+          "player_name": "Roberto Soldado",
+          "Team": "Getafe CF"
+        },
+        {
+          "Unnamed: 0": 0,
+          "season": "2010/2011",
+          "team_api_id": 8558,
+          "player_api_id": 40165,
+          "Type": "goal",
+          "n": 13,
+          "player_name": "Pablo Osvaldo",
+          "Team": "RCD Espanyol"
+        },
+        {
+          "Unnamed: 0": 0,
+          "season": "2008/2009",
+          "team_api_id": 9869,
+          "player_api_id": 34582,
+          "Type": "goal",
+          "n": 13,
+          "player_name": "Mate Bilic",
+          "Team": "Real Sporting de Gijón"
+        },
+        {
+          "Unnamed: 0": 0,
+          "season": "2012/2013",
+          "team_api_id": 10267,
+          "player_api_id": 39122,
+          "Type": "goal",
+          "n": 13,
+          "player_name": "Jonas",
+          "Team": "Valencia CF"
+        },
+        {
+          "Unnamed: 0": 0,
+          "season": "2009/2010",
+          "team_api_id": 8634,
+          "player_api_id": 150250,
+          "Type": "goal",
+          "n": 13,
+          "player_name": "Pedro Rodriguez",
+          "Team": "FC Barcelona"
+        },
+        {
+          "Unnamed: 0": 0,
+          "season": "2015/2016",
+          "team_api_id": 9910,
+          "player_api_id": 213486,
+          "Type": "goal",
+          "n": 13,
+          "player_name": "Nolito",
+          "Team": "RC Celta de Vigo"
+        },
+        {
+          "Unnamed: 0": 0,
+          "season": "2009/2010",
+          "team_api_id": 8661,
+          "player_api_id": 33028,
+          "Type": "goal",
+          "n": 13,
+          "player_name": "Aritz Aduriz",
+          "Team": "RCD Mallorca"
+        },
+        {
+          "Unnamed: 0": 0,
+          "season": "2012/2013",
+          "team_api_id": 8603,
+          "player_api_id": 2983,
+          "Type": "goal",
+          "n": 13,
+          "player_name": "Jorge Molina",
+          "Team": "Real Betis Balompié"
+        },
+        {
+          "Unnamed: 0": 0,
+          "season": "2012/2013",
+          "team_api_id": 9783,
+          "player_api_id": 37446,
+          "Type": "goal",
+          "n": 13,
+          "player_name": "Ivan Sanchez Riki",
+          "Team": "RC Deportivo de La Coruña"
+        },
+        {
+          "Unnamed: 0": 0,
+          "season": "2013/2014",
+          "team_api_id": 7878,
+          "player_api_id": 161291,
+          "Type": "goal",
+          "n": 13,
+          "player_name": "Youssef El Arabi",
+          "Team": "Granada CF"
+        },
+        {
+          "Unnamed: 0": 0,
+          "season": "2010/2011",
+          "team_api_id": 8581,
+          "player_api_id": 41622,
+          "Type": "goal",
+          "n": 13,
+          "player_name": "Felipe Caicedo",
+          "Team": "Levante UD"
+        },
+        {
+          "Unnamed: 0": 0,
+          "season": "2013/2014",
+          "team_api_id": 8558,
+          "player_api_id": 38578,
+          "Type": "goal",
+          "n": 13,
+          "player_name": "Sergio Garcia",
+          "Team": "RCD Espanyol"
+        },
+        {
+          "Unnamed: 0": 0,
+          "season": "2010/2011",
+          "team_api_id": 8302,
+          "player_api_id": 33989,
+          "Type": "goal",
+          "n": 13,
+          "player_name": "Frederic Kanoute",
+          "Team": "Sevilla FC"
+        },
+        {
+          "Unnamed: 0": 0,
+          "season": "2013/2014",
+          "team_api_id": 8371,
+          "player_api_id": 37653,
+          "Type": "goal",
+          "n": 13,
+          "player_name": "Oriol Riera",
+          "Team": "CA Osasuna"
+        },
+        {
+          "Unnamed: 0": 0,
+          "season": "2011/2012",
+          "team_api_id": 8371,
+          "player_api_id": 33871,
+          "Type": "goal",
+          "n": 12,
+          "player_name": "Raul Garcia",
+          "Team": "CA Osasuna"
+        },
+        {
+          "Unnamed: 0": 0,
+          "season": "2011/2012",
+          "team_api_id": 8305,
+          "player_api_id": 150770,
+          "Type": "goal",
+          "n": 12,
+          "player_name": "Miku",
+          "Team": "Getafe CF"
+        },
+        {
+          "Unnamed: 0": 0,
+          "season": "2009/2010",
+          "team_api_id": 8302,
+          "player_api_id": 75310,
+          "Type": "goal",
+          "n": 12,
+          "player_name": "Alvaro Negredo",
+          "Team": "Sevilla FC"
+        },
+        {
+          "Unnamed: 0": 0,
+          "season": "2011/2012",
+          "team_api_id": 8560,
+          "player_api_id": 75342,
+          "Type": "goal",
+          "n": 12,
+          "player_name": "Carlos Vela",
+          "Team": "Real Sociedad"
+        },
+        {
+          "Unnamed: 0": 0,
+          "season": "2014/2015",
+          "team_api_id": 10205,
+          "player_api_id": 294003,
+          "Type": "goal",
+          "n": 12,
+          "player_name": "Luciano Dario Vietto",
+          "Team": "Villarreal CF"
+        },
+        {
+          "Unnamed: 0": 0,
+          "season": "2013/2014",
+          "team_api_id": 9910,
+          "player_api_id": 213653,
+          "Type": "goal",
+          "n": 12,
+          "player_name": "Charles",
+          "Team": "RC Celta de Vigo"
+        },
+        {
+          "Unnamed: 0": 0,
+          "season": "2009/2010",
+          "team_api_id": 9906,
+          "player_api_id": 37412,
+          "Type": "goal",
+          "n": 12,
+          "player_name": "Sergio Aguero",
+          "Team": "Atlético Madrid"
+        },
+        {
+          "Unnamed: 0": 0,
+          "season": "2010/2011",
+          "team_api_id": 8661,
+          "player_api_id": 25574,
+          "Type": "goal",
+          "n": 12,
+          "player_name": "Pierre Webo",
+          "Team": "RCD Mallorca"
+        },
+        {
+          "Unnamed: 0": 0,
+          "season": "2011/2012",
+          "team_api_id": 8634,
+          "player_api_id": 50047,
+          "Type": "goal",
+          "n": 12,
+          "player_name": "Alexis Sanchez",
+          "Team": "FC Barcelona"
+        },
+        {
+          "Unnamed: 0": 0,
+          "season": "2013/2014",
+          "team_api_id": 8370,
+          "player_api_id": 96509,
+          "Type": "goal",
+          "n": 12,
+          "player_name": "Joaquin Larrivey",
+          "Team": "Rayo Vallecano"
+        },
+        {
+          "Unnamed: 0": 0,
+          "season": "2012/2013",
+          "team_api_id": 10281,
+          "player_api_id": 25347,
+          "Type": "goal",
+          "n": 12,
+          "player_name": "Oscar Gonzalez",
+          "Team": "Real Valladolid"
+        },
+        {
+          "Unnamed: 0": 0,
+          "season": "2009/2010",
+          "team_api_id": 8302,
+          "player_api_id": 33989,
+          "Type": "goal",
+          "n": 12,
+          "player_name": "Frederic Kanoute",
+          "Team": "Sevilla FC"
+        },
+        {
+          "Unnamed: 0": 0,
+          "season": "2012/2013",
+          "team_api_id": 9910,
+          "player_api_id": 174472,
+          "Type": "goal",
+          "n": 12,
+          "player_name": "Iago Aspas",
+          "Team": "RC Celta de Vigo"
+        },
+        {
+          "Unnamed: 0": 0,
+          "season": "2013/2014",
+          "team_api_id": 8603,
+          "player_api_id": 96652,
+          "Type": "goal",
+          "n": 12,
+          "player_name": "Ruben Castro",
+          "Team": "Real Betis Balompié"
+        },
+        {
+          "Unnamed: 0": 0,
+          "season": "2009/2010",
+          "team_api_id": 9868,
+          "player_api_id": 102619,
+          "Type": "goal",
+          "n": 12,
+          "player_name": "Mario Bermejo",
+          "Team": "Xerez Club Deportivo"
+        },
+        {
+          "Unnamed: 0": 0,
+          "season": "2015/2016",
+          "team_api_id": 10205,
+          "player_api_id": 201939,
+          "Type": "goal",
+          "n": 12,
+          "player_name": "Cedric Bakambu",
+          "Team": "Villarreal CF"
+        },
+        {
+          "Unnamed: 0": 0,
+          "season": "2011/2012",
+          "team_api_id": 8661,
+          "player_api_id": 25462,
+          "Type": "goal",
+          "n": 11,
+          "player_name": "Victor Casadesus",
+          "Team": "RCD Mallorca"
+        },
+        {
+          "Unnamed: 0": 0,
+          "season": "2010/2011",
+          "team_api_id": 8394,
+          "player_api_id": 33635,
+          "Type": "goal",
+          "n": 11,
+          "player_name": "Gabi",
+          "Team": "Real Zaragoza"
+        },
+        {
+          "Unnamed: 0": 0,
+          "season": "2008/2009",
+          "team_api_id": 8603,
+          "player_api_id": 25571,
+          "Type": "goal",
+          "n": 11,
+          "player_name": "Achille Emana",
+          "Team": "Real Betis Balompié"
+        },
+        {
+          "Unnamed: 0": 0,
+          "season": "2015/2016",
+          "team_api_id": 9869,
+          "player_api_id": 474448,
+          "Type": "goal",
+          "n": 11,
+          "player_name": "Antonio Sanabria",
+          "Team": "Real Sporting de Gijón"
+        },
+        {
+          "Unnamed: 0": 0,
+          "season": "2015/2016",
+          "team_api_id": 9906,
+          "player_api_id": 30853,
+          "Type": "goal",
+          "n": 11,
+          "player_name": "Fernando Torres",
+          "Team": "Atlético Madrid"
+        },
+        {
+          "Unnamed: 0": 0,
+          "season": "2014/2015",
+          "team_api_id": 8581,
+          "player_api_id": 41294,
+          "Type": "goal",
+          "n": 11,
+          "player_name": "David Barral",
+          "Team": "Levante UD"
+        },
+        {
+          "Unnamed: 0": 0,
+          "season": "2008/2009",
+          "team_api_id": 10281,
+          "player_api_id": 39142,
+          "Type": "goal",
+          "n": 11,
+          "player_name": "Henok Goitom",
+          "Team": "Real Valladolid"
+        },
+        {
+          "Unnamed: 0": 0,
+          "season": "2013/2014",
+          "team_api_id": 8370,
+          "player_api_id": 41168,
+          "Type": "goal",
+          "n": 11,
+          "player_name": "Alberto Bueno",
+          "Team": "Rayo Vallecano"
+        },
+        {
+          "Unnamed: 0": 0,
+          "season": "2014/2015",
+          "team_api_id": 10267,
+          "player_api_id": 241825,
+          "Type": "goal",
+          "n": 11,
+          "player_name": "Francisco Alcacer",
+          "Team": "Valencia CF"
+        },
+        {
+          "Unnamed: 0": 0,
+          "season": "2013/2014",
+          "team_api_id": 10205,
+          "player_api_id": 41157,
+          "Type": "goal",
+          "n": 11,
+          "player_name": "Giovani dos Santos",
+          "Team": "Villarreal CF"
+        },
+        {
+          "Unnamed: 0": 0,
+          "season": "2014/2015",
+          "team_api_id": 9910,
+          "player_api_id": 96509,
+          "Type": "goal",
+          "n": 11,
+          "player_name": "Joaquin Larrivey",
+          "Team": "RC Celta de Vigo"
+        },
+        {
+          "Unnamed: 0": 0,
+          "season": "2015/2016",
+          "team_api_id": 8306,
+          "player_api_id": 213729,
+          "Type": "goal",
+          "n": 11,
+          "player_name": "Jonathan Viera",
+          "Team": "UD Las Palmas"
+        },
+        {
+          "Unnamed: 0": 0,
+          "season": "2008/2009",
+          "team_api_id": 8371,
+          "player_api_id": 23853,
+          "Type": "goal",
+          "n": 11,
+          "player_name": "Walter Pandiani",
+          "Team": "CA Osasuna"
+        },
+        {
+          "Unnamed: 0": 0,
+          "season": "2009/2010",
+          "team_api_id": 10205,
+          "player_api_id": 25986,
+          "Type": "goal",
+          "n": 11,
+          "player_name": "Nilmar",
+          "Team": "Villarreal CF"
+        },
+        {
+          "Unnamed: 0": 0,
+          "season": "2014/2015",
+          "team_api_id": 9864,
+          "player_api_id": 191873,
+          "Type": "goal",
+          "n": 11,
+          "player_name": "Juanmi",
+          "Team": "Málaga CF"
+        },
+        {
+          "Unnamed: 0": 0,
+          "season": "2012/2013",
+          "team_api_id": 8661,
+          "player_api_id": 45204,
+          "Type": "goal",
+          "n": 11,
+          "player_name": "Tommer Hemed",
+          "Team": "RCD Mallorca"
+        },
+        {
+          "Unnamed: 0": 0,
+          "season": "2011/2012",
+          "team_api_id": 8560,
+          "player_api_id": 46289,
+          "Type": "goal",
+          "n": 11,
+          "player_name": "Imanol Agirretxe",
+          "Team": "Real Sociedad"
+        },
+        {
+          "Unnamed: 0": 0,
+          "season": "2012/2013",
+          "team_api_id": 8634,
+          "player_api_id": 30613,
+          "Type": "goal",
+          "n": 11,
+          "player_name": "Cesc Fabregas",
+          "Team": "FC Barcelona"
+        },
+        {
+          "Unnamed: 0": 0,
+          "season": "2009/2010",
+          "team_api_id": 8371,
+          "player_api_id": 23853,
+          "Type": "goal",
+          "n": 11,
+          "player_name": "Walter Pandiani",
+          "Team": "CA Osasuna"
+        },
+        {
+          "Unnamed: 0": 0,
+          "season": "2009/2010",
+          "team_api_id": 9869,
+          "player_api_id": 24383,
+          "Type": "goal",
+          "n": 11,
+          "player_name": "Diego Castro",
+          "Team": "Real Sporting de Gijón"
+        },
+        {
+          "Unnamed: 0": 0,
+          "season": "2012/2013",
+          "team_api_id": 8633,
+          "player_api_id": 26166,
+          "Type": "goal",
+          "n": 11,
+          "player_name": "Karim Benzema",
+          "Team": "Real Madrid CF"
+        },
+        {
+          "Unnamed: 0": 0,
+          "season": "2009/2010",
+          "team_api_id": 8696,
+          "player_api_id": 38382,
+          "Type": "goal",
+          "n": 11,
+          "player_name": "Mohammed Tchite",
+          "Team": "Racing Santander"
+        },
+        {
+          "Unnamed: 0": 0,
+          "season": "2008/2009",
+          "team_api_id": 8661,
+          "player_api_id": 33028,
+          "Type": "goal",
+          "n": 11,
+          "player_name": "Aritz Aduriz",
+          "Team": "RCD Mallorca"
+        },
+        {
+          "Unnamed: 0": 0,
+          "season": "2011/2012",
+          "team_api_id": 10205,
+          "player_api_id": 18628,
+          "Type": "goal",
+          "n": 11,
+          "player_name": "Marco Ruben",
+          "Team": "Villarreal CF"
+        },
+        {
+          "Unnamed: 0": 0,
+          "season": "2011/2012",
+          "team_api_id": 9864,
+          "player_api_id": 51545,
+          "Type": "goal",
+          "n": 11,
+          "player_name": "Jose Salomon Rondon",
+          "Team": "Málaga CF"
+        },
+        {
+          "Unnamed: 0": 0,
+          "season": "2015/2016",
+          "team_api_id": 8370,
+          "player_api_id": 427893,
+          "Type": "goal",
+          "n": 10,
+          "player_name": "Jozabed",
+          "Team": "Rayo Vallecano"
+        },
+        {
+          "Unnamed: 0": 0,
+          "season": "2009/2010",
+          "team_api_id": 10205,
+          "player_api_id": 38699,
+          "Type": "goal",
+          "n": 10,
+          "player_name": "Giuseppe Rossi",
+          "Team": "Villarreal CF"
+        },
+        {
+          "Unnamed: 0": 0,
+          "season": "2009/2010",
+          "team_api_id": 10267,
+          "player_api_id": 41468,
+          "Type": "goal",
+          "n": 10,
+          "player_name": "Juan Mata",
+          "Team": "Valencia CF"
+        },
+        {
+          "Unnamed: 0": 0,
+          "season": "2010/2011",
+          "team_api_id": 8696,
+          "player_api_id": 30827,
+          "Type": "goal",
+          "n": 10,
+          "player_name": "Markus Rosenberg",
+          "Team": "Racing Santander"
+        },
+        {
+          "Unnamed: 0": 0,
+          "season": "2011/2012",
+          "team_api_id": 8634,
+          "player_api_id": 39854,
+          "Type": "goal",
+          "n": 10,
+          "player_name": "Xavi Hernandez",
+          "Team": "FC Barcelona"
+        },
+        {
+          "Unnamed: 0": 0,
+          "season": "2008/2009",
+          "team_api_id": 8603,
+          "player_api_id": 38578,
+          "Type": "goal",
+          "n": 10,
+          "player_name": "Sergio Garcia",
+          "Team": "Real Betis Balompié"
+        },
+        {
+          "Unnamed: 0": 0,
+          "season": "2011/2012",
+          "team_api_id": 8370,
+          "player_api_id": 32764,
+          "Type": "goal",
+          "n": 10,
+          "player_name": "Raul Tamudo",
+          "Team": "Rayo Vallecano"
+        },
+        {
+          "Unnamed: 0": 0,
+          "season": "2008/2009",
+          "team_api_id": 9869,
+          "player_api_id": 41294,
+          "Type": "goal",
+          "n": 10,
+          "player_name": "David Barral",
+          "Team": "Real Sporting de Gijón"
+        },
+        {
+          "Unnamed: 0": 0,
+          "season": "2013/2014",
+          "team_api_id": 10205,
+          "player_api_id": 17703,
+          "Type": "goal",
+          "n": 10,
+          "player_name": "Jeremy Perbet",
+          "Team": "Villarreal CF"
+        },
+        {
+          "Unnamed: 0": 0,
+          "season": "2011/2012",
+          "team_api_id": 8302,
+          "player_api_id": 37474,
+          "Type": "goal",
+          "n": 10,
+          "player_name": "Manu del Moral",
+          "Team": "Sevilla FC"
+        },
+        {
+          "Unnamed: 0": 0,
+          "season": "2015/2016",
+          "team_api_id": 8581,
+          "player_api_id": 476769,
+          "Type": "goal",
+          "n": 10,
+          "player_name": "Deyverson",
+          "Team": "Levante UD"
+        },
+        {
+          "Unnamed: 0": 0,
+          "season": "2013/2014",
+          "team_api_id": 9906,
+          "player_api_id": 33871,
+          "Type": "goal",
+          "n": 10,
+          "player_name": "Raul Garcia",
+          "Team": "Atlético Madrid"
+        },
+        {
+          "Unnamed: 0": 0,
+          "season": "2013/2014",
+          "team_api_id": 8603,
+          "player_api_id": 2983,
+          "Type": "goal",
+          "n": 10,
+          "player_name": "Jorge Molina",
+          "Team": "Real Betis Balompié"
+        },
+        {
+          "Unnamed: 0": 0,
+          "season": "2013/2014",
+          "team_api_id": 10267,
+          "player_api_id": 39122,
+          "Type": "goal",
+          "n": 10,
+          "player_name": "Jonas",
+          "Team": "Valencia CF"
+        },
+        {
+          "Unnamed: 0": 0,
+          "season": "2012/2013",
+          "team_api_id": 9906,
+          "player_api_id": 19243,
+          "Type": "goal",
+          "n": 10,
+          "player_name": "Diego Costa",
+          "Team": "Atlético Madrid"
+        },
+        {
+          "Unnamed: 0": 0,
+          "season": "2014/2015",
+          "team_api_id": 8372,
+          "player_api_id": 75616,
+          "Type": "goal",
+          "n": 10,
+          "player_name": "Mikel Arruabarrena",
+          "Team": "SD Eibar"
+        },
+        {
+          "Unnamed: 0": 0,
+          "season": "2010/2011",
+          "team_api_id": 8305,
+          "player_api_id": 37474,
+          "Type": "goal",
+          "n": 10,
+          "player_name": "Manu del Moral",
+          "Team": "Getafe CF"
+        },
+        {
+          "Unnamed: 0": 0,
+          "season": "2010/2011",
+          "team_api_id": 10205,
+          "player_api_id": 25986,
+          "Type": "goal",
+          "n": 10,
+          "player_name": "Nilmar",
+          "Team": "Villarreal CF"
+        },
+        {
+          "Unnamed: 0": 0,
+          "season": "2010/2011",
+          "team_api_id": 10267,
+          "player_api_id": 33028,
+          "Type": "goal",
+          "n": 10,
+          "player_name": "Aritz Aduriz",
+          "Team": "Valencia CF"
+        },
+        {
+          "Unnamed: 0": 0,
+          "season": "2008/2009",
+          "team_api_id": 9864,
+          "player_api_id": 102612,
+          "Type": "goal",
+          "n": 10,
+          "player_name": "Antonio Apono",
+          "Team": "Málaga CF"
+        },
+        {
+          "Unnamed: 0": 0,
+          "season": "2010/2011",
+          "team_api_id": 8302,
+          "player_api_id": 34106,
+          "Type": "goal",
+          "n": 10,
+          "player_name": "Luis Fabiano",
+          "Team": "Sevilla FC"
+        },
+        {
+          "Unnamed: 0": 0,
+          "season": "2008/2009",
+          "team_api_id": 8479,
+          "player_api_id": 75474,
+          "Type": "goal",
+          "n": 10,
+          "player_name": "Javier Camunas",
+          "Team": "RC Recreativo"
+        },
+        {
+          "Unnamed: 0": 0,
+          "season": "2010/2011",
+          "team_api_id": 8633,
+          "player_api_id": 25759,
+          "Type": "goal",
+          "n": 10,
+          "player_name": "Gonzalo Higuain",
+          "Team": "Real Madrid CF"
+        },
+        {
+          "Unnamed: 0": 0,
+          "season": "2011/2012",
+          "team_api_id": 8370,
+          "player_api_id": 19243,
+          "Type": "goal",
+          "n": 10,
+          "player_name": "Diego Costa",
+          "Team": "Rayo Vallecano"
+        },
+        {
+          "Unnamed: 0": 0,
+          "season": "2010/2011",
+          "team_api_id": 9906,
+          "player_api_id": 38460,
+          "Type": "goal",
+          "n": 10,
+          "player_name": "Diego Forlan",
+          "Team": "Atlético Madrid"
+        },
+        {
+          "Unnamed: 0": 0,
+          "season": "2012/2013",
+          "team_api_id": 8560,
+          "player_api_id": 184138,
+          "Type": "goal",
+          "n": 10,
+          "player_name": "Antoine Griezmann",
+          "Team": "Real Sociedad"
+        },
+        {
+          "Unnamed: 0": 0,
+          "season": "2011/2012",
+          "team_api_id": 10267,
+          "player_api_id": 39122,
+          "Type": "goal",
+          "n": 10,
+          "player_name": "Jonas",
+          "Team": "Valencia CF"
+        },
+        {
+          "Unnamed: 0": 0,
+          "season": "2012/2013",
+          "team_api_id": 8634,
+          "player_api_id": 30909,
+          "Type": "goal",
+          "n": 10,
+          "player_name": "David Villa",
+          "Team": "FC Barcelona"
+        },
+        {
+          "Unnamed: 0": 0,
+          "season": "2012/2013",
+          "team_api_id": 10281,
+          "player_api_id": 111975,
+          "Type": "goal",
+          "n": 9,
+          "player_name": "Manucho",
+          "Team": "Real Valladolid"
+        },
+        {
+          "Unnamed: 0": 0,
+          "season": "2012/2013",
+          "team_api_id": 9864,
+          "player_api_id": 191315,
+          "Type": "goal",
+          "n": 9,
+          "player_name": "Isco",
+          "Team": "Málaga CF"
+        },
+        {
+          "Unnamed: 0": 0,
+          "season": "2015/2016",
+          "team_api_id": 8370,
+          "player_api_id": 150770,
+          "Type": "goal",
+          "n": 9,
+          "player_name": "Miku",
+          "Team": "Rayo Vallecano"
+        },
+        {
+          "Unnamed: 0": 0,
+          "season": "2011/2012",
+          "team_api_id": 8696,
+          "player_api_id": 58294,
+          "Type": "goal",
+          "n": 9,
+          "player_name": "Cristian Stuani",
+          "Team": "Racing Santander"
+        },
+        {
+          "Unnamed: 0": 0,
+          "season": "2012/2013",
+          "team_api_id": 8302,
+          "player_api_id": 25773,
+          "Type": "goal",
+          "n": 9,
+          "player_name": "Ivan Rakitic",
+          "Team": "Sevilla FC"
+        },
+        {
+          "Unnamed: 0": 0,
+          "season": "2012/2013",
+          "team_api_id": 8558,
+          "player_api_id": 37441,
+          "Type": "goal",
+          "n": 9,
+          "player_name": "Joan Verdu",
+          "Team": "RCD Espanyol"
+        },
+        {
+          "Unnamed: 0": 0,
+          "season": "2011/2012",
+          "team_api_id": 8581,
+          "player_api_id": 74734,
+          "Type": "goal",
+          "n": 9,
+          "player_name": "Ruben Suarez",
+          "Team": "Levante UD"
+        },
+        {
+          "Unnamed: 0": 0,
+          "season": "2015/2016",
+          "team_api_id": 8558,
+          "player_api_id": 41622,
+          "Type": "goal",
+          "n": 9,
+          "player_name": "Felipe Caicedo",
+          "Team": "RCD Espanyol"
+        },
+        {
+          "Unnamed: 0": 0,
+          "season": "2011/2012",
+          "team_api_id": 8394,
+          "player_api_id": 40958,
+          "Type": "goal",
+          "n": 9,
+          "player_name": "Helder Postiga",
+          "Team": "Real Zaragoza"
+        },
+        {
+          "Unnamed: 0": 0,
+          "season": "2009/2010",
+          "team_api_id": 10205,
+          "player_api_id": 38551,
+          "Type": "goal",
+          "n": 9,
+          "player_name": "Joseba Llorente",
+          "Team": "Villarreal CF"
+        },
+        {
+          "Unnamed: 0": 0,
+          "season": "2008/2009",
+          "team_api_id": 8305,
+          "player_api_id": 37469,
+          "Type": "goal",
+          "n": 9,
+          "player_name": "Juan Albin",
+          "Team": "Getafe CF"
+        },
+        {
+          "Unnamed: 0": 0,
+          "season": "2011/2012",
+          "team_api_id": 9864,
+          "player_api_id": 37436,
+          "Type": "goal",
+          "n": 9,
+          "player_name": "Santi Cazorla",
+          "Team": "Málaga CF"
+        },
+        {
+          "Unnamed: 0": 0,
+          "season": "2015/2016",
+          "team_api_id": 8372,
+          "player_api_id": 193224,
+          "Type": "goal",
+          "n": 9,
+          "player_name": "Sergi Enrich",
+          "Team": "SD Eibar"
+        },
+        {
+          "Unnamed: 0": 0,
+          "season": "2011/2012",
+          "team_api_id": 9869,
+          "player_api_id": 41294,
+          "Type": "goal",
+          "n": 9,
+          "player_name": "David Barral",
+          "Team": "Real Sporting de Gijón"
+        },
+        {
+          "Unnamed: 0": 0,
+          "season": "2008/2009",
+          "team_api_id": 8633,
+          "player_api_id": 36784,
+          "Type": "goal",
+          "n": 9,
+          "player_name": "Klaas Jan Huntelaar",
+          "Team": "Real Madrid CF"
+        },
+        {
+          "Unnamed: 0": 0,
+          "season": "2014/2015",
+          "team_api_id": 8558,
+          "player_api_id": 41622,
+          "Type": "goal",
+          "n": 9,
+          "player_name": "Felipe Caicedo",
+          "Team": "RCD Espanyol"
+        },
+        {
+          "Unnamed: 0": 0,
+          "season": "2012/2013",
+          "team_api_id": 8371,
+          "player_api_id": 108809,
+          "Type": "goal",
+          "n": 9,
+          "player_name": "Kike Sola",
+          "Team": "CA Osasuna"
+        },
+        {
+          "Unnamed: 0": 0,
+          "season": "2015/2016",
+          "team_api_id": 8306,
+          "player_api_id": 179083,
+          "Type": "goal",
+          "n": 9,
+          "player_name": "Willian Jose",
+          "Team": "UD Las Palmas"
+        },
+        {
+          "Unnamed: 0": 0,
+          "season": "2008/2009",
+          "team_api_id": 9864,
+          "player_api_id": 43310,
+          "Type": "goal",
+          "n": 9,
+          "player_name": "Nabil Baha",
+          "Team": "Málaga CF"
+        },
+        {
+          "Unnamed: 0": 0,
+          "season": "2009/2010",
+          "team_api_id": 8633,
+          "player_api_id": 26166,
+          "Type": "goal",
+          "n": 9,
+          "player_name": "Karim Benzema",
+          "Team": "Real Madrid CF"
+        },
+        {
+          "Unnamed: 0": 0,
+          "season": "2014/2015",
+          "team_api_id": 8581,
+          "player_api_id": 25462,
+          "Type": "goal",
+          "n": 9,
+          "player_name": "Victor Casadesus",
+          "Team": "Levante UD"
+        },
+        {
+          "Unnamed: 0": 0,
+          "season": "2008/2009",
+          "team_api_id": 8302,
+          "player_api_id": 34106,
+          "Type": "goal",
+          "n": 9,
+          "player_name": "Luis Fabiano",
+          "Team": "Sevilla FC"
+        },
+        {
+          "Unnamed: 0": 0,
+          "season": "2014/2015",
+          "team_api_id": 8560,
+          "player_api_id": 75342,
+          "Type": "goal",
+          "n": 9,
+          "player_name": "Carlos Vela",
+          "Team": "Real Sociedad"
+        },
+        {
+          "Unnamed: 0": 0,
+          "season": "2009/2010",
+          "team_api_id": 9865,
+          "player_api_id": 43329,
+          "Type": "goal",
+          "n": 9,
+          "player_name": "Kalu Uche",
+          "Team": "UD Almería"
+        },
+        {
+          "Unnamed: 0": 0,
+          "season": "2009/2010",
+          "team_api_id": 10267,
+          "player_api_id": 37459,
+          "Type": "goal",
+          "n": 9,
+          "player_name": "David Silva",
+          "Team": "Valencia CF"
+        },
+        {
+          "Unnamed: 0": 0,
+          "season": "2008/2009",
+          "team_api_id": 8479,
+          "player_api_id": 102572,
+          "Type": "goal",
+          "n": 9,
+          "player_name": "Adrian Colunga",
+          "Team": "RC Recreativo"
+        },
+        {
+          "Unnamed: 0": 0,
+          "season": "2008/2009",
+          "team_api_id": 8661,
+          "player_api_id": 37411,
+          "Type": "goal",
+          "n": 9,
+          "player_name": "Jose Manuel Jurado",
+          "Team": "RCD Mallorca"
+        },
+        {
+          "Unnamed: 0": 0,
+          "season": "2010/2011",
+          "team_api_id": 10267,
+          "player_api_id": 41468,
+          "Type": "goal",
+          "n": 9,
+          "player_name": "Juan Mata",
+          "Team": "Valencia CF"
+        },
+        {
+          "Unnamed: 0": 0,
+          "season": "2010/2011",
+          "team_api_id": 9864,
+          "player_api_id": 38822,
+          "Type": "goal",
+          "n": 9,
+          "player_name": "Julio Baptista",
+          "Team": "Málaga CF"
+        },
+        {
+          "Unnamed: 0": 0,
+          "season": "2012/2013",
+          "team_api_id": 8394,
+          "player_api_id": 102612,
+          "Type": "goal",
+          "n": 9,
+          "player_name": "Antonio Apono",
+          "Team": "Real Zaragoza"
+        },
+        {
+          "Unnamed: 0": 0,
+          "season": "2013/2014",
+          "team_api_id": 9865,
+          "player_api_id": 38469,
+          "Type": "goal",
+          "n": 9,
+          "player_name": "Verza",
+          "Team": "UD Almería"
+        },
+        {
+          "Unnamed: 0": 0,
+          "season": "2008/2009",
+          "team_api_id": 10205,
+          "player_api_id": 37436,
+          "Type": "goal",
+          "n": 8,
+          "player_name": "Santi Cazorla",
+          "Team": "Villarreal CF"
+        },
+        {
+          "Unnamed: 0": 0,
+          "season": "2012/2013",
+          "team_api_id": 9864,
+          "player_api_id": 37576,
+          "Type": "goal",
+          "n": 8,
+          "player_name": "Javier Saviola",
+          "Team": "Málaga CF"
+        },
+        {
+          "Unnamed: 0": 0,
+          "season": "2009/2010",
+          "team_api_id": 8305,
+          "player_api_id": 37474,
+          "Type": "goal",
+          "n": 8,
+          "player_name": "Manu del Moral",
+          "Team": "Getafe CF"
+        },
+        {
+          "Unnamed: 0": 0,
+          "season": "2015/2016",
+          "team_api_id": 8315,
+          "player_api_id": 604105,
+          "Type": "goal",
+          "n": 8,
+          "player_name": "Inaki Williams",
+          "Team": "Athletic Club de Bilbao"
+        },
+        {
+          "Unnamed: 0": 0,
+          "season": "2010/2011",
+          "team_api_id": 8560,
+          "player_api_id": 33973,
+          "Type": "goal",
+          "n": 8,
+          "player_name": "Xabier Prieto",
+          "Team": "Real Sociedad"
+        },
+        {
+          "Unnamed: 0": 0,
+          "season": "2012/2013",
+          "team_api_id": 8305,
+          "player_api_id": 24383,
+          "Type": "goal",
+          "n": 8,
+          "player_name": "Diego Castro",
+          "Team": "Getafe CF"
+        },
+        {
+          "Unnamed: 0": 0,
+          "season": "2009/2010",
+          "team_api_id": 9869,
+          "player_api_id": 38886,
+          "Type": "goal",
+          "n": 8,
+          "player_name": "Miguel Angel de las Cuevas",
+          "Team": "Real Sporting de Gijón"
+        },
+        {
+          "Unnamed: 0": 0,
+          "season": "2012/2013",
+          "team_api_id": 7878,
+          "player_api_id": 161291,
+          "Type": "goal",
+          "n": 8,
+          "player_name": "Youssef El Arabi",
+          "Team": "Granada CF"
+        },
+        {
+          "Unnamed: 0": 0,
+          "season": "2009/2010",
+          "team_api_id": 8305,
+          "player_api_id": 75192,
+          "Type": "goal",
+          "n": 8,
+          "player_name": "Pedro Leon",
+          "Team": "Getafe CF"
+        },
+        {
+          "Unnamed: 0": 0,
+          "season": "2009/2010",
+          "team_api_id": 9864,
+          "player_api_id": 37450,
+          "Type": "goal",
+          "n": 8,
+          "player_name": "Duda",
+          "Team": "Málaga CF"
+        },
+        {
+          "Unnamed: 0": 0,
+          "season": "2009/2010",
+          "team_api_id": 8315,
+          "player_api_id": 150832,
+          "Type": "goal",
+          "n": 8,
+          "player_name": "Gaizka Toquero",
+          "Team": "Athletic Club de Bilbao"
+        },
+        {
+          "Unnamed: 0": 0,
+          "season": "2010/2011",
+          "team_api_id": 8305,
+          "player_api_id": 102572,
+          "Type": "goal",
+          "n": 8,
+          "player_name": "Adrian Colunga",
+          "Team": "Getafe CF"
+        },
+        {
+          "Unnamed: 0": 0,
+          "season": "2008/2009",
+          "team_api_id": 8315,
+          "player_api_id": 33025,
+          "Type": "goal",
+          "n": 8,
+          "player_name": "Andoni Iraola",
+          "Team": "Athletic Club de Bilbao"
+        },
+        {
+          "Unnamed: 0": 0,
+          "season": "2008/2009",
+          "team_api_id": 8558,
+          "player_api_id": 32764,
+          "Type": "goal",
+          "n": 8,
+          "player_name": "Raul Tamudo",
+          "Team": "RCD Espanyol"
+        },
+        {
+          "Unnamed: 0": 0,
+          "season": "2009/2010",
+          "team_api_id": 9783,
+          "player_api_id": 37446,
+          "Type": "goal",
+          "n": 8,
+          "player_name": "Ivan Sanchez Riki",
+          "Team": "RC Deportivo de La Coruña"
+        },
+        {
+          "Unnamed: 0": 0,
+          "season": "2008/2009",
+          "team_api_id": 8371,
+          "player_api_id": 42369,
+          "Type": "goal",
+          "n": 8,
+          "player_name": "Javad Nekounam",
+          "Team": "CA Osasuna"
+        },
+        {
+          "Unnamed: 0": 0,
+          "season": "2008/2009",
+          "team_api_id": 8661,
+          "player_api_id": 38398,
+          "Type": "goal",
+          "n": 8,
+          "player_name": "Juan Arango",
+          "Team": "RCD Mallorca"
+        },
+        {
+          "Unnamed: 0": 0,
+          "season": "2015/2016",
+          "team_api_id": 10267,
+          "player_api_id": 75307,
+          "Type": "goal",
+          "n": 8,
+          "player_name": "Daniel Parejo",
+          "Team": "Valencia CF"
+        },
+        {
+          "Unnamed: 0": 0,
+          "season": "2010/2011",
+          "team_api_id": 9869,
+          "player_api_id": 24383,
+          "Type": "goal",
+          "n": 8,
+          "player_name": "Diego Castro",
+          "Team": "Real Sporting de Gijón"
+        },
+        {
+          "Unnamed: 0": 0,
+          "season": "2010/2011",
+          "team_api_id": 9865,
+          "player_api_id": 43329,
+          "Type": "goal",
+          "n": 8,
+          "player_name": "Kalu Uche",
+          "Team": "UD Almería"
+        },
+        {
+          "Unnamed: 0": 0,
+          "season": "2010/2011",
+          "team_api_id": 8581,
+          "player_api_id": 58294,
+          "Type": "goal",
+          "n": 8,
+          "player_name": "Cristian Stuani",
+          "Team": "Levante UD"
+        },
+        {
+          "Unnamed: 0": 0,
+          "season": "2010/2011",
+          "team_api_id": 9865,
+          "player_api_id": 46384,
+          "Type": "goal",
+          "n": 8,
+          "player_name": "Pablo Piatti",
+          "Team": "UD Almería"
+        },
+        {
+          "Unnamed: 0": 0,
+          "season": "2011/2012",
+          "team_api_id": 8661,
+          "player_api_id": 45204,
+          "Type": "goal",
+          "n": 8,
+          "player_name": "Tommer Hemed",
+          "Team": "RCD Mallorca"
+        },
+        {
+          "Unnamed: 0": 0,
+          "season": "2010/2011",
+          "team_api_id": 10278,
+          "player_api_id": 31718,
+          "Type": "goal",
+          "n": 8,
+          "player_name": "Nelson Haedo Valdez",
+          "Team": "Hércules Club de Fútbol"
+        },
+        {
+          "Unnamed: 0": 0,
+          "season": "2011/2012",
+          "team_api_id": 8560,
+          "player_api_id": 184138,
+          "Type": "goal",
+          "n": 8,
+          "player_name": "Antoine Griezmann",
+          "Team": "Real Sociedad"
+        },
+        {
+          "Unnamed: 0": 0,
+          "season": "2009/2010",
+          "team_api_id": 10281,
+          "player_api_id": 19243,
+          "Type": "goal",
+          "n": 8,
+          "player_name": "Diego Costa",
+          "Team": "Real Valladolid"
+        },
+        {
+          "Unnamed: 0": 0,
+          "season": "2010/2011",
+          "team_api_id": 9783,
+          "player_api_id": 45744,
+          "Type": "goal",
+          "n": 8,
+          "player_name": "Adrian Lopez",
+          "Team": "RC Deportivo de La Coruña"
+        },
+        {
+          "Unnamed: 0": 0,
+          "season": "2011/2012",
+          "team_api_id": 9906,
+          "player_api_id": 45744,
+          "Type": "goal",
+          "n": 8,
+          "player_name": "Adrian Lopez",
+          "Team": "Atlético Madrid"
+        },
+        {
+          "Unnamed: 0": 0,
+          "season": "2013/2014",
+          "team_api_id": 8315,
+          "player_api_id": 213470,
+          "Type": "goal",
+          "n": 8,
+          "player_name": "Ibai Gomez",
+          "Team": "Athletic Club de Bilbao"
+        },
+        {
+          "Unnamed: 0": 0,
+          "season": "2013/2014",
+          "team_api_id": 9865,
+          "player_api_id": 196188,
+          "Type": "goal",
+          "n": 8,
+          "player_name": "Rodri",
+          "Team": "UD Almería"
+        },
+        {
+          "Unnamed: 0": 0,
+          "season": "2012/2013",
+          "team_api_id": 10281,
+          "player_api_id": 46808,
+          "Type": "goal",
+          "n": 8,
+          "player_name": "Javi Guerra",
+          "Team": "Real Valladolid"
+        },
+        {
+          "Unnamed: 0": 0,
+          "season": "2012/2013",
+          "team_api_id": 9783,
+          "player_api_id": 186748,
+          "Type": "goal",
+          "n": 8,
+          "player_name": "Pizzi",
+          "Team": "RC Deportivo de La Coruña"
+        },
+        {
+          "Unnamed: 0": 0,
+          "season": "2012/2013",
+          "team_api_id": 8603,
+          "player_api_id": 158263,
+          "Type": "goal",
+          "n": 8,
+          "player_name": "Dorlan Pabon",
+          "Team": "Real Betis Balompié"
+        },
+        {
+          "Unnamed: 0": 0,
+          "season": "2014/2015",
+          "team_api_id": 9865,
+          "player_api_id": 45204,
+          "Type": "goal",
+          "n": 8,
+          "player_name": "Tommer Hemed",
+          "Team": "UD Almería"
+        },
+        {
+          "Unnamed: 0": 0,
+          "season": "2008/2009",
+          "team_api_id": 9864,
+          "player_api_id": 32763,
+          "Type": "goal",
+          "n": 8,
+          "player_name": "Alberto Luque,21",
+          "Team": "Málaga CF"
+        },
+        {
+          "Unnamed: 0": 0,
+          "season": "2014/2015",
+          "team_api_id": 7878,
+          "player_api_id": 161291,
+          "Type": "goal",
+          "n": 8,
+          "player_name": "Youssef El Arabi",
+          "Team": "Granada CF"
+        },
+        {
+          "Unnamed: 0": 0,
+          "season": "2008/2009",
+          "team_api_id": 9865,
+          "player_api_id": 43329,
+          "Type": "goal",
+          "n": 8,
+          "player_name": "Kalu Uche",
+          "Team": "UD Almería"
+        },
+        {
+          "Unnamed: 0": 0,
+          "season": "2008/2009",
+          "team_api_id": 9783,
+          "player_api_id": 38573,
+          "Type": "goal",
+          "n": 8,
+          "player_name": "Angel Lafita",
+          "Team": "RC Deportivo de La Coruña"
+        },
+        {
+          "Unnamed: 0": 0,
+          "season": "2013/2014",
+          "team_api_id": 8560,
+          "player_api_id": 46289,
+          "Type": "goal",
+          "n": 8,
+          "player_name": "Imanol Agirretxe",
+          "Team": "Real Sociedad"
+        },
+        {
+          "Unnamed: 0": 0,
+          "season": "2014/2015",
+          "team_api_id": 8302,
+          "player_api_id": 26392,
+          "Type": "goal",
+          "n": 8,
+          "player_name": "Kevin Gameiro",
+          "Team": "Sevilla FC"
+        },
+        {
+          "Unnamed: 0": 0,
+          "season": "2013/2014",
+          "team_api_id": 8581,
+          "player_api_id": 41294,
+          "Type": "goal",
+          "n": 8,
+          "player_name": "David Barral",
+          "Team": "Levante UD"
+        },
+        {
+          "Unnamed: 0": 0,
+          "season": "2008/2009",
+          "team_api_id": 8302,
+          "player_api_id": 30443,
+          "Type": "goal",
+          "n": 8,
+          "player_name": "Renato",
+          "Team": "Sevilla FC"
+        },
+        {
+          "Unnamed: 0": 0,
+          "season": "2012/2013",
+          "team_api_id": 8661,
+          "player_api_id": 25462,
+          "Type": "goal",
+          "n": 8,
+          "player_name": "Victor Casadesus",
+          "Team": "RCD Mallorca"
+        },
+        {
+          "Unnamed: 0": 0,
+          "season": "2008/2009",
+          "team_api_id": 9783,
+          "player_api_id": 37446,
+          "Type": "goal",
+          "n": 8,
+          "player_name": "Ivan Sanchez Riki",
+          "Team": "RC Deportivo de La Coruña"
+        },
+        {
+          "Unnamed: 0": 0,
+          "season": "2012/2013",
+          "team_api_id": 9864,
+          "player_api_id": 30646,
+          "Type": "goal",
+          "n": 8,
+          "player_name": "Roque Santa Cruz",
+          "Team": "Málaga CF"
+        },
+        {
+          "Unnamed: 0": 0,
+          "season": "2010/2011",
+          "team_api_id": 8305,
+          "player_api_id": 150770,
+          "Type": "goal",
+          "n": 7,
+          "player_name": "Miku",
+          "Team": "Getafe CF"
+        },
+        {
+          "Unnamed: 0": 0,
+          "season": "2010/2011",
+          "team_api_id": 9865,
+          "player_api_id": 26554,
+          "Type": "goal",
+          "n": 7,
+          "player_name": "Jose Leonardo Ulloa",
+          "Team": "UD Almería"
+        },
+        {
+          "Unnamed: 0": 0,
+          "season": "2009/2010",
+          "team_api_id": 8558,
+          "player_api_id": 40165,
+          "Type": "goal",
+          "n": 7,
+          "player_name": "Pablo Osvaldo",
+          "Team": "RCD Espanyol"
+        },
+        {
+          "Unnamed: 0": 0,
+          "season": "2009/2010",
+          "team_api_id": 9906,
+          "player_api_id": 37411,
+          "Type": "goal",
+          "n": 7,
+          "player_name": "Jose Manuel Jurado",
+          "Team": "Atlético Madrid"
+        },
+        {
+          "Unnamed: 0": 0,
+          "season": "2014/2015",
+          "team_api_id": 8302,
+          "player_api_id": 111237,
+          "Type": "goal",
+          "n": 7,
+          "player_name": "Vicente Iborra",
+          "Team": "Sevilla FC"
+        },
+        {
+          "Unnamed: 0": 0,
+          "season": "2015/2016",
+          "team_api_id": 8305,
+          "player_api_id": 240054,
+          "Type": "goal",
+          "n": 7,
+          "player_name": "Pablo Sarabia",
+          "Team": "Getafe CF"
+        },
+        {
+          "Unnamed: 0": 0,
+          "season": "2009/2010",
+          "team_api_id": 9865,
+          "player_api_id": 11555,
+          "Type": "goal",
+          "n": 7,
+          "player_name": "Fernando Soriano",
+          "Team": "UD Almería"
+        },
+        {
+          "Unnamed: 0": 0,
+          "season": "2010/2011",
+          "team_api_id": 8371,
+          "player_api_id": 108809,
+          "Type": "goal",
+          "n": 7,
+          "player_name": "Kike Sola",
+          "Team": "CA Osasuna"
+        },
+        {
+          "Unnamed: 0": 0,
+          "season": "2013/2014",
+          "team_api_id": 8315,
+          "player_api_id": 182224,
+          "Type": "goal",
+          "n": 7,
+          "player_name": "Mikel San Jose",
+          "Team": "Athletic Club de Bilbao"
+        },
+        {
+          "Unnamed: 0": 0,
+          "season": "2013/2014",
+          "team_api_id": 8558,
+          "player_api_id": 58294,
+          "Type": "goal",
+          "n": 7,
+          "player_name": "Cristian Stuani",
+          "Team": "RCD Espanyol"
+        },
+        {
+          "Unnamed: 0": 0,
+          "season": "2009/2010",
+          "team_api_id": 9867,
+          "player_api_id": 38131,
+          "Type": "goal",
+          "n": 7,
+          "player_name": "Alejandro Alfaro",
+          "Team": "CD Tenerife"
+        },
+        {
+          "Unnamed: 0": 0,
+          "season": "2015/2016",
+          "team_api_id": 8302,
+          "player_api_id": 111237,
+          "Type": "goal",
+          "n": 7,
+          "player_name": "Vicente Iborra",
+          "Team": "Sevilla FC"
+        },
+        {
+          "Unnamed: 0": 0,
+          "season": "2015/2016",
+          "team_api_id": 8560,
+          "player_api_id": 128732,
+          "Type": "goal",
+          "n": 7,
+          "player_name": "Jonathas",
+          "Team": "Real Sociedad"
+        },
+        {
+          "Unnamed: 0": 0,
+          "season": "2010/2011",
+          "team_api_id": 8315,
+          "player_api_id": 150832,
+          "Type": "goal",
+          "n": 7,
+          "player_name": "Gaizka Toquero",
+          "Team": "Athletic Club de Bilbao"
+        },
+        {
+          "Unnamed: 0": 0,
+          "season": "2013/2014",
+          "team_api_id": 10267,
+          "player_api_id": 241825,
+          "Type": "goal",
+          "n": 7,
+          "player_name": "Francisco Alcacer",
+          "Team": "Valencia CF"
+        },
+        {
+          "Unnamed: 0": 0,
+          "season": "2010/2011",
+          "team_api_id": 8560,
+          "player_api_id": 32764,
+          "Type": "goal",
+          "n": 7,
+          "player_name": "Raul Tamudo",
+          "Team": "Real Sociedad"
+        },
+        {
+          "Unnamed: 0": 0,
+          "season": "2013/2014",
+          "team_api_id": 8305,
+          "player_api_id": 38573,
+          "Type": "goal",
+          "n": 7,
+          "player_name": "Angel Lafita",
+          "Team": "Getafe CF"
+        },
+        {
+          "Unnamed: 0": 0,
+          "season": "2010/2011",
+          "team_api_id": 9906,
+          "player_api_id": 38821,
+          "Type": "goal",
+          "n": 7,
+          "player_name": "Jose Antonio Reyes",
+          "Team": "Atlético Madrid"
+        },
+        {
+          "Unnamed: 0": 0,
+          "season": "2015/2016",
+          "team_api_id": 8558,
+          "player_api_id": 246438,
+          "Type": "goal",
+          "n": 7,
+          "player_name": "Gerard Moreno",
+          "Team": "RCD Espanyol"
+        },
+        {
+          "Unnamed: 0": 0,
+          "season": "2014/2015",
+          "team_api_id": 8305,
+          "player_api_id": 213489,
+          "Type": "goal",
+          "n": 7,
+          "player_name": "Alvaro Vazquez",
+          "Team": "Getafe CF"
+        },
+        {
+          "Unnamed: 0": 0,
+          "season": "2014/2015",
+          "team_api_id": 7869,
+          "player_api_id": 301809,
+          "Type": "goal",
+          "n": 7,
+          "player_name": "Nabil Ghilas",
+          "Team": "Córdoba CF"
+        },
+        {
+          "Unnamed: 0": 0,
+          "season": "2014/2015",
+          "team_api_id": 9864,
+          "player_api_id": 46120,
+          "Type": "goal",
+          "n": 7,
+          "player_name": "Nordin Amrabat",
+          "Team": "Málaga CF"
+        },
+        {
+          "Unnamed: 0": 0,
+          "season": "2009/2010",
+          "team_api_id": 9865,
+          "player_api_id": 45605,
+          "Type": "goal",
+          "n": 7,
+          "player_name": "Albert Crusat",
+          "Team": "UD Almería"
+        },
+        {
+          "Unnamed: 0": 0,
+          "season": "2008/2009",
+          "team_api_id": 9783,
+          "player_api_id": 37452,
+          "Type": "goal",
+          "n": 7,
+          "player_name": "Rodolfo Bodipo Diaz",
+          "Team": "RC Deportivo de La Coruña"
+        },
+        {
+          "Unnamed: 0": 0,
+          "season": "2010/2011",
+          "team_api_id": 9864,
+          "player_api_id": 56819,
+          "Type": "goal",
+          "n": 7,
+          "player_name": "Sebastian Fernandez",
+          "Team": "Málaga CF"
+        },
+        {
+          "Unnamed: 0": 0,
+          "season": "2014/2015",
+          "team_api_id": 8560,
+          "player_api_id": 46289,
+          "Type": "goal",
+          "n": 7,
+          "player_name": "Imanol Agirretxe",
+          "Team": "Real Sociedad"
+        },
+        {
+          "Unnamed: 0": 0,
+          "season": "2008/2009",
+          "team_api_id": 8696,
+          "player_api_id": 38382,
+          "Type": "goal",
+          "n": 7,
+          "player_name": "Mohammed Tchite",
+          "Team": "Racing Santander"
+        },
+        {
+          "Unnamed: 0": 0,
+          "season": "2009/2010",
+          "team_api_id": 8315,
+          "player_api_id": 37410,
+          "Type": "goal",
+          "n": 7,
+          "player_name": "Javier Martinez",
+          "Team": "Athletic Club de Bilbao"
+        },
+        {
+          "Unnamed: 0": 0,
+          "season": "2014/2015",
+          "team_api_id": 8370,
+          "player_api_id": 358127,
+          "Type": "goal",
+          "n": 7,
+          "player_name": "Leo Baptistao",
+          "Team": "Rayo Vallecano"
+        },
+        {
+          "Unnamed: 0": 0,
+          "season": "2014/2015",
+          "team_api_id": 8372,
+          "player_api_id": 42524,
+          "Type": "goal",
+          "n": 7,
+          "player_name": "Federico Piovaccari",
+          "Team": "SD Eibar"
+        },
+        {
+          "Unnamed: 0": 0,
+          "season": "2015/2016",
+          "team_api_id": 9864,
+          "player_api_id": 75445,
+          "Type": "goal",
+          "n": 7,
+          "player_name": "Duje Cop",
+          "Team": "Málaga CF"
+        },
+        {
+          "Unnamed: 0": 0,
+          "season": "2009/2010",
+          "team_api_id": 8696,
+          "player_api_id": 150649,
+          "Type": "goal",
+          "n": 7,
+          "player_name": "Sergio Canales",
+          "Team": "Racing Santander"
+        },
+        {
+          "Unnamed: 0": 0,
+          "season": "2014/2015",
+          "team_api_id": 10205,
+          "player_api_id": 246438,
+          "Type": "goal",
+          "n": 7,
+          "player_name": "Gerard Moreno",
+          "Team": "Villarreal CF"
+        },
+        {
+          "Unnamed: 0": 0,
+          "season": "2014/2015",
+          "team_api_id": 10267,
+          "player_api_id": 46384,
+          "Type": "goal",
+          "n": 7,
+          "player_name": "Pablo Piatti",
+          "Team": "Valencia CF"
+        },
+        {
+          "Unnamed: 0": 0,
+          "season": "2009/2010",
+          "team_api_id": 8394,
+          "player_api_id": 102572,
+          "Type": "goal",
+          "n": 7,
+          "player_name": "Adrian Colunga",
+          "Team": "Real Zaragoza"
+        },
+        {
+          "Unnamed: 0": 0,
+          "season": "2013/2014",
+          "team_api_id": 8305,
+          "player_api_id": 75192,
+          "Type": "goal",
+          "n": 7,
+          "player_name": "Pedro Leon",
+          "Team": "Getafe CF"
+        },
+        {
+          "Unnamed: 0": 0,
+          "season": "2010/2011",
+          "team_api_id": 8560,
+          "player_api_id": 184138,
+          "Type": "goal",
+          "n": 7,
+          "player_name": "Antoine Griezmann",
+          "Team": "Real Sociedad"
+        },
+        {
+          "Unnamed: 0": 0,
+          "season": "2009/2010",
+          "team_api_id": 8661,
+          "player_api_id": 56686,
+          "Type": "goal",
+          "n": 7,
+          "player_name": "Gonzalo Castro",
+          "Team": "RCD Mallorca"
+        },
+        {
+          "Unnamed: 0": 0,
+          "season": "2008/2009",
+          "team_api_id": 9906,
+          "player_api_id": 30663,
+          "Type": "goal",
+          "n": 7,
+          "player_name": "Simao",
+          "Team": "Atlético Madrid"
+        },
+        {
+          "Unnamed: 0": 0,
+          "season": "2015/2016",
+          "team_api_id": 9910,
+          "player_api_id": 130298,
+          "Type": "goal",
+          "n": 7,
+          "player_name": "John Guidetti",
+          "Team": "RC Celta de Vigo"
+        },
+        {
+          "Unnamed: 0": 0,
+          "season": "2012/2013",
+          "team_api_id": 8558,
+          "player_api_id": 58294,
+          "Type": "goal",
+          "n": 7,
+          "player_name": "Cristian Stuani",
+          "Team": "RCD Espanyol"
+        },
+        {
+          "Unnamed: 0": 0,
+          "season": "2012/2013",
+          "team_api_id": 8558,
+          "player_api_id": 38578,
+          "Type": "goal",
+          "n": 7,
+          "player_name": "Sergio Garcia",
+          "Team": "RCD Espanyol"
+        },
+        {
+          "Unnamed: 0": 0,
+          "season": "2011/2012",
+          "team_api_id": 10267,
+          "player_api_id": 33028,
+          "Type": "goal",
+          "n": 7,
+          "player_name": "Aritz Aduriz",
+          "Team": "Valencia CF"
+        },
+        {
+          "Unnamed: 0": 0,
+          "season": "2011/2012",
+          "team_api_id": 8305,
+          "player_api_id": 24383,
+          "Type": "goal",
+          "n": 7,
+          "player_name": "Diego Castro",
+          "Team": "Getafe CF"
+        },
+        {
+          "Unnamed: 0": 0,
+          "season": "2014/2015",
+          "team_api_id": 9910,
+          "player_api_id": 428947,
+          "Type": "goal",
+          "n": 7,
+          "player_name": "Santi Mina",
+          "Team": "RC Celta de Vigo"
+        },
+        {
+          "Unnamed: 0": 0,
+          "season": "2015/2016",
+          "team_api_id": 8315,
+          "player_api_id": 33871,
+          "Type": "goal",
+          "n": 7,
+          "player_name": "Raul Garcia",
+          "Team": "Athletic Club de Bilbao"
+        },
+        {
+          "Unnamed: 0": 0,
+          "season": "2008/2009",
+          "team_api_id": 8603,
+          "player_api_id": 38751,
+          "Type": "goal",
+          "n": 7,
+          "player_name": "Ricardo Oliveira",
+          "Team": "Real Betis Balompié"
+        },
+        {
+          "Unnamed: 0": 0,
+          "season": "2015/2016",
+          "team_api_id": 8558,
+          "player_api_id": 88986,
+          "Type": "goal",
+          "n": 7,
+          "player_name": "Hernan Perez",
+          "Team": "RCD Espanyol"
+        },
+        {
+          "Unnamed: 0": 0,
+          "season": "2011/2012",
+          "team_api_id": 8603,
+          "player_api_id": 30646,
+          "Type": "goal",
+          "n": 7,
+          "player_name": "Roque Santa Cruz",
+          "Team": "Real Betis Balompié"
+        },
+        {
+          "Unnamed: 0": 0,
+          "season": "2008/2009",
+          "team_api_id": 8305,
+          "player_api_id": 38044,
+          "Type": "goal",
+          "n": 7,
+          "player_name": "Ikechukwu Uche",
+          "Team": "Getafe CF"
+        },
+        {
+          "Unnamed: 0": 0,
+          "season": "2012/2013",
+          "team_api_id": 8315,
+          "player_api_id": 96619,
+          "Type": "goal",
+          "n": 7,
+          "player_name": "Markel Susaeta",
+          "Team": "Athletic Club de Bilbao"
+        },
+        {
+          "Unnamed: 0": 0,
+          "season": "2011/2012",
+          "team_api_id": 8581,
+          "player_api_id": 38550,
+          "Type": "goal",
+          "n": 7,
+          "player_name": "Jose Javier Barkero",
+          "Team": "Levante UD"
+        },
+        {
+          "Unnamed: 0": 0,
+          "season": "2012/2013",
+          "team_api_id": 8370,
+          "player_api_id": 358127,
+          "Type": "goal",
+          "n": 7,
+          "player_name": "Leo Baptistao",
+          "Team": "Rayo Vallecano"
+        },
+        {
+          "Unnamed: 0": 0,
+          "season": "2009/2010",
+          "team_api_id": 8394,
+          "player_api_id": 33762,
+          "Type": "goal",
+          "n": 7,
+          "player_name": "Angel Javier Arizmendi",
+          "Team": "Real Zaragoza"
+        },
+        {
+          "Unnamed: 0": 0,
+          "season": "2015/2016",
+          "team_api_id": 8581,
+          "player_api_id": 477472,
+          "Type": "goal",
+          "n": 7,
+          "player_name": "Jose Luis Morales",
+          "Team": "Levante UD"
+        },
+        {
+          "Unnamed: 0": 0,
+          "season": "2008/2009",
+          "team_api_id": 10281,
+          "player_api_id": 33729,
+          "Type": "goal",
+          "n": 7,
+          "player_name": "Jonathan Sesma",
+          "Team": "Real Valladolid"
+        },
+        {
+          "Unnamed: 0": 0,
+          "season": "2015/2016",
+          "team_api_id": 9869,
+          "player_api_id": 574654,
+          "Type": "goal",
+          "n": 7,
+          "player_name": "Carlos Castro",
+          "Team": "Real Sporting de Gijón"
+        },
+        {
+          "Unnamed: 0": 0,
+          "season": "2014/2015",
+          "team_api_id": 9783,
+          "player_api_id": 194660,
+          "Type": "goal",
+          "n": 7,
+          "player_name": "Lucas Perez",
+          "Team": "RC Deportivo de La Coruña"
+        },
+        {
+          "Unnamed: 0": 0,
+          "season": "2012/2013",
+          "team_api_id": 8581,
+          "player_api_id": 37799,
+          "Type": "goal",
+          "n": 7,
+          "player_name": "Obafemi Martins",
+          "Team": "Levante UD"
+        },
+        {
+          "Unnamed: 0": 0,
+          "season": "2012/2013",
+          "team_api_id": 8661,
+          "player_api_id": 38131,
+          "Type": "goal",
+          "n": 6,
+          "player_name": "Alejandro Alfaro",
+          "Team": "RCD Mallorca"
+        },
+        {
+          "Unnamed: 0": 0,
+          "season": "2015/2016",
+          "team_api_id": 7878,
+          "player_api_id": 213711,
+          "Type": "goal",
+          "n": 6,
+          "player_name": "Ruben Rochina",
+          "Team": "Granada CF"
+        },
+        {
+          "Unnamed: 0": 0,
+          "season": "2011/2012",
+          "team_api_id": 7878,
+          "player_api_id": 101419,
+          "Type": "goal",
+          "n": 6,
+          "player_name": "Odion Ighalo",
+          "Team": "Granada CF"
+        },
+        {
+          "Unnamed: 0": 0,
+          "season": "2014/2015",
+          "team_api_id": 9864,
+          "player_api_id": 474672,
+          "Type": "goal",
+          "n": 6,
+          "player_name": "Samuel Garcia",
+          "Team": "Málaga CF"
+        },
+        {
+          "Unnamed: 0": 0,
+          "season": "2012/2013",
+          "team_api_id": 8305,
+          "player_api_id": 102572,
+          "Type": "goal",
+          "n": 6,
+          "player_name": "Adrian Colunga",
+          "Team": "Getafe CF"
+        },
+        {
+          "Unnamed: 0": 0,
+          "season": "2011/2012",
+          "team_api_id": 8603,
+          "player_api_id": 2983,
+          "Type": "goal",
+          "n": 6,
+          "player_name": "Jorge Molina",
+          "Team": "Real Betis Balompié"
+        },
+        {
+          "Unnamed: 0": 0,
+          "season": "2012/2013",
+          "team_api_id": 9910,
+          "player_api_id": 72623,
+          "Type": "goal",
+          "n": 6,
+          "player_name": "Augusto Fernandez",
+          "Team": "RC Celta de Vigo"
+        },
+        {
+          "Unnamed: 0": 0,
+          "season": "2009/2010",
+          "team_api_id": 8661,
+          "player_api_id": 5243,
+          "Type": "goal",
+          "n": 6,
+          "player_name": "Julio Alvarez",
+          "Team": "RCD Mallorca"
+        },
+        {
+          "Unnamed: 0": 0,
+          "season": "2012/2013",
+          "team_api_id": 9783,
+          "player_api_id": 43294,
+          "Type": "goal",
+          "n": 6,
+          "player_name": "Bruno Vilela Gama",
+          "Team": "RC Deportivo de La Coruña"
+        },
+        {
+          "Unnamed: 0": 0,
+          "season": "2012/2013",
+          "team_api_id": 8370,
+          "player_api_id": 38367,
+          "Type": "goal",
+          "n": 6,
+          "player_name": "Andrija Delibasic",
+          "Team": "Rayo Vallecano"
+        },
+        {
+          "Unnamed: 0": 0,
+          "season": "2012/2013",
+          "team_api_id": 10267,
+          "player_api_id": 31718,
+          "Type": "goal",
+          "n": 6,
+          "player_name": "Nelson Haedo Valdez",
+          "Team": "Valencia CF"
+        },
+        {
+          "Unnamed: 0": 0,
+          "season": "2009/2010",
+          "team_api_id": 10281,
+          "player_api_id": 75001,
+          "Type": "goal",
+          "n": 6,
+          "player_name": "Nauzet Aleman",
+          "Team": "Real Valladolid"
+        },
+        {
+          "Unnamed: 0": 0,
+          "season": "2009/2010",
+          "team_api_id": 8394,
+          "player_api_id": 50048,
+          "Type": "goal",
+          "n": 6,
+          "player_name": "Humberto Suazo",
+          "Team": "Real Zaragoza"
+        },
+        {
+          "Unnamed: 0": 0,
+          "season": "2012/2013",
+          "team_api_id": 8302,
+          "player_api_id": 49970,
+          "Type": "goal",
+          "n": 6,
+          "player_name": "Gary Medel",
+          "Team": "Sevilla FC"
+        },
+        {
+          "Unnamed: 0": 0,
+          "season": "2014/2015",
+          "team_api_id": 10268,
+          "player_api_id": 108572,
+          "Type": "goal",
+          "n": 6,
+          "player_name": "David Lomban",
+          "Team": "Elche CF"
+        },
+        {
+          "Unnamed: 0": 0,
+          "season": "2015/2016",
+          "team_api_id": 9783,
+          "player_api_id": 198566,
+          "Type": "goal",
+          "n": 6,
+          "player_name": "Luis Alberto",
+          "Team": "RC Deportivo de La Coruña"
+        },
+        {
+          "Unnamed: 0": 0,
+          "season": "2012/2013",
+          "team_api_id": 8315,
+          "player_api_id": 181297,
+          "Type": "goal",
+          "n": 6,
+          "player_name": "Oscar de Marcos",
+          "Team": "Athletic Club de Bilbao"
+        },
+        {
+          "Unnamed: 0": 0,
+          "season": "2012/2013",
+          "team_api_id": 7878,
+          "player_api_id": 40139,
+          "Type": "goal",
+          "n": 6,
+          "player_name": "Guilherme Siqueira",
+          "Team": "Granada CF"
+        },
+        {
+          "Unnamed: 0": 0,
+          "season": "2013/2014",
+          "team_api_id": 8370,
+          "player_api_id": 213729,
+          "Type": "goal",
+          "n": 6,
+          "player_name": "Jonathan Viera",
+          "Team": "Rayo Vallecano"
+        },
+        {
+          "Unnamed: 0": 0,
+          "season": "2011/2012",
+          "team_api_id": 8661,
+          "player_api_id": 56686,
+          "Type": "goal",
+          "n": 6,
+          "player_name": "Gonzalo Castro",
+          "Team": "RCD Mallorca"
+        },
+        {
+          "Unnamed: 0": 0,
+          "season": "2013/2014",
+          "team_api_id": 8305,
+          "player_api_id": 40203,
+          "Type": "goal",
+          "n": 6,
+          "player_name": "Ciprian Marica",
+          "Team": "Getafe CF"
+        },
+        {
+          "Unnamed: 0": 0,
+          "season": "2010/2011",
+          "team_api_id": 8558,
+          "player_api_id": 150330,
+          "Type": "goal",
+          "n": 6,
+          "player_name": "Jose Maria Callejon",
+          "Team": "RCD Espanyol"
+        },
+        {
+          "Unnamed: 0": 0,
+          "season": "2014/2015",
+          "team_api_id": 8370,
+          "player_api_id": 111975,
+          "Type": "goal",
+          "n": 6,
+          "player_name": "Manucho",
+          "Team": "Rayo Vallecano"
+        },
+        {
+          "Unnamed: 0": 0,
+          "season": "2015/2016",
+          "team_api_id": 9869,
+          "player_api_id": 541557,
+          "Type": "goal",
+          "n": 6,
+          "player_name": "Jony",
+          "Team": "Real Sporting de Gijón"
+        },
+        {
+          "Unnamed: 0": 0,
+          "season": "2015/2016",
+          "team_api_id": 8581,
+          "player_api_id": 38699,
+          "Type": "goal",
+          "n": 6,
+          "player_name": "Giuseppe Rossi",
+          "Team": "Levante UD"
+        },
+        {
+          "Unnamed: 0": 0,
+          "season": "2010/2011",
+          "team_api_id": 8371,
+          "player_api_id": 42369,
+          "Type": "goal",
+          "n": 6,
+          "player_name": "Javad Nekounam",
+          "Team": "CA Osasuna"
+        },
+        {
+          "Unnamed: 0": 0,
+          "season": "2010/2011",
+          "team_api_id": 9869,
+          "player_api_id": 38886,
+          "Type": "goal",
+          "n": 6,
+          "player_name": "Miguel Angel de las Cuevas",
+          "Team": "Real Sporting de Gijón"
+        },
+        {
+          "Unnamed: 0": 0,
+          "season": "2010/2011",
+          "team_api_id": 8696,
+          "player_api_id": 26535,
+          "Type": "goal",
+          "n": 6,
+          "player_name": "Kennedy Bakircioglu",
+          "Team": "Racing Santander"
+        },
+        {
+          "Unnamed: 0": 0,
+          "season": "2015/2016",
+          "team_api_id": 7878,
+          "player_api_id": 534484,
+          "Type": "goal",
+          "n": 6,
+          "player_name": "Success Isaac",
+          "Team": "Granada CF"
+        },
+        {
+          "Unnamed: 0": 0,
+          "season": "2013/2014",
+          "team_api_id": 9865,
+          "player_api_id": 189192,
+          "Type": "goal",
+          "n": 6,
+          "player_name": "Aleix Vidal",
+          "Team": "UD Almería"
+        },
+        {
+          "Unnamed: 0": 0,
+          "season": "2015/2016",
+          "team_api_id": 8560,
+          "player_api_id": 678234,
+          "Type": "goal",
+          "n": 6,
+          "player_name": "Mikel Oiarzabal",
+          "Team": "Real Sociedad"
+        },
+        {
+          "Unnamed: 0": 0,
+          "season": "2013/2014",
+          "team_api_id": 9864,
+          "player_api_id": 30646,
+          "Type": "goal",
+          "n": 6,
+          "player_name": "Roque Santa Cruz",
+          "Team": "Málaga CF"
+        },
+        {
+          "Unnamed: 0": 0,
+          "season": "2013/2014",
+          "team_api_id": 10268,
+          "player_api_id": 33773,
+          "Type": "goal",
+          "n": 6,
+          "player_name": "Ferran Corominas",
+          "Team": "Elche CF"
+        },
+        {
+          "Unnamed: 0": 0,
+          "season": "2010/2011",
+          "team_api_id": 8558,
+          "player_api_id": 24852,
+          "Type": "goal",
+          "n": 6,
+          "player_name": "Luis Garcia",
+          "Team": "RCD Espanyol"
+        },
+        {
+          "Unnamed: 0": 0,
+          "season": "2013/2014",
+          "team_api_id": 10268,
+          "player_api_id": 198583,
+          "Type": "goal",
+          "n": 6,
+          "player_name": "Richmond Boakye",
+          "Team": "Elche CF"
+        },
+        {
+          "Unnamed: 0": 0,
+          "season": "2011/2012",
+          "team_api_id": 7878,
+          "player_api_id": 40139,
+          "Type": "goal",
+          "n": 6,
+          "player_name": "Guilherme Siqueira",
+          "Team": "Granada CF"
+        },
+        {
+          "Unnamed: 0": 0,
+          "season": "2015/2016",
+          "team_api_id": 8305,
+          "player_api_id": 183548,
+          "Type": "goal",
+          "n": 6,
+          "player_name": "Stefan Scepovic",
+          "Team": "Getafe CF"
+        },
+        {
+          "Unnamed: 0": 0,
+          "season": "2014/2015",
+          "team_api_id": 7869,
+          "player_api_id": 599425,
+          "Type": "goal",
+          "n": 6,
+          "player_name": "Florin Andone",
+          "Team": "Córdoba CF"
+        },
+        {
+          "Unnamed: 0": 0,
+          "season": "2011/2012",
+          "team_api_id": 8315,
+          "player_api_id": 96619,
+          "Type": "goal",
+          "n": 6,
+          "player_name": "Markel Susaeta",
+          "Team": "Athletic Club de Bilbao"
+        },
+        {
+          "Unnamed: 0": 0,
+          "season": "2011/2012",
+          "team_api_id": 8371,
+          "player_api_id": 37489,
+          "Type": "goal",
+          "n": 6,
+          "player_name": "Nino",
+          "Team": "CA Osasuna"
+        },
+        {
+          "Unnamed: 0": 0,
+          "season": "2010/2011",
+          "team_api_id": 8661,
+          "player_api_id": 56686,
+          "Type": "goal",
+          "n": 6,
+          "player_name": "Gonzalo Castro",
+          "Team": "RCD Mallorca"
+        },
+        {
+          "Unnamed: 0": 0,
+          "season": "2014/2015",
+          "team_api_id": 10205,
+          "player_api_id": 38044,
+          "Type": "goal",
+          "n": 6,
+          "player_name": "Ikechukwu Uche",
+          "Team": "Villarreal CF"
+        },
+        {
+          "Unnamed: 0": 0,
+          "season": "2010/2011",
+          "team_api_id": 8315,
+          "player_api_id": 33866,
+          "Type": "goal",
+          "n": 6,
+          "player_name": "David Lopez",
+          "Team": "Athletic Club de Bilbao"
+        },
+        {
+          "Unnamed: 0": 0,
+          "season": "2009/2010",
+          "team_api_id": 9869,
+          "player_api_id": 34582,
+          "Type": "goal",
+          "n": 6,
+          "player_name": "Mate Bilic",
+          "Team": "Real Sporting de Gijón"
+        },
+        {
+          "Unnamed: 0": 0,
+          "season": "2009/2010",
+          "team_api_id": 9864,
+          "player_api_id": 43310,
+          "Type": "goal",
+          "n": 6,
+          "player_name": "Nabil Baha",
+          "Team": "Málaga CF"
+        },
+        {
+          "Unnamed: 0": 0,
+          "season": "2008/2009",
+          "team_api_id": 8388,
+          "player_api_id": 38136,
+          "Type": "goal",
+          "n": 6,
+          "player_name": "Carlos Reina Aranda",
+          "Team": "CD Numancia"
+        },
+        {
+          "Unnamed: 0": 0,
+          "season": "2008/2009",
+          "team_api_id": 9869,
+          "player_api_id": 24383,
+          "Type": "goal",
+          "n": 6,
+          "player_name": "Diego Castro",
+          "Team": "Real Sporting de Gijón"
+        },
+        {
+          "Unnamed: 0": 0,
+          "season": "2008/2009",
+          "team_api_id": 10267,
+          "player_api_id": 32762,
+          "Type": "goal",
+          "n": 6,
+          "player_name": "Vicente",
+          "Team": "Valencia CF"
+        },
+        {
+          "Unnamed: 0": 0,
+          "season": "2008/2009",
+          "team_api_id": 8558,
+          "player_api_id": 24852,
+          "Type": "goal",
+          "n": 6,
+          "player_name": "Luis Garcia",
+          "Team": "RCD Espanyol"
+        },
+        {
+          "Unnamed: 0": 0,
+          "season": "2014/2015",
+          "team_api_id": 8581,
+          "player_api_id": 43329,
+          "Type": "goal",
+          "n": 5,
+          "player_name": "Kalu Uche",
+          "Team": "Levante UD"
+        },
+        {
+          "Unnamed: 0": 0,
+          "season": "2010/2011",
+          "team_api_id": 10205,
+          "player_api_id": 37436,
+          "Type": "goal",
+          "n": 5,
+          "player_name": "Santi Cazorla",
+          "Team": "Villarreal CF"
+        },
+        {
+          "Unnamed: 0": 0,
+          "season": "2015/2016",
+          "team_api_id": 8306,
+          "player_api_id": 484906,
+          "Type": "goal",
+          "n": 5,
+          "player_name": "Tana",
+          "Team": "UD Las Palmas"
+        },
+        {
+          "Unnamed: 0": 0,
+          "season": "2013/2014",
+          "team_api_id": 8581,
+          "player_api_id": 46836,
+          "Type": "goal",
+          "n": 5,
+          "player_name": "Pape Kouli Diop",
+          "Team": "Levante UD"
+        },
+        {
+          "Unnamed: 0": 0,
+          "season": "2010/2011",
+          "team_api_id": 8394,
+          "player_api_id": 45457,
+          "Type": "goal",
+          "n": 5,
+          "player_name": "Nicolas Bertolo",
+          "Team": "Real Zaragoza"
+        },
+        {
+          "Unnamed: 0": 0,
+          "season": "2010/2011",
+          "team_api_id": 8661,
+          "player_api_id": 200630,
+          "Type": "goal",
+          "n": 5,
+          "player_name": "Michael Pereira",
+          "Team": "RCD Mallorca"
+        },
+        {
+          "Unnamed: 0": 0,
+          "season": "2015/2016",
+          "team_api_id": 8305,
+          "player_api_id": 213489,
+          "Type": "goal",
+          "n": 5,
+          "player_name": "Alvaro Vazquez",
+          "Team": "Getafe CF"
+        },
+        {
+          "Unnamed: 0": 0,
+          "season": "2010/2011",
+          "team_api_id": 8581,
+          "player_api_id": 74734,
+          "Type": "goal",
+          "n": 5,
+          "player_name": "Ruben Suarez",
+          "Team": "Levante UD"
+        },
+        {
+          "Unnamed: 0": 0,
+          "season": "2009/2010",
+          "team_api_id": 9864,
+          "player_api_id": 24612,
+          "Type": "goal",
+          "n": 5,
+          "player_name": "Fernando",
+          "Team": "Málaga CF"
+        },
+        {
+          "Unnamed: 0": 0,
+          "season": "2011/2012",
+          "team_api_id": 9864,
+          "player_api_id": 56819,
+          "Type": "goal",
+          "n": 5,
+          "player_name": "Sebastian Fernandez",
+          "Team": "Málaga CF"
+        },
+        {
+          "Unnamed: 0": 0,
+          "season": "2011/2012",
+          "team_api_id": 8302,
+          "player_api_id": 33991,
+          "Type": "goal",
+          "n": 5,
+          "player_name": "Jesus Navas",
+          "Team": "Sevilla FC"
+        },
+        {
+          "Unnamed: 0": 0,
+          "season": "2011/2012",
+          "team_api_id": 8371,
+          "player_api_id": 42369,
+          "Type": "goal",
+          "n": 5,
+          "player_name": "Javad Nekounam",
+          "Team": "CA Osasuna"
+        },
+        {
+          "Unnamed: 0": 0,
+          "season": "2015/2016",
+          "team_api_id": 10267,
+          "player_api_id": 75310,
+          "Type": "goal",
+          "n": 5,
+          "player_name": "Alvaro Negredo",
+          "Team": "Valencia CF"
+        },
+        {
+          "Unnamed: 0": 0,
+          "season": "2008/2009",
+          "team_api_id": 8696,
+          "player_api_id": 150644,
+          "Type": "goal",
+          "n": 5,
+          "player_name": "Jonathan Pereira",
+          "Team": "Racing Santander"
+        },
+        {
+          "Unnamed: 0": 0,
+          "season": "2009/2010",
+          "team_api_id": 8558,
+          "player_api_id": 75194,
+          "Type": "goal",
+          "n": 5,
+          "player_name": "Ivan Alonso",
+          "Team": "RCD Espanyol"
+        },
+        {
+          "Unnamed: 0": 0,
+          "season": "2015/2016",
+          "team_api_id": 8302,
+          "player_api_id": 108568,
+          "Type": "goal",
+          "n": 5,
+          "player_name": "Ever Banega",
+          "Team": "Sevilla FC"
+        },
+        {
+          "Unnamed: 0": 0,
+          "season": "2012/2013",
+          "team_api_id": 8581,
+          "player_api_id": 111237,
+          "Type": "goal",
+          "n": 5,
+          "player_name": "Vicente Iborra",
+          "Team": "Levante UD"
+        },
+        {
+          "Unnamed: 0": 0,
+          "season": "2015/2016",
+          "team_api_id": 9906,
+          "player_api_id": 184533,
+          "Type": "goal",
+          "n": 5,
+          "player_name": "Koke",
+          "Team": "Atlético Madrid"
+        },
+        {
+          "Unnamed: 0": 0,
+          "season": "2015/2016",
+          "team_api_id": 8372,
+          "player_api_id": 213712,
+          "Type": "goal",
+          "n": 5,
+          "player_name": "Saul Berjon",
+          "Team": "SD Eibar"
+        },
+        {
+          "Unnamed: 0": 0,
+          "season": "2008/2009",
+          "team_api_id": 8558,
+          "player_api_id": 37429,
+          "Type": "goal",
+          "n": 5,
+          "player_name": "Nene",
+          "Team": "RCD Espanyol"
+        },
+        {
+          "Unnamed: 0": 0,
+          "season": "2011/2012",
+          "team_api_id": 10205,
+          "player_api_id": 30958,
+          "Type": "goal",
+          "n": 5,
+          "player_name": "Marcos Senna",
+          "Team": "Villarreal CF"
+        },
+        {
+          "Unnamed: 0": 0,
+          "season": "2014/2015",
+          "team_api_id": 9865,
+          "player_api_id": 38469,
+          "Type": "goal",
+          "n": 5,
+          "player_name": "Verza",
+          "Team": "UD Almería"
+        },
+        {
+          "Unnamed: 0": 0,
+          "season": "2012/2013",
+          "team_api_id": 9906,
+          "player_api_id": 33871,
+          "Type": "goal",
+          "n": 5,
+          "player_name": "Raul Garcia",
+          "Team": "Atlético Madrid"
+        },
+        {
+          "Unnamed: 0": 0,
+          "season": "2011/2012",
+          "team_api_id": 8558,
+          "player_api_id": 38578,
+          "Type": "goal",
+          "n": 5,
+          "player_name": "Sergio Garcia",
+          "Team": "RCD Espanyol"
+        },
+        {
+          "Unnamed: 0": 0,
+          "season": "2012/2013",
+          "team_api_id": 8581,
+          "player_api_id": 166111,
+          "Type": "goal",
+          "n": 5,
+          "player_name": "Michel Herrero",
+          "Team": "Levante UD"
+        },
+        {
+          "Unnamed: 0": 0,
+          "season": "2010/2011",
+          "team_api_id": 9783,
+          "player_api_id": 164210,
+          "Type": "goal",
+          "n": 5,
+          "player_name": "Lassad Nouioui",
+          "Team": "RC Deportivo de La Coruña"
+        },
+        {
+          "Unnamed: 0": 0,
+          "season": "2008/2009",
+          "team_api_id": 8388,
+          "player_api_id": 102002,
+          "Type": "goal",
+          "n": 5,
+          "player_name": "Asier Goiria",
+          "Team": "CD Numancia"
+        },
+        {
+          "Unnamed: 0": 0,
+          "season": "2015/2016",
+          "team_api_id": 10205,
+          "player_api_id": 42479,
+          "Type": "goal",
+          "n": 5,
+          "player_name": "Bruno Soriano",
+          "Team": "Villarreal CF"
+        },
+        {
+          "Unnamed: 0": 0,
+          "season": "2013/2014",
+          "team_api_id": 8371,
+          "player_api_id": 300623,
+          "Type": "goal",
+          "n": 5,
+          "player_name": "Roberto Torres",
+          "Team": "CA Osasuna"
+        },
+        {
+          "Unnamed: 0": 0,
+          "season": "2011/2012",
+          "team_api_id": 8558,
+          "player_api_id": 37441,
+          "Type": "goal",
+          "n": 5,
+          "player_name": "Joan Verdu",
+          "Team": "RCD Espanyol"
+        },
+        {
+          "Unnamed: 0": 0,
+          "season": "2011/2012",
+          "team_api_id": 10205,
+          "player_api_id": 38433,
+          "Type": "goal",
+          "n": 5,
+          "player_name": "Borja Valero",
+          "Team": "Villarreal CF"
+        },
+        {
+          "Unnamed: 0": 0,
+          "season": "2013/2014",
+          "team_api_id": 7878,
+          "player_api_id": 43372,
+          "Type": "goal",
+          "n": 5,
+          "player_name": "Piti",
+          "Team": "Granada CF"
+        },
+        {
+          "Unnamed: 0": 0,
+          "season": "2009/2010",
+          "team_api_id": 9867,
+          "player_api_id": 18592,
+          "Type": "goal",
+          "n": 5,
+          "player_name": "Roman Martinez",
+          "Team": "CD Tenerife"
+        },
+        {
+          "Unnamed: 0": 0,
+          "season": "2013/2014",
+          "team_api_id": 8581,
+          "player_api_id": 46621,
+          "Type": "goal",
+          "n": 5,
+          "player_name": "Nabil El Zhar",
+          "Team": "Levante UD"
+        },
+        {
+          "Unnamed: 0": 0,
+          "season": "2008/2009",
+          "team_api_id": 10281,
+          "player_api_id": 38471,
+          "Type": "goal",
+          "n": 5,
+          "player_name": "Manuel Victor",
+          "Team": "Real Valladolid"
+        },
+        {
+          "Unnamed: 0": 0,
+          "season": "2013/2014",
+          "team_api_id": 10267,
+          "player_api_id": 46384,
+          "Type": "goal",
+          "n": 5,
+          "player_name": "Pablo Piatti",
+          "Team": "Valencia CF"
+        },
+        {
+          "Unnamed: 0": 0,
+          "season": "2013/2014",
+          "team_api_id": 9864,
+          "player_api_id": 112758,
+          "Type": "goal",
+          "n": 5,
+          "player_name": "Ignacio Camacho",
+          "Team": "Málaga CF"
+        },
+        {
+          "Unnamed: 0": 0,
+          "season": "2010/2011",
+          "team_api_id": 8696,
+          "player_api_id": 41157,
+          "Type": "goal",
+          "n": 5,
+          "player_name": "Giovani dos Santos",
+          "Team": "Racing Santander"
+        },
+        {
+          "Unnamed: 0": 0,
+          "season": "2013/2014",
+          "team_api_id": 9910,
+          "player_api_id": 49836,
+          "Type": "goal",
+          "n": 5,
+          "player_name": "Fabian Orellana",
+          "Team": "RC Celta de Vigo"
+        },
+        {
+          "Unnamed: 0": 0,
+          "season": "2011/2012",
+          "team_api_id": 8558,
+          "player_api_id": 213489,
+          "Type": "goal",
+          "n": 5,
+          "player_name": "Alvaro Vazquez",
+          "Team": "RCD Espanyol"
+        },
+        {
+          "Unnamed: 0": 0,
+          "season": "2014/2015",
+          "team_api_id": 7878,
+          "player_api_id": 2752,
+          "Type": "goal",
+          "n": 5,
+          "player_name": "Diego Mainz",
+          "Team": "Granada CF"
+        },
+        {
+          "Unnamed: 0": 0,
+          "season": "2015/2016",
+          "team_api_id": 9783,
+          "player_api_id": 279173,
+          "Type": "goal",
+          "n": 5,
+          "player_name": "Faycal Fajr",
+          "Team": "RC Deportivo de La Coruña"
+        },
+        {
+          "Unnamed: 0": 0,
+          "season": "2010/2011",
+          "team_api_id": 9869,
+          "player_api_id": 41294,
+          "Type": "goal",
+          "n": 5,
+          "player_name": "David Barral",
+          "Team": "Real Sporting de Gijón"
+        },
+        {
+          "Unnamed: 0": 0,
+          "season": "2014/2015",
+          "team_api_id": 7878,
+          "player_api_id": 489245,
+          "Type": "goal",
+          "n": 5,
+          "player_name": "Robert Ibanez",
+          "Team": "Granada CF"
+        },
+        {
+          "Unnamed: 0": 0,
+          "season": "2008/2009",
+          "team_api_id": 9865,
+          "player_api_id": 46384,
+          "Type": "goal",
+          "n": 5,
+          "player_name": "Pablo Piatti",
+          "Team": "UD Almería"
+        },
+        {
+          "Unnamed: 0": 0,
+          "season": "2009/2010",
+          "team_api_id": 8371,
+          "player_api_id": 38136,
+          "Type": "goal",
+          "n": 5,
+          "player_name": "Carlos Reina Aranda",
+          "Team": "CA Osasuna"
+        },
+        {
+          "Unnamed: 0": 0,
+          "season": "2015/2016",
+          "team_api_id": 10205,
+          "player_api_id": 37506,
+          "Type": "goal",
+          "n": 5,
+          "player_name": "Roberto Soldado",
+          "Team": "Villarreal CF"
+        },
+        {
+          "Unnamed: 0": 0,
+          "season": "2011/2012",
+          "team_api_id": 8394,
+          "player_api_id": 102612,
+          "Type": "goal",
+          "n": 5,
+          "player_name": "Antonio Apono",
+          "Team": "Real Zaragoza"
+        },
+        {
+          "Unnamed: 0": 0,
+          "season": "2009/2010",
+          "team_api_id": 10281,
+          "player_api_id": 33588,
+          "Type": "goal",
+          "n": 5,
+          "player_name": "Haris Medunjanin",
+          "Team": "Real Valladolid"
+        },
+        {
+          "Unnamed: 0": 0,
+          "season": "2012/2013",
+          "team_api_id": 9910,
+          "player_api_id": 102619,
+          "Type": "goal",
+          "n": 5,
+          "player_name": "Mario Bermejo",
+          "Team": "RC Celta de Vigo"
+        },
+        {
+          "Unnamed: 0": 0,
+          "season": "2014/2015",
+          "team_api_id": 9906,
+          "player_api_id": 33871,
+          "Type": "goal",
+          "n": 5,
+          "player_name": "Raul Garcia",
+          "Team": "Atlético Madrid"
+        },
+        {
+          "Unnamed: 0": 0,
+          "season": "2012/2013",
+          "team_api_id": 8394,
+          "player_api_id": 37654,
+          "Type": "goal",
+          "n": 5,
+          "player_name": "Paco Montanes",
+          "Team": "Real Zaragoza"
+        },
+        {
+          "Unnamed: 0": 0,
+          "season": "2014/2015",
+          "team_api_id": 7869,
+          "player_api_id": 474680,
+          "Type": "goal",
+          "n": 5,
+          "player_name": "Federico Nicolas Cartabia",
+          "Team": "Córdoba CF"
+        },
+        {
+          "Unnamed: 0": 0,
+          "season": "2011/2012",
+          "team_api_id": 8394,
+          "player_api_id": 24852,
+          "Type": "goal",
+          "n": 5,
+          "player_name": "Luis Garcia",
+          "Team": "Real Zaragoza"
+        },
+        {
+          "Unnamed: 0": 0,
+          "season": "2014/2015",
+          "team_api_id": 8315,
+          "player_api_id": 182224,
+          "Type": "goal",
+          "n": 5,
+          "player_name": "Mikel San Jose",
+          "Team": "Athletic Club de Bilbao"
+        },
+        {
+          "Unnamed: 0": 0,
+          "season": "2011/2012",
+          "team_api_id": 7878,
+          "player_api_id": 213812,
+          "Type": "goal",
+          "n": 4,
+          "player_name": "Inigo Lopez",
+          "Team": "Granada CF"
+        },
+        {
+          "Unnamed: 0": 0,
+          "season": "2009/2010",
+          "team_api_id": 9783,
+          "player_api_id": 45744,
+          "Type": "goal",
+          "n": 4,
+          "player_name": "Adrian Lopez",
+          "Team": "RC Deportivo de La Coruña"
+        },
+        {
+          "Unnamed: 0": 0,
+          "season": "2015/2016",
+          "team_api_id": 9864,
+          "player_api_id": 573463,
+          "Type": "goal",
+          "n": 4,
+          "player_name": "Juanpi,20",
+          "Team": "Málaga CF"
+        },
+        {
+          "Unnamed: 0": 0,
+          "season": "2011/2012",
+          "team_api_id": 8315,
+          "player_api_id": 181297,
+          "Type": "goal",
+          "n": 4,
+          "player_name": "Oscar de Marcos",
+          "Team": "Athletic Club de Bilbao"
+        },
+        {
+          "Unnamed: 0": 0,
+          "season": "2010/2011",
+          "team_api_id": 10278,
+          "player_api_id": 42714,
+          "Type": "goal",
+          "n": 4,
+          "player_name": "Royston Drenthe",
+          "Team": "Hércules Club de Fútbol"
+        },
+        {
+          "Unnamed: 0": 0,
+          "season": "2011/2012",
+          "team_api_id": 9869,
+          "player_api_id": 21414,
+          "Type": "goal",
+          "n": 4,
+          "player_name": "Oscar Trejo",
+          "Team": "Real Sporting de Gijón"
+        },
+        {
+          "Unnamed: 0": 0,
+          "season": "2011/2012",
+          "team_api_id": 8696,
+          "player_api_id": 40501,
+          "Type": "goal",
+          "n": 4,
+          "player_name": "Adrian Gonzalez",
+          "Team": "Racing Santander"
+        },
+        {
+          "Unnamed: 0": 0,
+          "season": "2009/2010",
+          "team_api_id": 9783,
+          "player_api_id": 70891,
+          "Type": "goal",
+          "n": 4,
+          "player_name": "Diego Daniel Colotto",
+          "Team": "RC Deportivo de La Coruña"
+        },
+        {
+          "Unnamed: 0": 0,
+          "season": "2010/2011",
+          "team_api_id": 8371,
+          "player_api_id": 38136,
+          "Type": "goal",
+          "n": 4,
+          "player_name": "Carlos Reina Aranda",
+          "Team": "CA Osasuna"
+        },
+        {
+          "Unnamed: 0": 0,
+          "season": "2013/2014",
+          "team_api_id": 8558,
+          "player_api_id": 107930,
+          "Type": "goal",
+          "n": 4,
+          "player_name": "Victor Sanchez Mata",
+          "Team": "RCD Espanyol"
+        },
+        {
+          "Unnamed: 0": 0,
+          "season": "2009/2010",
+          "team_api_id": 8558,
+          "player_api_id": 37441,
+          "Type": "goal",
+          "n": 4,
+          "player_name": "Joan Verdu",
+          "Team": "RCD Espanyol"
+        },
+        {
+          "Unnamed: 0": 0,
+          "season": "2009/2010",
+          "team_api_id": 9868,
+          "player_api_id": 102912,
+          "Type": "goal",
+          "n": 4,
+          "player_name": "Carlos Calvo",
+          "Team": "Xerez Club Deportivo"
+        },
+        {
+          "Unnamed: 0": 0,
+          "season": "2014/2015",
+          "team_api_id": 8560,
+          "player_api_id": 33973,
+          "Type": "goal",
+          "n": 4,
+          "player_name": "Xabier Prieto",
+          "Team": "Real Sociedad"
+        },
+        {
+          "Unnamed: 0": 0,
+          "season": "2009/2010",
+          "team_api_id": 8371,
+          "player_api_id": 38424,
+          "Type": "goal",
+          "n": 4,
+          "player_name": "Juanfran",
+          "Team": "CA Osasuna"
+        },
+        {
+          "Unnamed: 0": 0,
+          "season": "2014/2015",
+          "team_api_id": 9783,
+          "player_api_id": 37653,
+          "Type": "goal",
+          "n": 4,
+          "player_name": "Oriol Riera",
+          "Team": "RC Deportivo de La Coruña"
+        },
+        {
+          "Unnamed: 0": 0,
+          "season": "2008/2009",
+          "team_api_id": 8371,
+          "player_api_id": 30907,
+          "Type": "goal",
+          "n": 4,
+          "player_name": "Jaroslav Plasil",
+          "Team": "CA Osasuna"
+        },
+        {
+          "Unnamed: 0": 0,
+          "season": "2014/2015",
+          "team_api_id": 9783,
+          "player_api_id": 41268,
+          "Type": "goal",
+          "n": 4,
+          "player_name": "Toche",
+          "Team": "RC Deportivo de La Coruña"
+        },
+        {
+          "Unnamed: 0": 0,
+          "season": "2011/2012",
+          "team_api_id": 8305,
+          "player_api_id": 167027,
+          "Type": "goal",
+          "n": 4,
+          "player_name": "Abdelaziz Barrada",
+          "Team": "Getafe CF"
+        },
+        {
+          "Unnamed: 0": 0,
+          "season": "2010/2011",
+          "team_api_id": 8394,
+          "player_api_id": 38700,
+          "Type": "goal",
+          "n": 4,
+          "player_name": "Florent Sinama-Pongolle",
+          "Team": "Real Zaragoza"
+        },
+        {
+          "Unnamed: 0": 0,
+          "season": "2011/2012",
+          "team_api_id": 9869,
+          "player_api_id": 106600,
+          "Type": "goal",
+          "n": 4,
+          "player_name": "Gaston Sangoy",
+          "Team": "Real Sporting de Gijón"
+        },
+        {
+          "Unnamed: 0": 0,
+          "season": "2013/2014",
+          "team_api_id": 10281,
+          "player_api_id": 94571,
+          "Type": "goal",
+          "n": 4,
+          "player_name": "Humberto Osorio",
+          "Team": "Real Valladolid"
+        },
+        {
+          "Unnamed: 0": 0,
+          "season": "2013/2014",
+          "team_api_id": 9864,
+          "player_api_id": 474672,
+          "Type": "goal",
+          "n": 4,
+          "player_name": "Samuel Garcia",
+          "Team": "Málaga CF"
+        },
+        {
+          "Unnamed: 0": 0,
+          "season": "2012/2013",
+          "team_api_id": 8305,
+          "player_api_id": 213489,
+          "Type": "goal",
+          "n": 4,
+          "player_name": "Alvaro Vazquez",
+          "Team": "Getafe CF"
+        },
+        {
+          "Unnamed: 0": 0,
+          "season": "2014/2015",
+          "team_api_id": 9865,
+          "player_api_id": 477493,
+          "Type": "goal",
+          "n": 4,
+          "player_name": "Edgar Antonio Mendez",
+          "Team": "UD Almería"
+        },
+        {
+          "Unnamed: 0": 0,
+          "season": "2009/2010",
+          "team_api_id": 9868,
+          "player_api_id": 18784,
+          "Type": "goal",
+          "n": 4,
+          "player_name": "Emiliano Daniel Armenteros",
+          "Team": "Xerez Club Deportivo"
+        },
+        {
+          "Unnamed: 0": 0,
+          "season": "2013/2014",
+          "team_api_id": 8603,
+          "player_api_id": 102879,
+          "Type": "goal",
+          "n": 4,
+          "player_name": "Salva Sevilla",
+          "Team": "Real Betis Balompié"
+        },
+        {
+          "Unnamed: 0": 0,
+          "season": "2014/2015",
+          "team_api_id": 10268,
+          "player_api_id": 369800,
+          "Type": "goal",
+          "n": 4,
+          "player_name": "Victor Romero Rodriguez",
+          "Team": "Elche CF"
+        },
+        {
+          "Unnamed: 0": 0,
+          "season": "2008/2009",
+          "team_api_id": 8315,
+          "player_api_id": 37410,
+          "Type": "goal",
+          "n": 4,
+          "player_name": "Javier Martinez",
+          "Team": "Athletic Club de Bilbao"
+        },
+        {
+          "Unnamed: 0": 0,
+          "season": "2009/2010",
+          "team_api_id": 8696,
+          "player_api_id": 97319,
+          "Type": "goal",
+          "n": 4,
+          "player_name": "Manuel Arana",
+          "Team": "Racing Santander"
+        },
+        {
+          "Unnamed: 0": 0,
+          "season": "2013/2014",
+          "team_api_id": 8371,
+          "player_api_id": 18784,
+          "Type": "goal",
+          "n": 4,
+          "player_name": "Emiliano Daniel Armenteros",
+          "Team": "CA Osasuna"
+        },
+        {
+          "Unnamed: 0": 0,
+          "season": "2014/2015",
+          "team_api_id": 8305,
+          "player_api_id": 24383,
+          "Type": "goal",
+          "n": 4,
+          "player_name": "Diego Castro",
+          "Team": "Getafe CF"
+        },
+        {
+          "Unnamed: 0": 0,
+          "season": "2012/2013",
+          "team_api_id": 7878,
+          "player_api_id": 101419,
+          "Type": "goal",
+          "n": 4,
+          "player_name": "Odion Ighalo",
+          "Team": "Granada CF"
+        },
+        {
+          "Unnamed: 0": 0,
+          "season": "2008/2009",
+          "team_api_id": 8479,
+          "player_api_id": 12005,
+          "Type": "goal",
+          "n": 3,
+          "player_name": "Ersen Martin",
+          "Team": "RC Recreativo"
+        },
+        {
+          "Unnamed: 0": 0,
+          "season": "2012/2013",
+          "team_api_id": 8371,
+          "player_api_id": 183350,
+          "Type": "goal",
+          "n": 3,
+          "player_name": "Alvaro Cejudo",
+          "Team": "CA Osasuna"
+        },
+        {
+          "Unnamed: 0": 0,
+          "season": "2013/2014",
+          "team_api_id": 10281,
+          "player_api_id": 40523,
+          "Type": "goal",
+          "n": 3,
+          "player_name": "Daniel Larsson",
+          "Team": "Real Valladolid"
+        },
+        {
+          "Unnamed: 0": 0,
+          "season": "2012/2013",
+          "team_api_id": 8371,
+          "player_api_id": 18784,
+          "Type": "goal",
+          "n": 3,
+          "player_name": "Emiliano Daniel Armenteros",
+          "Team": "CA Osasuna"
+        },
+        {
+          "Unnamed: 0": 0,
+          "season": "2011/2012",
+          "team_api_id": 9906,
+          "player_api_id": 39792,
+          "Type": "goal",
+          "n": 3,
+          "player_name": "Arda Turan",
+          "Team": "Atlético Madrid"
+        },
+        {
+          "Unnamed: 0": 0,
+          "season": "2014/2015",
+          "team_api_id": 8315,
+          "player_api_id": 43375,
+          "Type": "goal",
+          "n": 3,
+          "player_name": "Mikel Rico",
+          "Team": "Athletic Club de Bilbao"
+        },
+        {
+          "Unnamed: 0": 0,
+          "season": "2010/2011",
+          "team_api_id": 9783,
+          "player_api_id": 37446,
+          "Type": "goal",
+          "n": 3,
+          "player_name": "Ivan Sanchez Riki",
+          "Team": "RC Deportivo de La Coruña"
+        },
+        {
+          "Unnamed: 0": 0,
+          "season": "2015/2016",
+          "team_api_id": 8603,
+          "player_api_id": 186991,
+          "Type": "goal",
+          "n": 3,
+          "player_name": "German Pezzela",
+          "Team": "Real Betis Balompié"
+        },
+        {
+          "Unnamed: 0": 0,
+          "season": "2014/2015",
+          "team_api_id": 8372,
+          "player_api_id": 449492,
+          "Type": "goal",
+          "n": 3,
+          "player_name": "Ander Capa",
+          "Team": "SD Eibar"
+        },
+        {
+          "Unnamed: 0": 0,
+          "season": "2014/2015",
+          "team_api_id": 8305,
+          "player_api_id": 38573,
+          "Type": "goal",
+          "n": 3,
+          "player_name": "Angel Lafita",
+          "Team": "Getafe CF"
+        },
+        {
+          "Unnamed: 0": 0,
+          "season": "2013/2014",
+          "team_api_id": 7878,
+          "player_api_id": 282713,
+          "Type": "goal",
+          "n": 3,
+          "player_name": "Fran Rico",
+          "Team": "Granada CF"
+        },
+        {
+          "Unnamed: 0": 0,
+          "season": "2013/2014",
+          "team_api_id": 10268,
+          "player_api_id": 74757,
+          "Type": "goal",
+          "n": 3,
+          "player_name": "Edu Albacar",
+          "Team": "Elche CF"
+        },
+        {
+          "Unnamed: 0": 0,
+          "season": "2015/2016",
+          "team_api_id": 8603,
+          "player_api_id": 27461,
+          "Type": "goal",
+          "n": 2,
+          "player_name": "Heiko Westermann",
+          "Team": "Real Betis Balompié"
+        },
+        {
+          "Unnamed: 0": 0,
+          "season": "2011/2012",
+          "team_api_id": 8696,
+          "player_api_id": 149584,
+          "Type": "goal",
+          "n": 2,
+          "player_name": "Ariel Nahuelpan",
+          "Team": "Racing Santander"
+        }
+      ]
+    },
+    {
+      "name": "data_0",
+      "source": "data-85591f7fc181164b58d5b48ff90520dd",
+      "transform": [
+        {
+          "type": "filter",
+          "expr": "!(length(data(\"selector002_store\")) || length(data(\"selector003_store\")) || length(data(\"selector001_store\"))) || (((vlSelectionTest(\"selector002_store\", datum)) || (vlSelectionTest(\"selector003_store\", datum))) && (vlSelectionTest(\"selector001_store\", datum)))"
+        },
+        {
+          "type": "formula",
+          "expr": "datum.Team == selector002.Team ? datum.Team : '​' + datum.Team",
+          "as": "color"
+        }
+      ]
+    },
+    {
+      "name": "data_1",
+      "source": "data_0",
+      "transform": [
+        {
+          "type": "stack",
+          "groupby": ["player_name"],
+          "field": "n",
+          "sort": {"field": ["color"], "order": ["descending"]},
+          "as": ["n_start", "n_end"],
+          "offset": "zero"
+        },
+        {
+          "type": "filter",
+          "expr": "isValid(datum[\"n\"]) && isFinite(+datum[\"n\"])"
+        }
+      ]
+    }
+  ],
+  "signals": [
+    {
+      "name": "width",
+      "init": "isFinite(containerSize()[0]) ? containerSize()[0] : 400",
+      "on": [
+        {
+          "update": "isFinite(containerSize()[0]) ? containerSize()[0] : 400",
+          "events": "window:resize"
+        }
+      ]
+    },
+    {"name": "y_step", "value": 20},
+    {
+      "name": "height",
+      "update": "bandspace(domain('y').length, 0.1, 0.05) * y_step"
+    },
+    {
+      "name": "unit",
+      "value": {},
+      "on": [
+        {"events": "mousemove", "update": "isTuple(group()) ? group() : unit"}
+      ]
+    },
+    {
+      "name": "selector001_season",
+      "init": "\"2015/2016\"",
+      "bind": {
+        "input": "select",
+        "options": [
+          "2008/2009",
+          "2009/2010",
+          "2010/2011",
+          "2011/2012",
+          "2012/2013",
+          "2013/2014",
+          "2014/2015",
+          "2015/2016"
+        ],
+        "name": "Season"
+      }
+    },
+    {
+      "name": "selector003_Team",
+      "init": "\"Real Madrid CF\"",
+      "bind": {
+        "input": "select",
+        "options": [
+          "Valencia CF",
+          "RCD Mallorca",
+          "CA Osasuna",
+          "Villarreal CF",
+          "RC Deportivo de La Coruña",
+          "Real Madrid CF",
+          "CD Numancia",
+          "FC Barcelona",
+          "Racing Santander",
+          "Sevilla FC",
+          "Real Sporting de Gijón",
+          "Getafe CF",
+          "Real Betis Balompié",
+          "RC Recreativo",
+          "RCD Espanyol",
+          "Real Valladolid",
+          "Athletic Club de Bilbao",
+          "UD Almería",
+          "Atlético Madrid",
+          "Málaga CF",
+          "Xerez Club Deportivo",
+          "Real Zaragoza",
+          "CD Tenerife",
+          "Hércules Club de Fútbol",
+          "Levante UD",
+          "Real Sociedad",
+          "Granada CF",
+          "Rayo Vallecano",
+          "RC Celta de Vigo",
+          "Elche CF",
+          "SD Eibar",
+          "Córdoba CF",
+          "UD Las Palmas"
+        ],
+        "name": "Team B"
+      }
+    },
+    {
+      "name": "selector002_Team",
+      "init": "\"FC Barcelona\"",
+      "bind": {
+        "input": "select",
+        "options": [
+          "Valencia CF",
+          "RCD Mallorca",
+          "CA Osasuna",
+          "Villarreal CF",
+          "RC Deportivo de La Coruña",
+          "Real Madrid CF",
+          "CD Numancia",
+          "FC Barcelona",
+          "Racing Santander",
+          "Sevilla FC",
+          "Real Sporting de Gijón",
+          "Getafe CF",
+          "Real Betis Balompié",
+          "RC Recreativo",
+          "RCD Espanyol",
+          "Real Valladolid",
+          "Athletic Club de Bilbao",
+          "UD Almería",
+          "Atlético Madrid",
+          "Málaga CF",
+          "Xerez Club Deportivo",
+          "Real Zaragoza",
+          "CD Tenerife",
+          "Hércules Club de Fútbol",
+          "Levante UD",
+          "Real Sociedad",
+          "Granada CF",
+          "Rayo Vallecano",
+          "RC Celta de Vigo",
+          "Elche CF",
+          "SD Eibar",
+          "Córdoba CF",
+          "UD Las Palmas"
+        ],
+        "name": "Team A"
+      }
+    },
+    {
+      "name": "selector002",
+      "update": "vlSelectionResolve(\"selector002_store\", \"union\")"
+    },
+    {
+      "name": "selector003",
+      "update": "vlSelectionResolve(\"selector003_store\", \"union\")"
+    },
+    {
+      "name": "selector001",
+      "update": "vlSelectionResolve(\"selector001_store\", \"union\")"
+    },
+    {
+      "name": "selector002_tuple",
+      "update": "selector002_Team !== null ? {fields: selector002_tuple_fields, values: [selector002_Team]} : null"
+    },
+    {
+      "name": "selector002_tuple_fields",
+      "value": [{"type": "E", "field": "Team"}]
+    },
+    {
+      "name": "selector002_modify",
+      "on": [
+        {
+          "events": {"signal": "selector002_tuple"},
+          "update": "modify(\"selector002_store\", selector002_tuple, true)"
+        }
+      ]
+    },
+    {
+      "name": "selector003_tuple",
+      "update": "selector003_Team !== null ? {fields: selector003_tuple_fields, values: [selector003_Team]} : null"
+    },
+    {
+      "name": "selector003_tuple_fields",
+      "value": [{"type": "E", "field": "Team"}]
+    },
+    {
+      "name": "selector003_modify",
+      "on": [
+        {
+          "events": {"signal": "selector003_tuple"},
+          "update": "modify(\"selector003_store\", selector003_tuple, true)"
+        }
+      ]
+    },
+    {
+      "name": "selector001_tuple",
+      "update": "selector001_season !== null ? {fields: selector001_tuple_fields, values: [selector001_season]} : null"
+    },
+    {
+      "name": "selector001_tuple_fields",
+      "value": [{"type": "E", "field": "season"}]
+    },
+    {
+      "name": "selector001_modify",
+      "on": [
+        {
+          "events": {"signal": "selector001_tuple"},
+          "update": "modify(\"selector001_store\", selector001_tuple, true)"
+        }
+      ]
+    }
+  ],
+  "marks": [
+    {
+      "name": "marks",
+      "type": "rect",
+      "style": ["bar"],
+      "interactive": true,
+      "from": {"data": "data_1"},
+      "encode": {
+        "update": {
+          "opacity": {"value": 0.8},
+          "fill": {"scale": "color", "field": "color"},
+          "tooltip": {"signal": "{\"n\": format(datum[\"n\"], \"\")}"},
+          "x": {"scale": "x", "field": "n_end"},
+          "x2": {"scale": "x", "field": "n_start"},
+          "yc": {"scale": "y", "field": "player_name", "band": 0.5},
+          "height": {"value": 14}
+        }
+      }
+    }
+  ],
+  "scales": [
+    {
+      "name": "x",
+      "type": "linear",
+      "domain": {"data": "data_1", "fields": ["n_start", "n_end"]},
+      "range": [0, {"signal": "width"}],
+      "nice": true,
+      "zero": true
+    },
+    {
+      "name": "y",
+      "type": "band",
+      "domain": {
+        "data": "data_0",
+        "field": "player_name",
+        "sort": {"op": "sum", "field": "n", "order": "descending"}
+      },
+      "range": {"step": {"signal": "y_step"}},
+      "paddingInner": 0.1,
+      "paddingOuter": 0.05
+    },
+    {
+      "name": "color",
+      "type": "ordinal",
+      "domain": {"data": "data_1", "field": "color", "sort": true},
+      "range": ["#1D2778", "#A11F2E"]
+    }
+  ],
+  "axes": [
+    {
+      "scale": "x",
+      "orient": "bottom",
+      "gridScale": "y",
+      "grid": true,
+      "tickCount": {"signal": "ceil(width/40)"},
+      "domain": false,
+      "labels": false,
+      "maxExtent": 0,
+      "minExtent": 0,
+      "ticks": false,
+      "zindex": 0
+    },
+    {
+      "scale": "x",
+      "orient": "bottom",
+      "grid": false,
+      "title": "Goals",
+      "labelFlush": true,
+      "labelOverlap": true,
+      "tickCount": {"signal": "ceil(width/40)"},
+      "zindex": 0
+    },
+    {"scale": "y", "orient": "left", "grid": false, "zindex": 0}
+  ]
+}

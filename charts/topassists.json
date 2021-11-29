@@ -1,0 +1,4493 @@
+{
+  "$schema": "https://vega.github.io/schema/vega/v5.json",
+  "autosize": {"type": "fit-x", "contains": "padding"},
+  "background": "white",
+  "padding": 5,
+  "style": "cell",
+  "data": [
+    {
+      "name": "selector008_store",
+      "values": [
+        {
+          "unit": "",
+          "fields": [{"type": "E", "field": "Team"}],
+          "values": ["FC Barcelona"]
+        }
+      ]
+    },
+    {
+      "name": "selector009_store",
+      "values": [
+        {
+          "unit": "",
+          "fields": [{"type": "E", "field": "Team"}],
+          "values": ["Real Madrid CF"]
+        }
+      ]
+    },
+    {
+      "name": "selector007_store",
+      "values": [
+        {
+          "unit": "",
+          "fields": [{"type": "E", "field": "season"}],
+          "values": ["2015/2016"]
+        }
+      ]
+    },
+    {
+      "name": "data-cee073939a9a6b952fb8f18fd65ddb5c",
+      "values": [
+        {
+          "Unnamed: 0": 0,
+          "season": "2011/2012",
+          "team_api_id": 8633,
+          "player_api_id": 36378,
+          "Type": "assist",
+          "n": 18,
+          "player_name": "Mesut Oezil",
+          "Team": "Real Madrid CF"
+        },
+        {
+          "Unnamed: 0": 0,
+          "season": "2014/2015",
+          "team_api_id": 8634,
+          "player_api_id": 30981,
+          "Type": "assist",
+          "n": 18,
+          "player_name": "Lionel Messi",
+          "Team": "FC Barcelona"
+        },
+        {
+          "Unnamed: 0": 0,
+          "season": "2010/2011",
+          "team_api_id": 8634,
+          "player_api_id": 30981,
+          "Type": "assist",
+          "n": 17,
+          "player_name": "Lionel Messi",
+          "Team": "FC Barcelona"
+        },
+        {
+          "Unnamed: 0": 0,
+          "season": "2008/2009",
+          "team_api_id": 8634,
+          "player_api_id": 39854,
+          "Type": "assist",
+          "n": 17,
+          "player_name": "Xavi Hernandez",
+          "Team": "FC Barcelona"
+        },
+        {
+          "Unnamed: 0": 0,
+          "season": "2014/2015",
+          "team_api_id": 8633,
+          "player_api_id": 30893,
+          "Type": "assist",
+          "n": 16,
+          "player_name": "Cristiano Ronaldo",
+          "Team": "Real Madrid CF"
+        },
+        {
+          "Unnamed: 0": 0,
+          "season": "2015/2016",
+          "team_api_id": 8634,
+          "player_api_id": 40636,
+          "Type": "assist",
+          "n": 16,
+          "player_name": "Luis Suarez",
+          "Team": "FC Barcelona"
+        },
+        {
+          "Unnamed: 0": 0,
+          "season": "2015/2016",
+          "team_api_id": 8634,
+          "player_api_id": 30981,
+          "Type": "assist",
+          "n": 16,
+          "player_name": "Lionel Messi",
+          "Team": "FC Barcelona"
+        },
+        {
+          "Unnamed: 0": 0,
+          "season": "2011/2012",
+          "team_api_id": 8633,
+          "player_api_id": 46509,
+          "Type": "assist",
+          "n": 15,
+          "player_name": "Angel Di Maria",
+          "Team": "Real Madrid CF"
+        },
+        {
+          "Unnamed: 0": 0,
+          "season": "2011/2012",
+          "team_api_id": 8634,
+          "player_api_id": 30981,
+          "Type": "assist",
+          "n": 15,
+          "player_name": "Lionel Messi",
+          "Team": "FC Barcelona"
+        },
+        {
+          "Unnamed: 0": 0,
+          "season": "2014/2015",
+          "team_api_id": 8633,
+          "player_api_id": 164684,
+          "Type": "assist",
+          "n": 14,
+          "player_name": "James Rodriguez",
+          "Team": "Real Madrid CF"
+        },
+        {
+          "Unnamed: 0": 0,
+          "season": "2015/2016",
+          "team_api_id": 9906,
+          "player_api_id": 184533,
+          "Type": "assist",
+          "n": 14,
+          "player_name": "Koke",
+          "Team": "Atlético Madrid"
+        },
+        {
+          "Unnamed: 0": 0,
+          "season": "2010/2011",
+          "team_api_id": 8633,
+          "player_api_id": 36378,
+          "Type": "assist",
+          "n": 14,
+          "player_name": "Mesut Oezil",
+          "Team": "Real Madrid CF"
+        },
+        {
+          "Unnamed: 0": 0,
+          "season": "2014/2015",
+          "team_api_id": 9910,
+          "player_api_id": 213486,
+          "Type": "assist",
+          "n": 13,
+          "player_name": "Nolito",
+          "Team": "RC Celta de Vigo"
+        },
+        {
+          "Unnamed: 0": 0,
+          "season": "2014/2015",
+          "team_api_id": 8634,
+          "player_api_id": 40636,
+          "Type": "assist",
+          "n": 13,
+          "player_name": "Luis Suarez",
+          "Team": "FC Barcelona"
+        },
+        {
+          "Unnamed: 0": 0,
+          "season": "2013/2014",
+          "team_api_id": 8633,
+          "player_api_id": 46509,
+          "Type": "assist",
+          "n": 13,
+          "player_name": "Angel Di Maria",
+          "Team": "Real Madrid CF"
+        },
+        {
+          "Unnamed: 0": 0,
+          "season": "2009/2010",
+          "team_api_id": 8634,
+          "player_api_id": 39854,
+          "Type": "assist",
+          "n": 13,
+          "player_name": "Xavi Hernandez",
+          "Team": "FC Barcelona"
+        },
+        {
+          "Unnamed: 0": 0,
+          "season": "2011/2012",
+          "team_api_id": 8633,
+          "player_api_id": 30893,
+          "Type": "assist",
+          "n": 12,
+          "player_name": "Cristiano Ronaldo",
+          "Team": "Real Madrid CF"
+        },
+        {
+          "Unnamed: 0": 0,
+          "season": "2015/2016",
+          "team_api_id": 8634,
+          "player_api_id": 19533,
+          "Type": "assist",
+          "n": 12,
+          "player_name": "Neymar",
+          "Team": "FC Barcelona"
+        },
+        {
+          "Unnamed: 0": 0,
+          "season": "2015/2016",
+          "team_api_id": 8633,
+          "player_api_id": 30893,
+          "Type": "assist",
+          "n": 11,
+          "player_name": "Cristiano Ronaldo",
+          "Team": "Real Madrid CF"
+        },
+        {
+          "Unnamed: 0": 0,
+          "season": "2011/2012",
+          "team_api_id": 8634,
+          "player_api_id": 33988,
+          "Type": "assist",
+          "n": 11,
+          "player_name": "Daniel Alves",
+          "Team": "FC Barcelona"
+        },
+        {
+          "Unnamed: 0": 0,
+          "season": "2008/2009",
+          "team_api_id": 10267,
+          "player_api_id": 41468,
+          "Type": "assist",
+          "n": 11,
+          "player_name": "Juan Mata",
+          "Team": "Valencia CF"
+        },
+        {
+          "Unnamed: 0": 0,
+          "season": "2010/2011",
+          "team_api_id": 8634,
+          "player_api_id": 33988,
+          "Type": "assist",
+          "n": 11,
+          "player_name": "Daniel Alves",
+          "Team": "FC Barcelona"
+        },
+        {
+          "Unnamed: 0": 0,
+          "season": "2008/2009",
+          "team_api_id": 8302,
+          "player_api_id": 33991,
+          "Type": "assist",
+          "n": 11,
+          "player_name": "Jesus Navas",
+          "Team": "Sevilla FC"
+        },
+        {
+          "Unnamed: 0": 0,
+          "season": "2008/2009",
+          "team_api_id": 8634,
+          "player_api_id": 30955,
+          "Type": "assist",
+          "n": 10,
+          "player_name": "Andres Iniesta",
+          "Team": "FC Barcelona"
+        },
+        {
+          "Unnamed: 0": 0,
+          "season": "2009/2010",
+          "team_api_id": 8634,
+          "player_api_id": 33988,
+          "Type": "assist",
+          "n": 10,
+          "player_name": "Daniel Alves",
+          "Team": "FC Barcelona"
+        },
+        {
+          "Unnamed: 0": 0,
+          "season": "2015/2016",
+          "team_api_id": 10205,
+          "player_api_id": 37506,
+          "Type": "assist",
+          "n": 10,
+          "player_name": "Roberto Soldado",
+          "Team": "Villarreal CF"
+        },
+        {
+          "Unnamed: 0": 0,
+          "season": "2011/2012",
+          "team_api_id": 8634,
+          "player_api_id": 30955,
+          "Type": "assist",
+          "n": 10,
+          "player_name": "Andres Iniesta",
+          "Team": "FC Barcelona"
+        },
+        {
+          "Unnamed: 0": 0,
+          "season": "2015/2016",
+          "team_api_id": 8633,
+          "player_api_id": 31921,
+          "Type": "assist",
+          "n": 10,
+          "player_name": "Gareth Bale",
+          "Team": "Real Madrid CF"
+        },
+        {
+          "Unnamed: 0": 0,
+          "season": "2014/2015",
+          "team_api_id": 8633,
+          "player_api_id": 26166,
+          "Type": "assist",
+          "n": 10,
+          "player_name": "Karim Benzema",
+          "Team": "Real Madrid CF"
+        },
+        {
+          "Unnamed: 0": 0,
+          "season": "2015/2016",
+          "team_api_id": 8558,
+          "player_api_id": 498033,
+          "Type": "assist",
+          "n": 10,
+          "player_name": "Marco Asensio",
+          "Team": "RCD Espanyol"
+        },
+        {
+          "Unnamed: 0": 0,
+          "season": "2010/2011",
+          "team_api_id": 10267,
+          "player_api_id": 41468,
+          "Type": "assist",
+          "n": 10,
+          "player_name": "Juan Mata",
+          "Team": "Valencia CF"
+        },
+        {
+          "Unnamed: 0": 0,
+          "season": "2014/2015",
+          "team_api_id": 9906,
+          "player_api_id": 184533,
+          "Type": "assist",
+          "n": 10,
+          "player_name": "Koke",
+          "Team": "Atlético Madrid"
+        },
+        {
+          "Unnamed: 0": 0,
+          "season": "2015/2016",
+          "team_api_id": 8633,
+          "player_api_id": 95078,
+          "Type": "assist",
+          "n": 10,
+          "player_name": "Toni Kroos",
+          "Team": "Real Madrid CF"
+        },
+        {
+          "Unnamed: 0": 0,
+          "season": "2009/2010",
+          "team_api_id": 8633,
+          "player_api_id": 28467,
+          "Type": "assist",
+          "n": 10,
+          "player_name": "Marcelo",
+          "Team": "Real Madrid CF"
+        },
+        {
+          "Unnamed: 0": 0,
+          "season": "2011/2012",
+          "team_api_id": 8302,
+          "player_api_id": 33991,
+          "Type": "assist",
+          "n": 9,
+          "player_name": "Jesus Navas",
+          "Team": "Sevilla FC"
+        },
+        {
+          "Unnamed: 0": 0,
+          "season": "2015/2016",
+          "team_api_id": 8306,
+          "player_api_id": 213729,
+          "Type": "assist",
+          "n": 9,
+          "player_name": "Jonathan Viera",
+          "Team": "UD Las Palmas"
+        },
+        {
+          "Unnamed: 0": 0,
+          "season": "2010/2011",
+          "team_api_id": 8633,
+          "player_api_id": 46509,
+          "Type": "assist",
+          "n": 9,
+          "player_name": "Angel Di Maria",
+          "Team": "Real Madrid CF"
+        },
+        {
+          "Unnamed: 0": 0,
+          "season": "2014/2015",
+          "team_api_id": 10205,
+          "player_api_id": 359197,
+          "Type": "assist",
+          "n": 9,
+          "player_name": "Denis Cheryshev",
+          "Team": "Villarreal CF"
+        },
+        {
+          "Unnamed: 0": 0,
+          "season": "2008/2009",
+          "team_api_id": 8633,
+          "player_api_id": 25759,
+          "Type": "assist",
+          "n": 9,
+          "player_name": "Gonzalo Higuain",
+          "Team": "Real Madrid CF"
+        },
+        {
+          "Unnamed: 0": 0,
+          "season": "2009/2010",
+          "team_api_id": 8634,
+          "player_api_id": 30981,
+          "Type": "assist",
+          "n": 9,
+          "player_name": "Lionel Messi",
+          "Team": "FC Barcelona"
+        },
+        {
+          "Unnamed: 0": 0,
+          "season": "2010/2011",
+          "team_api_id": 8634,
+          "player_api_id": 30909,
+          "Type": "assist",
+          "n": 8,
+          "player_name": "David Villa",
+          "Team": "FC Barcelona"
+        },
+        {
+          "Unnamed: 0": 0,
+          "season": "2009/2010",
+          "team_api_id": 8633,
+          "player_api_id": 32765,
+          "Type": "assist",
+          "n": 8,
+          "player_name": "Jose Maria Guti",
+          "Team": "Real Madrid CF"
+        },
+        {
+          "Unnamed: 0": 0,
+          "season": "2015/2016",
+          "team_api_id": 8315,
+          "player_api_id": 96619,
+          "Type": "assist",
+          "n": 8,
+          "player_name": "Markel Susaeta",
+          "Team": "Athletic Club de Bilbao"
+        },
+        {
+          "Unnamed: 0": 0,
+          "season": "2010/2011",
+          "team_api_id": 8633,
+          "player_api_id": 30893,
+          "Type": "assist",
+          "n": 8,
+          "player_name": "Cristiano Ronaldo",
+          "Team": "Real Madrid CF"
+        },
+        {
+          "Unnamed: 0": 0,
+          "season": "2015/2016",
+          "team_api_id": 9783,
+          "player_api_id": 194660,
+          "Type": "assist",
+          "n": 8,
+          "player_name": "Lucas Perez",
+          "Team": "RC Deportivo de La Coruña"
+        },
+        {
+          "Unnamed: 0": 0,
+          "season": "2014/2015",
+          "team_api_id": 8558,
+          "player_api_id": 38578,
+          "Type": "assist",
+          "n": 8,
+          "player_name": "Sergio Garcia",
+          "Team": "RCD Espanyol"
+        },
+        {
+          "Unnamed: 0": 0,
+          "season": "2008/2009",
+          "team_api_id": 8634,
+          "player_api_id": 30981,
+          "Type": "assist",
+          "n": 8,
+          "player_name": "Lionel Messi",
+          "Team": "FC Barcelona"
+        },
+        {
+          "Unnamed: 0": 0,
+          "season": "2014/2015",
+          "team_api_id": 8634,
+          "player_api_id": 25773,
+          "Type": "assist",
+          "n": 8,
+          "player_name": "Ivan Rakitic",
+          "Team": "FC Barcelona"
+        },
+        {
+          "Unnamed: 0": 0,
+          "season": "2008/2009",
+          "team_api_id": 8302,
+          "player_api_id": 33989,
+          "Type": "assist",
+          "n": 7,
+          "player_name": "Frederic Kanoute",
+          "Team": "Sevilla FC"
+        },
+        {
+          "Unnamed: 0": 0,
+          "season": "2015/2016",
+          "team_api_id": 9783,
+          "player_api_id": 198566,
+          "Type": "assist",
+          "n": 7,
+          "player_name": "Luis Alberto",
+          "Team": "RC Deportivo de La Coruña"
+        },
+        {
+          "Unnamed: 0": 0,
+          "season": "2009/2010",
+          "team_api_id": 10267,
+          "player_api_id": 37459,
+          "Type": "assist",
+          "n": 7,
+          "player_name": "David Silva",
+          "Team": "Valencia CF"
+        },
+        {
+          "Unnamed: 0": 0,
+          "season": "2015/2016",
+          "team_api_id": 9869,
+          "player_api_id": 541557,
+          "Type": "assist",
+          "n": 7,
+          "player_name": "Jony",
+          "Team": "Real Sporting de Gijón"
+        },
+        {
+          "Unnamed: 0": 0,
+          "season": "2010/2011",
+          "team_api_id": 10267,
+          "player_api_id": 2802,
+          "Type": "assist",
+          "n": 7,
+          "player_name": "Pablo Hernandez",
+          "Team": "Valencia CF"
+        },
+        {
+          "Unnamed: 0": 0,
+          "season": "2015/2016",
+          "team_api_id": 8560,
+          "player_api_id": 282678,
+          "Type": "assist",
+          "n": 7,
+          "player_name": "Ruben Pardo",
+          "Team": "Real Sociedad"
+        },
+        {
+          "Unnamed: 0": 0,
+          "season": "2014/2015",
+          "team_api_id": 8370,
+          "player_api_id": 163205,
+          "Type": "assist",
+          "n": 7,
+          "player_name": "Gael Kakuta",
+          "Team": "Rayo Vallecano"
+        },
+        {
+          "Unnamed: 0": 0,
+          "season": "2014/2015",
+          "team_api_id": 8372,
+          "player_api_id": 213712,
+          "Type": "assist",
+          "n": 7,
+          "player_name": "Saul Berjon",
+          "Team": "SD Eibar"
+        },
+        {
+          "Unnamed: 0": 0,
+          "season": "2015/2016",
+          "team_api_id": 8370,
+          "player_api_id": 75004,
+          "Type": "assist",
+          "n": 7,
+          "player_name": "Roberto Trashorras",
+          "Team": "Rayo Vallecano"
+        },
+        {
+          "Unnamed: 0": 0,
+          "season": "2010/2011",
+          "team_api_id": 10205,
+          "player_api_id": 38433,
+          "Type": "assist",
+          "n": 7,
+          "player_name": "Borja Valero",
+          "Team": "Villarreal CF"
+        },
+        {
+          "Unnamed: 0": 0,
+          "season": "2009/2010",
+          "team_api_id": 8302,
+          "player_api_id": 33991,
+          "Type": "assist",
+          "n": 7,
+          "player_name": "Jesus Navas",
+          "Team": "Sevilla FC"
+        },
+        {
+          "Unnamed: 0": 0,
+          "season": "2014/2015",
+          "team_api_id": 8315,
+          "player_api_id": 96619,
+          "Type": "assist",
+          "n": 7,
+          "player_name": "Markel Susaeta",
+          "Team": "Athletic Club de Bilbao"
+        },
+        {
+          "Unnamed: 0": 0,
+          "season": "2009/2010",
+          "team_api_id": 8633,
+          "player_api_id": 30893,
+          "Type": "assist",
+          "n": 7,
+          "player_name": "Cristiano Ronaldo",
+          "Team": "Real Madrid CF"
+        },
+        {
+          "Unnamed: 0": 0,
+          "season": "2010/2011",
+          "team_api_id": 10267,
+          "player_api_id": 37824,
+          "Type": "assist",
+          "n": 7,
+          "player_name": "Joaquin",
+          "Team": "Valencia CF"
+        },
+        {
+          "Unnamed: 0": 0,
+          "season": "2014/2015",
+          "team_api_id": 10268,
+          "player_api_id": 128732,
+          "Type": "assist",
+          "n": 7,
+          "player_name": "Jonathas",
+          "Team": "Elche CF"
+        },
+        {
+          "Unnamed: 0": 0,
+          "season": "2011/2012",
+          "team_api_id": 10267,
+          "player_api_id": 39122,
+          "Type": "assist",
+          "n": 7,
+          "player_name": "Jonas",
+          "Team": "Valencia CF"
+        },
+        {
+          "Unnamed: 0": 0,
+          "season": "2015/2016",
+          "team_api_id": 9910,
+          "player_api_id": 49836,
+          "Type": "assist",
+          "n": 7,
+          "player_name": "Fabian Orellana",
+          "Team": "RC Celta de Vigo"
+        },
+        {
+          "Unnamed: 0": 0,
+          "season": "2015/2016",
+          "team_api_id": 9910,
+          "player_api_id": 213486,
+          "Type": "assist",
+          "n": 7,
+          "player_name": "Nolito",
+          "Team": "RC Celta de Vigo"
+        },
+        {
+          "Unnamed: 0": 0,
+          "season": "2009/2010",
+          "team_api_id": 10267,
+          "player_api_id": 108568,
+          "Type": "assist",
+          "n": 7,
+          "player_name": "Ever Banega",
+          "Team": "Valencia CF"
+        },
+        {
+          "Unnamed: 0": 0,
+          "season": "2008/2009",
+          "team_api_id": 9906,
+          "player_api_id": 38460,
+          "Type": "assist",
+          "n": 7,
+          "player_name": "Diego Forlan",
+          "Team": "Atlético Madrid"
+        },
+        {
+          "Unnamed: 0": 0,
+          "season": "2014/2015",
+          "team_api_id": 8558,
+          "player_api_id": 359193,
+          "Type": "assist",
+          "n": 6,
+          "player_name": "Lucas Vazquez",
+          "Team": "RCD Espanyol"
+        },
+        {
+          "Unnamed: 0": 0,
+          "season": "2011/2012",
+          "team_api_id": 10267,
+          "player_api_id": 93480,
+          "Type": "assist",
+          "n": 6,
+          "player_name": "Sofiane Feghouli",
+          "Team": "Valencia CF"
+        },
+        {
+          "Unnamed: 0": 0,
+          "season": "2014/2015",
+          "team_api_id": 8560,
+          "player_api_id": 33973,
+          "Type": "assist",
+          "n": 6,
+          "player_name": "Xabier Prieto",
+          "Team": "Real Sociedad"
+        },
+        {
+          "Unnamed: 0": 0,
+          "season": "2009/2010",
+          "team_api_id": 9906,
+          "player_api_id": 38460,
+          "Type": "assist",
+          "n": 6,
+          "player_name": "Diego Forlan",
+          "Team": "Atlético Madrid"
+        },
+        {
+          "Unnamed: 0": 0,
+          "season": "2015/2016",
+          "team_api_id": 10267,
+          "player_api_id": 241825,
+          "Type": "assist",
+          "n": 6,
+          "player_name": "Francisco Alcacer",
+          "Team": "Valencia CF"
+        },
+        {
+          "Unnamed: 0": 0,
+          "season": "2015/2016",
+          "team_api_id": 8315,
+          "player_api_id": 33871,
+          "Type": "assist",
+          "n": 6,
+          "player_name": "Raul Garcia",
+          "Team": "Athletic Club de Bilbao"
+        },
+        {
+          "Unnamed: 0": 0,
+          "season": "2015/2016",
+          "team_api_id": 8305,
+          "player_api_id": 240054,
+          "Type": "assist",
+          "n": 6,
+          "player_name": "Pablo Sarabia",
+          "Team": "Getafe CF"
+        },
+        {
+          "Unnamed: 0": 0,
+          "season": "2015/2016",
+          "team_api_id": 7878,
+          "player_api_id": 213711,
+          "Type": "assist",
+          "n": 6,
+          "player_name": "Ruben Rochina",
+          "Team": "Granada CF"
+        },
+        {
+          "Unnamed: 0": 0,
+          "season": "2015/2016",
+          "team_api_id": 8315,
+          "player_api_id": 33028,
+          "Type": "assist",
+          "n": 6,
+          "player_name": "Aritz Aduriz",
+          "Team": "Athletic Club de Bilbao"
+        },
+        {
+          "Unnamed: 0": 0,
+          "season": "2014/2015",
+          "team_api_id": 10267,
+          "player_api_id": 93480,
+          "Type": "assist",
+          "n": 6,
+          "player_name": "Sofiane Feghouli",
+          "Team": "Valencia CF"
+        },
+        {
+          "Unnamed: 0": 0,
+          "season": "2014/2015",
+          "team_api_id": 9910,
+          "player_api_id": 49836,
+          "Type": "assist",
+          "n": 6,
+          "player_name": "Fabian Orellana",
+          "Team": "RC Celta de Vigo"
+        },
+        {
+          "Unnamed: 0": 0,
+          "season": "2015/2016",
+          "team_api_id": 8372,
+          "player_api_id": 193224,
+          "Type": "assist",
+          "n": 6,
+          "player_name": "Sergi Enrich",
+          "Team": "SD Eibar"
+        },
+        {
+          "Unnamed: 0": 0,
+          "season": "2014/2015",
+          "team_api_id": 8560,
+          "player_api_id": 282678,
+          "Type": "assist",
+          "n": 6,
+          "player_name": "Ruben Pardo",
+          "Team": "Real Sociedad"
+        },
+        {
+          "Unnamed: 0": 0,
+          "season": "2013/2014",
+          "team_api_id": 8634,
+          "player_api_id": 30981,
+          "Type": "assist",
+          "n": 6,
+          "player_name": "Lionel Messi",
+          "Team": "FC Barcelona"
+        },
+        {
+          "Unnamed: 0": 0,
+          "season": "2014/2015",
+          "team_api_id": 10267,
+          "player_api_id": 46384,
+          "Type": "assist",
+          "n": 6,
+          "player_name": "Pablo Piatti",
+          "Team": "Valencia CF"
+        },
+        {
+          "Unnamed: 0": 0,
+          "season": "2013/2014",
+          "team_api_id": 10267,
+          "player_api_id": 93480,
+          "Type": "assist",
+          "n": 6,
+          "player_name": "Sofiane Feghouli",
+          "Team": "Valencia CF"
+        },
+        {
+          "Unnamed: 0": 0,
+          "season": "2015/2016",
+          "team_api_id": 8370,
+          "player_api_id": 210065,
+          "Type": "assist",
+          "n": 6,
+          "player_name": "Bebe",
+          "Team": "Rayo Vallecano"
+        },
+        {
+          "Unnamed: 0": 0,
+          "season": "2010/2011",
+          "team_api_id": 10205,
+          "player_api_id": 37436,
+          "Type": "assist",
+          "n": 6,
+          "player_name": "Santi Cazorla",
+          "Team": "Villarreal CF"
+        },
+        {
+          "Unnamed: 0": 0,
+          "season": "2014/2015",
+          "team_api_id": 10267,
+          "player_api_id": 391058,
+          "Type": "assist",
+          "n": 6,
+          "player_name": "Jose Gaya",
+          "Team": "Valencia CF"
+        },
+        {
+          "Unnamed: 0": 0,
+          "season": "2013/2014",
+          "team_api_id": 8634,
+          "player_api_id": 30955,
+          "Type": "assist",
+          "n": 6,
+          "player_name": "Andres Iniesta",
+          "Team": "FC Barcelona"
+        },
+        {
+          "Unnamed: 0": 0,
+          "season": "2015/2016",
+          "team_api_id": 8558,
+          "player_api_id": 107930,
+          "Type": "assist",
+          "n": 6,
+          "player_name": "Victor Sanchez Mata",
+          "Team": "RCD Espanyol"
+        },
+        {
+          "Unnamed: 0": 0,
+          "season": "2013/2014",
+          "team_api_id": 8315,
+          "player_api_id": 96619,
+          "Type": "assist",
+          "n": 6,
+          "player_name": "Markel Susaeta",
+          "Team": "Athletic Club de Bilbao"
+        },
+        {
+          "Unnamed: 0": 0,
+          "season": "2011/2012",
+          "team_api_id": 8315,
+          "player_api_id": 96619,
+          "Type": "assist",
+          "n": 6,
+          "player_name": "Markel Susaeta",
+          "Team": "Athletic Club de Bilbao"
+        },
+        {
+          "Unnamed: 0": 0,
+          "season": "2013/2014",
+          "team_api_id": 8634,
+          "player_api_id": 50047,
+          "Type": "assist",
+          "n": 6,
+          "player_name": "Alexis Sanchez",
+          "Team": "FC Barcelona"
+        },
+        {
+          "Unnamed: 0": 0,
+          "season": "2014/2015",
+          "team_api_id": 8302,
+          "player_api_id": 166648,
+          "Type": "assist",
+          "n": 6,
+          "player_name": "Carlos Bacca",
+          "Team": "Sevilla FC"
+        },
+        {
+          "Unnamed: 0": 0,
+          "season": "2009/2010",
+          "team_api_id": 9783,
+          "player_api_id": 31045,
+          "Type": "assist",
+          "n": 6,
+          "player_name": "Andres Guardado",
+          "Team": "RC Deportivo de La Coruña"
+        },
+        {
+          "Unnamed: 0": 0,
+          "season": "2008/2009",
+          "team_api_id": 10205,
+          "player_api_id": 38699,
+          "Type": "assist",
+          "n": 6,
+          "player_name": "Giuseppe Rossi",
+          "Team": "Villarreal CF"
+        },
+        {
+          "Unnamed: 0": 0,
+          "season": "2008/2009",
+          "team_api_id": 8633,
+          "player_api_id": 30655,
+          "Type": "assist",
+          "n": 6,
+          "player_name": "Raul",
+          "Team": "Real Madrid CF"
+        },
+        {
+          "Unnamed: 0": 0,
+          "season": "2008/2009",
+          "team_api_id": 8633,
+          "player_api_id": 30834,
+          "Type": "assist",
+          "n": 6,
+          "player_name": "Arjen Robben",
+          "Team": "Real Madrid CF"
+        },
+        {
+          "Unnamed: 0": 0,
+          "season": "2008/2009",
+          "team_api_id": 9906,
+          "player_api_id": 30663,
+          "Type": "assist",
+          "n": 6,
+          "player_name": "Simao",
+          "Team": "Atlético Madrid"
+        },
+        {
+          "Unnamed: 0": 0,
+          "season": "2010/2011",
+          "team_api_id": 8560,
+          "player_api_id": 33973,
+          "Type": "assist",
+          "n": 5,
+          "player_name": "Xabier Prieto",
+          "Team": "Real Sociedad"
+        },
+        {
+          "Unnamed: 0": 0,
+          "season": "2009/2010",
+          "team_api_id": 9906,
+          "player_api_id": 37412,
+          "Type": "assist",
+          "n": 5,
+          "player_name": "Sergio Aguero",
+          "Team": "Atlético Madrid"
+        },
+        {
+          "Unnamed: 0": 0,
+          "season": "2009/2010",
+          "team_api_id": 10267,
+          "player_api_id": 2802,
+          "Type": "assist",
+          "n": 5,
+          "player_name": "Pablo Hernandez",
+          "Team": "Valencia CF"
+        },
+        {
+          "Unnamed: 0": 0,
+          "season": "2015/2016",
+          "team_api_id": 8603,
+          "player_api_id": 37824,
+          "Type": "assist",
+          "n": 5,
+          "player_name": "Joaquin",
+          "Team": "Real Betis Balompié"
+        },
+        {
+          "Unnamed: 0": 0,
+          "season": "2014/2015",
+          "team_api_id": 9906,
+          "player_api_id": 33635,
+          "Type": "assist",
+          "n": 5,
+          "player_name": "Gabi",
+          "Team": "Atlético Madrid"
+        },
+        {
+          "Unnamed: 0": 0,
+          "season": "2013/2014",
+          "team_api_id": 9910,
+          "player_api_id": 49836,
+          "Type": "assist",
+          "n": 5,
+          "player_name": "Fabian Orellana",
+          "Team": "RC Celta de Vigo"
+        },
+        {
+          "Unnamed: 0": 0,
+          "season": "2015/2016",
+          "team_api_id": 10267,
+          "player_api_id": 75307,
+          "Type": "assist",
+          "n": 5,
+          "player_name": "Daniel Parejo",
+          "Team": "Valencia CF"
+        },
+        {
+          "Unnamed: 0": 0,
+          "season": "2015/2016",
+          "team_api_id": 9906,
+          "player_api_id": 184138,
+          "Type": "assist",
+          "n": 5,
+          "player_name": "Antoine Griezmann",
+          "Team": "Atlético Madrid"
+        },
+        {
+          "Unnamed: 0": 0,
+          "season": "2014/2015",
+          "team_api_id": 8305,
+          "player_api_id": 75192,
+          "Type": "assist",
+          "n": 5,
+          "player_name": "Pedro Leon",
+          "Team": "Getafe CF"
+        },
+        {
+          "Unnamed: 0": 0,
+          "season": "2011/2012",
+          "team_api_id": 8603,
+          "player_api_id": 96652,
+          "Type": "assist",
+          "n": 5,
+          "player_name": "Ruben Castro",
+          "Team": "Real Betis Balompié"
+        },
+        {
+          "Unnamed: 0": 0,
+          "season": "2009/2010",
+          "team_api_id": 9906,
+          "player_api_id": 38821,
+          "Type": "assist",
+          "n": 5,
+          "player_name": "Jose Antonio Reyes",
+          "Team": "Atlético Madrid"
+        },
+        {
+          "Unnamed: 0": 0,
+          "season": "2014/2015",
+          "team_api_id": 9910,
+          "player_api_id": 39215,
+          "Type": "assist",
+          "n": 5,
+          "player_name": "Michael Krohn-Dehli",
+          "Team": "RC Celta de Vigo"
+        },
+        {
+          "Unnamed: 0": 0,
+          "season": "2015/2016",
+          "team_api_id": 8581,
+          "player_api_id": 477472,
+          "Type": "assist",
+          "n": 5,
+          "player_name": "Jose Luis Morales",
+          "Team": "Levante UD"
+        },
+        {
+          "Unnamed: 0": 0,
+          "season": "2009/2010",
+          "team_api_id": 8302,
+          "player_api_id": 33992,
+          "Type": "assist",
+          "n": 5,
+          "player_name": "Adriano",
+          "Team": "Sevilla FC"
+        },
+        {
+          "Unnamed: 0": 0,
+          "season": "2013/2014",
+          "team_api_id": 8633,
+          "player_api_id": 30893,
+          "Type": "assist",
+          "n": 5,
+          "player_name": "Cristiano Ronaldo",
+          "Team": "Real Madrid CF"
+        },
+        {
+          "Unnamed: 0": 0,
+          "season": "2008/2009",
+          "team_api_id": 10267,
+          "player_api_id": 37459,
+          "Type": "assist",
+          "n": 5,
+          "player_name": "David Silva",
+          "Team": "Valencia CF"
+        },
+        {
+          "Unnamed: 0": 0,
+          "season": "2015/2016",
+          "team_api_id": 9869,
+          "player_api_id": 395154,
+          "Type": "assist",
+          "n": 5,
+          "player_name": "Alen Halilovic",
+          "Team": "Real Sporting de Gijón"
+        },
+        {
+          "Unnamed: 0": 0,
+          "season": "2014/2015",
+          "team_api_id": 8302,
+          "player_api_id": 189192,
+          "Type": "assist",
+          "n": 5,
+          "player_name": "Aleix Vidal",
+          "Team": "Sevilla FC"
+        },
+        {
+          "Unnamed: 0": 0,
+          "season": "2008/2009",
+          "team_api_id": 9783,
+          "player_api_id": 31045,
+          "Type": "assist",
+          "n": 5,
+          "player_name": "Andres Guardado",
+          "Team": "RC Deportivo de La Coruña"
+        },
+        {
+          "Unnamed: 0": 0,
+          "season": "2010/2011",
+          "team_api_id": 8302,
+          "player_api_id": 75310,
+          "Type": "assist",
+          "n": 5,
+          "player_name": "Alvaro Negredo",
+          "Team": "Sevilla FC"
+        },
+        {
+          "Unnamed: 0": 0,
+          "season": "2013/2014",
+          "team_api_id": 9864,
+          "player_api_id": 46120,
+          "Type": "assist",
+          "n": 5,
+          "player_name": "Nordin Amrabat",
+          "Team": "Málaga CF"
+        },
+        {
+          "Unnamed: 0": 0,
+          "season": "2013/2014",
+          "team_api_id": 8633,
+          "player_api_id": 31921,
+          "Type": "assist",
+          "n": 5,
+          "player_name": "Gareth Bale",
+          "Team": "Real Madrid CF"
+        },
+        {
+          "Unnamed: 0": 0,
+          "season": "2013/2014",
+          "team_api_id": 8558,
+          "player_api_id": 38578,
+          "Type": "assist",
+          "n": 5,
+          "player_name": "Sergio Garcia",
+          "Team": "RCD Espanyol"
+        },
+        {
+          "Unnamed: 0": 0,
+          "season": "2015/2016",
+          "team_api_id": 8372,
+          "player_api_id": 449492,
+          "Type": "assist",
+          "n": 5,
+          "player_name": "Ander Capa",
+          "Team": "SD Eibar"
+        },
+        {
+          "Unnamed: 0": 0,
+          "season": "2010/2011",
+          "team_api_id": 9906,
+          "player_api_id": 38821,
+          "Type": "assist",
+          "n": 5,
+          "player_name": "Jose Antonio Reyes",
+          "Team": "Atlético Madrid"
+        },
+        {
+          "Unnamed: 0": 0,
+          "season": "2013/2014",
+          "team_api_id": 9906,
+          "player_api_id": 184533,
+          "Type": "assist",
+          "n": 5,
+          "player_name": "Koke",
+          "Team": "Atlético Madrid"
+        },
+        {
+          "Unnamed: 0": 0,
+          "season": "2011/2012",
+          "team_api_id": 8315,
+          "player_api_id": 150832,
+          "Type": "assist",
+          "n": 5,
+          "player_name": "Gaizka Toquero",
+          "Team": "Athletic Club de Bilbao"
+        },
+        {
+          "Unnamed: 0": 0,
+          "season": "2011/2012",
+          "team_api_id": 9906,
+          "player_api_id": 39792,
+          "Type": "assist",
+          "n": 5,
+          "player_name": "Arda Turan",
+          "Team": "Atlético Madrid"
+        },
+        {
+          "Unnamed: 0": 0,
+          "season": "2008/2009",
+          "team_api_id": 10267,
+          "player_api_id": 30909,
+          "Type": "assist",
+          "n": 5,
+          "player_name": "David Villa",
+          "Team": "Valencia CF"
+        },
+        {
+          "Unnamed: 0": 0,
+          "season": "2014/2015",
+          "team_api_id": 8315,
+          "player_api_id": 33028,
+          "Type": "assist",
+          "n": 5,
+          "player_name": "Aritz Aduriz",
+          "Team": "Athletic Club de Bilbao"
+        },
+        {
+          "Unnamed: 0": 0,
+          "season": "2015/2016",
+          "team_api_id": 9910,
+          "player_api_id": 74169,
+          "Type": "assist",
+          "n": 5,
+          "player_name": "Daniel Wass",
+          "Team": "RC Celta de Vigo"
+        },
+        {
+          "Unnamed: 0": 0,
+          "season": "2014/2015",
+          "team_api_id": 9864,
+          "player_api_id": 562062,
+          "Type": "assist",
+          "n": 5,
+          "player_name": "Samuel Castillejo",
+          "Team": "Málaga CF"
+        },
+        {
+          "Unnamed: 0": 0,
+          "season": "2014/2015",
+          "team_api_id": 9906,
+          "player_api_id": 75447,
+          "Type": "assist",
+          "n": 5,
+          "player_name": "Mario Mandzukic",
+          "Team": "Atlético Madrid"
+        },
+        {
+          "Unnamed: 0": 0,
+          "season": "2014/2015",
+          "team_api_id": 8302,
+          "player_api_id": 251925,
+          "Type": "assist",
+          "n": 5,
+          "player_name": "Gerard Deulofeu",
+          "Team": "Sevilla FC"
+        },
+        {
+          "Unnamed: 0": 0,
+          "season": "2015/2016",
+          "team_api_id": 8370,
+          "player_api_id": 183449,
+          "Type": "assist",
+          "n": 4,
+          "player_name": "Tito",
+          "Team": "Rayo Vallecano"
+        },
+        {
+          "Unnamed: 0": 0,
+          "season": "2011/2012",
+          "team_api_id": 8581,
+          "player_api_id": 38550,
+          "Type": "assist",
+          "n": 4,
+          "player_name": "Jose Javier Barkero",
+          "Team": "Levante UD"
+        },
+        {
+          "Unnamed: 0": 0,
+          "season": "2010/2011",
+          "team_api_id": 10205,
+          "player_api_id": 38699,
+          "Type": "assist",
+          "n": 4,
+          "player_name": "Giuseppe Rossi",
+          "Team": "Villarreal CF"
+        },
+        {
+          "Unnamed: 0": 0,
+          "season": "2011/2012",
+          "team_api_id": 9864,
+          "player_api_id": 51545,
+          "Type": "assist",
+          "n": 4,
+          "player_name": "Jose Salomon Rondon",
+          "Team": "Málaga CF"
+        },
+        {
+          "Unnamed: 0": 0,
+          "season": "2015/2016",
+          "team_api_id": 8603,
+          "player_api_id": 96652,
+          "Type": "assist",
+          "n": 4,
+          "player_name": "Ruben Castro",
+          "Team": "Real Betis Balompié"
+        },
+        {
+          "Unnamed: 0": 0,
+          "season": "2015/2016",
+          "team_api_id": 9906,
+          "player_api_id": 41167,
+          "Type": "assist",
+          "n": 4,
+          "player_name": "Filipe Luis",
+          "Team": "Atlético Madrid"
+        },
+        {
+          "Unnamed: 0": 0,
+          "season": "2015/2016",
+          "team_api_id": 8305,
+          "player_api_id": 75192,
+          "Type": "assist",
+          "n": 4,
+          "player_name": "Pedro Leon",
+          "Team": "Getafe CF"
+        },
+        {
+          "Unnamed: 0": 0,
+          "season": "2014/2015",
+          "team_api_id": 8370,
+          "player_api_id": 75004,
+          "Type": "assist",
+          "n": 4,
+          "player_name": "Roberto Trashorras",
+          "Team": "Rayo Vallecano"
+        },
+        {
+          "Unnamed: 0": 0,
+          "season": "2013/2014",
+          "team_api_id": 8560,
+          "player_api_id": 75342,
+          "Type": "assist",
+          "n": 4,
+          "player_name": "Carlos Vela",
+          "Team": "Real Sociedad"
+        },
+        {
+          "Unnamed: 0": 0,
+          "season": "2010/2011",
+          "team_api_id": 8661,
+          "player_api_id": 24123,
+          "Type": "assist",
+          "n": 4,
+          "player_name": "Jonathan De Guzman",
+          "Team": "RCD Mallorca"
+        },
+        {
+          "Unnamed: 0": 0,
+          "season": "2015/2016",
+          "team_api_id": 9869,
+          "player_api_id": 150480,
+          "Type": "assist",
+          "n": 4,
+          "player_name": "Lora",
+          "Team": "Real Sporting de Gijón"
+        },
+        {
+          "Unnamed: 0": 0,
+          "season": "2010/2011",
+          "team_api_id": 8315,
+          "player_api_id": 33025,
+          "Type": "assist",
+          "n": 4,
+          "player_name": "Andoni Iraola",
+          "Team": "Athletic Club de Bilbao"
+        },
+        {
+          "Unnamed: 0": 0,
+          "season": "2014/2015",
+          "team_api_id": 9864,
+          "player_api_id": 46120,
+          "Type": "assist",
+          "n": 4,
+          "player_name": "Nordin Amrabat",
+          "Team": "Málaga CF"
+        },
+        {
+          "Unnamed: 0": 0,
+          "season": "2009/2010",
+          "team_api_id": 8315,
+          "player_api_id": 33030,
+          "Type": "assist",
+          "n": 4,
+          "player_name": "Fernando Llorente",
+          "Team": "Athletic Club de Bilbao"
+        },
+        {
+          "Unnamed: 0": 0,
+          "season": "2015/2016",
+          "team_api_id": 10205,
+          "player_api_id": 45744,
+          "Type": "assist",
+          "n": 4,
+          "player_name": "Adrian Lopez",
+          "Team": "Villarreal CF"
+        },
+        {
+          "Unnamed: 0": 0,
+          "season": "2015/2016",
+          "team_api_id": 8306,
+          "player_api_id": 46621,
+          "Type": "assist",
+          "n": 4,
+          "player_name": "Nabil El Zhar",
+          "Team": "UD Las Palmas"
+        },
+        {
+          "Unnamed: 0": 0,
+          "season": "2011/2012",
+          "team_api_id": 9906,
+          "player_api_id": 45744,
+          "Type": "assist",
+          "n": 4,
+          "player_name": "Adrian Lopez",
+          "Team": "Atlético Madrid"
+        },
+        {
+          "Unnamed: 0": 0,
+          "season": "2014/2015",
+          "team_api_id": 7869,
+          "player_api_id": 474680,
+          "Type": "assist",
+          "n": 4,
+          "player_name": "Federico Nicolas Cartabia",
+          "Team": "Córdoba CF"
+        },
+        {
+          "Unnamed: 0": 0,
+          "season": "2010/2011",
+          "team_api_id": 9906,
+          "player_api_id": 38460,
+          "Type": "assist",
+          "n": 4,
+          "player_name": "Diego Forlan",
+          "Team": "Atlético Madrid"
+        },
+        {
+          "Unnamed: 0": 0,
+          "season": "2015/2016",
+          "team_api_id": 10205,
+          "player_api_id": 282281,
+          "Type": "assist",
+          "n": 4,
+          "player_name": "Denis Suarez",
+          "Team": "Villarreal CF"
+        },
+        {
+          "Unnamed: 0": 0,
+          "season": "2015/2016",
+          "team_api_id": 8302,
+          "player_api_id": 103450,
+          "Type": "assist",
+          "n": 4,
+          "player_name": "Yevheniy Konoplyanka",
+          "Team": "Sevilla FC"
+        },
+        {
+          "Unnamed: 0": 0,
+          "season": "2014/2015",
+          "team_api_id": 9865,
+          "player_api_id": 45204,
+          "Type": "assist",
+          "n": 4,
+          "player_name": "Tommer Hemed",
+          "Team": "UD Almería"
+        },
+        {
+          "Unnamed: 0": 0,
+          "season": "2015/2016",
+          "team_api_id": 9864,
+          "player_api_id": 104382,
+          "Type": "assist",
+          "n": 4,
+          "player_name": "Roberto Rosales",
+          "Team": "Málaga CF"
+        },
+        {
+          "Unnamed: 0": 0,
+          "season": "2015/2016",
+          "team_api_id": 8372,
+          "player_api_id": 246218,
+          "Type": "assist",
+          "n": 4,
+          "player_name": "David Junca",
+          "Team": "SD Eibar"
+        },
+        {
+          "Unnamed: 0": 0,
+          "season": "2013/2014",
+          "team_api_id": 8302,
+          "player_api_id": 25773,
+          "Type": "assist",
+          "n": 4,
+          "player_name": "Ivan Rakitic",
+          "Team": "Sevilla FC"
+        },
+        {
+          "Unnamed: 0": 0,
+          "season": "2009/2010",
+          "team_api_id": 8305,
+          "player_api_id": 75192,
+          "Type": "assist",
+          "n": 4,
+          "player_name": "Pedro Leon",
+          "Team": "Getafe CF"
+        },
+        {
+          "Unnamed: 0": 0,
+          "season": "2015/2016",
+          "team_api_id": 8560,
+          "player_api_id": 75342,
+          "Type": "assist",
+          "n": 4,
+          "player_name": "Carlos Vela",
+          "Team": "Real Sociedad"
+        },
+        {
+          "Unnamed: 0": 0,
+          "season": "2014/2015",
+          "team_api_id": 8305,
+          "player_api_id": 240054,
+          "Type": "assist",
+          "n": 4,
+          "player_name": "Pablo Sarabia",
+          "Team": "Getafe CF"
+        },
+        {
+          "Unnamed: 0": 0,
+          "season": "2013/2014",
+          "team_api_id": 8558,
+          "player_api_id": 30663,
+          "Type": "assist",
+          "n": 4,
+          "player_name": "Simao",
+          "Team": "RCD Espanyol"
+        },
+        {
+          "Unnamed: 0": 0,
+          "season": "2014/2015",
+          "team_api_id": 8370,
+          "player_api_id": 96838,
+          "Type": "assist",
+          "n": 4,
+          "player_name": "Lica",
+          "Team": "Rayo Vallecano"
+        },
+        {
+          "Unnamed: 0": 0,
+          "season": "2014/2015",
+          "team_api_id": 8305,
+          "player_api_id": 77773,
+          "Type": "assist",
+          "n": 4,
+          "player_name": "Sammir",
+          "Team": "Getafe CF"
+        },
+        {
+          "Unnamed: 0": 0,
+          "season": "2010/2011",
+          "team_api_id": 9906,
+          "player_api_id": 30663,
+          "Type": "assist",
+          "n": 4,
+          "player_name": "Simao",
+          "Team": "Atlético Madrid"
+        },
+        {
+          "Unnamed: 0": 0,
+          "season": "2013/2014",
+          "team_api_id": 8370,
+          "player_api_id": 96509,
+          "Type": "assist",
+          "n": 4,
+          "player_name": "Joaquin Larrivey",
+          "Team": "Rayo Vallecano"
+        },
+        {
+          "Unnamed: 0": 0,
+          "season": "2010/2011",
+          "team_api_id": 8302,
+          "player_api_id": 33991,
+          "Type": "assist",
+          "n": 4,
+          "player_name": "Jesus Navas",
+          "Team": "Sevilla FC"
+        },
+        {
+          "Unnamed: 0": 0,
+          "season": "2015/2016",
+          "team_api_id": 9783,
+          "player_api_id": 279173,
+          "Type": "assist",
+          "n": 4,
+          "player_name": "Faycal Fajr",
+          "Team": "RC Deportivo de La Coruña"
+        },
+        {
+          "Unnamed: 0": 0,
+          "season": "2011/2012",
+          "team_api_id": 10267,
+          "player_api_id": 150739,
+          "Type": "assist",
+          "n": 4,
+          "player_name": "Jordi Alba",
+          "Team": "Valencia CF"
+        },
+        {
+          "Unnamed: 0": 0,
+          "season": "2015/2016",
+          "team_api_id": 10267,
+          "player_api_id": 361757,
+          "Type": "assist",
+          "n": 4,
+          "player_name": "Joao Cancelo",
+          "Team": "Valencia CF"
+        },
+        {
+          "Unnamed: 0": 0,
+          "season": "2014/2015",
+          "team_api_id": 8560,
+          "player_api_id": 56686,
+          "Type": "assist",
+          "n": 4,
+          "player_name": "Gonzalo Castro",
+          "Team": "Real Sociedad"
+        },
+        {
+          "Unnamed: 0": 0,
+          "season": "2014/2015",
+          "team_api_id": 10268,
+          "player_api_id": 74757,
+          "Type": "assist",
+          "n": 4,
+          "player_name": "Edu Albacar",
+          "Team": "Elche CF"
+        },
+        {
+          "Unnamed: 0": 0,
+          "season": "2015/2016",
+          "team_api_id": 8306,
+          "player_api_id": 484906,
+          "Type": "assist",
+          "n": 4,
+          "player_name": "Tana",
+          "Team": "UD Las Palmas"
+        },
+        {
+          "Unnamed: 0": 0,
+          "season": "2014/2015",
+          "team_api_id": 10268,
+          "player_api_id": 279173,
+          "Type": "assist",
+          "n": 4,
+          "player_name": "Faycal Fajr",
+          "Team": "Elche CF"
+        },
+        {
+          "Unnamed: 0": 0,
+          "season": "2009/2010",
+          "team_api_id": 8315,
+          "player_api_id": 37408,
+          "Type": "assist",
+          "n": 4,
+          "player_name": "Igor Gabilondo",
+          "Team": "Athletic Club de Bilbao"
+        },
+        {
+          "Unnamed: 0": 0,
+          "season": "2014/2015",
+          "team_api_id": 10205,
+          "player_api_id": 262592,
+          "Type": "assist",
+          "n": 4,
+          "player_name": "Moi Gomez",
+          "Team": "Villarreal CF"
+        },
+        {
+          "Unnamed: 0": 0,
+          "season": "2008/2009",
+          "team_api_id": 10205,
+          "player_api_id": 37436,
+          "Type": "assist",
+          "n": 4,
+          "player_name": "Santi Cazorla",
+          "Team": "Villarreal CF"
+        },
+        {
+          "Unnamed: 0": 0,
+          "season": "2015/2016",
+          "team_api_id": 8302,
+          "player_api_id": 213805,
+          "Type": "assist",
+          "n": 4,
+          "player_name": "Vitolo",
+          "Team": "Sevilla FC"
+        },
+        {
+          "Unnamed: 0": 0,
+          "season": "2008/2009",
+          "team_api_id": 8558,
+          "player_api_id": 37429,
+          "Type": "assist",
+          "n": 4,
+          "player_name": "Nene",
+          "Team": "RCD Espanyol"
+        },
+        {
+          "Unnamed: 0": 0,
+          "season": "2011/2012",
+          "team_api_id": 8315,
+          "player_api_id": 181297,
+          "Type": "assist",
+          "n": 4,
+          "player_name": "Oscar de Marcos",
+          "Team": "Athletic Club de Bilbao"
+        },
+        {
+          "Unnamed: 0": 0,
+          "season": "2011/2012",
+          "team_api_id": 8371,
+          "player_api_id": 183350,
+          "Type": "assist",
+          "n": 4,
+          "player_name": "Alvaro Cejudo",
+          "Team": "CA Osasuna"
+        },
+        {
+          "Unnamed: 0": 0,
+          "season": "2015/2016",
+          "team_api_id": 8560,
+          "player_api_id": 80295,
+          "Type": "assist",
+          "n": 4,
+          "player_name": "Yuri Berchiche",
+          "Team": "Real Sociedad"
+        },
+        {
+          "Unnamed: 0": 0,
+          "season": "2011/2012",
+          "team_api_id": 8603,
+          "player_api_id": 150644,
+          "Type": "assist",
+          "n": 4,
+          "player_name": "Jonathan Pereira",
+          "Team": "Real Betis Balompié"
+        },
+        {
+          "Unnamed: 0": 0,
+          "season": "2008/2009",
+          "team_api_id": 8661,
+          "player_api_id": 37411,
+          "Type": "assist",
+          "n": 4,
+          "player_name": "Jose Manuel Jurado",
+          "Team": "RCD Mallorca"
+        },
+        {
+          "Unnamed: 0": 0,
+          "season": "2015/2016",
+          "team_api_id": 8305,
+          "player_api_id": 213489,
+          "Type": "assist",
+          "n": 4,
+          "player_name": "Alvaro Vazquez",
+          "Team": "Getafe CF"
+        },
+        {
+          "Unnamed: 0": 0,
+          "season": "2008/2009",
+          "team_api_id": 10205,
+          "player_api_id": 37478,
+          "Type": "assist",
+          "n": 4,
+          "player_name": "Robert Pires",
+          "Team": "Villarreal CF"
+        },
+        {
+          "Unnamed: 0": 0,
+          "season": "2013/2014",
+          "team_api_id": 9906,
+          "player_api_id": 18518,
+          "Type": "assist",
+          "n": 4,
+          "player_name": "Jose Sosa",
+          "Team": "Atlético Madrid"
+        },
+        {
+          "Unnamed: 0": 0,
+          "season": "2008/2009",
+          "team_api_id": 9864,
+          "player_api_id": 37450,
+          "Type": "assist",
+          "n": 4,
+          "player_name": "Duda",
+          "Team": "Málaga CF"
+        },
+        {
+          "Unnamed: 0": 0,
+          "season": "2009/2010",
+          "team_api_id": 10205,
+          "player_api_id": 25986,
+          "Type": "assist",
+          "n": 4,
+          "player_name": "Nilmar",
+          "Team": "Villarreal CF"
+        },
+        {
+          "Unnamed: 0": 0,
+          "season": "2015/2016",
+          "team_api_id": 9864,
+          "player_api_id": 238841,
+          "Type": "assist",
+          "n": 4,
+          "player_name": "Jose Recio",
+          "Team": "Málaga CF"
+        },
+        {
+          "Unnamed: 0": 0,
+          "season": "2015/2016",
+          "team_api_id": 9864,
+          "player_api_id": 75445,
+          "Type": "assist",
+          "n": 3,
+          "player_name": "Duje Cop",
+          "Team": "Málaga CF"
+        },
+        {
+          "Unnamed: 0": 0,
+          "season": "2014/2015",
+          "team_api_id": 9864,
+          "player_api_id": 104382,
+          "Type": "assist",
+          "n": 3,
+          "player_name": "Roberto Rosales",
+          "Team": "Málaga CF"
+        },
+        {
+          "Unnamed: 0": 0,
+          "season": "2011/2012",
+          "team_api_id": 8661,
+          "player_api_id": 56686,
+          "Type": "assist",
+          "n": 3,
+          "player_name": "Gonzalo Castro",
+          "Team": "RCD Mallorca"
+        },
+        {
+          "Unnamed: 0": 0,
+          "season": "2011/2012",
+          "team_api_id": 8558,
+          "player_api_id": 254702,
+          "Type": "assist",
+          "n": 3,
+          "player_name": "Thievy Bifouma",
+          "Team": "RCD Espanyol"
+        },
+        {
+          "Unnamed: 0": 0,
+          "season": "2008/2009",
+          "team_api_id": 8305,
+          "player_api_id": 37461,
+          "Type": "assist",
+          "n": 3,
+          "player_name": "Jaime Gavilan",
+          "Team": "Getafe CF"
+        },
+        {
+          "Unnamed: 0": 0,
+          "season": "2015/2016",
+          "team_api_id": 8581,
+          "player_api_id": 38469,
+          "Type": "assist",
+          "n": 3,
+          "player_name": "Verza",
+          "Team": "Levante UD"
+        },
+        {
+          "Unnamed: 0": 0,
+          "season": "2011/2012",
+          "team_api_id": 9906,
+          "player_api_id": 184533,
+          "Type": "assist",
+          "n": 3,
+          "player_name": "Koke",
+          "Team": "Atlético Madrid"
+        },
+        {
+          "Unnamed: 0": 0,
+          "season": "2008/2009",
+          "team_api_id": 8305,
+          "player_api_id": 37469,
+          "Type": "assist",
+          "n": 3,
+          "player_name": "Juan Albin",
+          "Team": "Getafe CF"
+        },
+        {
+          "Unnamed: 0": 0,
+          "season": "2014/2015",
+          "team_api_id": 9783,
+          "player_api_id": 194660,
+          "Type": "assist",
+          "n": 3,
+          "player_name": "Lucas Perez",
+          "Team": "RC Deportivo de La Coruña"
+        },
+        {
+          "Unnamed: 0": 0,
+          "season": "2011/2012",
+          "team_api_id": 10205,
+          "player_api_id": 37480,
+          "Type": "assist",
+          "n": 3,
+          "player_name": "Cani",
+          "Team": "Villarreal CF"
+        },
+        {
+          "Unnamed: 0": 0,
+          "season": "2011/2012",
+          "team_api_id": 8558,
+          "player_api_id": 38578,
+          "Type": "assist",
+          "n": 3,
+          "player_name": "Sergio Garcia",
+          "Team": "RCD Espanyol"
+        },
+        {
+          "Unnamed: 0": 0,
+          "season": "2011/2012",
+          "team_api_id": 9864,
+          "player_api_id": 191315,
+          "Type": "assist",
+          "n": 3,
+          "player_name": "Isco",
+          "Team": "Málaga CF"
+        },
+        {
+          "Unnamed: 0": 0,
+          "season": "2011/2012",
+          "team_api_id": 8560,
+          "player_api_id": 33973,
+          "Type": "assist",
+          "n": 3,
+          "player_name": "Xabier Prieto",
+          "Team": "Real Sociedad"
+        },
+        {
+          "Unnamed: 0": 0,
+          "season": "2011/2012",
+          "team_api_id": 8302,
+          "player_api_id": 75310,
+          "Type": "assist",
+          "n": 3,
+          "player_name": "Alvaro Negredo",
+          "Team": "Sevilla FC"
+        },
+        {
+          "Unnamed: 0": 0,
+          "season": "2011/2012",
+          "team_api_id": 7878,
+          "player_api_id": 37548,
+          "Type": "assist",
+          "n": 3,
+          "player_name": "Carlos Martins",
+          "Team": "Granada CF"
+        },
+        {
+          "Unnamed: 0": 0,
+          "season": "2015/2016",
+          "team_api_id": 8302,
+          "player_api_id": 122047,
+          "Type": "assist",
+          "n": 3,
+          "player_name": "Mariano",
+          "Team": "Sevilla FC"
+        },
+        {
+          "Unnamed: 0": 0,
+          "season": "2014/2015",
+          "team_api_id": 8372,
+          "player_api_id": 183498,
+          "Type": "assist",
+          "n": 3,
+          "player_name": "Javi Lara",
+          "Team": "SD Eibar"
+        },
+        {
+          "Unnamed: 0": 0,
+          "season": "2011/2012",
+          "team_api_id": 9864,
+          "player_api_id": 38521,
+          "Type": "assist",
+          "n": 3,
+          "player_name": "Nacho Monreal",
+          "Team": "Málaga CF"
+        },
+        {
+          "Unnamed: 0": 0,
+          "season": "2011/2012",
+          "team_api_id": 8302,
+          "player_api_id": 25773,
+          "Type": "assist",
+          "n": 3,
+          "player_name": "Ivan Rakitic",
+          "Team": "Sevilla FC"
+        },
+        {
+          "Unnamed: 0": 0,
+          "season": "2014/2015",
+          "team_api_id": 9783,
+          "player_api_id": 361792,
+          "Type": "assist",
+          "n": 3,
+          "player_name": "Ivan Cavaleiro",
+          "Team": "RC Deportivo de La Coruña"
+        },
+        {
+          "Unnamed: 0": 0,
+          "season": "2011/2012",
+          "team_api_id": 8370,
+          "player_api_id": 75004,
+          "Type": "assist",
+          "n": 3,
+          "player_name": "Roberto Trashorras",
+          "Team": "Rayo Vallecano"
+        },
+        {
+          "Unnamed: 0": 0,
+          "season": "2011/2012",
+          "team_api_id": 10205,
+          "player_api_id": 38433,
+          "Type": "assist",
+          "n": 3,
+          "player_name": "Borja Valero",
+          "Team": "Villarreal CF"
+        },
+        {
+          "Unnamed: 0": 0,
+          "season": "2011/2012",
+          "team_api_id": 8603,
+          "player_api_id": 102879,
+          "Type": "assist",
+          "n": 3,
+          "player_name": "Salva Sevilla",
+          "Team": "Real Betis Balompié"
+        },
+        {
+          "Unnamed: 0": 0,
+          "season": "2011/2012",
+          "team_api_id": 8560,
+          "player_api_id": 46289,
+          "Type": "assist",
+          "n": 3,
+          "player_name": "Imanol Agirretxe",
+          "Team": "Real Sociedad"
+        },
+        {
+          "Unnamed: 0": 0,
+          "season": "2011/2012",
+          "team_api_id": 8560,
+          "player_api_id": 75342,
+          "Type": "assist",
+          "n": 3,
+          "player_name": "Carlos Vela",
+          "Team": "Real Sociedad"
+        },
+        {
+          "Unnamed: 0": 0,
+          "season": "2011/2012",
+          "team_api_id": 8581,
+          "player_api_id": 37484,
+          "Type": "assist",
+          "n": 3,
+          "player_name": "Juanfran Garcia",
+          "Team": "Levante UD"
+        },
+        {
+          "Unnamed: 0": 0,
+          "season": "2011/2012",
+          "team_api_id": 7878,
+          "player_api_id": 129326,
+          "Type": "assist",
+          "n": 3,
+          "player_name": "Franco Daniel Jara",
+          "Team": "Granada CF"
+        },
+        {
+          "Unnamed: 0": 0,
+          "season": "2014/2015",
+          "team_api_id": 8315,
+          "player_api_id": 181297,
+          "Type": "assist",
+          "n": 3,
+          "player_name": "Oscar de Marcos",
+          "Team": "Athletic Club de Bilbao"
+        },
+        {
+          "Unnamed: 0": 0,
+          "season": "2014/2015",
+          "team_api_id": 8581,
+          "player_api_id": 477472,
+          "Type": "assist",
+          "n": 3,
+          "player_name": "Jose Luis Morales",
+          "Team": "Levante UD"
+        },
+        {
+          "Unnamed: 0": 0,
+          "season": "2013/2014",
+          "team_api_id": 8302,
+          "player_api_id": 38821,
+          "Type": "assist",
+          "n": 3,
+          "player_name": "Jose Antonio Reyes",
+          "Team": "Sevilla FC"
+        },
+        {
+          "Unnamed: 0": 0,
+          "season": "2013/2014",
+          "team_api_id": 8370,
+          "player_api_id": 41168,
+          "Type": "assist",
+          "n": 3,
+          "player_name": "Alberto Bueno",
+          "Team": "Rayo Vallecano"
+        },
+        {
+          "Unnamed: 0": 0,
+          "season": "2013/2014",
+          "team_api_id": 8560,
+          "player_api_id": 282678,
+          "Type": "assist",
+          "n": 3,
+          "player_name": "Ruben Pardo",
+          "Team": "Real Sociedad"
+        },
+        {
+          "Unnamed: 0": 0,
+          "season": "2008/2009",
+          "team_api_id": 8603,
+          "player_api_id": 38578,
+          "Type": "assist",
+          "n": 3,
+          "player_name": "Sergio Garcia",
+          "Team": "Real Betis Balompié"
+        },
+        {
+          "Unnamed: 0": 0,
+          "season": "2014/2015",
+          "team_api_id": 7878,
+          "player_api_id": 43372,
+          "Type": "assist",
+          "n": 3,
+          "player_name": "Piti",
+          "Team": "Granada CF"
+        },
+        {
+          "Unnamed: 0": 0,
+          "season": "2013/2014",
+          "team_api_id": 9865,
+          "player_api_id": 11555,
+          "Type": "assist",
+          "n": 3,
+          "player_name": "Fernando Soriano",
+          "Team": "UD Almería"
+        },
+        {
+          "Unnamed: 0": 0,
+          "season": "2013/2014",
+          "team_api_id": 8370,
+          "player_api_id": 75004,
+          "Type": "assist",
+          "n": 3,
+          "player_name": "Roberto Trashorras",
+          "Team": "Rayo Vallecano"
+        },
+        {
+          "Unnamed: 0": 0,
+          "season": "2013/2014",
+          "team_api_id": 8371,
+          "player_api_id": 183350,
+          "Type": "assist",
+          "n": 3,
+          "player_name": "Alvaro Cejudo",
+          "Team": "CA Osasuna"
+        },
+        {
+          "Unnamed: 0": 0,
+          "season": "2013/2014",
+          "team_api_id": 9906,
+          "player_api_id": 33635,
+          "Type": "assist",
+          "n": 3,
+          "player_name": "Gabi",
+          "Team": "Atlético Madrid"
+        },
+        {
+          "Unnamed: 0": 0,
+          "season": "2013/2014",
+          "team_api_id": 10267,
+          "player_api_id": 75307,
+          "Type": "assist",
+          "n": 3,
+          "player_name": "Daniel Parejo",
+          "Team": "Valencia CF"
+        },
+        {
+          "Unnamed: 0": 0,
+          "season": "2009/2010",
+          "team_api_id": 8661,
+          "player_api_id": 56686,
+          "Type": "assist",
+          "n": 3,
+          "player_name": "Gonzalo Castro",
+          "Team": "RCD Mallorca"
+        },
+        {
+          "Unnamed: 0": 0,
+          "season": "2013/2014",
+          "team_api_id": 8302,
+          "player_api_id": 213805,
+          "Type": "assist",
+          "n": 3,
+          "player_name": "Vitolo",
+          "Team": "Sevilla FC"
+        },
+        {
+          "Unnamed: 0": 0,
+          "season": "2010/2011",
+          "team_api_id": 8558,
+          "player_api_id": 24852,
+          "Type": "assist",
+          "n": 3,
+          "player_name": "Luis Garcia",
+          "Team": "RCD Espanyol"
+        },
+        {
+          "Unnamed: 0": 0,
+          "season": "2013/2014",
+          "team_api_id": 8315,
+          "player_api_id": 33025,
+          "Type": "assist",
+          "n": 3,
+          "player_name": "Andoni Iraola",
+          "Team": "Athletic Club de Bilbao"
+        },
+        {
+          "Unnamed: 0": 0,
+          "season": "2014/2015",
+          "team_api_id": 9865,
+          "player_api_id": 202220,
+          "Type": "assist",
+          "n": 3,
+          "player_name": "Wellington Silva",
+          "Team": "UD Almería"
+        },
+        {
+          "Unnamed: 0": 0,
+          "season": "2014/2015",
+          "team_api_id": 9865,
+          "player_api_id": 38469,
+          "Type": "assist",
+          "n": 3,
+          "player_name": "Verza",
+          "Team": "UD Almería"
+        },
+        {
+          "Unnamed: 0": 0,
+          "season": "2009/2010",
+          "team_api_id": 8305,
+          "player_api_id": 37474,
+          "Type": "assist",
+          "n": 3,
+          "player_name": "Manu del Moral",
+          "Team": "Getafe CF"
+        },
+        {
+          "Unnamed: 0": 0,
+          "season": "2014/2015",
+          "team_api_id": 7869,
+          "player_api_id": 175305,
+          "Type": "assist",
+          "n": 3,
+          "player_name": "Borja Garcia",
+          "Team": "Córdoba CF"
+        },
+        {
+          "Unnamed: 0": 0,
+          "season": "2014/2015",
+          "team_api_id": 10205,
+          "player_api_id": 246438,
+          "Type": "assist",
+          "n": 3,
+          "player_name": "Gerard Moreno",
+          "Team": "Villarreal CF"
+        },
+        {
+          "Unnamed: 0": 0,
+          "season": "2008/2009",
+          "team_api_id": 8302,
+          "player_api_id": 30443,
+          "Type": "assist",
+          "n": 3,
+          "player_name": "Renato",
+          "Team": "Sevilla FC"
+        },
+        {
+          "Unnamed: 0": 0,
+          "season": "2009/2010",
+          "team_api_id": 9783,
+          "player_api_id": 33761,
+          "Type": "assist",
+          "n": 3,
+          "player_name": "Juan Carlos Valeron",
+          "Team": "RC Deportivo de La Coruña"
+        },
+        {
+          "Unnamed: 0": 0,
+          "season": "2009/2010",
+          "team_api_id": 8661,
+          "player_api_id": 38433,
+          "Type": "assist",
+          "n": 3,
+          "player_name": "Borja Valero",
+          "Team": "RCD Mallorca"
+        },
+        {
+          "Unnamed: 0": 0,
+          "season": "2009/2010",
+          "team_api_id": 10205,
+          "player_api_id": 37480,
+          "Type": "assist",
+          "n": 3,
+          "player_name": "Cani",
+          "Team": "Villarreal CF"
+        },
+        {
+          "Unnamed: 0": 0,
+          "season": "2009/2010",
+          "team_api_id": 8302,
+          "player_api_id": 101422,
+          "Type": "assist",
+          "n": 3,
+          "player_name": "Diego Perotti",
+          "Team": "Sevilla FC"
+        },
+        {
+          "Unnamed: 0": 0,
+          "season": "2014/2015",
+          "team_api_id": 8372,
+          "player_api_id": 75616,
+          "Type": "assist",
+          "n": 3,
+          "player_name": "Mikel Arruabarrena",
+          "Team": "SD Eibar"
+        },
+        {
+          "Unnamed: 0": 0,
+          "season": "2014/2015",
+          "team_api_id": 8558,
+          "player_api_id": 107930,
+          "Type": "assist",
+          "n": 3,
+          "player_name": "Victor Sanchez Mata",
+          "Team": "RCD Espanyol"
+        },
+        {
+          "Unnamed: 0": 0,
+          "season": "2008/2009",
+          "team_api_id": 9865,
+          "player_api_id": 45605,
+          "Type": "assist",
+          "n": 3,
+          "player_name": "Albert Crusat",
+          "Team": "UD Almería"
+        },
+        {
+          "Unnamed: 0": 0,
+          "season": "2009/2010",
+          "team_api_id": 8394,
+          "player_api_id": 33635,
+          "Type": "assist",
+          "n": 3,
+          "player_name": "Gabi",
+          "Team": "Real Zaragoza"
+        },
+        {
+          "Unnamed: 0": 0,
+          "season": "2015/2016",
+          "team_api_id": 7878,
+          "player_api_id": 495841,
+          "Type": "assist",
+          "n": 3,
+          "player_name": "Adalberto Penaranda",
+          "Team": "Granada CF"
+        },
+        {
+          "Unnamed: 0": 0,
+          "season": "2013/2014",
+          "team_api_id": 10205,
+          "player_api_id": 41157,
+          "Type": "assist",
+          "n": 3,
+          "player_name": "Giovani dos Santos",
+          "Team": "Villarreal CF"
+        },
+        {
+          "Unnamed: 0": 0,
+          "season": "2010/2011",
+          "team_api_id": 8315,
+          "player_api_id": 33866,
+          "Type": "assist",
+          "n": 3,
+          "player_name": "David Lopez",
+          "Team": "Athletic Club de Bilbao"
+        },
+        {
+          "Unnamed: 0": 0,
+          "season": "2008/2009",
+          "team_api_id": 8315,
+          "player_api_id": 33866,
+          "Type": "assist",
+          "n": 3,
+          "player_name": "David Lopez",
+          "Team": "Athletic Club de Bilbao"
+        },
+        {
+          "Unnamed: 0": 0,
+          "season": "2008/2009",
+          "team_api_id": 8371,
+          "player_api_id": 30907,
+          "Type": "assist",
+          "n": 3,
+          "player_name": "Jaroslav Plasil",
+          "Team": "CA Osasuna"
+        },
+        {
+          "Unnamed: 0": 0,
+          "season": "2015/2016",
+          "team_api_id": 8558,
+          "player_api_id": 452243,
+          "Type": "assist",
+          "n": 3,
+          "player_name": "Burgui",
+          "Team": "RCD Espanyol"
+        },
+        {
+          "Unnamed: 0": 0,
+          "season": "2013/2014",
+          "team_api_id": 7878,
+          "player_api_id": 282713,
+          "Type": "assist",
+          "n": 3,
+          "player_name": "Fran Rico",
+          "Team": "Granada CF"
+        },
+        {
+          "Unnamed: 0": 0,
+          "season": "2010/2011",
+          "team_api_id": 8302,
+          "player_api_id": 101422,
+          "Type": "assist",
+          "n": 3,
+          "player_name": "Diego Perotti",
+          "Team": "Sevilla FC"
+        },
+        {
+          "Unnamed: 0": 0,
+          "season": "2010/2011",
+          "team_api_id": 8696,
+          "player_api_id": 40501,
+          "Type": "assist",
+          "n": 3,
+          "player_name": "Adrian Gonzalez",
+          "Team": "Racing Santander"
+        },
+        {
+          "Unnamed: 0": 0,
+          "season": "2010/2011",
+          "team_api_id": 8394,
+          "player_api_id": 38044,
+          "Type": "assist",
+          "n": 3,
+          "player_name": "Ikechukwu Uche",
+          "Team": "Real Zaragoza"
+        },
+        {
+          "Unnamed: 0": 0,
+          "season": "2013/2014",
+          "team_api_id": 10205,
+          "player_api_id": 172324,
+          "Type": "assist",
+          "n": 3,
+          "player_name": "Javier Aquino",
+          "Team": "Villarreal CF"
+        },
+        {
+          "Unnamed: 0": 0,
+          "season": "2010/2011",
+          "team_api_id": 9864,
+          "player_api_id": 37450,
+          "Type": "assist",
+          "n": 3,
+          "player_name": "Duda",
+          "Team": "Málaga CF"
+        },
+        {
+          "Unnamed: 0": 0,
+          "season": "2014/2015",
+          "team_api_id": 7878,
+          "player_api_id": 261609,
+          "Type": "assist",
+          "n": 2,
+          "player_name": "Dimitri Foulquier",
+          "Team": "Granada CF"
+        },
+        {
+          "Unnamed: 0": 0,
+          "season": "2014/2015",
+          "team_api_id": 8581,
+          "player_api_id": 287691,
+          "Type": "assist",
+          "n": 2,
+          "player_name": "Ivan Lopez",
+          "Team": "Levante UD"
+        },
+        {
+          "Unnamed: 0": 0,
+          "season": "2013/2014",
+          "team_api_id": 8581,
+          "player_api_id": 25462,
+          "Type": "assist",
+          "n": 2,
+          "player_name": "Victor Casadesus",
+          "Team": "Levante UD"
+        },
+        {
+          "Unnamed: 0": 0,
+          "season": "2008/2009",
+          "team_api_id": 9906,
+          "player_api_id": 33632,
+          "Type": "assist",
+          "n": 2,
+          "player_name": "Maxi Rodriguez",
+          "Team": "Atlético Madrid"
+        },
+        {
+          "Unnamed: 0": 0,
+          "season": "2014/2015",
+          "team_api_id": 8581,
+          "player_api_id": 43329,
+          "Type": "assist",
+          "n": 2,
+          "player_name": "Kalu Uche",
+          "Team": "Levante UD"
+        },
+        {
+          "Unnamed: 0": 0,
+          "season": "2008/2009",
+          "team_api_id": 8371,
+          "player_api_id": 38424,
+          "Type": "assist",
+          "n": 2,
+          "player_name": "Juanfran",
+          "Team": "CA Osasuna"
+        },
+        {
+          "Unnamed: 0": 0,
+          "season": "2008/2009",
+          "team_api_id": 9869,
+          "player_api_id": 24383,
+          "Type": "assist",
+          "n": 2,
+          "player_name": "Diego Castro",
+          "Team": "Real Sporting de Gijón"
+        },
+        {
+          "Unnamed: 0": 0,
+          "season": "2008/2009",
+          "team_api_id": 9869,
+          "player_api_id": 34582,
+          "Type": "assist",
+          "n": 2,
+          "player_name": "Mate Bilic",
+          "Team": "Real Sporting de Gijón"
+        },
+        {
+          "Unnamed: 0": 0,
+          "season": "2008/2009",
+          "team_api_id": 8661,
+          "player_api_id": 33028,
+          "Type": "assist",
+          "n": 2,
+          "player_name": "Aritz Aduriz",
+          "Team": "RCD Mallorca"
+        },
+        {
+          "Unnamed: 0": 0,
+          "season": "2008/2009",
+          "team_api_id": 8696,
+          "player_api_id": 35638,
+          "Type": "assist",
+          "n": 2,
+          "player_name": "Pedro Munitis",
+          "Team": "Racing Santander"
+        },
+        {
+          "Unnamed: 0": 0,
+          "season": "2013/2014",
+          "team_api_id": 9864,
+          "player_api_id": 18483,
+          "Type": "assist",
+          "n": 2,
+          "player_name": "Pablo Javier Perez",
+          "Team": "Málaga CF"
+        },
+        {
+          "Unnamed: 0": 0,
+          "season": "2013/2014",
+          "team_api_id": 8371,
+          "player_api_id": 18784,
+          "Type": "assist",
+          "n": 2,
+          "player_name": "Emiliano Daniel Armenteros",
+          "Team": "CA Osasuna"
+        },
+        {
+          "Unnamed: 0": 0,
+          "season": "2014/2015",
+          "team_api_id": 9783,
+          "player_api_id": 121872,
+          "Type": "assist",
+          "n": 2,
+          "player_name": "Sidnei",
+          "Team": "RC Deportivo de La Coruña"
+        },
+        {
+          "Unnamed: 0": 0,
+          "season": "2013/2014",
+          "team_api_id": 8581,
+          "player_api_id": 42873,
+          "Type": "assist",
+          "n": 2,
+          "player_name": "Andreas Ivanschitz",
+          "Team": "Levante UD"
+        },
+        {
+          "Unnamed: 0": 0,
+          "season": "2013/2014",
+          "team_api_id": 10267,
+          "player_api_id": 46384,
+          "Type": "assist",
+          "n": 2,
+          "player_name": "Pablo Piatti",
+          "Team": "Valencia CF"
+        },
+        {
+          "Unnamed: 0": 0,
+          "season": "2013/2014",
+          "team_api_id": 9864,
+          "player_api_id": 30646,
+          "Type": "assist",
+          "n": 2,
+          "player_name": "Roque Santa Cruz",
+          "Team": "Málaga CF"
+        },
+        {
+          "Unnamed: 0": 0,
+          "season": "2013/2014",
+          "team_api_id": 8558,
+          "player_api_id": 58294,
+          "Type": "assist",
+          "n": 2,
+          "player_name": "Cristian Stuani",
+          "Team": "RCD Espanyol"
+        },
+        {
+          "Unnamed: 0": 0,
+          "season": "2013/2014",
+          "team_api_id": 9910,
+          "player_api_id": 242469,
+          "Type": "assist",
+          "n": 2,
+          "player_name": "Rafinha",
+          "Team": "RC Celta de Vigo"
+        },
+        {
+          "Unnamed: 0": 0,
+          "season": "2013/2014",
+          "team_api_id": 9865,
+          "player_api_id": 38581,
+          "Type": "assist",
+          "n": 2,
+          "player_name": "Corona",
+          "Team": "UD Almería"
+        },
+        {
+          "Unnamed: 0": 0,
+          "season": "2013/2014",
+          "team_api_id": 10205,
+          "player_api_id": 150644,
+          "Type": "assist",
+          "n": 2,
+          "player_name": "Jonathan Pereira",
+          "Team": "Villarreal CF"
+        },
+        {
+          "Unnamed: 0": 0,
+          "season": "2013/2014",
+          "team_api_id": 10281,
+          "player_api_id": 111975,
+          "Type": "assist",
+          "n": 2,
+          "player_name": "Manucho",
+          "Team": "Real Valladolid"
+        },
+        {
+          "Unnamed: 0": 0,
+          "season": "2013/2014",
+          "team_api_id": 8560,
+          "player_api_id": 162497,
+          "Type": "assist",
+          "n": 2,
+          "player_name": "Jose Angel",
+          "Team": "Real Sociedad"
+        },
+        {
+          "Unnamed: 0": 0,
+          "season": "2008/2009",
+          "team_api_id": 8603,
+          "player_api_id": 34233,
+          "Type": "assist",
+          "n": 2,
+          "player_name": "Mark Gonzalez",
+          "Team": "Real Betis Balompié"
+        },
+        {
+          "Unnamed: 0": 0,
+          "season": "2013/2014",
+          "team_api_id": 9910,
+          "player_api_id": 213486,
+          "Type": "assist",
+          "n": 2,
+          "player_name": "Nolito",
+          "Team": "RC Celta de Vigo"
+        },
+        {
+          "Unnamed: 0": 0,
+          "season": "2013/2014",
+          "team_api_id": 10268,
+          "player_api_id": 302912,
+          "Type": "assist",
+          "n": 2,
+          "player_name": "Garry Mendes Rodrigues",
+          "Team": "Elche CF"
+        },
+        {
+          "Unnamed: 0": 0,
+          "season": "2013/2014",
+          "team_api_id": 9865,
+          "player_api_id": 196188,
+          "Type": "assist",
+          "n": 2,
+          "player_name": "Rodri",
+          "Team": "UD Almería"
+        },
+        {
+          "Unnamed: 0": 0,
+          "season": "2013/2014",
+          "team_api_id": 8305,
+          "player_api_id": 37461,
+          "Type": "assist",
+          "n": 2,
+          "player_name": "Jaime Gavilan",
+          "Team": "Getafe CF"
+        },
+        {
+          "Unnamed: 0": 0,
+          "season": "2013/2014",
+          "team_api_id": 7878,
+          "player_api_id": 161291,
+          "Type": "assist",
+          "n": 2,
+          "player_name": "Youssef El Arabi",
+          "Team": "Granada CF"
+        },
+        {
+          "Unnamed: 0": 0,
+          "season": "2013/2014",
+          "team_api_id": 8315,
+          "player_api_id": 150323,
+          "Type": "assist",
+          "n": 2,
+          "player_name": "Ander Iturraspe",
+          "Team": "Athletic Club de Bilbao"
+        },
+        {
+          "Unnamed: 0": 0,
+          "season": "2014/2015",
+          "team_api_id": 7878,
+          "player_api_id": 161291,
+          "Type": "assist",
+          "n": 2,
+          "player_name": "Youssef El Arabi",
+          "Team": "Granada CF"
+        },
+        {
+          "Unnamed: 0": 0,
+          "season": "2013/2014",
+          "team_api_id": 8305,
+          "player_api_id": 32999,
+          "Type": "assist",
+          "n": 2,
+          "player_name": "Mehdi Lacen",
+          "Team": "Getafe CF"
+        },
+        {
+          "Unnamed: 0": 0,
+          "season": "2009/2010",
+          "team_api_id": 8394,
+          "player_api_id": 38403,
+          "Type": "assist",
+          "n": 2,
+          "player_name": "Jorge Lopez",
+          "Team": "Real Zaragoza"
+        },
+        {
+          "Unnamed: 0": 0,
+          "season": "2010/2011",
+          "team_api_id": 10278,
+          "player_api_id": 42714,
+          "Type": "assist",
+          "n": 2,
+          "player_name": "Royston Drenthe",
+          "Team": "Hércules Club de Fútbol"
+        },
+        {
+          "Unnamed: 0": 0,
+          "season": "2010/2011",
+          "team_api_id": 8305,
+          "player_api_id": 75307,
+          "Type": "assist",
+          "n": 2,
+          "player_name": "Daniel Parejo",
+          "Team": "Getafe CF"
+        },
+        {
+          "Unnamed: 0": 0,
+          "season": "2010/2011",
+          "team_api_id": 8315,
+          "player_api_id": 96619,
+          "Type": "assist",
+          "n": 2,
+          "player_name": "Markel Susaeta",
+          "Team": "Athletic Club de Bilbao"
+        },
+        {
+          "Unnamed: 0": 0,
+          "season": "2015/2016",
+          "team_api_id": 8581,
+          "player_api_id": 513086,
+          "Type": "assist",
+          "n": 2,
+          "player_name": "Victor Camarasa",
+          "Team": "Levante UD"
+        },
+        {
+          "Unnamed: 0": 0,
+          "season": "2011/2012",
+          "team_api_id": 8394,
+          "player_api_id": 24852,
+          "Type": "assist",
+          "n": 2,
+          "player_name": "Luis Garcia",
+          "Team": "Real Zaragoza"
+        },
+        {
+          "Unnamed: 0": 0,
+          "season": "2015/2016",
+          "team_api_id": 7878,
+          "player_api_id": 352887,
+          "Type": "assist",
+          "n": 2,
+          "player_name": "Abdoulaye Doucoure",
+          "Team": "Granada CF"
+        },
+        {
+          "Unnamed: 0": 0,
+          "season": "2015/2016",
+          "team_api_id": 8603,
+          "player_api_id": 183350,
+          "Type": "assist",
+          "n": 2,
+          "player_name": "Alvaro Cejudo",
+          "Team": "Real Betis Balompié"
+        },
+        {
+          "Unnamed: 0": 0,
+          "season": "2011/2012",
+          "team_api_id": 9869,
+          "player_api_id": 41294,
+          "Type": "assist",
+          "n": 2,
+          "player_name": "David Barral",
+          "Team": "Real Sporting de Gijón"
+        },
+        {
+          "Unnamed: 0": 0,
+          "season": "2009/2010",
+          "team_api_id": 8305,
+          "player_api_id": 40501,
+          "Type": "assist",
+          "n": 2,
+          "player_name": "Adrian Gonzalez",
+          "Team": "Getafe CF"
+        },
+        {
+          "Unnamed: 0": 0,
+          "season": "2009/2010",
+          "team_api_id": 8661,
+          "player_api_id": 25462,
+          "Type": "assist",
+          "n": 2,
+          "player_name": "Victor Casadesus",
+          "Team": "RCD Mallorca"
+        },
+        {
+          "Unnamed: 0": 0,
+          "season": "2009/2010",
+          "team_api_id": 8394,
+          "player_api_id": 38573,
+          "Type": "assist",
+          "n": 2,
+          "player_name": "Angel Lafita",
+          "Team": "Real Zaragoza"
+        },
+        {
+          "Unnamed: 0": 0,
+          "season": "2011/2012",
+          "team_api_id": 8696,
+          "player_api_id": 46836,
+          "Type": "assist",
+          "n": 2,
+          "player_name": "Pape Kouli Diop",
+          "Team": "Racing Santander"
+        },
+        {
+          "Unnamed: 0": 0,
+          "season": "2010/2011",
+          "team_api_id": 9869,
+          "player_api_id": 30273,
+          "Type": "assist",
+          "n": 2,
+          "player_name": "Alberto Rivera",
+          "Team": "Real Sporting de Gijón"
+        },
+        {
+          "Unnamed: 0": 0,
+          "season": "2010/2011",
+          "team_api_id": 8581,
+          "player_api_id": 33872,
+          "Type": "assist",
+          "n": 2,
+          "player_name": "Valdo",
+          "Team": "Levante UD"
+        },
+        {
+          "Unnamed: 0": 0,
+          "season": "2010/2011",
+          "team_api_id": 10278,
+          "player_api_id": 37470,
+          "Type": "assist",
+          "n": 2,
+          "player_name": "David Cortes",
+          "Team": "Hércules Club de Fútbol"
+        },
+        {
+          "Unnamed: 0": 0,
+          "season": "2010/2011",
+          "team_api_id": 8394,
+          "player_api_id": 33635,
+          "Type": "assist",
+          "n": 2,
+          "player_name": "Gabi",
+          "Team": "Real Zaragoza"
+        },
+        {
+          "Unnamed: 0": 0,
+          "season": "2010/2011",
+          "team_api_id": 8661,
+          "player_api_id": 25574,
+          "Type": "assist",
+          "n": 2,
+          "player_name": "Pierre Webo",
+          "Team": "RCD Mallorca"
+        },
+        {
+          "Unnamed: 0": 0,
+          "season": "2010/2011",
+          "team_api_id": 8581,
+          "player_api_id": 154256,
+          "Type": "assist",
+          "n": 2,
+          "player_name": "Xavier Torres",
+          "Team": "Levante UD"
+        },
+        {
+          "Unnamed: 0": 0,
+          "season": "2010/2011",
+          "team_api_id": 8661,
+          "player_api_id": 56686,
+          "Type": "assist",
+          "n": 2,
+          "player_name": "Gonzalo Castro",
+          "Team": "RCD Mallorca"
+        },
+        {
+          "Unnamed: 0": 0,
+          "season": "2010/2011",
+          "team_api_id": 8371,
+          "player_api_id": 38136,
+          "Type": "assist",
+          "n": 2,
+          "player_name": "Carlos Reina Aranda",
+          "Team": "CA Osasuna"
+        },
+        {
+          "Unnamed: 0": 0,
+          "season": "2010/2011",
+          "team_api_id": 9865,
+          "player_api_id": 45605,
+          "Type": "assist",
+          "n": 2,
+          "player_name": "Albert Crusat",
+          "Team": "UD Almería"
+        },
+        {
+          "Unnamed: 0": 0,
+          "season": "2010/2011",
+          "team_api_id": 9864,
+          "player_api_id": 51545,
+          "Type": "assist",
+          "n": 2,
+          "player_name": "Jose Salomon Rondon",
+          "Team": "Málaga CF"
+        },
+        {
+          "Unnamed: 0": 0,
+          "season": "2009/2010",
+          "team_api_id": 10205,
+          "player_api_id": 38468,
+          "Type": "assist",
+          "n": 2,
+          "player_name": "David Fuster Torrijos",
+          "Team": "Villarreal CF"
+        },
+        {
+          "Unnamed: 0": 0,
+          "season": "2010/2011",
+          "team_api_id": 9864,
+          "player_api_id": 102612,
+          "Type": "assist",
+          "n": 2,
+          "player_name": "Antonio Apono",
+          "Team": "Málaga CF"
+        },
+        {
+          "Unnamed: 0": 0,
+          "season": "2009/2010",
+          "team_api_id": 10281,
+          "player_api_id": 19243,
+          "Type": "assist",
+          "n": 2,
+          "player_name": "Diego Costa",
+          "Team": "Real Valladolid"
+        },
+        {
+          "Unnamed: 0": 0,
+          "season": "2011/2012",
+          "team_api_id": 8370,
+          "player_api_id": 18784,
+          "Type": "assist",
+          "n": 2,
+          "player_name": "Emiliano Daniel Armenteros",
+          "Team": "Rayo Vallecano"
+        },
+        {
+          "Unnamed: 0": 0,
+          "season": "2008/2009",
+          "team_api_id": 9783,
+          "player_api_id": 37441,
+          "Type": "assist",
+          "n": 2,
+          "player_name": "Joan Verdu",
+          "Team": "RC Deportivo de La Coruña"
+        },
+        {
+          "Unnamed: 0": 0,
+          "season": "2009/2010",
+          "team_api_id": 8696,
+          "player_api_id": 150649,
+          "Type": "assist",
+          "n": 2,
+          "player_name": "Sergio Canales",
+          "Team": "Racing Santander"
+        },
+        {
+          "Unnamed: 0": 0,
+          "season": "2011/2012",
+          "team_api_id": 8394,
+          "player_api_id": 38573,
+          "Type": "assist",
+          "n": 2,
+          "player_name": "Angel Lafita",
+          "Team": "Real Zaragoza"
+        },
+        {
+          "Unnamed: 0": 0,
+          "season": "2011/2012",
+          "team_api_id": 9869,
+          "player_api_id": 102572,
+          "Type": "assist",
+          "n": 2,
+          "player_name": "Adrian Colunga",
+          "Team": "Real Sporting de Gijón"
+        },
+        {
+          "Unnamed: 0": 0,
+          "season": "2011/2012",
+          "team_api_id": 8370,
+          "player_api_id": 99333,
+          "Type": "assist",
+          "n": 2,
+          "player_name": "Jose Manuel Casado",
+          "Team": "Rayo Vallecano"
+        },
+        {
+          "Unnamed: 0": 0,
+          "season": "2011/2012",
+          "team_api_id": 7878,
+          "player_api_id": 43375,
+          "Type": "assist",
+          "n": 2,
+          "player_name": "Mikel Rico",
+          "Team": "Granada CF"
+        },
+        {
+          "Unnamed: 0": 0,
+          "season": "2011/2012",
+          "team_api_id": 8661,
+          "player_api_id": 103904,
+          "Type": "assist",
+          "n": 2,
+          "player_name": "Emilio Nsue",
+          "Team": "RCD Mallorca"
+        },
+        {
+          "Unnamed: 0": 0,
+          "season": "2009/2010",
+          "team_api_id": 8315,
+          "player_api_id": 179772,
+          "Type": "assist",
+          "n": 2,
+          "player_name": "Iker Muniain",
+          "Team": "Athletic Club de Bilbao"
+        },
+        {
+          "Unnamed: 0": 0,
+          "season": "2009/2010",
+          "team_api_id": 8696,
+          "player_api_id": 33896,
+          "Type": "assist",
+          "n": 2,
+          "player_name": "Pablo Pinillos",
+          "Team": "Racing Santander"
+        },
+        {
+          "Unnamed: 0": 0,
+          "season": "2011/2012",
+          "team_api_id": 8305,
+          "player_api_id": 37461,
+          "Type": "assist",
+          "n": 2,
+          "player_name": "Jaime Gavilan",
+          "Team": "Getafe CF"
+        },
+        {
+          "Unnamed: 0": 0,
+          "season": "2011/2012",
+          "team_api_id": 8581,
+          "player_api_id": 33872,
+          "Type": "assist",
+          "n": 2,
+          "player_name": "Valdo",
+          "Team": "Levante UD"
+        },
+        {
+          "Unnamed: 0": 0,
+          "season": "2009/2010",
+          "team_api_id": 8696,
+          "player_api_id": 35638,
+          "Type": "assist",
+          "n": 2,
+          "player_name": "Pedro Munitis",
+          "Team": "Racing Santander"
+        },
+        {
+          "Unnamed: 0": 0,
+          "season": "2009/2010",
+          "team_api_id": 10281,
+          "player_api_id": 75001,
+          "Type": "assist",
+          "n": 2,
+          "player_name": "Nauzet Aleman",
+          "Team": "Real Valladolid"
+        },
+        {
+          "Unnamed: 0": 0,
+          "season": "2010/2011",
+          "team_api_id": 8560,
+          "player_api_id": 184138,
+          "Type": "assist",
+          "n": 2,
+          "player_name": "Antoine Griezmann",
+          "Team": "Real Sociedad"
+        },
+        {
+          "Unnamed: 0": 0,
+          "season": "2008/2009",
+          "team_api_id": 9864,
+          "player_api_id": 32763,
+          "Type": "assist",
+          "n": 2,
+          "player_name": "Alberto Luque,21",
+          "Team": "Málaga CF"
+        },
+        {
+          "Unnamed: 0": 0,
+          "season": "2008/2009",
+          "team_api_id": 10281,
+          "player_api_id": 75192,
+          "Type": "assist",
+          "n": 2,
+          "player_name": "Pedro Leon",
+          "Team": "Real Valladolid"
+        },
+        {
+          "Unnamed: 0": 0,
+          "season": "2011/2012",
+          "team_api_id": 9869,
+          "player_api_id": 242477,
+          "Type": "assist",
+          "n": 2,
+          "player_name": "Nacho Cases",
+          "Team": "Real Sporting de Gijón"
+        },
+        {
+          "Unnamed: 0": 0,
+          "season": "2011/2012",
+          "team_api_id": 8696,
+          "player_api_id": 97319,
+          "Type": "assist",
+          "n": 2,
+          "player_name": "Manuel Arana",
+          "Team": "Racing Santander"
+        },
+        {
+          "Unnamed: 0": 0,
+          "season": "2008/2009",
+          "team_api_id": 8315,
+          "player_api_id": 33025,
+          "Type": "assist",
+          "n": 2,
+          "player_name": "Andoni Iraola",
+          "Team": "Athletic Club de Bilbao"
+        },
+        {
+          "Unnamed: 0": 0,
+          "season": "2011/2012",
+          "team_api_id": 8661,
+          "player_api_id": 200630,
+          "Type": "assist",
+          "n": 2,
+          "player_name": "Michael Pereira",
+          "Team": "RCD Mallorca"
+        },
+        {
+          "Unnamed: 0": 0,
+          "season": "2009/2010",
+          "team_api_id": 8558,
+          "player_api_id": 150330,
+          "Type": "assist",
+          "n": 2,
+          "player_name": "Jose Maria Callejon",
+          "Team": "RCD Espanyol"
+        },
+        {
+          "Unnamed: 0": 0,
+          "season": "2008/2009",
+          "team_api_id": 8479,
+          "player_api_id": 18628,
+          "Type": "assist",
+          "n": 1,
+          "player_name": "Marco Ruben",
+          "Team": "RC Recreativo"
+        },
+        {
+          "Unnamed: 0": 0,
+          "season": "2014/2015",
+          "team_api_id": 7869,
+          "player_api_id": 179404,
+          "Type": "assist",
+          "n": 1,
+          "player_name": "Patrick Ekeng Ekeng",
+          "Team": "Córdoba CF"
+        },
+        {
+          "Unnamed: 0": 0,
+          "season": "2008/2009",
+          "team_api_id": 8305,
+          "player_api_id": 37473,
+          "Type": "assist",
+          "n": 1,
+          "player_name": "Cosmin Contra",
+          "Team": "Getafe CF"
+        },
+        {
+          "Unnamed: 0": 0,
+          "season": "2008/2009",
+          "team_api_id": 9783,
+          "player_api_id": 41167,
+          "Type": "assist",
+          "n": 1,
+          "player_name": "Filipe Luis",
+          "Team": "RC Deportivo de La Coruña"
+        },
+        {
+          "Unnamed: 0": 0,
+          "season": "2008/2009",
+          "team_api_id": 8603,
+          "player_api_id": 42173,
+          "Type": "assist",
+          "n": 1,
+          "player_name": "Mehmet Aurelio",
+          "Team": "Real Betis Balompié"
+        },
+        {
+          "Unnamed: 0": 0,
+          "season": "2008/2009",
+          "team_api_id": 8558,
+          "player_api_id": 32766,
+          "Type": "assist",
+          "n": 1,
+          "player_name": "Ivan de la Pena",
+          "Team": "RCD Espanyol"
+        },
+        {
+          "Unnamed: 0": 0,
+          "season": "2008/2009",
+          "team_api_id": 8661,
+          "player_api_id": 41718,
+          "Type": "assist",
+          "n": 1,
+          "player_name": "Alhassane Keita",
+          "Team": "RCD Mallorca"
+        },
+        {
+          "Unnamed: 0": 0,
+          "season": "2008/2009",
+          "team_api_id": 8479,
+          "player_api_id": 75474,
+          "Type": "assist",
+          "n": 1,
+          "player_name": "Javier Camunas",
+          "Team": "RC Recreativo"
+        },
+        {
+          "Unnamed: 0": 0,
+          "season": "2008/2009",
+          "team_api_id": 9869,
+          "player_api_id": 78404,
+          "Type": "assist",
+          "n": 1,
+          "player_name": "Michel",
+          "Team": "Real Sporting de Gijón"
+        },
+        {
+          "Unnamed: 0": 0,
+          "season": "2010/2011",
+          "team_api_id": 8371,
+          "player_api_id": 11555,
+          "Type": "assist",
+          "n": 1,
+          "player_name": "Fernando Soriano",
+          "Team": "CA Osasuna"
+        },
+        {
+          "Unnamed: 0": 0,
+          "season": "2010/2011",
+          "team_api_id": 8371,
+          "player_api_id": 38424,
+          "Type": "assist",
+          "n": 1,
+          "player_name": "Juanfran",
+          "Team": "CA Osasuna"
+        },
+        {
+          "Unnamed: 0": 0,
+          "season": "2010/2011",
+          "team_api_id": 8305,
+          "player_api_id": 37469,
+          "Type": "assist",
+          "n": 1,
+          "player_name": "Juan Albin",
+          "Team": "Getafe CF"
+        },
+        {
+          "Unnamed: 0": 0,
+          "season": "2010/2011",
+          "team_api_id": 9783,
+          "player_api_id": 31045,
+          "Type": "assist",
+          "n": 1,
+          "player_name": "Andres Guardado",
+          "Team": "RC Deportivo de La Coruña"
+        },
+        {
+          "Unnamed: 0": 0,
+          "season": "2010/2011",
+          "team_api_id": 10278,
+          "player_api_id": 24385,
+          "Type": "assist",
+          "n": 1,
+          "player_name": "Abel Aguilar",
+          "Team": "Hércules Club de Fútbol"
+        },
+        {
+          "Unnamed: 0": 0,
+          "season": "2010/2011",
+          "team_api_id": 8696,
+          "player_api_id": 30827,
+          "Type": "assist",
+          "n": 1,
+          "player_name": "Markus Rosenberg",
+          "Team": "Racing Santander"
+        },
+        {
+          "Unnamed: 0": 0,
+          "season": "2010/2011",
+          "team_api_id": 8696,
+          "player_api_id": 46836,
+          "Type": "assist",
+          "n": 1,
+          "player_name": "Pape Kouli Diop",
+          "Team": "Racing Santander"
+        },
+        {
+          "Unnamed: 0": 0,
+          "season": "2011/2012",
+          "team_api_id": 10205,
+          "player_api_id": 213922,
+          "Type": "assist",
+          "n": 1,
+          "player_name": "Gonzalo Castellani",
+          "Team": "Villarreal CF"
+        },
+        {
+          "Unnamed: 0": 0,
+          "season": "2010/2011",
+          "team_api_id": 9865,
+          "player_api_id": 113627,
+          "Type": "assist",
+          "n": 1,
+          "player_name": "Hernan Dario Bernardello",
+          "Team": "UD Almería"
+        },
+        {
+          "Unnamed: 0": 0,
+          "season": "2010/2011",
+          "team_api_id": 8560,
+          "player_api_id": 26010,
+          "Type": "assist",
+          "n": 1,
+          "player_name": "Jeffrey Sarpong",
+          "Team": "Real Sociedad"
+        },
+        {
+          "Unnamed: 0": 0,
+          "season": "2010/2011",
+          "team_api_id": 8305,
+          "player_api_id": 32675,
+          "Type": "assist",
+          "n": 1,
+          "player_name": "Cata Diaz",
+          "Team": "Getafe CF"
+        },
+        {
+          "Unnamed: 0": 0,
+          "season": "2010/2011",
+          "team_api_id": 9869,
+          "player_api_id": 38004,
+          "Type": "assist",
+          "n": 1,
+          "player_name": "Carmelo Gonzalez",
+          "Team": "Real Sporting de Gijón"
+        },
+        {
+          "Unnamed: 0": 0,
+          "season": "2010/2011",
+          "team_api_id": 8394,
+          "player_api_id": 37754,
+          "Type": "assist",
+          "n": 1,
+          "player_name": "Carlos Diogo",
+          "Team": "Real Zaragoza"
+        },
+        {
+          "Unnamed: 0": 0,
+          "season": "2010/2011",
+          "team_api_id": 9783,
+          "player_api_id": 45744,
+          "Type": "assist",
+          "n": 1,
+          "player_name": "Adrian Lopez",
+          "Team": "RC Deportivo de La Coruña"
+        },
+        {
+          "Unnamed: 0": 0,
+          "season": "2010/2011",
+          "team_api_id": 9783,
+          "player_api_id": 37449,
+          "Type": "assist",
+          "n": 1,
+          "player_name": "Juan Rodriguez",
+          "Team": "RC Deportivo de La Coruña"
+        },
+        {
+          "Unnamed: 0": 0,
+          "season": "2010/2011",
+          "team_api_id": 8558,
+          "player_api_id": 40165,
+          "Type": "assist",
+          "n": 1,
+          "player_name": "Pablo Osvaldo",
+          "Team": "RCD Espanyol"
+        },
+        {
+          "Unnamed: 0": 0,
+          "season": "2010/2011",
+          "team_api_id": 9869,
+          "player_api_id": 150480,
+          "Type": "assist",
+          "n": 1,
+          "player_name": "Lora",
+          "Team": "Real Sporting de Gijón"
+        },
+        {
+          "Unnamed: 0": 0,
+          "season": "2011/2012",
+          "team_api_id": 8305,
+          "player_api_id": 150770,
+          "Type": "assist",
+          "n": 1,
+          "player_name": "Miku",
+          "Team": "Getafe CF"
+        },
+        {
+          "Unnamed: 0": 0,
+          "season": "2011/2012",
+          "team_api_id": 8305,
+          "player_api_id": 75619,
+          "Type": "assist",
+          "n": 1,
+          "player_name": "Pedro Rios",
+          "Team": "Getafe CF"
+        },
+        {
+          "Unnamed: 0": 0,
+          "season": "2011/2012",
+          "team_api_id": 8371,
+          "player_api_id": 243163,
+          "Type": "assist",
+          "n": 1,
+          "player_name": "David Timor Copovi",
+          "Team": "CA Osasuna"
+        },
+        {
+          "Unnamed: 0": 0,
+          "season": "2011/2012",
+          "team_api_id": 8371,
+          "player_api_id": 38363,
+          "Type": "assist",
+          "n": 1,
+          "player_name": "Roland Lamah",
+          "Team": "CA Osasuna"
+        },
+        {
+          "Unnamed: 0": 0,
+          "season": "2011/2012",
+          "team_api_id": 8558,
+          "player_api_id": 31014,
+          "Type": "assist",
+          "n": 1,
+          "player_name": "Romaric",
+          "Team": "RCD Espanyol"
+        },
+        {
+          "Unnamed: 0": 0,
+          "season": "2009/2010",
+          "team_api_id": 9783,
+          "player_api_id": 21445,
+          "Type": "assist",
+          "n": 1,
+          "player_name": "Juca",
+          "Team": "RC Deportivo de La Coruña"
+        },
+        {
+          "Unnamed: 0": 0,
+          "season": "2011/2012",
+          "team_api_id": 8394,
+          "player_api_id": 102612,
+          "Type": "assist",
+          "n": 1,
+          "player_name": "Antonio Apono",
+          "Team": "Real Zaragoza"
+        },
+        {
+          "Unnamed: 0": 0,
+          "season": "2011/2012",
+          "team_api_id": 8696,
+          "player_api_id": 287231,
+          "Type": "assist",
+          "n": 1,
+          "player_name": "Jairo",
+          "Team": "Racing Santander"
+        },
+        {
+          "Unnamed: 0": 0,
+          "season": "2008/2009",
+          "team_api_id": 8315,
+          "player_api_id": 30277,
+          "Type": "assist",
+          "n": 1,
+          "player_name": "Francisco Navarro Yeste",
+          "Team": "Athletic Club de Bilbao"
+        },
+        {
+          "Unnamed: 0": 0,
+          "season": "2008/2009",
+          "team_api_id": 8558,
+          "player_api_id": 18592,
+          "Type": "assist",
+          "n": 1,
+          "player_name": "Roman Martinez",
+          "Team": "RCD Espanyol"
+        },
+        {
+          "Unnamed: 0": 0,
+          "season": "2008/2009",
+          "team_api_id": 10281,
+          "player_api_id": 2790,
+          "Type": "assist",
+          "n": 1,
+          "player_name": "Alberto Rey",
+          "Team": "Real Valladolid"
+        },
+        {
+          "Unnamed: 0": 0,
+          "season": "2008/2009",
+          "team_api_id": 8696,
+          "player_api_id": 150644,
+          "Type": "assist",
+          "n": 1,
+          "player_name": "Jonathan Pereira",
+          "Team": "Racing Santander"
+        },
+        {
+          "Unnamed: 0": 0,
+          "season": "2009/2010",
+          "team_api_id": 9864,
+          "player_api_id": 191873,
+          "Type": "assist",
+          "n": 1,
+          "player_name": "Juanmi",
+          "Team": "Málaga CF"
+        },
+        {
+          "Unnamed: 0": 0,
+          "season": "2009/2010",
+          "team_api_id": 8558,
+          "player_api_id": 24852,
+          "Type": "assist",
+          "n": 1,
+          "player_name": "Luis Garcia",
+          "Team": "RCD Espanyol"
+        },
+        {
+          "Unnamed: 0": 0,
+          "season": "2009/2010",
+          "team_api_id": 10281,
+          "player_api_id": 2790,
+          "Type": "assist",
+          "n": 1,
+          "player_name": "Alberto Rey",
+          "Team": "Real Valladolid"
+        },
+        {
+          "Unnamed: 0": 0,
+          "season": "2009/2010",
+          "team_api_id": 9869,
+          "player_api_id": 150480,
+          "Type": "assist",
+          "n": 1,
+          "player_name": "Lora",
+          "Team": "Real Sporting de Gijón"
+        },
+        {
+          "Unnamed: 0": 0,
+          "season": "2009/2010",
+          "team_api_id": 9868,
+          "player_api_id": 102619,
+          "Type": "assist",
+          "n": 1,
+          "player_name": "Mario Bermejo",
+          "Team": "Xerez Club Deportivo"
+        },
+        {
+          "Unnamed: 0": 0,
+          "season": "2009/2010",
+          "team_api_id": 9867,
+          "player_api_id": 40600,
+          "Type": "assist",
+          "n": 1,
+          "player_name": "Daniel Kome",
+          "Team": "CD Tenerife"
+        },
+        {
+          "Unnamed: 0": 0,
+          "season": "2009/2010",
+          "team_api_id": 8371,
+          "player_api_id": 38136,
+          "Type": "assist",
+          "n": 1,
+          "player_name": "Carlos Reina Aranda",
+          "Team": "CA Osasuna"
+        },
+        {
+          "Unnamed: 0": 0,
+          "season": "2009/2010",
+          "team_api_id": 9867,
+          "player_api_id": 19277,
+          "Type": "assist",
+          "n": 1,
+          "player_name": "Dinei",
+          "Team": "CD Tenerife"
+        },
+        {
+          "Unnamed: 0": 0,
+          "season": "2009/2010",
+          "team_api_id": 9865,
+          "player_api_id": 43329,
+          "Type": "assist",
+          "n": 1,
+          "player_name": "Kalu Uche",
+          "Team": "UD Almería"
+        },
+        {
+          "Unnamed: 0": 0,
+          "season": "2009/2010",
+          "team_api_id": 9868,
+          "player_api_id": 49836,
+          "Type": "assist",
+          "n": 1,
+          "player_name": "Fabian Orellana",
+          "Team": "Xerez Club Deportivo"
+        },
+        {
+          "Unnamed: 0": 0,
+          "season": "2009/2010",
+          "team_api_id": 9868,
+          "player_api_id": 99333,
+          "Type": "assist",
+          "n": 1,
+          "player_name": "Jose Manuel Casado",
+          "Team": "Xerez Club Deportivo"
+        },
+        {
+          "Unnamed: 0": 0,
+          "season": "2009/2010",
+          "team_api_id": 8558,
+          "player_api_id": 37441,
+          "Type": "assist",
+          "n": 1,
+          "player_name": "Joan Verdu",
+          "Team": "RCD Espanyol"
+        },
+        {
+          "Unnamed: 0": 0,
+          "season": "2009/2010",
+          "team_api_id": 9867,
+          "player_api_id": 38131,
+          "Type": "assist",
+          "n": 1,
+          "player_name": "Alejandro Alfaro",
+          "Team": "CD Tenerife"
+        },
+        {
+          "Unnamed: 0": 0,
+          "season": "2009/2010",
+          "team_api_id": 9865,
+          "player_api_id": 113627,
+          "Type": "assist",
+          "n": 1,
+          "player_name": "Hernan Dario Bernardello",
+          "Team": "UD Almería"
+        },
+        {
+          "Unnamed: 0": 0,
+          "season": "2009/2010",
+          "team_api_id": 9864,
+          "player_api_id": 24450,
+          "Type": "assist",
+          "n": 1,
+          "player_name": "Victor Obinna",
+          "Team": "Málaga CF"
+        },
+        {
+          "Unnamed: 0": 0,
+          "season": "2009/2010",
+          "team_api_id": 9865,
+          "player_api_id": 75239,
+          "Type": "assist",
+          "n": 1,
+          "player_name": "Juanma Ortiz",
+          "Team": "UD Almería"
+        },
+        {
+          "Unnamed: 0": 0,
+          "season": "2010/2011",
+          "team_api_id": 9865,
+          "player_api_id": 46384,
+          "Type": "assist",
+          "n": 1,
+          "player_name": "Pablo Piatti",
+          "Team": "UD Almería"
+        },
+        {
+          "Unnamed: 0": 0,
+          "season": "2010/2011",
+          "team_api_id": 8581,
+          "player_api_id": 41255,
+          "Type": "assist",
+          "n": 1,
+          "player_name": "Juanlu",
+          "Team": "Levante UD"
+        },
+        {
+          "Unnamed: 0": 0,
+          "season": "2009/2010",
+          "team_api_id": 9869,
+          "player_api_id": 38886,
+          "Type": "assist",
+          "n": 1,
+          "player_name": "Miguel Angel de las Cuevas",
+          "Team": "Real Sporting de Gijón"
+        },
+        {
+          "Unnamed: 0": 0,
+          "season": "2009/2010",
+          "team_api_id": 9869,
+          "player_api_id": 38004,
+          "Type": "assist",
+          "n": 1,
+          "player_name": "Carmelo Gonzalez",
+          "Team": "Real Sporting de Gijón"
+        },
+        {
+          "Unnamed: 0": 0,
+          "season": "2009/2010",
+          "team_api_id": 9864,
+          "player_api_id": 41622,
+          "Type": "assist",
+          "n": 1,
+          "player_name": "Felipe Caicedo",
+          "Team": "Málaga CF"
+        },
+        {
+          "Unnamed: 0": 0,
+          "season": "2009/2010",
+          "team_api_id": 8371,
+          "player_api_id": 33870,
+          "Type": "assist",
+          "n": 1,
+          "player_name": "Patxi Martinez Punal",
+          "Team": "CA Osasuna"
+        },
+        {
+          "Unnamed: 0": 0,
+          "season": "2013/2014",
+          "team_api_id": 10281,
+          "player_api_id": 71563,
+          "Type": "assist",
+          "n": 1,
+          "player_name": "Valdet Rama",
+          "Team": "Real Valladolid"
+        },
+        {
+          "Unnamed: 0": 0,
+          "season": "2013/2014",
+          "team_api_id": 8371,
+          "player_api_id": 37422,
+          "Type": "assist",
+          "n": 1,
+          "player_name": "Abella Perez Damia",
+          "Team": "CA Osasuna"
+        },
+        {
+          "Unnamed: 0": 0,
+          "season": "2013/2014",
+          "team_api_id": 8305,
+          "player_api_id": 38431,
+          "Type": "assist",
+          "n": 1,
+          "player_name": "Borja Fernandez",
+          "Team": "Getafe CF"
+        },
+        {
+          "Unnamed: 0": 0,
+          "season": "2013/2014",
+          "team_api_id": 8603,
+          "player_api_id": 163971,
+          "Type": "assist",
+          "n": 1,
+          "player_name": "Didac Vila",
+          "Team": "Real Betis Balompié"
+        },
+        {
+          "Unnamed: 0": 0,
+          "season": "2013/2014",
+          "team_api_id": 8581,
+          "player_api_id": 46621,
+          "Type": "assist",
+          "n": 1,
+          "player_name": "Nabil El Zhar",
+          "Team": "Levante UD"
+        },
+        {
+          "Unnamed: 0": 0,
+          "season": "2013/2014",
+          "team_api_id": 7878,
+          "player_api_id": 280977,
+          "Type": "assist",
+          "n": 1,
+          "player_name": "Tiago Ilori",
+          "Team": "Granada CF"
+        },
+        {
+          "Unnamed: 0": 0,
+          "season": "2013/2014",
+          "team_api_id": 10281,
+          "player_api_id": 154259,
+          "Type": "assist",
+          "n": 1,
+          "player_name": "Jeffren Suarez",
+          "Team": "Real Valladolid"
+        },
+        {
+          "Unnamed: 0": 0,
+          "season": "2013/2014",
+          "team_api_id": 10268,
+          "player_api_id": 102630,
+          "Type": "assist",
+          "n": 1,
+          "player_name": "Sergio Pelegrin",
+          "Team": "Elche CF"
+        },
+        {
+          "Unnamed: 0": 0,
+          "season": "2013/2014",
+          "team_api_id": 10268,
+          "player_api_id": 33773,
+          "Type": "assist",
+          "n": 1,
+          "player_name": "Ferran Corominas",
+          "Team": "Elche CF"
+        },
+        {
+          "Unnamed: 0": 0,
+          "season": "2013/2014",
+          "team_api_id": 8603,
+          "player_api_id": 111801,
+          "Type": "assist",
+          "n": 1,
+          "player_name": "Alfred N'Diaye",
+          "Team": "Real Betis Balompié"
+        },
+        {
+          "Unnamed: 0": 0,
+          "season": "2013/2014",
+          "team_api_id": 8603,
+          "player_api_id": 102879,
+          "Type": "assist",
+          "n": 1,
+          "player_name": "Salva Sevilla",
+          "Team": "Real Betis Balompié"
+        },
+        {
+          "Unnamed: 0": 0,
+          "season": "2008/2009",
+          "team_api_id": 8696,
+          "player_api_id": 37581,
+          "Type": "assist",
+          "n": 1,
+          "player_name": "Ezequiel Garay",
+          "Team": "Racing Santander"
+        },
+        {
+          "Unnamed: 0": 0,
+          "season": "2008/2009",
+          "team_api_id": 9865,
+          "player_api_id": 74403,
+          "Type": "assist",
+          "n": 1,
+          "player_name": "Bruno Saltor",
+          "Team": "UD Almería"
+        },
+        {
+          "Unnamed: 0": 0,
+          "season": "2008/2009",
+          "team_api_id": 9865,
+          "player_api_id": 37622,
+          "Type": "assist",
+          "n": 1,
+          "player_name": "Mane",
+          "Team": "UD Almería"
+        },
+        {
+          "Unnamed: 0": 0,
+          "season": "2008/2009",
+          "team_api_id": 8388,
+          "player_api_id": 38550,
+          "Type": "assist",
+          "n": 1,
+          "player_name": "Jose Javier Barkero",
+          "Team": "CD Numancia"
+        },
+        {
+          "Unnamed: 0": 0,
+          "season": "2008/2009",
+          "team_api_id": 8371,
+          "player_api_id": 30744,
+          "Type": "assist",
+          "n": 1,
+          "player_name": "Masoud Shojaei",
+          "Team": "CA Osasuna"
+        },
+        {
+          "Unnamed: 0": 0,
+          "season": "2008/2009",
+          "team_api_id": 9864,
+          "player_api_id": 102612,
+          "Type": "assist",
+          "n": 1,
+          "player_name": "Antonio Apono",
+          "Team": "Málaga CF"
+        },
+        {
+          "Unnamed: 0": 0,
+          "season": "2008/2009",
+          "team_api_id": 10281,
+          "player_api_id": 6911,
+          "Type": "assist",
+          "n": 1,
+          "player_name": "Fabian Canobbio",
+          "Team": "Real Valladolid"
+        }
+      ]
+    },
+    {
+      "name": "data_0",
+      "source": "data-cee073939a9a6b952fb8f18fd65ddb5c",
+      "transform": [
+        {
+          "type": "filter",
+          "expr": "!(length(data(\"selector008_store\")) || length(data(\"selector009_store\")) || length(data(\"selector007_store\"))) || (((vlSelectionTest(\"selector008_store\", datum)) || (vlSelectionTest(\"selector009_store\", datum))) && (vlSelectionTest(\"selector007_store\", datum)))"
+        },
+        {
+          "type": "formula",
+          "expr": "datum.Team == selector008.Team ? datum.Team : '​' + datum.Team",
+          "as": "color"
+        }
+      ]
+    },
+    {
+      "name": "data_1",
+      "source": "data_0",
+      "transform": [
+        {
+          "type": "stack",
+          "groupby": ["player_name"],
+          "field": "n",
+          "sort": {"field": ["color"], "order": ["descending"]},
+          "as": ["n_start", "n_end"],
+          "offset": "zero"
+        },
+        {
+          "type": "filter",
+          "expr": "isValid(datum[\"n\"]) && isFinite(+datum[\"n\"])"
+        }
+      ]
+    }
+  ],
+  "signals": [
+    {
+      "name": "width",
+      "init": "isFinite(containerSize()[0]) ? containerSize()[0] : 400",
+      "on": [
+        {
+          "update": "isFinite(containerSize()[0]) ? containerSize()[0] : 400",
+          "events": "window:resize"
+        }
+      ]
+    },
+    {"name": "y_step", "value": 20},
+    {
+      "name": "height",
+      "update": "bandspace(domain('y').length, 0.1, 0.05) * y_step"
+    },
+    {
+      "name": "unit",
+      "value": {},
+      "on": [
+        {"events": "mousemove", "update": "isTuple(group()) ? group() : unit"}
+      ]
+    },
+    {
+      "name": "selector007_season",
+      "init": "\"2015/2016\"",
+      "bind": {
+        "input": "select",
+        "options": [
+          "2008/2009",
+          "2009/2010",
+          "2010/2011",
+          "2011/2012",
+          "2012/2013",
+          "2013/2014",
+          "2014/2015",
+          "2015/2016"
+        ],
+        "name": "Season"
+      }
+    },
+    {
+      "name": "selector009_Team",
+      "init": "\"Real Madrid CF\"",
+      "bind": {
+        "input": "select",
+        "options": [
+          "Valencia CF",
+          "RCD Mallorca",
+          "CA Osasuna",
+          "Villarreal CF",
+          "RC Deportivo de La Coruña",
+          "Real Madrid CF",
+          "CD Numancia",
+          "FC Barcelona",
+          "Racing Santander",
+          "Sevilla FC",
+          "Real Sporting de Gijón",
+          "Getafe CF",
+          "Real Betis Balompié",
+          "RC Recreativo",
+          "RCD Espanyol",
+          "Real Valladolid",
+          "Athletic Club de Bilbao",
+          "UD Almería",
+          "Atlético Madrid",
+          "Málaga CF",
+          "Xerez Club Deportivo",
+          "Real Zaragoza",
+          "CD Tenerife",
+          "Hércules Club de Fútbol",
+          "Levante UD",
+          "Real Sociedad",
+          "Granada CF",
+          "Rayo Vallecano",
+          "RC Celta de Vigo",
+          "Elche CF",
+          "SD Eibar",
+          "Córdoba CF",
+          "UD Las Palmas"
+        ],
+        "name": "Team B"
+      }
+    },
+    {
+      "name": "selector008_Team",
+      "init": "\"FC Barcelona\"",
+      "bind": {
+        "input": "select",
+        "options": [
+          "Valencia CF",
+          "RCD Mallorca",
+          "CA Osasuna",
+          "Villarreal CF",
+          "RC Deportivo de La Coruña",
+          "Real Madrid CF",
+          "CD Numancia",
+          "FC Barcelona",
+          "Racing Santander",
+          "Sevilla FC",
+          "Real Sporting de Gijón",
+          "Getafe CF",
+          "Real Betis Balompié",
+          "RC Recreativo",
+          "RCD Espanyol",
+          "Real Valladolid",
+          "Athletic Club de Bilbao",
+          "UD Almería",
+          "Atlético Madrid",
+          "Málaga CF",
+          "Xerez Club Deportivo",
+          "Real Zaragoza",
+          "CD Tenerife",
+          "Hércules Club de Fútbol",
+          "Levante UD",
+          "Real Sociedad",
+          "Granada CF",
+          "Rayo Vallecano",
+          "RC Celta de Vigo",
+          "Elche CF",
+          "SD Eibar",
+          "Córdoba CF",
+          "UD Las Palmas"
+        ],
+        "name": "Team A"
+      }
+    },
+    {
+      "name": "selector008",
+      "update": "vlSelectionResolve(\"selector008_store\", \"union\")"
+    },
+    {
+      "name": "selector009",
+      "update": "vlSelectionResolve(\"selector009_store\", \"union\")"
+    },
+    {
+      "name": "selector007",
+      "update": "vlSelectionResolve(\"selector007_store\", \"union\")"
+    },
+    {
+      "name": "selector008_tuple",
+      "update": "selector008_Team !== null ? {fields: selector008_tuple_fields, values: [selector008_Team]} : null"
+    },
+    {
+      "name": "selector008_tuple_fields",
+      "value": [{"type": "E", "field": "Team"}]
+    },
+    {
+      "name": "selector008_modify",
+      "on": [
+        {
+          "events": {"signal": "selector008_tuple"},
+          "update": "modify(\"selector008_store\", selector008_tuple, true)"
+        }
+      ]
+    },
+    {
+      "name": "selector009_tuple",
+      "update": "selector009_Team !== null ? {fields: selector009_tuple_fields, values: [selector009_Team]} : null"
+    },
+    {
+      "name": "selector009_tuple_fields",
+      "value": [{"type": "E", "field": "Team"}]
+    },
+    {
+      "name": "selector009_modify",
+      "on": [
+        {
+          "events": {"signal": "selector009_tuple"},
+          "update": "modify(\"selector009_store\", selector009_tuple, true)"
+        }
+      ]
+    },
+    {
+      "name": "selector007_tuple",
+      "update": "selector007_season !== null ? {fields: selector007_tuple_fields, values: [selector007_season]} : null"
+    },
+    {
+      "name": "selector007_tuple_fields",
+      "value": [{"type": "E", "field": "season"}]
+    },
+    {
+      "name": "selector007_modify",
+      "on": [
+        {
+          "events": {"signal": "selector007_tuple"},
+          "update": "modify(\"selector007_store\", selector007_tuple, true)"
+        }
+      ]
+    }
+  ],
+  "marks": [
+    {
+      "name": "marks",
+      "type": "rect",
+      "style": ["bar"],
+      "interactive": true,
+      "from": {"data": "data_1"},
+      "encode": {
+        "update": {
+          "opacity": {"value": 0.8},
+          "fill": {"scale": "color", "field": "color"},
+          "tooltip": {"signal": "{\"n\": format(datum[\"n\"], \"\")}"},
+          "x": {"scale": "x", "field": "n_end"},
+          "x2": {"scale": "x", "field": "n_start"},
+          "yc": {"scale": "y", "field": "player_name", "band": 0.5},
+          "height": {"value": 14}
+        }
+      }
+    }
+  ],
+  "scales": [
+    {
+      "name": "x",
+      "type": "linear",
+      "domain": {"data": "data_1", "fields": ["n_start", "n_end"]},
+      "range": [0, {"signal": "width"}],
+      "reverse": true,
+      "nice": true,
+      "zero": true
+    },
+    {
+      "name": "y",
+      "type": "band",
+      "domain": {
+        "data": "data_0",
+        "field": "player_name",
+        "sort": {"op": "sum", "field": "n", "order": "descending"}
+      },
+      "range": {"step": {"signal": "y_step"}},
+      "paddingInner": 0.1,
+      "paddingOuter": 0.05
+    },
+    {
+      "name": "color",
+      "type": "ordinal",
+      "domain": {"data": "data_1", "field": "color", "sort": true},
+      "range": ["#1D2778", "#A11F2E"]
+    }
+  ],
+  "axes": [
+    {
+      "scale": "x",
+      "orient": "bottom",
+      "gridScale": "y",
+      "grid": true,
+      "tickCount": {"signal": "ceil(width/40)"},
+      "domain": false,
+      "labels": false,
+      "maxExtent": 0,
+      "minExtent": 0,
+      "ticks": false,
+      "zindex": 0
+    },
+    {
+      "scale": "x",
+      "orient": "bottom",
+      "grid": false,
+      "title": "Assists",
+      "labelFlush": true,
+      "labelOverlap": true,
+      "tickCount": {"signal": "ceil(width/40)"},
+      "zindex": 0
+    },
+    {"scale": "y", "orient": "right", "grid": false, "zindex": 0}
+  ]
+}

@@ -1,0 +1,2284 @@
+{
+  "$schema": "https://vega.github.io/schema/vega/v5.json",
+  "background": "white",
+  "padding": 5,
+  "width": 120,
+  "height": 150,
+  "title": {"text": "Betting odds", "frame": "group"},
+  "style": "cell",
+  "data": [
+    {
+      "name": "selector008_store",
+      "values": [
+        {
+          "unit": "",
+          "fields": [{"type": "E", "field": "Team"}],
+          "values": ["FC Barcelona"]
+        }
+      ]
+    },
+    {
+      "name": "data-e0d8b38c6e41050cc041fd4574ba1210",
+      "values": [
+        {
+          "Unnamed: 0": 0,
+          "Team": "Málaga CF",
+          "Oponent": "Rayo Vallecano",
+          "variable": "TeamOdds",
+          "value": 0.5464480874316939
+        },
+        {
+          "Unnamed: 0": 1,
+          "Team": "Málaga CF",
+          "Oponent": "Atlético Madrid",
+          "variable": "TeamOdds",
+          "value": 0.09523809523809523
+        },
+        {
+          "Unnamed: 0": 2,
+          "Team": "Málaga CF",
+          "Oponent": "Levante UD",
+          "variable": "TeamOdds",
+          "value": 0.4651162790697674
+        },
+        {
+          "Unnamed: 0": 3,
+          "Team": "Málaga CF",
+          "Oponent": "RC Celta de Vigo",
+          "variable": "TeamOdds",
+          "value": 0.16
+        },
+        {
+          "Unnamed: 0": 4,
+          "Team": "Málaga CF",
+          "Oponent": "UD Las Palmas",
+          "variable": "TeamOdds",
+          "value": 0.5464480874316939
+        },
+        {
+          "Unnamed: 0": 5,
+          "Team": "Atlético Madrid",
+          "Oponent": "Athletic Club de Bilbao",
+          "variable": "TeamOdds",
+          "value": 0.5
+        },
+        {
+          "Unnamed: 0": 6,
+          "Team": "Atlético Madrid",
+          "Oponent": "Málaga CF",
+          "variable": "TeamOdds",
+          "value": 0.7692307692307692
+        },
+        {
+          "Unnamed: 0": 7,
+          "Team": "Atlético Madrid",
+          "Oponent": "Rayo Vallecano",
+          "variable": "TeamOdds",
+          "value": 0.78125
+        },
+        {
+          "Unnamed: 0": 8,
+          "Team": "Atlético Madrid",
+          "Oponent": "Levante UD",
+          "variable": "TeamOdds",
+          "value": 0.819672131147541
+        },
+        {
+          "Unnamed: 0": 9,
+          "Team": "Atlético Madrid",
+          "Oponent": "RC Celta de Vigo",
+          "variable": "TeamOdds",
+          "value": 0.5464480874316939
+        },
+        {
+          "Unnamed: 0": 10,
+          "Team": "RCD Espanyol",
+          "Oponent": "RC Celta de Vigo",
+          "variable": "TeamOdds",
+          "value": 0.4081632653061224
+        },
+        {
+          "Unnamed: 0": 11,
+          "Team": "RCD Espanyol",
+          "Oponent": "UD Las Palmas",
+          "variable": "TeamOdds",
+          "value": 0.29411764705882354
+        },
+        {
+          "Unnamed: 0": 12,
+          "Team": "RCD Espanyol",
+          "Oponent": "Sevilla FC",
+          "variable": "TeamOdds",
+          "value": 0.425531914893617
+        },
+        {
+          "Unnamed: 0": 13,
+          "Team": "RCD Espanyol",
+          "Oponent": "FC Barcelona",
+          "variable": "TeamOdds",
+          "value": 0.03225806451612903
+        },
+        {
+          "Unnamed: 0": 14,
+          "Team": "RCD Espanyol",
+          "Oponent": "SD Eibar",
+          "variable": "TeamOdds",
+          "value": 0.5
+        },
+        {
+          "Unnamed: 0": 15,
+          "Team": "RC Deportivo de La Coruña",
+          "Oponent": "FC Barcelona",
+          "variable": "TeamOdds",
+          "value": 0.09523809523809523
+        },
+        {
+          "Unnamed: 0": 16,
+          "Team": "RC Deportivo de La Coruña",
+          "Oponent": "SD Eibar",
+          "variable": "TeamOdds",
+          "value": 0.3125
+        },
+        {
+          "Unnamed: 0": 17,
+          "Team": "RC Deportivo de La Coruña",
+          "Oponent": "Getafe CF",
+          "variable": "TeamOdds",
+          "value": 0.4444444444444444
+        },
+        {
+          "Unnamed: 0": 18,
+          "Team": "RC Deportivo de La Coruña",
+          "Oponent": "Villarreal CF",
+          "variable": "TeamOdds",
+          "value": 0.3333333333333333
+        },
+        {
+          "Unnamed: 0": 19,
+          "Team": "RC Deportivo de La Coruña",
+          "Oponent": "Real Madrid CF",
+          "variable": "TeamOdds",
+          "value": 0.08695652173913042
+        },
+        {
+          "Unnamed: 0": 20,
+          "Team": "Rayo Vallecano",
+          "Oponent": "Málaga CF",
+          "variable": "TeamOdds",
+          "value": 0.25641025641025644
+        },
+        {
+          "Unnamed: 0": 21,
+          "Team": "Rayo Vallecano",
+          "Oponent": "Real Madrid CF",
+          "variable": "TeamOdds",
+          "value": 0.12903225806451613
+        },
+        {
+          "Unnamed: 0": 22,
+          "Team": "Rayo Vallecano",
+          "Oponent": "Atlético Madrid",
+          "variable": "TeamOdds",
+          "value": 0.09090909090909093
+        },
+        {
+          "Unnamed: 0": 23,
+          "Team": "Rayo Vallecano",
+          "Oponent": "Real Sociedad",
+          "variable": "TeamOdds",
+          "value": 0.4761904761904762
+        },
+        {
+          "Unnamed: 0": 24,
+          "Team": "Rayo Vallecano",
+          "Oponent": "Levante UD",
+          "variable": "TeamOdds",
+          "value": 0.7518796992481203
+        },
+        {
+          "Unnamed: 0": 25,
+          "Team": "Levante UD",
+          "Oponent": "Granada CF",
+          "variable": "TeamOdds",
+          "value": 0.2439024390243903
+        },
+        {
+          "Unnamed: 0": 26,
+          "Team": "Levante UD",
+          "Oponent": "Athletic Club de Bilbao",
+          "variable": "TeamOdds",
+          "value": 0.3076923076923077
+        },
+        {
+          "Unnamed: 0": 27,
+          "Team": "Levante UD",
+          "Oponent": "Málaga CF",
+          "variable": "TeamOdds",
+          "value": 0.29411764705882354
+        },
+        {
+          "Unnamed: 0": 28,
+          "Team": "Levante UD",
+          "Oponent": "Atlético Madrid",
+          "variable": "TeamOdds",
+          "value": 0.06896551724137931
+        },
+        {
+          "Unnamed: 0": 29,
+          "Team": "Levante UD",
+          "Oponent": "Rayo Vallecano",
+          "variable": "TeamOdds",
+          "value": 0.10810810810810813
+        },
+        {
+          "Unnamed: 0": 30,
+          "Team": "Athletic Club de Bilbao",
+          "Oponent": "Atlético Madrid",
+          "variable": "TeamOdds",
+          "value": 0.26666666666666666
+        },
+        {
+          "Unnamed: 0": 31,
+          "Team": "Athletic Club de Bilbao",
+          "Oponent": "Levante UD",
+          "variable": "TeamOdds",
+          "value": 0.4545454545454545
+        },
+        {
+          "Unnamed: 0": 32,
+          "Team": "Athletic Club de Bilbao",
+          "Oponent": "RC Celta de Vigo",
+          "variable": "TeamOdds",
+          "value": 0.5405405405405405
+        },
+        {
+          "Unnamed: 0": 33,
+          "Team": "Athletic Club de Bilbao",
+          "Oponent": "UD Las Palmas",
+          "variable": "TeamOdds",
+          "value": 0.53475935828877
+        },
+        {
+          "Unnamed: 0": 34,
+          "Team": "Athletic Club de Bilbao",
+          "Oponent": "Sevilla FC",
+          "variable": "TeamOdds",
+          "value": 0.7462686567164178
+        },
+        {
+          "Unnamed: 0": 35,
+          "Team": "Real Betis Balompié",
+          "Oponent": "UD Las Palmas",
+          "variable": "TeamOdds",
+          "value": 0.4651162790697674
+        },
+        {
+          "Unnamed: 0": 36,
+          "Team": "Real Betis Balompié",
+          "Oponent": "Sevilla FC",
+          "variable": "TeamOdds",
+          "value": 0.15384615384615385
+        },
+        {
+          "Unnamed: 0": 37,
+          "Team": "Real Betis Balompié",
+          "Oponent": "FC Barcelona",
+          "variable": "TeamOdds",
+          "value": 0.05263157894736842
+        },
+        {
+          "Unnamed: 0": 38,
+          "Team": "Real Betis Balompié",
+          "Oponent": "SD Eibar",
+          "variable": "TeamOdds",
+          "value": 0.3125
+        },
+        {
+          "Unnamed: 0": 39,
+          "Team": "Real Betis Balompié",
+          "Oponent": "Getafe CF",
+          "variable": "TeamOdds",
+          "value": 0.2173913043478261
+        },
+        {
+          "Unnamed: 0": 40,
+          "Team": "Real Sporting de Gijón",
+          "Oponent": "Sevilla FC",
+          "variable": "TeamOdds",
+          "value": 0.3125
+        },
+        {
+          "Unnamed: 0": 41,
+          "Team": "Real Sporting de Gijón",
+          "Oponent": "FC Barcelona",
+          "variable": "TeamOdds",
+          "value": 0.03448275862068965
+        },
+        {
+          "Unnamed: 0": 42,
+          "Team": "Real Sporting de Gijón",
+          "Oponent": "SD Eibar",
+          "variable": "TeamOdds",
+          "value": 0.6172839506172839
+        },
+        {
+          "Unnamed: 0": 43,
+          "Team": "Real Sporting de Gijón",
+          "Oponent": "Getafe CF",
+          "variable": "TeamOdds",
+          "value": 0.3125
+        },
+        {
+          "Unnamed: 0": 44,
+          "Team": "Real Sporting de Gijón",
+          "Oponent": "Villarreal CF",
+          "variable": "TeamOdds",
+          "value": 0.6944444444444444
+        },
+        {
+          "Unnamed: 0": 45,
+          "Team": "Granada CF",
+          "Oponent": "Levante UD",
+          "variable": "TeamOdds",
+          "value": 0.53475935828877
+        },
+        {
+          "Unnamed: 0": 46,
+          "Team": "Granada CF",
+          "Oponent": "RC Celta de Vigo",
+          "variable": "TeamOdds",
+          "value": 0.16666666666666666
+        },
+        {
+          "Unnamed: 0": 47,
+          "Team": "Granada CF",
+          "Oponent": "UD Las Palmas",
+          "variable": "TeamOdds",
+          "value": 0.6172839506172839
+        },
+        {
+          "Unnamed: 0": 48,
+          "Team": "Granada CF",
+          "Oponent": "Sevilla FC",
+          "variable": "TeamOdds",
+          "value": 0.4081632653061224
+        },
+        {
+          "Unnamed: 0": 49,
+          "Team": "Granada CF",
+          "Oponent": "FC Barcelona",
+          "variable": "TeamOdds",
+          "value": 0.047619047619047616
+        },
+        {
+          "Unnamed: 0": 50,
+          "Team": "Villarreal CF",
+          "Oponent": "Real Madrid CF",
+          "variable": "TeamOdds",
+          "value": 0.08695652173913042
+        },
+        {
+          "Unnamed: 0": 51,
+          "Team": "Villarreal CF",
+          "Oponent": "Real Sociedad",
+          "variable": "TeamOdds",
+          "value": 0.5555555555555556
+        },
+        {
+          "Unnamed: 0": 52,
+          "Team": "Villarreal CF",
+          "Oponent": "Valencia CF",
+          "variable": "TeamOdds",
+          "value": 0.29411764705882354
+        },
+        {
+          "Unnamed: 0": 53,
+          "Team": "Villarreal CF",
+          "Oponent": "RC Deportivo de La Coruña",
+          "variable": "TeamOdds",
+          "value": 0.4166666666666667
+        },
+        {
+          "Unnamed: 0": 54,
+          "Team": "Villarreal CF",
+          "Oponent": "Real Sporting de Gijón",
+          "variable": "TeamOdds",
+          "value": 0.14285714285714285
+        },
+        {
+          "Unnamed: 0": 55,
+          "Team": "Real Sociedad",
+          "Oponent": "Getafe CF",
+          "variable": "TeamOdds",
+          "value": 0.6535947712418301
+        },
+        {
+          "Unnamed: 0": 56,
+          "Team": "Real Sociedad",
+          "Oponent": "Villarreal CF",
+          "variable": "TeamOdds",
+          "value": 0.2352941176470588
+        },
+        {
+          "Unnamed: 0": 57,
+          "Team": "Real Sociedad",
+          "Oponent": "Real Madrid CF",
+          "variable": "TeamOdds",
+          "value": 0.2
+        },
+        {
+          "Unnamed: 0": 58,
+          "Team": "Real Sociedad",
+          "Oponent": "Rayo Vallecano",
+          "variable": "TeamOdds",
+          "value": 0.3076923076923077
+        },
+        {
+          "Unnamed: 0": 59,
+          "Team": "Real Sociedad",
+          "Oponent": "Valencia CF",
+          "variable": "TeamOdds",
+          "value": 0.26666666666666666
+        },
+        {
+          "Unnamed: 0": 60,
+          "Team": "RC Celta de Vigo",
+          "Oponent": "RCD Espanyol",
+          "variable": "TeamOdds",
+          "value": 0.3389830508474576
+        },
+        {
+          "Unnamed: 0": 61,
+          "Team": "RC Celta de Vigo",
+          "Oponent": "Granada CF",
+          "variable": "TeamOdds",
+          "value": 0.6535947712418301
+        },
+        {
+          "Unnamed: 0": 62,
+          "Team": "RC Celta de Vigo",
+          "Oponent": "Athletic Club de Bilbao",
+          "variable": "TeamOdds",
+          "value": 0.2352941176470588
+        },
+        {
+          "Unnamed: 0": 63,
+          "Team": "RC Celta de Vigo",
+          "Oponent": "Málaga CF",
+          "variable": "TeamOdds",
+          "value": 0.6666666666666666
+        },
+        {
+          "Unnamed: 0": 64,
+          "Team": "RC Celta de Vigo",
+          "Oponent": "Atlético Madrid",
+          "variable": "TeamOdds",
+          "value": 0.2439024390243903
+        },
+        {
+          "Unnamed: 0": 65,
+          "Team": "Real Madrid CF",
+          "Oponent": "Villarreal CF",
+          "variable": "TeamOdds",
+          "value": 0.8333333333333334
+        },
+        {
+          "Unnamed: 0": 66,
+          "Team": "Real Madrid CF",
+          "Oponent": "Rayo Vallecano",
+          "variable": "TeamOdds",
+          "value": 0.7407407407407407
+        },
+        {
+          "Unnamed: 0": 67,
+          "Team": "Real Madrid CF",
+          "Oponent": "Real Sociedad",
+          "variable": "TeamOdds",
+          "value": 0.5988023952095809
+        },
+        {
+          "Unnamed: 0": 68,
+          "Team": "Real Madrid CF",
+          "Oponent": "Valencia CF",
+          "variable": "TeamOdds",
+          "value": 0.8333333333333334
+        },
+        {
+          "Unnamed: 0": 69,
+          "Team": "Real Madrid CF",
+          "Oponent": "RC Deportivo de La Coruña",
+          "variable": "TeamOdds",
+          "value": 0.8333333333333334
+        },
+        {
+          "Unnamed: 0": 70,
+          "Team": "FC Barcelona",
+          "Oponent": "RC Deportivo de La Coruña",
+          "variable": "TeamOdds",
+          "value": 0.819672131147541
+        },
+        {
+          "Unnamed: 0": 71,
+          "Team": "FC Barcelona",
+          "Oponent": "Real Sporting de Gijón",
+          "variable": "TeamOdds",
+          "value": 0.9615384615384616
+        },
+        {
+          "Unnamed: 0": 72,
+          "Team": "FC Barcelona",
+          "Oponent": "Real Betis Balompié",
+          "variable": "TeamOdds",
+          "value": 0.8928571428571428
+        },
+        {
+          "Unnamed: 0": 73,
+          "Team": "FC Barcelona",
+          "Oponent": "RCD Espanyol",
+          "variable": "TeamOdds",
+          "value": 0.9708737864077671
+        },
+        {
+          "Unnamed: 0": 74,
+          "Team": "FC Barcelona",
+          "Oponent": "Granada CF",
+          "variable": "TeamOdds",
+          "value": 0.9090909090909092
+        },
+        {
+          "Unnamed: 0": 75,
+          "Team": "Sevilla FC",
+          "Oponent": "Real Sporting de Gijón",
+          "variable": "TeamOdds",
+          "value": 0.4651162790697674
+        },
+        {
+          "Unnamed: 0": 76,
+          "Team": "Sevilla FC",
+          "Oponent": "Real Betis Balompié",
+          "variable": "TeamOdds",
+          "value": 0.6896551724137931
+        },
+        {
+          "Unnamed: 0": 77,
+          "Team": "Sevilla FC",
+          "Oponent": "RCD Espanyol",
+          "variable": "TeamOdds",
+          "value": 0.3333333333333333
+        },
+        {
+          "Unnamed: 0": 78,
+          "Team": "Sevilla FC",
+          "Oponent": "Granada CF",
+          "variable": "TeamOdds",
+          "value": 0.3703703703703704
+        },
+        {
+          "Unnamed: 0": 79,
+          "Team": "Sevilla FC",
+          "Oponent": "Athletic Club de Bilbao",
+          "variable": "TeamOdds",
+          "value": 0.14285714285714285
+        },
+        {
+          "Unnamed: 0": 80,
+          "Team": "SD Eibar",
+          "Oponent": "Valencia CF",
+          "variable": "TeamOdds",
+          "value": 0.19047619047619047
+        },
+        {
+          "Unnamed: 0": 81,
+          "Team": "SD Eibar",
+          "Oponent": "RC Deportivo de La Coruña",
+          "variable": "TeamOdds",
+          "value": 0.4545454545454545
+        },
+        {
+          "Unnamed: 0": 82,
+          "Team": "SD Eibar",
+          "Oponent": "Real Sporting de Gijón",
+          "variable": "TeamOdds",
+          "value": 0.17391304347826084
+        },
+        {
+          "Unnamed: 0": 83,
+          "Team": "SD Eibar",
+          "Oponent": "Real Betis Balompié",
+          "variable": "TeamOdds",
+          "value": 0.4651162790697674
+        },
+        {
+          "Unnamed: 0": 84,
+          "Team": "SD Eibar",
+          "Oponent": "RCD Espanyol",
+          "variable": "TeamOdds",
+          "value": 0.29411764705882354
+        },
+        {
+          "Unnamed: 0": 85,
+          "Team": "Getafe CF",
+          "Oponent": "Real Sociedad",
+          "variable": "TeamOdds",
+          "value": 0.16666666666666666
+        },
+        {
+          "Unnamed: 0": 86,
+          "Team": "Getafe CF",
+          "Oponent": "Valencia CF",
+          "variable": "TeamOdds",
+          "value": 0.3225806451612903
+        },
+        {
+          "Unnamed: 0": 87,
+          "Team": "Getafe CF",
+          "Oponent": "RC Deportivo de La Coruña",
+          "variable": "TeamOdds",
+          "value": 0.3076923076923077
+        },
+        {
+          "Unnamed: 0": 88,
+          "Team": "Getafe CF",
+          "Oponent": "Real Sporting de Gijón",
+          "variable": "TeamOdds",
+          "value": 0.4651162790697674
+        },
+        {
+          "Unnamed: 0": 89,
+          "Team": "Getafe CF",
+          "Oponent": "Real Betis Balompié",
+          "variable": "TeamOdds",
+          "value": 0.5882352941176471
+        },
+        {
+          "Unnamed: 0": 90,
+          "Team": "Valencia CF",
+          "Oponent": "SD Eibar",
+          "variable": "TeamOdds",
+          "value": 0.625
+        },
+        {
+          "Unnamed: 0": 91,
+          "Team": "Valencia CF",
+          "Oponent": "Getafe CF",
+          "variable": "TeamOdds",
+          "value": 0.4444444444444444
+        },
+        {
+          "Unnamed: 0": 92,
+          "Team": "Valencia CF",
+          "Oponent": "Villarreal CF",
+          "variable": "TeamOdds",
+          "value": 0.4651162790697674
+        },
+        {
+          "Unnamed: 0": 93,
+          "Team": "Valencia CF",
+          "Oponent": "Real Madrid CF",
+          "variable": "TeamOdds",
+          "value": 0.09523809523809523
+        },
+        {
+          "Unnamed: 0": 94,
+          "Team": "Valencia CF",
+          "Oponent": "Real Sociedad",
+          "variable": "TeamOdds",
+          "value": 0.5128205128205129
+        },
+        {
+          "Unnamed: 0": 95,
+          "Team": "UD Las Palmas",
+          "Oponent": "Real Betis Balompié",
+          "variable": "TeamOdds",
+          "value": 0.2857142857142857
+        },
+        {
+          "Unnamed: 0": 96,
+          "Team": "UD Las Palmas",
+          "Oponent": "RCD Espanyol",
+          "variable": "TeamOdds",
+          "value": 0.4444444444444444
+        },
+        {
+          "Unnamed: 0": 97,
+          "Team": "UD Las Palmas",
+          "Oponent": "Granada CF",
+          "variable": "TeamOdds",
+          "value": 0.18181818181818185
+        },
+        {
+          "Unnamed: 0": 98,
+          "Team": "UD Las Palmas",
+          "Oponent": "Athletic Club de Bilbao",
+          "variable": "TeamOdds",
+          "value": 0.25
+        },
+        {
+          "Unnamed: 0": 99,
+          "Team": "UD Las Palmas",
+          "Oponent": "Málaga CF",
+          "variable": "TeamOdds",
+          "value": 0.25
+        },
+        {
+          "Unnamed: 0": 100,
+          "Team": "Málaga CF",
+          "Oponent": "Rayo Vallecano",
+          "variable": "OponentOdds",
+          "value": 0.25641025641025644
+        },
+        {
+          "Unnamed: 0": 101,
+          "Team": "Málaga CF",
+          "Oponent": "Atlético Madrid",
+          "variable": "OponentOdds",
+          "value": 0.7692307692307692
+        },
+        {
+          "Unnamed: 0": 102,
+          "Team": "Málaga CF",
+          "Oponent": "Levante UD",
+          "variable": "OponentOdds",
+          "value": 0.29411764705882354
+        },
+        {
+          "Unnamed: 0": 103,
+          "Team": "Málaga CF",
+          "Oponent": "RC Celta de Vigo",
+          "variable": "OponentOdds",
+          "value": 0.6666666666666666
+        },
+        {
+          "Unnamed: 0": 104,
+          "Team": "Málaga CF",
+          "Oponent": "UD Las Palmas",
+          "variable": "OponentOdds",
+          "value": 0.25
+        },
+        {
+          "Unnamed: 0": 105,
+          "Team": "Atlético Madrid",
+          "Oponent": "Athletic Club de Bilbao",
+          "variable": "OponentOdds",
+          "value": 0.26666666666666666
+        },
+        {
+          "Unnamed: 0": 106,
+          "Team": "Atlético Madrid",
+          "Oponent": "Málaga CF",
+          "variable": "OponentOdds",
+          "value": 0.09523809523809523
+        },
+        {
+          "Unnamed: 0": 107,
+          "Team": "Atlético Madrid",
+          "Oponent": "Rayo Vallecano",
+          "variable": "OponentOdds",
+          "value": 0.09090909090909093
+        },
+        {
+          "Unnamed: 0": 108,
+          "Team": "Atlético Madrid",
+          "Oponent": "Levante UD",
+          "variable": "OponentOdds",
+          "value": 0.06896551724137931
+        },
+        {
+          "Unnamed: 0": 109,
+          "Team": "Atlético Madrid",
+          "Oponent": "RC Celta de Vigo",
+          "variable": "OponentOdds",
+          "value": 0.2439024390243903
+        },
+        {
+          "Unnamed: 0": 110,
+          "Team": "RCD Espanyol",
+          "Oponent": "RC Celta de Vigo",
+          "variable": "OponentOdds",
+          "value": 0.3389830508474576
+        },
+        {
+          "Unnamed: 0": 111,
+          "Team": "RCD Espanyol",
+          "Oponent": "UD Las Palmas",
+          "variable": "OponentOdds",
+          "value": 0.4444444444444444
+        },
+        {
+          "Unnamed: 0": 112,
+          "Team": "RCD Espanyol",
+          "Oponent": "Sevilla FC",
+          "variable": "OponentOdds",
+          "value": 0.3333333333333333
+        },
+        {
+          "Unnamed: 0": 113,
+          "Team": "RCD Espanyol",
+          "Oponent": "FC Barcelona",
+          "variable": "OponentOdds",
+          "value": 0.9708737864077671
+        },
+        {
+          "Unnamed: 0": 114,
+          "Team": "RCD Espanyol",
+          "Oponent": "SD Eibar",
+          "variable": "OponentOdds",
+          "value": 0.29411764705882354
+        },
+        {
+          "Unnamed: 0": 115,
+          "Team": "RC Deportivo de La Coruña",
+          "Oponent": "FC Barcelona",
+          "variable": "OponentOdds",
+          "value": 0.819672131147541
+        },
+        {
+          "Unnamed: 0": 116,
+          "Team": "RC Deportivo de La Coruña",
+          "Oponent": "SD Eibar",
+          "variable": "OponentOdds",
+          "value": 0.4545454545454545
+        },
+        {
+          "Unnamed: 0": 117,
+          "Team": "RC Deportivo de La Coruña",
+          "Oponent": "Getafe CF",
+          "variable": "OponentOdds",
+          "value": 0.3076923076923077
+        },
+        {
+          "Unnamed: 0": 118,
+          "Team": "RC Deportivo de La Coruña",
+          "Oponent": "Villarreal CF",
+          "variable": "OponentOdds",
+          "value": 0.4166666666666667
+        },
+        {
+          "Unnamed: 0": 119,
+          "Team": "RC Deportivo de La Coruña",
+          "Oponent": "Real Madrid CF",
+          "variable": "OponentOdds",
+          "value": 0.8333333333333334
+        },
+        {
+          "Unnamed: 0": 120,
+          "Team": "Rayo Vallecano",
+          "Oponent": "Málaga CF",
+          "variable": "OponentOdds",
+          "value": 0.5464480874316939
+        },
+        {
+          "Unnamed: 0": 121,
+          "Team": "Rayo Vallecano",
+          "Oponent": "Real Madrid CF",
+          "variable": "OponentOdds",
+          "value": 0.7407407407407407
+        },
+        {
+          "Unnamed: 0": 122,
+          "Team": "Rayo Vallecano",
+          "Oponent": "Atlético Madrid",
+          "variable": "OponentOdds",
+          "value": 0.78125
+        },
+        {
+          "Unnamed: 0": 123,
+          "Team": "Rayo Vallecano",
+          "Oponent": "Real Sociedad",
+          "variable": "OponentOdds",
+          "value": 0.3076923076923077
+        },
+        {
+          "Unnamed: 0": 124,
+          "Team": "Rayo Vallecano",
+          "Oponent": "Levante UD",
+          "variable": "OponentOdds",
+          "value": 0.10810810810810813
+        },
+        {
+          "Unnamed: 0": 125,
+          "Team": "Levante UD",
+          "Oponent": "Granada CF",
+          "variable": "OponentOdds",
+          "value": 0.53475935828877
+        },
+        {
+          "Unnamed: 0": 126,
+          "Team": "Levante UD",
+          "Oponent": "Athletic Club de Bilbao",
+          "variable": "OponentOdds",
+          "value": 0.4545454545454545
+        },
+        {
+          "Unnamed: 0": 127,
+          "Team": "Levante UD",
+          "Oponent": "Málaga CF",
+          "variable": "OponentOdds",
+          "value": 0.4651162790697674
+        },
+        {
+          "Unnamed: 0": 128,
+          "Team": "Levante UD",
+          "Oponent": "Atlético Madrid",
+          "variable": "OponentOdds",
+          "value": 0.819672131147541
+        },
+        {
+          "Unnamed: 0": 129,
+          "Team": "Levante UD",
+          "Oponent": "Rayo Vallecano",
+          "variable": "OponentOdds",
+          "value": 0.7518796992481203
+        },
+        {
+          "Unnamed: 0": 130,
+          "Team": "Athletic Club de Bilbao",
+          "Oponent": "Atlético Madrid",
+          "variable": "OponentOdds",
+          "value": 0.5
+        },
+        {
+          "Unnamed: 0": 131,
+          "Team": "Athletic Club de Bilbao",
+          "Oponent": "Levante UD",
+          "variable": "OponentOdds",
+          "value": 0.3076923076923077
+        },
+        {
+          "Unnamed: 0": 132,
+          "Team": "Athletic Club de Bilbao",
+          "Oponent": "RC Celta de Vigo",
+          "variable": "OponentOdds",
+          "value": 0.2352941176470588
+        },
+        {
+          "Unnamed: 0": 133,
+          "Team": "Athletic Club de Bilbao",
+          "Oponent": "UD Las Palmas",
+          "variable": "OponentOdds",
+          "value": 0.25
+        },
+        {
+          "Unnamed: 0": 134,
+          "Team": "Athletic Club de Bilbao",
+          "Oponent": "Sevilla FC",
+          "variable": "OponentOdds",
+          "value": 0.14285714285714285
+        },
+        {
+          "Unnamed: 0": 135,
+          "Team": "Real Betis Balompié",
+          "Oponent": "UD Las Palmas",
+          "variable": "OponentOdds",
+          "value": 0.2857142857142857
+        },
+        {
+          "Unnamed: 0": 136,
+          "Team": "Real Betis Balompié",
+          "Oponent": "Sevilla FC",
+          "variable": "OponentOdds",
+          "value": 0.6896551724137931
+        },
+        {
+          "Unnamed: 0": 137,
+          "Team": "Real Betis Balompié",
+          "Oponent": "FC Barcelona",
+          "variable": "OponentOdds",
+          "value": 0.8928571428571428
+        },
+        {
+          "Unnamed: 0": 138,
+          "Team": "Real Betis Balompié",
+          "Oponent": "SD Eibar",
+          "variable": "OponentOdds",
+          "value": 0.4651162790697674
+        },
+        {
+          "Unnamed: 0": 139,
+          "Team": "Real Betis Balompié",
+          "Oponent": "Getafe CF",
+          "variable": "OponentOdds",
+          "value": 0.5882352941176471
+        },
+        {
+          "Unnamed: 0": 140,
+          "Team": "Real Sporting de Gijón",
+          "Oponent": "Sevilla FC",
+          "variable": "OponentOdds",
+          "value": 0.4651162790697674
+        },
+        {
+          "Unnamed: 0": 141,
+          "Team": "Real Sporting de Gijón",
+          "Oponent": "FC Barcelona",
+          "variable": "OponentOdds",
+          "value": 0.9615384615384616
+        },
+        {
+          "Unnamed: 0": 142,
+          "Team": "Real Sporting de Gijón",
+          "Oponent": "SD Eibar",
+          "variable": "OponentOdds",
+          "value": 0.17391304347826084
+        },
+        {
+          "Unnamed: 0": 143,
+          "Team": "Real Sporting de Gijón",
+          "Oponent": "Getafe CF",
+          "variable": "OponentOdds",
+          "value": 0.4651162790697674
+        },
+        {
+          "Unnamed: 0": 144,
+          "Team": "Real Sporting de Gijón",
+          "Oponent": "Villarreal CF",
+          "variable": "OponentOdds",
+          "value": 0.14285714285714285
+        },
+        {
+          "Unnamed: 0": 145,
+          "Team": "Granada CF",
+          "Oponent": "Levante UD",
+          "variable": "OponentOdds",
+          "value": 0.2439024390243903
+        },
+        {
+          "Unnamed: 0": 146,
+          "Team": "Granada CF",
+          "Oponent": "RC Celta de Vigo",
+          "variable": "OponentOdds",
+          "value": 0.6535947712418301
+        },
+        {
+          "Unnamed: 0": 147,
+          "Team": "Granada CF",
+          "Oponent": "UD Las Palmas",
+          "variable": "OponentOdds",
+          "value": 0.18181818181818185
+        },
+        {
+          "Unnamed: 0": 148,
+          "Team": "Granada CF",
+          "Oponent": "Sevilla FC",
+          "variable": "OponentOdds",
+          "value": 0.3703703703703704
+        },
+        {
+          "Unnamed: 0": 149,
+          "Team": "Granada CF",
+          "Oponent": "FC Barcelona",
+          "variable": "OponentOdds",
+          "value": 0.9090909090909092
+        },
+        {
+          "Unnamed: 0": 150,
+          "Team": "Villarreal CF",
+          "Oponent": "Real Madrid CF",
+          "variable": "OponentOdds",
+          "value": 0.8333333333333334
+        },
+        {
+          "Unnamed: 0": 151,
+          "Team": "Villarreal CF",
+          "Oponent": "Real Sociedad",
+          "variable": "OponentOdds",
+          "value": 0.2352941176470588
+        },
+        {
+          "Unnamed: 0": 152,
+          "Team": "Villarreal CF",
+          "Oponent": "Valencia CF",
+          "variable": "OponentOdds",
+          "value": 0.4651162790697674
+        },
+        {
+          "Unnamed: 0": 153,
+          "Team": "Villarreal CF",
+          "Oponent": "RC Deportivo de La Coruña",
+          "variable": "OponentOdds",
+          "value": 0.3333333333333333
+        },
+        {
+          "Unnamed: 0": 154,
+          "Team": "Villarreal CF",
+          "Oponent": "Real Sporting de Gijón",
+          "variable": "OponentOdds",
+          "value": 0.6944444444444444
+        },
+        {
+          "Unnamed: 0": 155,
+          "Team": "Real Sociedad",
+          "Oponent": "Getafe CF",
+          "variable": "OponentOdds",
+          "value": 0.16666666666666666
+        },
+        {
+          "Unnamed: 0": 156,
+          "Team": "Real Sociedad",
+          "Oponent": "Villarreal CF",
+          "variable": "OponentOdds",
+          "value": 0.5555555555555556
+        },
+        {
+          "Unnamed: 0": 157,
+          "Team": "Real Sociedad",
+          "Oponent": "Real Madrid CF",
+          "variable": "OponentOdds",
+          "value": 0.5988023952095809
+        },
+        {
+          "Unnamed: 0": 158,
+          "Team": "Real Sociedad",
+          "Oponent": "Rayo Vallecano",
+          "variable": "OponentOdds",
+          "value": 0.4761904761904762
+        },
+        {
+          "Unnamed: 0": 159,
+          "Team": "Real Sociedad",
+          "Oponent": "Valencia CF",
+          "variable": "OponentOdds",
+          "value": 0.5128205128205129
+        },
+        {
+          "Unnamed: 0": 160,
+          "Team": "RC Celta de Vigo",
+          "Oponent": "RCD Espanyol",
+          "variable": "OponentOdds",
+          "value": 0.4081632653061224
+        },
+        {
+          "Unnamed: 0": 161,
+          "Team": "RC Celta de Vigo",
+          "Oponent": "Granada CF",
+          "variable": "OponentOdds",
+          "value": 0.16666666666666666
+        },
+        {
+          "Unnamed: 0": 162,
+          "Team": "RC Celta de Vigo",
+          "Oponent": "Athletic Club de Bilbao",
+          "variable": "OponentOdds",
+          "value": 0.5405405405405405
+        },
+        {
+          "Unnamed: 0": 163,
+          "Team": "RC Celta de Vigo",
+          "Oponent": "Málaga CF",
+          "variable": "OponentOdds",
+          "value": 0.16
+        },
+        {
+          "Unnamed: 0": 164,
+          "Team": "RC Celta de Vigo",
+          "Oponent": "Atlético Madrid",
+          "variable": "OponentOdds",
+          "value": 0.5464480874316939
+        },
+        {
+          "Unnamed: 0": 165,
+          "Team": "Real Madrid CF",
+          "Oponent": "Villarreal CF",
+          "variable": "OponentOdds",
+          "value": 0.08695652173913042
+        },
+        {
+          "Unnamed: 0": 166,
+          "Team": "Real Madrid CF",
+          "Oponent": "Rayo Vallecano",
+          "variable": "OponentOdds",
+          "value": 0.12903225806451613
+        },
+        {
+          "Unnamed: 0": 167,
+          "Team": "Real Madrid CF",
+          "Oponent": "Real Sociedad",
+          "variable": "OponentOdds",
+          "value": 0.2
+        },
+        {
+          "Unnamed: 0": 168,
+          "Team": "Real Madrid CF",
+          "Oponent": "Valencia CF",
+          "variable": "OponentOdds",
+          "value": 0.09523809523809523
+        },
+        {
+          "Unnamed: 0": 169,
+          "Team": "Real Madrid CF",
+          "Oponent": "RC Deportivo de La Coruña",
+          "variable": "OponentOdds",
+          "value": 0.08695652173913042
+        },
+        {
+          "Unnamed: 0": 170,
+          "Team": "FC Barcelona",
+          "Oponent": "RC Deportivo de La Coruña",
+          "variable": "OponentOdds",
+          "value": 0.09523809523809523
+        },
+        {
+          "Unnamed: 0": 171,
+          "Team": "FC Barcelona",
+          "Oponent": "Real Sporting de Gijón",
+          "variable": "OponentOdds",
+          "value": 0.03448275862068965
+        },
+        {
+          "Unnamed: 0": 172,
+          "Team": "FC Barcelona",
+          "Oponent": "Real Betis Balompié",
+          "variable": "OponentOdds",
+          "value": 0.05263157894736842
+        },
+        {
+          "Unnamed: 0": 173,
+          "Team": "FC Barcelona",
+          "Oponent": "RCD Espanyol",
+          "variable": "OponentOdds",
+          "value": 0.03225806451612903
+        },
+        {
+          "Unnamed: 0": 174,
+          "Team": "FC Barcelona",
+          "Oponent": "Granada CF",
+          "variable": "OponentOdds",
+          "value": 0.047619047619047616
+        },
+        {
+          "Unnamed: 0": 175,
+          "Team": "Sevilla FC",
+          "Oponent": "Real Sporting de Gijón",
+          "variable": "OponentOdds",
+          "value": 0.3125
+        },
+        {
+          "Unnamed: 0": 176,
+          "Team": "Sevilla FC",
+          "Oponent": "Real Betis Balompié",
+          "variable": "OponentOdds",
+          "value": 0.15384615384615385
+        },
+        {
+          "Unnamed: 0": 177,
+          "Team": "Sevilla FC",
+          "Oponent": "RCD Espanyol",
+          "variable": "OponentOdds",
+          "value": 0.425531914893617
+        },
+        {
+          "Unnamed: 0": 178,
+          "Team": "Sevilla FC",
+          "Oponent": "Granada CF",
+          "variable": "OponentOdds",
+          "value": 0.4081632653061224
+        },
+        {
+          "Unnamed: 0": 179,
+          "Team": "Sevilla FC",
+          "Oponent": "Athletic Club de Bilbao",
+          "variable": "OponentOdds",
+          "value": 0.7462686567164178
+        },
+        {
+          "Unnamed: 0": 180,
+          "Team": "SD Eibar",
+          "Oponent": "Valencia CF",
+          "variable": "OponentOdds",
+          "value": 0.625
+        },
+        {
+          "Unnamed: 0": 181,
+          "Team": "SD Eibar",
+          "Oponent": "RC Deportivo de La Coruña",
+          "variable": "OponentOdds",
+          "value": 0.3125
+        },
+        {
+          "Unnamed: 0": 182,
+          "Team": "SD Eibar",
+          "Oponent": "Real Sporting de Gijón",
+          "variable": "OponentOdds",
+          "value": 0.6172839506172839
+        },
+        {
+          "Unnamed: 0": 183,
+          "Team": "SD Eibar",
+          "Oponent": "Real Betis Balompié",
+          "variable": "OponentOdds",
+          "value": 0.3125
+        },
+        {
+          "Unnamed: 0": 184,
+          "Team": "SD Eibar",
+          "Oponent": "RCD Espanyol",
+          "variable": "OponentOdds",
+          "value": 0.5
+        },
+        {
+          "Unnamed: 0": 185,
+          "Team": "Getafe CF",
+          "Oponent": "Real Sociedad",
+          "variable": "OponentOdds",
+          "value": 0.6535947712418301
+        },
+        {
+          "Unnamed: 0": 186,
+          "Team": "Getafe CF",
+          "Oponent": "Valencia CF",
+          "variable": "OponentOdds",
+          "value": 0.4444444444444444
+        },
+        {
+          "Unnamed: 0": 187,
+          "Team": "Getafe CF",
+          "Oponent": "RC Deportivo de La Coruña",
+          "variable": "OponentOdds",
+          "value": 0.4444444444444444
+        },
+        {
+          "Unnamed: 0": 188,
+          "Team": "Getafe CF",
+          "Oponent": "Real Sporting de Gijón",
+          "variable": "OponentOdds",
+          "value": 0.3125
+        },
+        {
+          "Unnamed: 0": 189,
+          "Team": "Getafe CF",
+          "Oponent": "Real Betis Balompié",
+          "variable": "OponentOdds",
+          "value": 0.2173913043478261
+        },
+        {
+          "Unnamed: 0": 190,
+          "Team": "Valencia CF",
+          "Oponent": "SD Eibar",
+          "variable": "OponentOdds",
+          "value": 0.19047619047619047
+        },
+        {
+          "Unnamed: 0": 191,
+          "Team": "Valencia CF",
+          "Oponent": "Getafe CF",
+          "variable": "OponentOdds",
+          "value": 0.3225806451612903
+        },
+        {
+          "Unnamed: 0": 192,
+          "Team": "Valencia CF",
+          "Oponent": "Villarreal CF",
+          "variable": "OponentOdds",
+          "value": 0.29411764705882354
+        },
+        {
+          "Unnamed: 0": 193,
+          "Team": "Valencia CF",
+          "Oponent": "Real Madrid CF",
+          "variable": "OponentOdds",
+          "value": 0.8333333333333334
+        },
+        {
+          "Unnamed: 0": 194,
+          "Team": "Valencia CF",
+          "Oponent": "Real Sociedad",
+          "variable": "OponentOdds",
+          "value": 0.26666666666666666
+        },
+        {
+          "Unnamed: 0": 195,
+          "Team": "UD Las Palmas",
+          "Oponent": "Real Betis Balompié",
+          "variable": "OponentOdds",
+          "value": 0.4651162790697674
+        },
+        {
+          "Unnamed: 0": 196,
+          "Team": "UD Las Palmas",
+          "Oponent": "RCD Espanyol",
+          "variable": "OponentOdds",
+          "value": 0.29411764705882354
+        },
+        {
+          "Unnamed: 0": 197,
+          "Team": "UD Las Palmas",
+          "Oponent": "Granada CF",
+          "variable": "OponentOdds",
+          "value": 0.6172839506172839
+        },
+        {
+          "Unnamed: 0": 198,
+          "Team": "UD Las Palmas",
+          "Oponent": "Athletic Club de Bilbao",
+          "variable": "OponentOdds",
+          "value": 0.53475935828877
+        },
+        {
+          "Unnamed: 0": 199,
+          "Team": "UD Las Palmas",
+          "Oponent": "Málaga CF",
+          "variable": "OponentOdds",
+          "value": 0.5464480874316939
+        },
+        {
+          "Unnamed: 0": 200,
+          "Team": "Málaga CF",
+          "Oponent": "Rayo Vallecano",
+          "variable": "TiesOdds",
+          "value": 0.26666666666666666
+        },
+        {
+          "Unnamed: 0": 201,
+          "Team": "Málaga CF",
+          "Oponent": "Atlético Madrid",
+          "variable": "TiesOdds",
+          "value": 0.21052631578947367
+        },
+        {
+          "Unnamed: 0": 202,
+          "Team": "Málaga CF",
+          "Oponent": "Levante UD",
+          "variable": "TiesOdds",
+          "value": 0.29411764705882354
+        },
+        {
+          "Unnamed: 0": 203,
+          "Team": "Málaga CF",
+          "Oponent": "RC Celta de Vigo",
+          "variable": "TiesOdds",
+          "value": 0.2439024390243903
+        },
+        {
+          "Unnamed: 0": 204,
+          "Team": "Málaga CF",
+          "Oponent": "UD Las Palmas",
+          "variable": "TiesOdds",
+          "value": 0.27027027027027023
+        },
+        {
+          "Unnamed: 0": 205,
+          "Team": "Atlético Madrid",
+          "Oponent": "Athletic Club de Bilbao",
+          "variable": "TiesOdds",
+          "value": 0.3076923076923077
+        },
+        {
+          "Unnamed: 0": 206,
+          "Team": "Atlético Madrid",
+          "Oponent": "Málaga CF",
+          "variable": "TiesOdds",
+          "value": 0.21052631578947367
+        },
+        {
+          "Unnamed: 0": 207,
+          "Team": "Atlético Madrid",
+          "Oponent": "Rayo Vallecano",
+          "variable": "TiesOdds",
+          "value": 0.17391304347826084
+        },
+        {
+          "Unnamed: 0": 208,
+          "Team": "Atlético Madrid",
+          "Oponent": "Levante UD",
+          "variable": "TiesOdds",
+          "value": 0.18181818181818185
+        },
+        {
+          "Unnamed: 0": 209,
+          "Team": "Atlético Madrid",
+          "Oponent": "RC Celta de Vigo",
+          "variable": "TiesOdds",
+          "value": 0.2777777777777778
+        },
+        {
+          "Unnamed: 0": 210,
+          "Team": "RCD Espanyol",
+          "Oponent": "RC Celta de Vigo",
+          "variable": "TiesOdds",
+          "value": 0.30303030303030304
+        },
+        {
+          "Unnamed: 0": 211,
+          "Team": "RCD Espanyol",
+          "Oponent": "UD Las Palmas",
+          "variable": "TiesOdds",
+          "value": 0.3076923076923077
+        },
+        {
+          "Unnamed: 0": 212,
+          "Team": "RCD Espanyol",
+          "Oponent": "Sevilla FC",
+          "variable": "TiesOdds",
+          "value": 0.29411764705882354
+        },
+        {
+          "Unnamed: 0": 213,
+          "Team": "RCD Espanyol",
+          "Oponent": "FC Barcelona",
+          "variable": "TiesOdds",
+          "value": 0.05128205128205128
+        },
+        {
+          "Unnamed: 0": 214,
+          "Team": "RCD Espanyol",
+          "Oponent": "SD Eibar",
+          "variable": "TiesOdds",
+          "value": 0.2777777777777778
+        },
+        {
+          "Unnamed: 0": 215,
+          "Team": "RC Deportivo de La Coruña",
+          "Oponent": "FC Barcelona",
+          "variable": "TiesOdds",
+          "value": 0.15384615384615385
+        },
+        {
+          "Unnamed: 0": 216,
+          "Team": "RC Deportivo de La Coruña",
+          "Oponent": "SD Eibar",
+          "variable": "TiesOdds",
+          "value": 0.30303030303030304
+        },
+        {
+          "Unnamed: 0": 217,
+          "Team": "RC Deportivo de La Coruña",
+          "Oponent": "Getafe CF",
+          "variable": "TiesOdds",
+          "value": 0.29411764705882354
+        },
+        {
+          "Unnamed: 0": 218,
+          "Team": "RC Deportivo de La Coruña",
+          "Oponent": "Villarreal CF",
+          "variable": "TiesOdds",
+          "value": 0.3225806451612903
+        },
+        {
+          "Unnamed: 0": 219,
+          "Team": "RC Deportivo de La Coruña",
+          "Oponent": "Real Madrid CF",
+          "variable": "TiesOdds",
+          "value": 0.15384615384615385
+        },
+        {
+          "Unnamed: 0": 220,
+          "Team": "Rayo Vallecano",
+          "Oponent": "Málaga CF",
+          "variable": "TiesOdds",
+          "value": 0.26666666666666666
+        },
+        {
+          "Unnamed: 0": 221,
+          "Team": "Rayo Vallecano",
+          "Oponent": "Real Madrid CF",
+          "variable": "TiesOdds",
+          "value": 0.2
+        },
+        {
+          "Unnamed: 0": 222,
+          "Team": "Rayo Vallecano",
+          "Oponent": "Atlético Madrid",
+          "variable": "TiesOdds",
+          "value": 0.17391304347826084
+        },
+        {
+          "Unnamed: 0": 223,
+          "Team": "Rayo Vallecano",
+          "Oponent": "Real Sociedad",
+          "variable": "TiesOdds",
+          "value": 0.2857142857142857
+        },
+        {
+          "Unnamed: 0": 224,
+          "Team": "Rayo Vallecano",
+          "Oponent": "Levante UD",
+          "variable": "TiesOdds",
+          "value": 0.21052631578947367
+        },
+        {
+          "Unnamed: 0": 225,
+          "Team": "Levante UD",
+          "Oponent": "Granada CF",
+          "variable": "TiesOdds",
+          "value": 0.29411764705882354
+        },
+        {
+          "Unnamed: 0": 226,
+          "Team": "Levante UD",
+          "Oponent": "Athletic Club de Bilbao",
+          "variable": "TiesOdds",
+          "value": 0.3076923076923077
+        },
+        {
+          "Unnamed: 0": 227,
+          "Team": "Levante UD",
+          "Oponent": "Málaga CF",
+          "variable": "TiesOdds",
+          "value": 0.29411764705882354
+        },
+        {
+          "Unnamed: 0": 228,
+          "Team": "Levante UD",
+          "Oponent": "Atlético Madrid",
+          "variable": "TiesOdds",
+          "value": 0.18181818181818185
+        },
+        {
+          "Unnamed: 0": 229,
+          "Team": "Levante UD",
+          "Oponent": "Rayo Vallecano",
+          "variable": "TiesOdds",
+          "value": 0.21052631578947367
+        },
+        {
+          "Unnamed: 0": 230,
+          "Team": "Athletic Club de Bilbao",
+          "Oponent": "Atlético Madrid",
+          "variable": "TiesOdds",
+          "value": 0.3076923076923077
+        },
+        {
+          "Unnamed: 0": 231,
+          "Team": "Athletic Club de Bilbao",
+          "Oponent": "Levante UD",
+          "variable": "TiesOdds",
+          "value": 0.3076923076923077
+        },
+        {
+          "Unnamed: 0": 232,
+          "Team": "Athletic Club de Bilbao",
+          "Oponent": "RC Celta de Vigo",
+          "variable": "TiesOdds",
+          "value": 0.2777777777777778
+        },
+        {
+          "Unnamed: 0": 233,
+          "Team": "Athletic Club de Bilbao",
+          "Oponent": "UD Las Palmas",
+          "variable": "TiesOdds",
+          "value": 0.2857142857142857
+        },
+        {
+          "Unnamed: 0": 234,
+          "Team": "Athletic Club de Bilbao",
+          "Oponent": "Sevilla FC",
+          "variable": "TiesOdds",
+          "value": 0.18181818181818185
+        },
+        {
+          "Unnamed: 0": 235,
+          "Team": "Real Betis Balompié",
+          "Oponent": "UD Las Palmas",
+          "variable": "TiesOdds",
+          "value": 0.30303030303030304
+        },
+        {
+          "Unnamed: 0": 236,
+          "Team": "Real Betis Balompié",
+          "Oponent": "Sevilla FC",
+          "variable": "TiesOdds",
+          "value": 0.2309468822170901
+        },
+        {
+          "Unnamed: 0": 237,
+          "Team": "Real Betis Balompié",
+          "Oponent": "FC Barcelona",
+          "variable": "TiesOdds",
+          "value": 0.10526315789473684
+        },
+        {
+          "Unnamed: 0": 238,
+          "Team": "Real Betis Balompié",
+          "Oponent": "SD Eibar",
+          "variable": "TiesOdds",
+          "value": 0.29411764705882354
+        },
+        {
+          "Unnamed: 0": 239,
+          "Team": "Real Betis Balompié",
+          "Oponent": "Getafe CF",
+          "variable": "TiesOdds",
+          "value": 0.2631578947368421
+        },
+        {
+          "Unnamed: 0": 240,
+          "Team": "Real Sporting de Gijón",
+          "Oponent": "Sevilla FC",
+          "variable": "TiesOdds",
+          "value": 0.29411764705882354
+        },
+        {
+          "Unnamed: 0": 241,
+          "Team": "Real Sporting de Gijón",
+          "Oponent": "FC Barcelona",
+          "variable": "TiesOdds",
+          "value": 0.07407407407407407
+        },
+        {
+          "Unnamed: 0": 242,
+          "Team": "Real Sporting de Gijón",
+          "Oponent": "SD Eibar",
+          "variable": "TiesOdds",
+          "value": 0.2631578947368421
+        },
+        {
+          "Unnamed: 0": 243,
+          "Team": "Real Sporting de Gijón",
+          "Oponent": "Getafe CF",
+          "variable": "TiesOdds",
+          "value": 0.29411764705882354
+        },
+        {
+          "Unnamed: 0": 244,
+          "Team": "Real Sporting de Gijón",
+          "Oponent": "Villarreal CF",
+          "variable": "TiesOdds",
+          "value": 0.2309468822170901
+        },
+        {
+          "Unnamed: 0": 245,
+          "Team": "Granada CF",
+          "Oponent": "Levante UD",
+          "variable": "TiesOdds",
+          "value": 0.29411764705882354
+        },
+        {
+          "Unnamed: 0": 246,
+          "Team": "Granada CF",
+          "Oponent": "RC Celta de Vigo",
+          "variable": "TiesOdds",
+          "value": 0.25
+        },
+        {
+          "Unnamed: 0": 247,
+          "Team": "Granada CF",
+          "Oponent": "UD Las Palmas",
+          "variable": "TiesOdds",
+          "value": 0.25
+        },
+        {
+          "Unnamed: 0": 248,
+          "Team": "Granada CF",
+          "Oponent": "Sevilla FC",
+          "variable": "TiesOdds",
+          "value": 0.29411764705882354
+        },
+        {
+          "Unnamed: 0": 249,
+          "Team": "Granada CF",
+          "Oponent": "FC Barcelona",
+          "variable": "TiesOdds",
+          "value": 0.1111111111111111
+        },
+        {
+          "Unnamed: 0": 250,
+          "Team": "Villarreal CF",
+          "Oponent": "Real Madrid CF",
+          "variable": "TiesOdds",
+          "value": 0.14814814814814814
+        },
+        {
+          "Unnamed: 0": 251,
+          "Team": "Villarreal CF",
+          "Oponent": "Real Sociedad",
+          "variable": "TiesOdds",
+          "value": 0.2777777777777778
+        },
+        {
+          "Unnamed: 0": 252,
+          "Team": "Villarreal CF",
+          "Oponent": "Valencia CF",
+          "variable": "TiesOdds",
+          "value": 0.29411764705882354
+        },
+        {
+          "Unnamed: 0": 253,
+          "Team": "Villarreal CF",
+          "Oponent": "RC Deportivo de La Coruña",
+          "variable": "TiesOdds",
+          "value": 0.3225806451612903
+        },
+        {
+          "Unnamed: 0": 254,
+          "Team": "Villarreal CF",
+          "Oponent": "Real Sporting de Gijón",
+          "variable": "TiesOdds",
+          "value": 0.2309468822170901
+        },
+        {
+          "Unnamed: 0": 255,
+          "Team": "Real Sociedad",
+          "Oponent": "Getafe CF",
+          "variable": "TiesOdds",
+          "value": 0.25
+        },
+        {
+          "Unnamed: 0": 256,
+          "Team": "Real Sociedad",
+          "Oponent": "Villarreal CF",
+          "variable": "TiesOdds",
+          "value": 0.2777777777777778
+        },
+        {
+          "Unnamed: 0": 257,
+          "Team": "Real Sociedad",
+          "Oponent": "Real Madrid CF",
+          "variable": "TiesOdds",
+          "value": 0.25
+        },
+        {
+          "Unnamed: 0": 258,
+          "Team": "Real Sociedad",
+          "Oponent": "Rayo Vallecano",
+          "variable": "TiesOdds",
+          "value": 0.2857142857142857
+        },
+        {
+          "Unnamed: 0": 259,
+          "Team": "Real Sociedad",
+          "Oponent": "Valencia CF",
+          "variable": "TiesOdds",
+          "value": 0.27027027027027023
+        },
+        {
+          "Unnamed: 0": 260,
+          "Team": "RC Celta de Vigo",
+          "Oponent": "RCD Espanyol",
+          "variable": "TiesOdds",
+          "value": 0.30303030303030304
+        },
+        {
+          "Unnamed: 0": 261,
+          "Team": "RC Celta de Vigo",
+          "Oponent": "Granada CF",
+          "variable": "TiesOdds",
+          "value": 0.25
+        },
+        {
+          "Unnamed: 0": 262,
+          "Team": "RC Celta de Vigo",
+          "Oponent": "Athletic Club de Bilbao",
+          "variable": "TiesOdds",
+          "value": 0.2777777777777778
+        },
+        {
+          "Unnamed: 0": 263,
+          "Team": "RC Celta de Vigo",
+          "Oponent": "Málaga CF",
+          "variable": "TiesOdds",
+          "value": 0.2439024390243903
+        },
+        {
+          "Unnamed: 0": 264,
+          "Team": "RC Celta de Vigo",
+          "Oponent": "Atlético Madrid",
+          "variable": "TiesOdds",
+          "value": 0.2777777777777778
+        },
+        {
+          "Unnamed: 0": 265,
+          "Team": "Real Madrid CF",
+          "Oponent": "Villarreal CF",
+          "variable": "TiesOdds",
+          "value": 0.14814814814814814
+        },
+        {
+          "Unnamed: 0": 266,
+          "Team": "Real Madrid CF",
+          "Oponent": "Rayo Vallecano",
+          "variable": "TiesOdds",
+          "value": 0.2
+        },
+        {
+          "Unnamed: 0": 267,
+          "Team": "Real Madrid CF",
+          "Oponent": "Real Sociedad",
+          "variable": "TiesOdds",
+          "value": 0.25
+        },
+        {
+          "Unnamed: 0": 268,
+          "Team": "Real Madrid CF",
+          "Oponent": "Valencia CF",
+          "variable": "TiesOdds",
+          "value": 0.14285714285714285
+        },
+        {
+          "Unnamed: 0": 269,
+          "Team": "Real Madrid CF",
+          "Oponent": "RC Deportivo de La Coruña",
+          "variable": "TiesOdds",
+          "value": 0.15384615384615385
+        },
+        {
+          "Unnamed: 0": 270,
+          "Team": "FC Barcelona",
+          "Oponent": "RC Deportivo de La Coruña",
+          "variable": "TiesOdds",
+          "value": 0.15384615384615385
+        },
+        {
+          "Unnamed: 0": 271,
+          "Team": "FC Barcelona",
+          "Oponent": "Real Sporting de Gijón",
+          "variable": "TiesOdds",
+          "value": 0.07407407407407407
+        },
+        {
+          "Unnamed: 0": 272,
+          "Team": "FC Barcelona",
+          "Oponent": "Real Betis Balompié",
+          "variable": "TiesOdds",
+          "value": 0.10526315789473684
+        },
+        {
+          "Unnamed: 0": 273,
+          "Team": "FC Barcelona",
+          "Oponent": "RCD Espanyol",
+          "variable": "TiesOdds",
+          "value": 0.05128205128205128
+        },
+        {
+          "Unnamed: 0": 274,
+          "Team": "FC Barcelona",
+          "Oponent": "Granada CF",
+          "variable": "TiesOdds",
+          "value": 0.1111111111111111
+        },
+        {
+          "Unnamed: 0": 275,
+          "Team": "Sevilla FC",
+          "Oponent": "Real Sporting de Gijón",
+          "variable": "TiesOdds",
+          "value": 0.29411764705882354
+        },
+        {
+          "Unnamed: 0": 276,
+          "Team": "Sevilla FC",
+          "Oponent": "Real Betis Balompié",
+          "variable": "TiesOdds",
+          "value": 0.2309468822170901
+        },
+        {
+          "Unnamed: 0": 277,
+          "Team": "Sevilla FC",
+          "Oponent": "RCD Espanyol",
+          "variable": "TiesOdds",
+          "value": 0.29411764705882354
+        },
+        {
+          "Unnamed: 0": 278,
+          "Team": "Sevilla FC",
+          "Oponent": "Granada CF",
+          "variable": "TiesOdds",
+          "value": 0.29411764705882354
+        },
+        {
+          "Unnamed: 0": 279,
+          "Team": "Sevilla FC",
+          "Oponent": "Athletic Club de Bilbao",
+          "variable": "TiesOdds",
+          "value": 0.18181818181818185
+        },
+        {
+          "Unnamed: 0": 280,
+          "Team": "SD Eibar",
+          "Oponent": "Valencia CF",
+          "variable": "TiesOdds",
+          "value": 0.25641025641025644
+        },
+        {
+          "Unnamed: 0": 281,
+          "Team": "SD Eibar",
+          "Oponent": "RC Deportivo de La Coruña",
+          "variable": "TiesOdds",
+          "value": 0.30303030303030304
+        },
+        {
+          "Unnamed: 0": 282,
+          "Team": "SD Eibar",
+          "Oponent": "Real Sporting de Gijón",
+          "variable": "TiesOdds",
+          "value": 0.2631578947368421
+        },
+        {
+          "Unnamed: 0": 283,
+          "Team": "SD Eibar",
+          "Oponent": "Real Betis Balompié",
+          "variable": "TiesOdds",
+          "value": 0.29411764705882354
+        },
+        {
+          "Unnamed: 0": 284,
+          "Team": "SD Eibar",
+          "Oponent": "RCD Espanyol",
+          "variable": "TiesOdds",
+          "value": 0.2777777777777778
+        },
+        {
+          "Unnamed: 0": 285,
+          "Team": "Getafe CF",
+          "Oponent": "Real Sociedad",
+          "variable": "TiesOdds",
+          "value": 0.25
+        },
+        {
+          "Unnamed: 0": 286,
+          "Team": "Getafe CF",
+          "Oponent": "Valencia CF",
+          "variable": "TiesOdds",
+          "value": 0.30303030303030304
+        },
+        {
+          "Unnamed: 0": 287,
+          "Team": "Getafe CF",
+          "Oponent": "RC Deportivo de La Coruña",
+          "variable": "TiesOdds",
+          "value": 0.29411764705882354
+        },
+        {
+          "Unnamed: 0": 288,
+          "Team": "Getafe CF",
+          "Oponent": "Real Sporting de Gijón",
+          "variable": "TiesOdds",
+          "value": 0.29411764705882354
+        },
+        {
+          "Unnamed: 0": 289,
+          "Team": "Getafe CF",
+          "Oponent": "Real Betis Balompié",
+          "variable": "TiesOdds",
+          "value": 0.2631578947368421
+        },
+        {
+          "Unnamed: 0": 290,
+          "Team": "Valencia CF",
+          "Oponent": "SD Eibar",
+          "variable": "TiesOdds",
+          "value": 0.25641025641025644
+        },
+        {
+          "Unnamed: 0": 291,
+          "Team": "Valencia CF",
+          "Oponent": "Getafe CF",
+          "variable": "TiesOdds",
+          "value": 0.30303030303030304
+        },
+        {
+          "Unnamed: 0": 292,
+          "Team": "Valencia CF",
+          "Oponent": "Villarreal CF",
+          "variable": "TiesOdds",
+          "value": 0.29411764705882354
+        },
+        {
+          "Unnamed: 0": 293,
+          "Team": "Valencia CF",
+          "Oponent": "Real Madrid CF",
+          "variable": "TiesOdds",
+          "value": 0.14285714285714285
+        },
+        {
+          "Unnamed: 0": 294,
+          "Team": "Valencia CF",
+          "Oponent": "Real Sociedad",
+          "variable": "TiesOdds",
+          "value": 0.27027027027027023
+        },
+        {
+          "Unnamed: 0": 295,
+          "Team": "UD Las Palmas",
+          "Oponent": "Real Betis Balompié",
+          "variable": "TiesOdds",
+          "value": 0.30303030303030304
+        },
+        {
+          "Unnamed: 0": 296,
+          "Team": "UD Las Palmas",
+          "Oponent": "RCD Espanyol",
+          "variable": "TiesOdds",
+          "value": 0.3076923076923077
+        },
+        {
+          "Unnamed: 0": 297,
+          "Team": "UD Las Palmas",
+          "Oponent": "Granada CF",
+          "variable": "TiesOdds",
+          "value": 0.25
+        },
+        {
+          "Unnamed: 0": 298,
+          "Team": "UD Las Palmas",
+          "Oponent": "Athletic Club de Bilbao",
+          "variable": "TiesOdds",
+          "value": 0.2857142857142857
+        },
+        {
+          "Unnamed: 0": 299,
+          "Team": "UD Las Palmas",
+          "Oponent": "Málaga CF",
+          "variable": "TiesOdds",
+          "value": 0.27027027027027023
+        }
+      ]
+    },
+    {
+      "name": "data_0",
+      "source": "data-e0d8b38c6e41050cc041fd4574ba1210",
+      "transform": [
+        {"type": "formula", "expr": "1/datum.value", "as": "odds"},
+        {
+          "type": "formula",
+          "expr": "datum.variable == 'TeamOdds' ? 'Win' : (datum.variable == 'TiesOdds' ? 'Ties' : 'Loss')",
+          "as": "variable"
+        },
+        {
+          "type": "filter",
+          "expr": "!(length(data(\"selector008_store\"))) || (vlSelectionTest(\"selector008_store\", datum))"
+        },
+        {
+          "type": "stack",
+          "groupby": ["Oponent"],
+          "field": "value",
+          "sort": {"field": ["variable"], "order": ["descending"]},
+          "as": ["value_start", "value_end"],
+          "offset": "zero"
+        },
+        {
+          "type": "filter",
+          "expr": "isValid(datum[\"value\"]) && isFinite(+datum[\"value\"])"
+        }
+      ]
+    }
+  ],
+  "signals": [
+    {
+      "name": "unit",
+      "value": {},
+      "on": [
+        {"events": "mousemove", "update": "isTuple(group()) ? group() : unit"}
+      ]
+    },
+    {
+      "name": "selector008_Team",
+      "init": "\"FC Barcelona\"",
+      "bind": {
+        "input": "select",
+        "options": [
+          "Valencia CF",
+          "RCD Mallorca",
+          "CA Osasuna",
+          "Villarreal CF",
+          "RC Deportivo de La Coruña",
+          "Real Madrid CF",
+          "CD Numancia",
+          "FC Barcelona",
+          "Racing Santander",
+          "Sevilla FC",
+          "Real Sporting de Gijón",
+          "Getafe CF",
+          "Real Betis Balompié",
+          "RC Recreativo",
+          "RCD Espanyol",
+          "Real Valladolid",
+          "Athletic Club de Bilbao",
+          "UD Almería",
+          "Atlético Madrid",
+          "Málaga CF",
+          "Xerez Club Deportivo",
+          "Real Zaragoza",
+          "CD Tenerife",
+          "Hércules Club de Fútbol",
+          "Levante UD",
+          "Real Sociedad",
+          "Granada CF",
+          "Rayo Vallecano",
+          "RC Celta de Vigo",
+          "Elche CF",
+          "SD Eibar",
+          "Córdoba CF",
+          "UD Las Palmas"
+        ],
+        "name": "Team A"
+      }
+    },
+    {
+      "name": "selector008",
+      "update": "vlSelectionResolve(\"selector008_store\", \"union\")"
+    },
+    {
+      "name": "selector008_tuple",
+      "update": "selector008_Team !== null ? {fields: selector008_tuple_fields, values: [selector008_Team]} : null"
+    },
+    {
+      "name": "selector008_tuple_fields",
+      "value": [{"type": "E", "field": "Team"}]
+    },
+    {
+      "name": "selector008_modify",
+      "on": [
+        {
+          "events": {"signal": "selector008_tuple"},
+          "update": "modify(\"selector008_store\", selector008_tuple, true)"
+        }
+      ]
+    }
+  ],
+  "marks": [
+    {
+      "name": "marks",
+      "type": "rect",
+      "style": ["bar"],
+      "interactive": true,
+      "from": {"data": "data_0"},
+      "encode": {
+        "update": {
+          "fill": {"scale": "color", "field": "variable"},
+          "tooltip": {
+            "signal": "{\"Team\": ''+datum[\"Team\"], \"Oponent\": ''+datum[\"Oponent\"], \"variable\": ''+datum[\"variable\"], \"odds\": format(datum[\"odds\"], \"\")}"
+          },
+          "x": {"scale": "x", "field": "value_end"},
+          "x2": {"scale": "x", "field": "value_start"},
+          "yc": {"scale": "y", "field": "Oponent", "band": 0.5},
+          "height": {"value": 20}
+        }
+      }
+    }
+  ],
+  "scales": [
+    {
+      "name": "x",
+      "type": "linear",
+      "domain": {"data": "data_0", "fields": ["value_start", "value_end"]},
+      "range": [0, {"signal": "width"}],
+      "nice": true,
+      "zero": true
+    },
+    {
+      "name": "y",
+      "type": "band",
+      "domain": {"data": "data_0", "field": "Oponent", "sort": true},
+      "range": [0, {"signal": "height"}],
+      "paddingInner": 0.1,
+      "paddingOuter": 0.05
+    },
+    {
+      "name": "color",
+      "type": "ordinal",
+      "domain": ["Win", "Loss", "Ties"],
+      "range": ["#287d27", "#c93838", "#DD6E42"]
+    }
+  ],
+  "axes": [
+    {
+      "scale": "x",
+      "orient": "bottom",
+      "grid": false,
+      "labelFlush": true,
+      "labelOverlap": true,
+      "tickCount": {"signal": "ceil(width/40)"},
+      "zindex": 0
+    }
+  ],
+  "config": {"axis": {"grid": false}, "style": {"cell": {"strokeWidth": 0}}}
+}
