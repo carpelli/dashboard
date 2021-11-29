@@ -3,3 +3,4 @@ vendor
 .firebaserc
 firebase.json
 .firebase
+**/.DS_Store

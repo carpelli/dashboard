@@ -3,7 +3,6 @@
   "background": "white",
   "padding": 5,
   "height": 100,
-  "title": {"text": "Team B", "frame": "group"},
   "style": "cell",
   "data": [
     {
@@ -26,6 +25,7 @@
         }
       ]
     },
+    {"name": "source"},
     {
       "name": "data-e686c533d227ef2de7af173dabb07c4c",
       "values": [
@@ -15180,6 +15180,16 @@
     },
     {
       "name": "data_0",
+      "source": "source",
+      "transform": [
+        {
+          "type": "filter",
+          "expr": "!(length(data(\"selector003_store\"))) || (vlSelectionTest(\"selector003_store\", datum))"
+        }
+      ]
+    },
+    {
+      "name": "data_1",
       "source": "data-e686c533d227ef2de7af173dabb07c4c",
       "transform": [
         {
@@ -15189,13 +15199,12 @@
         {
           "type": "filter",
           "expr": "!(length(data(\"selector003_store\"))) || (vlSelectionTest(\"selector003_store\", datum))"
-        }
-      ]
-    },
-    {
-      "name": "data_1",
-      "source": "data_0",
-      "transform": [
+        },
+        {
+          "type": "formula",
+          "expr": "datum.Team == selector003.Team ? '​' + datum.Type : datum.Type ",
+          "as": "Type"
+        },
         {
           "type": "stack",
           "groupby": ["variable"],
@@ -15204,16 +15213,6 @@
           "as": ["value_start", "value_end"],
           "offset": "zero"
         },
-        {
-          "type": "filter",
-          "expr": "isValid(datum[\"value\"]) && isFinite(+datum[\"value\"])"
-        }
-      ]
-    },
-    {
-      "name": "data_2",
-      "source": "data_0",
-      "transform": [
         {
           "type": "filter",
           "expr": "isValid(datum[\"value\"]) && isFinite(+datum[\"value\"])"
@@ -15352,27 +15351,34 @@
       "from": {"data": "data_1"},
       "encode": {
         "update": {
+          "opacity": {"value": 0.8},
           "fill": {"scale": "color", "field": "Type"},
+          "tooltip": {
+            "signal": "{\"Team\": ''+datum[\"Team\"], \"variable\": ''+datum[\"variable\"], \"value\": format(datum[\"value\"], \"\")}"
+          },
           "x": {"scale": "x", "field": "value_end"},
           "x2": {"scale": "x", "field": "value_start"},
-          "yc": {"scale": "y", "field": "variable", "band": 0.5},
-          "height": {"value": 2}
+          "y": {"scale": "y", "field": "variable"},
+          "height": {"scale": "y", "band": true}
         }
       }
     },
     {
       "name": "layer_1_marks",
-      "type": "symbol",
-      "style": ["circle"],
+      "type": "text",
+      "style": ["text"],
       "interactive": false,
-      "from": {"data": "data_2"},
+      "from": {"data": "data_0"},
       "encode": {
         "update": {
-          "opacity": {"value": 0.7},
-          "fill": {"scale": "color", "field": "Type"},
-          "x": {"scale": "x", "field": "value"},
-          "y": {"scale": "y", "field": "variable", "band": 0.5},
-          "shape": {"value": "circle"}
+          "dy": {"value": -62},
+          "fill": {"value": "black"},
+          "x": {"signal": "width", "mult": 0.5},
+          "y": {"signal": "height", "mult": 0.5},
+          "text": {"signal": "''+datum[\"Team\"]"},
+          "fontSize": {"value": 15},
+          "align": {"value": "center"},
+          "baseline": {"value": "middle"}
         }
       }
     }
@@ -15389,13 +15395,7 @@
     {
       "name": "y",
       "type": "band",
-      "domain": {
-        "fields": [
-          {"data": "data_1", "field": "variable"},
-          {"data": "data_2", "field": "variable"}
-        ],
-        "sort": true
-      },
+      "domain": {"data": "data_1", "field": "variable", "sort": true},
       "range": [0, {"signal": "height"}],
       "paddingInner": 0.1,
       "paddingOuter": 0.05
@@ -15403,14 +15403,8 @@
     {
       "name": "color",
       "type": "ordinal",
-      "domain": {
-        "fields": [
-          {"data": "data_1", "field": "Type"},
-          {"data": "data_2", "field": "Type"}
-        ],
-        "sort": true
-      },
-      "range": "category"
+      "domain": {"data": "data_1", "field": "Type", "sort": true},
+      "range": ["#a11f2e", "#bd626d", "#d9a5ab"]
     }
   ],
   "axes": [

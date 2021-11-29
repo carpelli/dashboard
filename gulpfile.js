@@ -141,6 +141,7 @@ function charts() {
       return json
     }))
     .pipe(gulp.dest('./public/charts'))
+    .pipe(browsersync.stream());
 }
 
 // Watch files

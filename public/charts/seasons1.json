@@ -5,7 +5,7 @@
   "height": 200,
   "style": "cell",
   "data": [{
-    "name": "selector001_store",
+    "name": "selector007_store",
     "values": [{
       "unit": "layer_0",
       "fields": [{
@@ -15,7 +15,7 @@
       "values": ["2015/2016"]
     }]
   }, {
-    "name": "selector002_store",
+    "name": "selector008_store",
     "values": [{
       "unit": "layer_0",
       "fields": [{
@@ -25,7 +25,7 @@
       "values": ["FC Barcelona"]
     }]
   }, {
-    "name": "selector003_store",
+    "name": "selector009_store",
     "values": [{
       "unit": "layer_0",
       "fields": [{
@@ -1002,41 +1002,25 @@
     "source": "data-1bcb63dbc23ed73f15e9266575b1d168",
     "transform": [{
       "type": "formula",
-      "expr": "datum.Team == selector002.Team ? datum.Team : (datum.Team == selector003.Team ? datum.Team : 'Other')",
+      "expr": "datum.Team == selector008.Team ? datum.Team : (datum.Team == selector009.Team ? '​' + datum.Team : '​​Other')",
       "as": "color"
     }, {
       "type": "formula",
-      "expr": "datum.color == 'Other' ? 0 : 1",
+      "expr": "datum.color == '​​Other' ? 0 : 1",
       "as": "opacity"
     }, {
       "type": "formula",
-      "expr": "indexof([selector002.Team, selector003.Team, 'Other'], datum.color)",
-      "as": "order"
+      "expr": "datum.season == '2008/2009' ? '08/09' : (datum.season == '2009/2010' ? '09/10' : datum.season == '2010/2011' ? '10/11' : datum.season == '2011/2012' ? '11/12' : (datum.season == '2012/2013' ? '12/13' : datum.season == '2013/2014' ? '13/14' : datum.season == '2014/2015' ? '14/15' : '15/16'))",
+      "as": "sseason"
     }]
   }, {
     "name": "data_1",
     "source": "data_0",
     "transform": [{
       "type": "formula",
-      "expr": "datum[\"color\"]===\"selector002.Team\" ? 0 : datum[\"color\"]===\"selector003.Team\" ? 1 : datum[\"color\"]===\"Other\" ? 2 : 3",
-      "as": "color_color_sort_index"
-    }]
-  }, {
-    "name": "data_2",
-    "source": "data_0",
-    "transform": [{
-      "type": "formula",
-      "expr": "datum.color == 'Other' ? 0 : 1",
+      "expr": "datum.color == '​​Other' ? 0 : 1",
       "as": "size"
     }, {
-      "type": "formula",
-      "expr": "datum[\"color\"]===\"selector002.Team\" ? 0 : datum[\"color\"]===\"selector003.Team\" ? 1 : datum[\"color\"]===\"Other\" ? 2 : 3",
-      "as": "color_color_sort_index"
-    }]
-  }, {
-    "name": "data_3",
-    "source": "data_2",
-    "transform": [{
       "type": "filter",
       "expr": "isValid(datum[\"opacity\"]) && isFinite(+datum[\"opacity\"]) && isValid(datum[\"size\"]) && isFinite(+datum[\"size\"]) && isValid(datum[\"Points\"]) && isFinite(+datum[\"Points\"])"
     }]
@@ -1056,85 +1040,85 @@
       "update": "isTuple(group()) ? group() : unit"
     }]
   }, {
-    "name": "selector003_Team",
+    "name": "selector009_Team",
     "init": "\"Real Madrid CF\"",
     "bind": {
       "name": "Team B",
       "element": "#select-team-b"
     }
   }, {
-    "name": "selector002_Team",
+    "name": "selector008_Team",
     "init": "\"FC Barcelona\"",
     "bind": {
       "name": "Team A",
       "element": "#select-team-a"
     }
   }, {
-    "name": "selector001_season",
+    "name": "selector007_season",
     "init": "\"2015/2016\"",
     "bind": {
       "name": "Season",
       "element": "#select-season"
     }
   }, {
-    "name": "selector001",
-    "update": "vlSelectionResolve(\"selector001_store\", \"union\")"
+    "name": "selector007",
+    "update": "vlSelectionResolve(\"selector007_store\", \"union\")"
   }, {
-    "name": "selector002",
-    "update": "vlSelectionResolve(\"selector002_store\", \"union\")"
+    "name": "selector008",
+    "update": "vlSelectionResolve(\"selector008_store\", \"union\")"
   }, {
-    "name": "selector003",
-    "update": "vlSelectionResolve(\"selector003_store\", \"union\")"
+    "name": "selector009",
+    "update": "vlSelectionResolve(\"selector009_store\", \"union\")"
   }, {
-    "name": "selector001_tuple",
-    "update": "selector001_season !== null ? {fields: selector001_tuple_fields, values: [selector001_season]} : null"
+    "name": "selector007_tuple",
+    "update": "selector007_season !== null ? {fields: selector007_tuple_fields, values: [selector007_season]} : null"
   }, {
-    "name": "selector001_tuple_fields",
+    "name": "selector007_tuple_fields",
     "value": [{
       "type": "E",
       "field": "season"
     }]
   }, {
-    "name": "selector001_modify",
+    "name": "selector007_modify",
     "on": [{
       "events": {
-        "signal": "selector001_tuple"
+        "signal": "selector007_tuple"
       },
-      "update": "modify(\"selector001_store\", selector001_tuple, true)"
+      "update": "modify(\"selector007_store\", selector007_tuple, true)"
     }]
   }, {
-    "name": "selector002_tuple",
-    "update": "selector002_Team !== null ? {fields: selector002_tuple_fields, values: [selector002_Team]} : null"
+    "name": "selector008_tuple",
+    "update": "selector008_Team !== null ? {fields: selector008_tuple_fields, values: [selector008_Team]} : null"
   }, {
-    "name": "selector002_tuple_fields",
+    "name": "selector008_tuple_fields",
     "value": [{
       "type": "E",
       "field": "Team"
     }]
   }, {
-    "name": "selector002_modify",
+    "name": "selector008_modify",
     "on": [{
       "events": {
-        "signal": "selector002_tuple"
+        "signal": "selector008_tuple"
       },
-      "update": "modify(\"selector002_store\", selector002_tuple, true)"
+      "update": "modify(\"selector008_store\", selector008_tuple, true)"
     }]
   }, {
-    "name": "selector003_tuple",
-    "update": "selector003_Team !== null ? {fields: selector003_tuple_fields, values: [selector003_Team]} : null"
+    "name": "selector009_tuple",
+    "update": "selector009_Team !== null ? {fields: selector009_tuple_fields, values: [selector009_Team]} : null"
   }, {
-    "name": "selector003_tuple_fields",
+    "name": "selector009_tuple_fields",
     "value": [{
       "type": "E",
       "field": "Team"
     }]
   }, {
-    "name": "selector003_modify",
+    "name": "selector009_modify",
     "on": [{
       "events": {
-        "signal": "selector003_tuple"
+        "signal": "selector009_tuple"
       },
-      "update": "modify(\"selector003_store\", selector003_tuple, true)"
+      "update": "modify(\"selector009_store\", selector009_tuple, true)"
     }]
   }],
   "marks": [{
@@ -1143,7 +1127,7 @@
     "from": {
       "facet": {
         "name": "faceted_path_layer_0_main",
-        "data": "data_1",
+        "data": "data_0",
         "groupby": ["color", "Team", "opacity"]
       }
     },
@@ -1166,8 +1150,7 @@
       "type": "line",
       "style": ["line"],
       "sort": {
-        "field": ["datum[\"order\"]"],
-        "order": ["ascending"]
+        "field": "datum[\"sseason\"]"
       },
       "interactive": true,
       "from": {
@@ -1188,7 +1171,7 @@
           },
           "x": {
             "scale": "x",
-            "field": "season"
+            "field": "sseason"
           },
           "y": {
             "scale": "y",
@@ -1204,13 +1187,9 @@
     "name": "layer_1_marks",
     "type": "symbol",
     "style": ["circle"],
-    "sort": {
-      "field": ["datum[\"order\"]"],
-      "order": ["ascending"]
-    },
     "interactive": false,
     "from": {
-      "data": "data_3"
+      "data": "data_1"
     },
     "encode": {
       "update": {
@@ -1227,14 +1206,14 @@
         },
         "x": {
           "scale": "x",
-          "field": "season"
+          "field": "sseason"
         },
         "y": {
           "scale": "y",
           "field": "Points"
         },
         "size": [{
-          "test": "!(length(data(\"selector001_store\"))) || (vlSelectionTest(\"selector001_store\", datum))",
+          "test": "!(length(data(\"selector007_store\"))) || (vlSelectionTest(\"selector007_store\", datum))",
           "scale": "size",
           "field": "size"
         }, {
@@ -1251,11 +1230,11 @@
     "type": "point",
     "domain": {
       "fields": [{
-        "data": "data_1",
-        "field": "season"
+        "data": "data_0",
+        "field": "sseason"
       }, {
-        "data": "data_3",
-        "field": "season"
+        "data": "data_1",
+        "field": "sseason"
       }],
       "sort": true
     },
@@ -1268,10 +1247,10 @@
     "type": "linear",
     "domain": {
       "fields": [{
-        "data": "data_1",
+        "data": "data_0",
         "field": "Points"
       }, {
-        "data": "data_3",
+        "data": "data_1",
         "field": "Points"
       }]
     },
@@ -1285,27 +1264,24 @@
     "type": "ordinal",
     "domain": {
       "fields": [{
-        "data": "data_1",
+        "data": "data_0",
         "field": "color"
       }, {
-        "data": "data_2",
+        "data": "data_1",
         "field": "color"
       }],
-      "sort": {
-        "op": "min",
-        "field": "color_color_sort_index"
-      }
+      "sort": true
     },
-    "range": ["#b3b3b3", "#66c2a5", "#fc8d62", "#b3b3b3"]
+    "range": ["#1D2778", "#A11F2E", "#858796"]
   }, {
     "name": "opacity",
     "type": "linear",
     "domain": {
       "fields": [{
-        "data": "data_1",
+        "data": "data_0",
         "field": "opacity"
       }, {
-        "data": "data_3",
+        "data": "data_1",
         "field": "opacity"
       }]
     },
@@ -1315,7 +1291,7 @@
     "name": "size",
     "type": "linear",
     "domain": {
-      "data": "data_3",
+      "data": "data_1",
       "field": "size"
     },
     "range": [10, 75],
@@ -1339,9 +1315,9 @@
     "scale": "x",
     "orient": "bottom",
     "grid": false,
-    "labelAlign": "right",
-    "labelAngle": 270,
-    "labelBaseline": "middle",
+    "labelAngle": 0,
+    "labelAlign": "center",
+    "labelBaseline": "top",
     "labelOverlap": true,
     "zindex": 0
   }, {
